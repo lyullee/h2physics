@@ -231,3 +231,24 @@ HyRAM code/data. Downstream redistribution that combines this optional
 dependency remains subject to the dependency's GPL terms. This dependency
 review is not a legal conclusion for combined distributions; see
 `docs/HYRAM_IGNITION_PROBABILITY.md`.
+
+## Extension dependencies — 2026-11-02
+
+TESPy 0.11.3 and ExerPy 0.2.0 are separately installed MIT providers; CoolProp
+8.0.0 (MIT) and Cantera 3.2.0 (BSD-3-Clause) retain their existing ownership.
+Installed metadata hashes are recorded in
+[the dependency receipt](../research/extensions_dependencies_20261102.toml).
+Upstream [TESPy](https://github.com/oemof/tespy/blob/dev/LICENSE) and
+[ExerPy](https://github.com/oemof/exerpy/blob/main/LICENSE) notices are separate
+from scientific attribution. HyRAM+ 6.1 remains GPL-3.0-only and separately
+installed; its reviewed upstream wheel identity is retained in the receipt.
+No native source tree, chemistry mechanism file, measured map, coefficient
+table or external image is vendored in these additions. Mechanism examples read
+the actual installed provider data without changing it. Synthetic device and
+fit examples are labeled as authored inputs. Native NASA phase data remain
+subject to their upstream provenance and selected-phase limitations.
+
+The new host derivations, comments and manuals are independently written.
+Scientific citations identify methods; they do not authorize copying external
+assets or imply legal clearance. Build/tree audits check common forbidden
+content and exact package-source coherence, not universal originality or rights.

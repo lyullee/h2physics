@@ -394,3 +394,14 @@ source bytes, unexpected row counts and any mismatched compiled observation.
 Its report contains aggregate residual/uncertainty diagnostics and source/EOS
 fingerprints, not the source table. The experiment provides no model-error
 budget or independent-error assumption for a statistical coverage claim.
+
+## Thermal network extra and independent native profiles
+
+Install `h2physics[cycles]` from the current source for tested TESPy 0.11.3 and
+ExerPy 0.2.0 with CoolProp 8.0.0. Current ExerPy owns physical exergy; the removed
+TESPy exergy class is not used. The chemistry extra supplies Cantera 3.2.x for
+redox/PAR/mixture thermochemistry. See [the receipt](../research/extensions_dependencies_20261102.toml)
+and [the extension manuals](ENHANCEMENTS_20261102.md). Optional HyRAM+ remains
+separately installed/licensed. A directory containing another SciPy must be
+selected at Python startup or used in a dedicated environment, not inserted
+into an already imported scientific runtime.

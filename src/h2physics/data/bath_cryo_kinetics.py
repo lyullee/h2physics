@@ -12,8 +12,6 @@ import math
 from dataclasses import dataclass
 from pathlib import Path
 
-from openpyxl import load_workbook
-
 SOURCE_DOI = "10.15125/BATH-00099"
 SOURCE_RIGHTS = "No restrictions"
 KINETIC_FILENAME = "Kinetic_data_-_MIL-101_and_AX-21.xlsx"
@@ -89,6 +87,10 @@ def load_bath_kinetic_workbook(path: str | Path) -> tuple[BathKineticSeries, ...
     digest = hashlib.sha256(source.read_bytes()).hexdigest()
     if digest != KINETIC_SHA256:
         raise ValueError("Bath kinetic workbook bytes do not match the pinned record file")
+    try:
+        from openpyxl import load_workbook
+    except ImportError as error:
+        raise ImportError("Install h2physics[data] to read the Bath kinetic workbook") from error
     workbook = load_workbook(source, read_only=True, data_only=True)
     try:
         if tuple(workbook.sheetnames) != tuple(_SHEETS):

@@ -152,3 +152,21 @@ A release needs its own exact commit/version, archive hashes, clean-install resu
 ## Publication follow-up
 
 Version 0.1.0 is public on GitHub, PyPI and Zenodo. The [service receipt](REGISTRY_ARCHIVE_RECEIPT_0_1_0.md) records source revision, distinct distribution hashes, scoped installation checks and DOI. These release-engineering checks do not change the scientific evidence or qualification limits recorded above. Use [publication status](PUBLICATION_STATUS.md) and current CITATION.cff for actual service links and version citation.
+
+## Model extensions — 2026-11-02, after 0.1.0 publication
+
+Eight selected work packages were implemented in parallel on the audited public
+source lineage. They add actual indoor HyRAM accumulation, evidence-bound FA/DDT
+screens, mechanical expansion/load ownership, linear structural dynamics,
+native power/liquefaction networks and exergy, finite solid redox equilibrium,
+electrode measurement metrics and coupled PAR device balances. Native fluid
+properties and specialist solvers are reused. Cross-review found and corrected
+cooling-utility exergy sign classification, finite-output overflow, sparse
+structural sampling and a false native solid-fingerprint change. A PAR entropy
+gate retains a first-law-passing but second-law-invalid counterexample.
+
+[The extension record](ENHANCEMENTS_20261102.md) provides reproducible commands,
+scoped counts, unchanged older environment failures, model limits and the next
+experimental evidence. Main develops 0.2.0.dev0; immutable 0.1.0 registry/archive
+identities are preserved. No global model-accuracy percentage is inferred from
+implementation or software tests.

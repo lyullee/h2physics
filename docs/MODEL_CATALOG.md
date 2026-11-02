@@ -96,3 +96,14 @@ A partial executable level does not complete every model level within the family
 | `facility.detector_reliability` | Common-cause-aware heterogeneous k-of-n detector fail-to-alarm probability and source-versioned empirical simultaneous-demand outcome summary | h2physics/detector-reliability | implemented_unverified | Caller-supplied probabilities combine by exact Poisson-binomial enumeration; aligned observed demand windows can instead produce descriptive empirical frequencies with immutable source-version/checksum binding and no channel-independence assumption. No confidence limits, rate extrapolation, repair/proof-test model, setpoints or detector qualification are inferred; Hangang contracts are synthetic |
 | `research.uncertainty` | Native independent-input QMC propagation and Sobol sensitivity with physical-case identity/failure retention | SciPy/h2physics-model-binding | implemented | Authored analytic/native-EOS integration checks only; source-qualified laws/covariance, joint/time dependence, reset/noise, structural uncertainty and facility-event probability qualification remain open |
 | `research.economics` | Physical reporting-window costs and explicit annual native hydrogen DCF | pyH2A/h2physics-composition | implemented_unverified | Coding only; execution pending. Explicit product/annualization/cost and finite heat-allocation scopes; no current prices, inferred sales, pinch/COP/utility availability, complete plant energy or environmental assessment |
+
+## Additional selectable levels after 0.1.0
+
+[Eight extension work packages](ENHANCEMENTS_20261102.md) add callable levels
+inside the existing subject areas. The historical 82-row catalog and 78-topic
+verification census are retained as those campaign snapshots; the work packages
+are not appended as eight automatically independent or qualified families.
+Use the extension table and direct Python API index to select indoor peaks,
+FA/DDT screens, mechanical load/SDOF, actual cycles/exergy, redox, electrode
+metrics and the coupled PAR. Their focused software/native-connection evidence
+does not upgrade historical family-wide physical qualification.

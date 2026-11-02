@@ -18,7 +18,7 @@ from types import MappingProxyType
 
 import numpy as np
 
-from ..core import immutable_array, Origin, TimeSeries, finite
+from ..core import Origin, TimeSeries, finite, immutable_array
 from .cantera import MechanismBasis, ReactiveState
 
 
@@ -257,8 +257,21 @@ class GasVolumeIntegrationError(RuntimeError):
 def _phase_fingerprint(phase, *, include_reactions=False):
     # State is excluded. Species thermo, elements, ordering and molecular data
     # must agree across reservoirs; a mechanism filename alone cannot prove it.
+    species_data = [dict(s.input_data) for s in phase.species()]
+    if phase.thermo_model == "fixed-stoichiometry" and phase.n_species == 1:
+        eos = species_data[0].get("equation-of-state", {})
+        if (eos.get("model") == "constant-volume"
+                and not set(eos)-{"model", "density", "molar-volume"}):
+            # Native Mixture setup can rewrite a redundant serialized molar
+            # volume by one ulp while the actual density and molecular weight
+            # remain exact. Seal the physical constant-volume definition, not
+            # both redundant serializations of that same definition. This is
+            # exact native density: there is no numerical tolerance or EOS
+            # substitution, and a physical density/thermo change still fails.
+            species_data[0]["equation-of-state"] = {
+                "model": "constant-volume", "density": float(phase.density_mass)}
     material = {"thermo": phase.thermo_model,
-                "species": [dict(s.input_data) for s in phase.species()],
+                "species": species_data,
                 "molecular_weights": phase.molecular_weights.tolist(),
                 "thermo_bounds": [(s.thermo.min_temp, s.thermo.max_temp,
                                    s.thermo.reference_pressure) for s in phase.species()]}

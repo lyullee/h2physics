@@ -27,3 +27,10 @@ The public Git history starts from an audited source snapshot. Original local hi
 The scoped PyPI publisher is configured for owner lyullee, repository h2physics, workflow release.yml, environment pypi. The default workflow only builds. A future publication requires a reviewed new version/tag and explicit publishing dispatch; do not overwrite or retarget v0.1.0. Zenodo 0.1.0 was a manual deposit; automatic GitHub-Zenodo integration was not enabled by this task.
 
 Post-publication documentation on main can contain the final service receipts and DOI without altering the immutable initial tag or uploaded archives. Windows local release assets and Linux CI registry assets have different packaging hashes; see the receipt for their distinct identities.
+
+## Subsequent development snapshot
+
+Current main develops **0.2.0.dev0**, including the
+[eight model-level extensions](ENHANCEMENTS_20261102.md). Their GitHub source and
+verification record are separate from the published 0.1.0 version above. This
+checkpoint does not assert a new PyPI upload, Zenodo version or release DOI.

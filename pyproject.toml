@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "h2physics"
-version = "0.1.0"
+version = "0.2.0.dev0"
 description = "Composable hydrogen facility and safety physics with qualified data and explicit Python contracts"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -32,6 +32,7 @@ thermo = ["CoolProp>=8,<9"]
 data = ["openpyxl>=3.1,<4", "h5py>=3.11,<4"]
 research_pdf = ["pdfplumber==0.11.10"]
 chemistry = ["cantera>=3.2,<3.3"]
+cycles = ["tespy==0.11.3", "exerpy==0.2.0", "CoolProp>=8,<9"]
 uncertainty = ["scipy>=1.15,<2"]
 risk = ["process-risk-consequence-toolkit==0.1.0"]
 thermal_response = ["pythermalcomfort==4.7.0", "numba==0.68.1", "llvmlite==0.50.0"]

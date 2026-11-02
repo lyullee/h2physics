@@ -596,3 +596,16 @@ Pump and compressor maps are admission envelopes around original equipment
 results. Flowing heat-exchanger ports and reliquefier product collection are
 post-result conservation compositions. Map/source evidence, clock, state,
 ports and producer result identity remain explicit across each boundary.
+
+## Model-level extensions — 2026-11-02
+
+The new indoor conditional peaks have an ignition-delay axis, while
+`PressureTimeHistory` represents one actual applied mechanical load. Their types
+are intentionally separate. Finite mechanical expansion work, supplied pressure
+ownership and linear generalized structural response retain separate boundaries.
+Thermal cycles expose actual TESPy networks and current ExerPy physical-exergy
+owners. Redox reuses the shared native multiphase/caloric and finite-reaction
+owners. PAR combines a capacity domain with native gas thermochemistry, chimney
+flow and catalyst thermal storage. Electrode data metrics retain independent
+current, product, area and site bases. See [the extension record](ENHANCEMENTS_20261102.md)
+and its individual manuals for APIs, tests, limitations and continuation.

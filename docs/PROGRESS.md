@@ -1,3 +1,12 @@
+# Current development checkpoint — 0.2.0.dev0
+
+Eight new work packages are implemented after the public 0.1.0 release. See
+[the extension evidence and continuation record](ENHANCEMENTS_20261102.md) for
+focused tests, actual native integrations, artifact checks and remaining scientific
+limits. Implementation and software verification do not establish experimental
+qualification. The records below are historical campaign snapshots, not the
+latest source inventory.
+
 # Research handoff — 2026 10 30
 
 ## Measured-data comparison checkpoint — 2026-11-02

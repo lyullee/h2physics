@@ -199,3 +199,21 @@ Recording a demonstrated external/data blocker is meaningful progress. Repeated 
 ## Published version and citation
 
 Version 0.1.0 is public on GitHub, PyPI and Zenodo. The [service receipt](REGISTRY_ARCHIVE_RECEIPT_0_1_0.md) records source revision, distinct distribution hashes, scoped installation checks and DOI. These release-engineering checks do not change the scientific evidence or qualification limits recorded above. Use [publication status](PUBLICATION_STATUS.md) and current CITATION.cff for actual service links and version citation.
+
+## Continue from 0.2.0.dev0 extensions
+
+Start with [the eight-package implementation and test record](ENHANCEMENTS_20261102.md).
+The manuals include equations, units, primary references, executable examples,
+actual native dependency versions, failed-case findings and explicit domains.
+Recreate the focused suites and clean-wheel installation before extending the
+new source. The older 414-case replay has identical baseline/candidate outcomes,
+including 61 unavailable-provider/local-artifact failures; it is not a passing
+full regression. Restore those exact separate environments before using that
+older campaign as a release-wide gate.
+
+Next scientific work should obtain qualified process/device inputs and reserve
+independent measurements. In particular, weak-wave energy normalization does not
+predict a near-field rupture waveform, necessary-condition DDT screening does
+not predict transition, fixed two-solid equilibrium omits competing phases, and
+a PAR capacity callback is not intrinsic surface chemistry. The source lineage
+remains separate from already published 0.1.0 PyPI/Zenodo artifacts.

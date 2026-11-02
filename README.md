@@ -8,6 +8,14 @@ This is a research software release. Implementation, software verification, expe
 
 [Download the public 0.1.0 Alpha release](https://github.com/lyullee/h2physics/releases/tag/v0.1.0). [PyPI 0.1.0](https://pypi.org/project/h2physics/0.1.0/) and [Zenodo DOI](https://doi.org/10.5281/zenodo.23886390) are public; see [publication status](https://github.com/lyullee/h2physics/blob/main/docs/PUBLICATION_STATUS.md).
 
+The main branch now develops **0.2.0.dev0**. Its [eight model-level additions](docs/ENHANCEMENTS_20261102.md)
+include indoor HyRAM accumulation/conditional peaks, FA/DDT screening, mechanical
+expansion energy and weak-wave loads, linear structural dynamics, native thermal
+cycles/exergy, solid redox equilibrium, electrode measurement analysis and a
+coupled PAR device. Install from this checkout to use them; PyPI/Zenodo 0.1.0
+and its immutable tag do not contain these later additions. Each manual states
+its numerical evidence and remaining experimental limits.
+
 ## What is included
 
 | Area | Selected capabilities | Important boundary |

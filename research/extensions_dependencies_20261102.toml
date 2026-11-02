@@ -1,0 +1,46 @@
+# Installed optional dependency receipt; no native code/data are bundled.
+date = "2026-11-03"
+scope = "Native dependency identity and upstream notices; not application qualification"
+
+[[dependency]]
+name = "tespy"
+version = "0.11.3"
+upstream = "https://github.com/oemof/tespy"
+license = "MIT"
+metadata_sha256 = "66dd7a2795e2ca2b0ed6f4afa006391a29e0052c697fe6d79bf4bee4d83d198d"
+bundled = false
+
+[[dependency]]
+name = "exerpy"
+version = "0.2.0"
+upstream = "https://github.com/oemof/exerpy"
+license = "MIT"
+metadata_sha256 = "4e70c33b1b75eb0d892fc3b444d78ca01df9b8af7af874a41054bed470bf2c1d"
+bundled = false
+
+[[dependency]]
+name = "cantera"
+version = "3.2.0"
+upstream = "https://cantera.org/3.2/"
+license = "BSD-3-Clause"
+metadata_sha256 = "f483c140b917b5e758f57ac8232ece2aeb7756325801395428470a64467824c7"
+bundled = false
+
+[[dependency]]
+name = "CoolProp"
+version = "8.0.0"
+upstream = "https://coolprop.org/"
+license = "MIT"
+metadata_sha256 = "63230bf03aa04bf70bbaa0cd165d2f0a2d44c078fcc1ae25ba32e8dc6c6eefd6"
+bundled = false
+
+[[dependency]]
+name = "hyram"
+version = "6.1"
+upstream = "https://github.com/sandialabs/hyram"
+license = "GPL-3.0-only"
+metadata_sha256 = "639e1b7843a0c6a5ba92b5ca1d6e9550b5fe0db86de587bd80c9183a98a73d52"
+indoor_source_sha256 = "84456d8a1e71b2c9dc1e94ad4f851c1c6a6943708dd939af4b114c72c8d385cb"
+upstream_wheel_sha256 = "823838bea388f3a5778469a2cc8ae1cb77d4893b7bb2993c563c4c507bcae576"
+registry_metadata = "https://pypi.org/pypi/hyram/6.1/json"
+bundled = false

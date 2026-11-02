@@ -193,7 +193,7 @@ _EXPORT_MODULES = {
 }
 _SUBMODULES = ('adsorption', 'buoyant_layer', 'caloric_pipe_finite_wall', 'caloric_pipe_network_waves', 'caloric_pipe_nozzle_coupling', 'caloric_pipe_waves', 'compartment_network', 'cooldown', 'core', 'detector_reliability', 'dispersion', 'electrochemistry', 'finite_caloric_pipe_reservoir', 'finite_pipe_reservoir', 'isothermal_gas_pipe_network', 'isothermal_pipe_network_waves', 'isothermal_pipe_waves', 'mixtures', 'pipe_nozzle_coupling', 'pipe_reservoir_boundary', 'pipeline_linepack', 'real_gas_linepack', 'scenarios', 'thermo')
 
-__version__ = "0.1.0.dev0"
+__version__ = "0.2.0.dev0"
 
 __all__ = ["AdsorptionSourceObservation", "ExtendedLangmuirIsotherm",
            "TwoVentHydrogenLayerConfig", "TwoVentHydrogenLayerResult",

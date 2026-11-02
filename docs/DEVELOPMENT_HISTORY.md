@@ -192,3 +192,30 @@ actual registry distributions and manifest. The selected 139-case
 software evidence and broader 61 environment blockers are unchanged. Older
 0.1.0 release objects and DOI are retained. Post-publication service records
 follow the frozen tag and do not alter its original archives.
+
+## Discoverable module inputs and outputs — 2026-11-03
+
+Both README files now present purpose, actual module/callable, key setup/run
+parameters and returned objects before the installation/verification material.
+The tables map every one of the 82 catalog identifiers into 15 subject groups;
+129 navigation rows include additional selectable levels, 0.2.0 extensions and
+shared Python objects. Navigation rows are not a new model or qualification count.
+
+The [I/O reference](MODULE_IO_REFERENCE.md) adds a parameter-reading guide,
+an executable geometry-customization example, direct entry links and 15 subject
+files with source-derived signatures, defaults, input/result fields and source
+line links. Subject files keep each readable document bounded. Unannotated return
+contracts were reviewed from actual construction/delegation paths and are marked
+as reviewed descriptions rather than invented source annotations.
+`scripts/readme_module_guide.py` maintains the curated purposes and resolves the
+selected callables/records using AST without importing native engines. Its
+`--check` verifies exact catalog coverage and generated-document freshness.
+
+Executed documentation checks: 82/82 catalog identifiers and 129 selected entry
+points resolve; both README tables contain every entry link; 1,228 GitHub-local
+destinations/source lines resolve; the exact new input-to-output customization
+example executes with CoolProp/fluids and a momentum residual of approximately
+2.27e-13 Pa; the guide generator passes lint. The repository document-path audit
+is regenerated with the final navigation changes. These are documentation and
+example checks, not a new physical-validation campaign. Package equations, APIs,
+release version and immutable 0.2.0 registry/archive files are unchanged.

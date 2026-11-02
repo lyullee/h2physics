@@ -1,5 +1,12 @@
 # Python API reference
 
+Start with the README [module purpose/input/output tables](../README.md#module-purposes-inputs-and-outputs)
+or [한국어 모듈 표](../README_KO.md#모듈별-목적입력출력) to choose a task and callable.
+The [complete I/O guide](MODULE_IO_REFERENCE.md) expands the selected constructors,
+method arguments, defaults and returned records by subject. This API guide explains
+the shared coupling contracts; the [symbol index](PUBLIC_API_INDEX.md) provides
+the wider source-level inventory.
+
 Root-level public imports are lazy: requesting a model returns the original
 object from its implementation module and caches that binding. Metadata tooling
 can import `h2physics.cluster_validation` without importing numerical engines.

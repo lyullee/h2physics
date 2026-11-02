@@ -234,3 +234,21 @@ experimental work listed above. Retain the separate native runtime profiles,
 calibration and held-out evidence, applicability gates and explicit unavailable
 provider states. The release version alone does not close the 61 older
 environment/local-artifact failures or establish facility qualification.
+
+## Find and maintain module interfaces
+
+Use the [English README module tables](../README.md#module-purposes-inputs-and-outputs)
+or [한국어 모듈 표](../README_KO.md#모듈별-목적입력출력) to choose a task, physical
+level and callable before assembling a calculation. The [full I/O reference](MODULE_IO_REFERENCE.md)
+defines how to read input records, callbacks, units and result objects, then
+links each selected path to its exact constructor/method signature and related
+typed records. The wider [source index](PUBLIC_API_INDEX.md) remains available
+for helper APIs and other selectable levels.
+
+After changing an API, review the curated purpose and reviewed unannotated-return
+description in `scripts/readme_module_guide.py`, regenerate with
+`python scripts/readme_module_guide.py`, and run the same command with `--check`.
+Regenerate `scripts/audit_document_links.py`'s report after changing navigation.
+Do not equate the 129 navigation rows with independent model counts or new
+verification evidence. Preserve model-specific installation, applicability,
+native ownership and measured-data limitations.

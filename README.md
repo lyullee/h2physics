@@ -6,7 +6,8 @@ h2physics supplies calculation objects, explicit physical state and time-series 
 
 This is a research software release. Implementation, software verification, experimental comparison and application qualification have separate evidence. Start with the [quickstart](https://github.com/lyullee/h2physics/blob/main/docs/QUICKSTART.md), [Korean overview](https://github.com/lyullee/h2physics/blob/main/README_KO.md), or [Python API index](https://github.com/lyullee/h2physics/blob/main/docs/PUBLIC_API_INDEX.md).
 
-Version **0.2.0** is Alpha research software. Find downloads and citations through
+Version **0.2.0** is Alpha research software. [PyPI 0.2.0](https://pypi.org/project/h2physics/0.2.0/)
+and [Zenodo 0.2.0](https://doi.org/10.5281/zenodo.23889027) are public. Find downloads and citations through
 [PyPI](https://pypi.org/project/h2physics/), [GitHub releases](https://github.com/lyullee/h2physics/releases),
 and the [Zenodo version series](https://doi.org/10.5281/zenodo.23886389).
 [Publication status](https://github.com/lyullee/h2physics/blob/main/docs/PUBLICATION_STATUS.md)

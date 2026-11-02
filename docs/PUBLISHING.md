@@ -1,9 +1,12 @@
 # Publishing h2physics
 
-Version 0.2.0 is being prepared as an Alpha update to the published 0.1.0 release.
+Version 0.2.0 is public on GitHub, PyPI and Zenodo as an Alpha update to 0.1.0.
+Actual service identities, source/archive hashes and installation checks are
+maintained in the service receipt.
 The original code/documentation uses Apache-2.0; external providers and datasets
 retain their own terms. See [current publication status](PUBLICATION_STATUS.md),
 [0.2.0 release evidence](RELEASE_EVIDENCE_0_2_0.md),
+[the 0.2.0 service receipt](REGISTRY_ARCHIVE_RECEIPT_0_2_0.md),
 [publication audit](PUBLICATION_AUDIT.md), [rights/provenance](RIGHTS_AND_PROVENANCE.md)
 and [the historical 0.1.0 service receipt](REGISTRY_ARCHIVE_RECEIPT_0_1_0.md).
 
@@ -12,9 +15,13 @@ and [the historical 0.1.0 service receipt](REGISTRY_ARCHIVE_RECEIPT_0_1_0.md).
 The release packages the tested eight-work-package checkpoint at source commit
 `13a4f6068c560a7425ffdf500d86a8eedec6986a`. Release metadata, version and publication
 documentation change; equations, provider choices and physical defaults do not.
-The final release tag must identify the reviewed metadata-updated source, rather
-than the earlier development commit. Its exact identity belongs in the confirmed
-service receipt after freezing.
+The final reviewed metadata-updated source is tag `v0.2.0`, commit
+`efb8f17be9a353e790ea7b2f76a17db7009bcea8`. It is distinct from the earlier
+development commit. The existing Trusted Publisher completed the 0.2.0 registry
+upload. Zenodo version DOI is [10.5281/zenodo.23889027](https://doi.org/10.5281/zenodo.23889027),
+in the existing concept series. Attached GitHub and Zenodo files were downloaded
+and verified identical to the actual registry wheel/source and checksum list;
+exact hashes and verification bases are in the service receipt.
 
 Use the existing PyPI Trusted Publisher and Zenodo record's New version flow.
 Keep version 0.1.0, its DOI and its file objects intact. For the new deposit,

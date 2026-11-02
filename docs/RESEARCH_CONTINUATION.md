@@ -196,7 +196,7 @@ These are options, not automatically running jobs:
 
 Recording a demonstrated external/data blocker is meaningful progress. Repeated unchanged rejected runs do not increase validation coverage.
 
-## Published version and citation
+## Initial release publication and citation
 
 Version 0.1.0 is public on GitHub, PyPI and Zenodo. The [service receipt](REGISTRY_ARCHIVE_RECEIPT_0_1_0.md) records source revision, distinct distribution hashes, scoped installation checks and DOI. These release-engineering checks do not change the scientific evidence or qualification limits recorded above. Use [publication status](PUBLICATION_STATUS.md) and current CITATION.cff for actual service links and version citation.
 
@@ -217,3 +217,20 @@ predict a near-field rupture waveform, necessary-condition DDT screening does
 not predict transition, fixed two-solid equilibrium omits competing phases, and
 a PAR capacity callback is not intrinsic surface chemistry. The source lineage
 remains separate from already published 0.1.0 PyPI/Zenodo artifacts.
+
+
+## Continue from packaged version 0.2.0
+
+The 0.2.0 metadata-updated source is frozen at `efb8f17be9a353e790ea7b2f76a17db7009bcea8`
+with the same numerical implementation as the 0.2.0.dev0 extension checkpoint.
+Use [publication status](PUBLICATION_STATUS.md), the
+[0.2.0 receipt](REGISTRY_ARCHIVE_RECEIPT_0_2_0.md) and current citation metadata
+for actual service versions rather than assuming the historical development
+wheel or old 0.1.0 DOI describes the latest archive. Registry file source checks
+use frozen Git bytes; local working-tree and whole-archive hashes can differ.
+
+Installation and distribution checks do not replace the next model-specific
+experimental work listed above. Retain the separate native runtime profiles,
+calibration and held-out evidence, applicability gates and explicit unavailable
+provider states. The release version alone does not close the 61 older
+environment/local-artifact failures or establish facility qualification.

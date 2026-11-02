@@ -2,9 +2,11 @@
 
 Prepared on 2026-11-03 for an Alpha research-software update. This document
 distinguishes already executed model/software checks from the new version's
-distribution and service-publication gates. Preparation does not assert a PyPI
-upload, a published Zenodo version or an issued new DOI. See
-[current publication status](PUBLICATION_STATUS.md) for confirmed outcomes.
+distribution and service-publication gates. The preparation-stage gates below
+are retained; their actual completion is recorded separately in the [registry/archive receipt](REGISTRY_ARCHIVE_RECEIPT_0_2_0.md)
+and [current publication status](PUBLICATION_STATUS.md). GitHub, PyPI and Zenodo
+publication and actual public file verification are complete. Version DOI:
+[10.5281/zenodo.23889027](https://doi.org/10.5281/zenodo.23889027).
 
 ## Source and change boundary
 
@@ -13,9 +15,10 @@ development checkpoint
 [`13a4f6068c560a7425ffdf500d86a8eedec6986a`](https://github.com/lyullee/h2physics/commit/13a4f6068c560a7425ffdf500d86a8eedec6986a).
 The 0.2.0 preparation updates version metadata, citation/publication text and
 registry-rendered README links. It changes no equations, constitutive defaults,
-native provider choices or empirical calibration. The final release commit/tag
-is frozen after these edits and recorded in the publication receipt; the earlier
-development commit is not relabeled as that final source.
+native provider choices or empirical calibration. The final source is tag
+[v0.2.0](https://github.com/lyullee/h2physics/tree/v0.2.0),
+commit `efb8f17be9a353e790ea7b2f76a17db7009bcea8`. The earlier development
+commit is not relabeled as that metadata-updated release source.
 
 The package remains Alpha under Apache-2.0 for original code/documentation.
 Optional providers remain separately installed under their own licenses.

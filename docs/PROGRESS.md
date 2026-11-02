@@ -1,6 +1,9 @@
-# Current development checkpoint — 0.2.0.dev0
+# Current release checkpoint — 0.2.0
 
-Eight new work packages are implemented after the public 0.1.0 release. See
+The eight-work-package implementation was checked as 0.2.0.dev0 and is packaged
+as 0.2.0 with unchanged physical equations/defaults. Current service outcomes
+and archive/source identities are in [publication status](PUBLICATION_STATUS.md)
+and the [0.2.0 receipt](REGISTRY_ARCHIVE_RECEIPT_0_2_0.md). See
 [the extension evidence and continuation record](ENHANCEMENTS_20261102.md) for
 focused tests, actual native integrations, artifact checks and remaining scientific
 limits. Implementation and software verification do not establish experimental

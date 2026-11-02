@@ -1,11 +1,14 @@
 # Model-level extensions and research continuation — 2026-11-02/03
 
-This development checkpoint implements eight selected improvements over the
-published 0.1.0 software. Current source is **0.2.0.dev0**. It does not replace the
-0.1.0 PyPI files, GitHub tag or Zenodo deposit. Install the current source for the
-new APIs. Original family counts and historical test campaigns are retained as
-their own snapshots; eight additional model levels are not eight independently
-qualified physical models.
+This record captures eight selected improvements developed and tested as
+**0.2.0.dev0** after the 0.1.0 release. That implementation is packaged as
+**0.2.0** without changing its equations or physical defaults; current source,
+registry/archive identities and service outcomes are in
+[publication status](PUBLICATION_STATUS.md) and the
+[0.2.0 receipt](REGISTRY_ARCHIVE_RECEIPT_0_2_0.md). The historical development-wheel
+checks below retain their actual version/basis. The 0.1.0 files, tag and deposit
+are preserved. Original family counts and historical campaigns remain their own
+snapshots; eight added levels are not eight independently qualified models.
 
 ## Implemented scope
 

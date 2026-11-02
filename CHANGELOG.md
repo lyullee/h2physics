@@ -2,7 +2,10 @@
 
 ## 0.2.0 — Alpha model-level extensions
 
-Release preparation: 2026-11-03. This version packages the previously tested
+Published on GitHub, PyPI and Zenodo on 2026-11-03 (Asia/Seoul). Version DOI:
+[10.5281/zenodo.23889027](https://doi.org/10.5281/zenodo.23889027). Exact registry/archive
+identities are recorded in [the service receipt](docs/REGISTRY_ARCHIVE_RECEIPT_0_2_0.md).
+This version packages the previously tested
 0.2.0.dev0 physics checkpoint without changing its equations or physical defaults.
 Service publication is recorded only after verification in
 [publication status](docs/PUBLICATION_STATUS.md) and

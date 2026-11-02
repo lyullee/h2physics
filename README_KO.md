@@ -2,7 +2,7 @@
 
 수소 생산, 저장, 이송, 재료 거동과 사고 결과를 Python 객체로 계산하고 연결하는 연구용 라이브러리입니다. 파라미터 객체·함수·NumPy 배열·시간 이력을 직접 전달하므로 별도 서버나 직렬화 형식이 필요하지 않습니다.
 
-현재 버전은 **0.2.0 Alpha**입니다. [8개 보완 모델과 시험 기록](https://github.com/lyullee/h2physics/blob/main/docs/ENHANCEMENTS_20261102.md)에 실내 축적·조건부 과압, FA/DDT 선별, 기계적 팽창 에너지, 선형 구조 동응답, 열사이클·엑서지, 고체 산화환원 평형, 전극 측정 분석, PAR 열·유동·수소 제거 연동의 범위와 결과를 기록했습니다. 신규 92건과 관련 기존 47건의 선택 검사를 환경별로 완료했으며, 실측 정확도와 시설 적합성은 별도 검증 대상입니다.
+현재 버전은 **0.2.0 Alpha**입니다. [PyPI 0.2.0](https://pypi.org/project/h2physics/0.2.0/)과 [Zenodo 0.2.0 DOI](https://doi.org/10.5281/zenodo.23889027)를 공개했습니다. [8개 보완 모델과 시험 기록](https://github.com/lyullee/h2physics/blob/main/docs/ENHANCEMENTS_20261102.md)에 실내 축적·조건부 과압, FA/DDT 선별, 기계적 팽창 에너지, 선형 구조 동응답, 열사이클·엑서지, 고체 산화환원 평형, 전극 측정 분석, PAR 열·유동·수소 제거 연동의 범위와 결과를 기록했습니다. 신규 92건과 관련 기존 47건의 선택 검사를 환경별로 완료했으며, 실측 정확도와 시설 적합성은 별도 검증 대상입니다.
 
 [PyPI](https://pypi.org/project/h2physics/), [GitHub 릴리스](https://github.com/lyullee/h2physics/releases), [Zenodo 버전 이력](https://doi.org/10.5281/zenodo.23886389)을 통해 버전별 배포본을 확인할 수 있습니다. 실제 게시·설치·파일 확인 결과는 [배포 상태](https://github.com/lyullee/h2physics/blob/main/docs/PUBLICATION_STATUS.md)에 기록합니다. [영문 README](https://github.com/lyullee/h2physics/blob/main/README.md), [빠른 시작](https://github.com/lyullee/h2physics/blob/main/docs/QUICKSTART.md), [상세 사용자·연구자 안내](https://github.com/lyullee/h2physics/blob/main/docs/USER_GUIDE_KO.md)를 함께 사용하세요.
 

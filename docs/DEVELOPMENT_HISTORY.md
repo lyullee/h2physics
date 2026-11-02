@@ -167,6 +167,28 @@ gate retains a first-law-passing but second-law-invalid counterexample.
 
 [The extension record](ENHANCEMENTS_20261102.md) provides reproducible commands,
 scoped counts, unchanged older environment failures, model limits and the next
-experimental evidence. Main develops 0.2.0.dev0; immutable 0.1.0 registry/archive
+experimental evidence. At that implementation checkpoint main developed 0.2.0.dev0; the later
+0.2.0 packaging update is recorded below. Immutable 0.1.0 registry/archive
 identities are preserved. No global model-accuracy percentage is inferred from
 implementation or software tests.
+
+
+## 0.2.0 registry and archival update — 2026-11-03
+
+The tested 0.2.0.dev0 numerical implementation was promoted to release metadata
+0.2.0 without changing physical equations/defaults. Frozen source is tag
+`v0.2.0`, commit `efb8f17be9a353e790ea7b2f76a17db7009bcea8`. The existing
+scoped publisher uploaded both PyPI files, which were downloaded and verified
+against all 375 frozen Git package Python files. Local Windows and registry
+Linux archives have distinct whole-file hashes. The initial registry comparison
+against the Windows worktree retained 25 EOL-only differences rather than
+mislabeling it as an exact match.
+
+The [0.2.0 service receipt](REGISTRY_ARCHIVE_RECEIPT_0_2_0.md) records actual
+publication/archive checks. Zenodo version DOI
+[10.5281/zenodo.23889027](https://doi.org/10.5281/zenodo.23889027) is public within
+the existing concept series; the attached GitHub and Zenodo payloads match the
+actual registry distributions and manifest. The selected 139-case
+software evidence and broader 61 environment blockers are unchanged. Older
+0.1.0 release objects and DOI are retained. Post-publication service records
+follow the frozen tag and do not alter its original archives.

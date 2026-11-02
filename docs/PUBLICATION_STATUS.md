@@ -1,23 +1,24 @@
 # Publication status
 
-## 0.2.0 Alpha update — preparation on 2026-11-03
+## 0.2.0 Alpha update — 2026-11-03
 
-The new version packages the tested model-level extensions. PyPI and Zenodo
-publication are **pending service verification** at this preparation checkpoint.
-A GitHub push, workflow dispatch, draft record or reserved DOI is not recorded
-as a completed publication. Read [0.2.0 release evidence](RELEASE_EVIDENCE_0_2_0.md)
-for the source/change boundary and required archive/install checks.
+**Version 0.2.0 is public on GitHub, PyPI and Zenodo.** Registry installation,
+frozen-source integrity and the public archive payloads have been verified. Read the
+[0.2.0 registry/archive receipt](REGISTRY_ARCHIVE_RECEIPT_0_2_0.md) and
+[release evidence](RELEASE_EVIDENCE_0_2_0.md) for exact hashes, scope and recorded
+publication evidence. A draft record or reserved DOI alone is not counted as published.
 
-| Destination | Verified state at preparation |
+| Destination | Verified state |
 | --- | --- |
-| GitHub | [Eight model-level extensions](ENHANCEMENTS_20261102.md) are on main at `13a4f6068c560a7425ffdf500d86a8eedec6986a`; the two-job [model CI](https://github.com/lyullee/h2physics/actions/runs/41471065252) passed. The final 0.2.0 metadata-updated source/tag is not yet recorded here. |
-| PyPI | Version 0.2.0 publication is not yet verified. The last confirmed public registry version is 0.1.0 below. |
-| Zenodo | A new 0.2.0 public version and version DOI are not yet verified. The existing 0.1.0 record and all-version concept DOI below remain intact. |
+| GitHub | [Public 0.2.0 Alpha/prerelease](https://github.com/lyullee/h2physics/releases/tag/v0.2.0), source `efb8f17be9a353e790ea7b2f76a17db7009bcea8`; three attached assets downloaded and byte-verified. Both jobs in [model CI 41473688845](https://github.com/lyullee/h2physics/actions/runs/41473688845) succeeded. |
+| PyPI | [h2physics 0.2.0](https://pypi.org/project/h2physics/0.2.0/) published through the existing Trusted Publisher; [publishing run 41473689248](https://github.com/lyullee/h2physics/actions/runs/41473689248) succeeded. Both registry payload hashes and all 375 package Python files match the frozen source; actual registry installation, dependency and selected test checks passed. |
+| Zenodo | [Public record 23889027](https://zenodo.org/records/23889027), version DOI [10.5281/zenodo.23889027](https://doi.org/10.5281/zenodo.23889027), existing concept DOI [10.5281/zenodo.23886389](https://doi.org/10.5281/zenodo.23886389). The registry wheel/source and checksum list were deposited; all three public downloads match their reviewed originals. |
 
-After publication, record the actual source revision, service URLs, file hashes,
-new version DOI and registry installation result. Keep the earlier release
-identities below unchanged. The publication update does not increase physical
-qualification or turn the 61 broader environment blockers into passes.
+The 0.2.0 version packages the tested eight model-level work packages without
+changing their equations or physical defaults. The 139-case focused software
+scope and the 61 broader environment blockers remain distinct. The update does
+not create new experimental or application qualification. Service UTC timestamps
+are retained in the receipt; this page's date uses Asia/Seoul.
 
 ## Historical verified release: 0.1.0
 

@@ -1,6 +1,28 @@
 # Publishing h2physics
 
-Version 0.1.0 is published on GitHub, PyPI and Zenodo. The original code/documentation uses Apache-2.0; external providers and datasets retain their own terms. See [publication status](PUBLICATION_STATUS.md), [publication audit](PUBLICATION_AUDIT.md), [rights/provenance](RIGHTS_AND_PROVENANCE.md) and [the verified service receipt](REGISTRY_ARCHIVE_RECEIPT_0_1_0.md).
+Version 0.2.0 is being prepared as an Alpha update to the published 0.1.0 release.
+The original code/documentation uses Apache-2.0; external providers and datasets
+retain their own terms. See [current publication status](PUBLICATION_STATUS.md),
+[0.2.0 release evidence](RELEASE_EVIDENCE_0_2_0.md),
+[publication audit](PUBLICATION_AUDIT.md), [rights/provenance](RIGHTS_AND_PROVENANCE.md)
+and [the historical 0.1.0 service receipt](REGISTRY_ARCHIVE_RECEIPT_0_1_0.md).
+
+## Current 0.2.0 update
+
+The release packages the tested eight-work-package checkpoint at source commit
+`13a4f6068c560a7425ffdf500d86a8eedec6986a`. Release metadata, version and publication
+documentation change; equations, provider choices and physical defaults do not.
+The final release tag must identify the reviewed metadata-updated source, rather
+than the earlier development commit. Its exact identity belongs in the confirmed
+service receipt after freezing.
+
+Use the existing PyPI Trusted Publisher and Zenodo record's New version flow.
+Keep version 0.1.0, its DOI and its file objects intact. For the new deposit,
+prefer the exact publicly downloaded and hash-verified 0.2.0 registry files plus
+a checksum list, so any cross-service equality claim can be verified directly.
+If separate builds are used, retain their distinct hashes instead of implying
+that equal version labels make their archive bytes identical. Creating a draft,
+reserving a DOI or dispatching a workflow is not completed publication.
 
 ## Prepare a new reviewed version
 

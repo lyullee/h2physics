@@ -1,6 +1,12 @@
 # Changelog
 
-## 0.2.0.dev0 — model-level extensions (development)
+## 0.2.0 — Alpha model-level extensions
+
+Release preparation: 2026-11-03. This version packages the previously tested
+0.2.0.dev0 physics checkpoint without changing its equations or physical defaults.
+Service publication is recorded only after verification in
+[publication status](docs/PUBLICATION_STATUS.md) and
+[the release evidence](docs/RELEASE_EVIDENCE_0_2_0.md).
 
 - Add indoor HyRAM conditional peak/accumulation adapter and evidence-bound FA/DDT screening.
 - Add CoolProp finite-stock mechanical expansion reference, explicit energy partition,
@@ -10,8 +16,8 @@
 - Add measured Tafel/iR/Faradaic-efficiency/active-site turnover analysis.
 - Add coupled PAR draft, native gas thermochemistry, finite catalyst heat storage and entropy gate.
 - Record focused verification, unchanged baseline failures and installed-artifact audits in
-  [the continuation report](docs/ENHANCEMENTS_20261102.md). This development snapshot is distinct
-  from the already published PyPI/Zenodo 0.1.0 release.
+  [the continuation report](docs/ENHANCEMENTS_20261102.md). The new version preserves
+  the original 0.1.0 artifacts and their scientific qualification limits.
 
 ## 0.1.0 — initial public research release
 

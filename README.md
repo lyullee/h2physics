@@ -6,15 +6,19 @@ h2physics supplies calculation objects, explicit physical state and time-series 
 
 This is a research software release. Implementation, software verification, experimental comparison and application qualification have separate evidence. Start with the [quickstart](https://github.com/lyullee/h2physics/blob/main/docs/QUICKSTART.md), [Korean overview](https://github.com/lyullee/h2physics/blob/main/README_KO.md), or [Python API index](https://github.com/lyullee/h2physics/blob/main/docs/PUBLIC_API_INDEX.md).
 
-[Download the public 0.1.0 Alpha release](https://github.com/lyullee/h2physics/releases/tag/v0.1.0). [PyPI 0.1.0](https://pypi.org/project/h2physics/0.1.0/) and [Zenodo DOI](https://doi.org/10.5281/zenodo.23886390) are public; see [publication status](https://github.com/lyullee/h2physics/blob/main/docs/PUBLICATION_STATUS.md).
+Version **0.2.0** is Alpha research software. Find downloads and citations through
+[PyPI](https://pypi.org/project/h2physics/), [GitHub releases](https://github.com/lyullee/h2physics/releases),
+and the [Zenodo version series](https://doi.org/10.5281/zenodo.23886389).
+[Publication status](https://github.com/lyullee/h2physics/blob/main/docs/PUBLICATION_STATUS.md)
+records service-confirmed versions and file identities.
 
-The main branch now develops **0.2.0.dev0**. Its [eight model-level additions](docs/ENHANCEMENTS_20261102.md)
-include indoor HyRAM accumulation/conditional peaks, FA/DDT screening, mechanical
+This version adds [eight model-level extensions](https://github.com/lyullee/h2physics/blob/main/docs/ENHANCEMENTS_20261102.md):
+indoor HyRAM accumulation/conditional peaks, FA/DDT screening, mechanical
 expansion energy and weak-wave loads, linear structural dynamics, native thermal
 cycles/exergy, solid redox equilibrium, electrode measurement analysis and a
-coupled PAR device. Install from this checkout to use them; PyPI/Zenodo 0.1.0
-and its immutable tag do not contain these later additions. Each manual states
-its numerical evidence and remaining experimental limits.
+coupled PAR device. Each manual states its numerical evidence and remaining
+experimental limits. The scoped campaign completed 92 new and 47 related existing
+checks across the main and separately selected native runtime profiles.
 
 ## What is included
 
@@ -45,7 +49,7 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[thermo,hydraulics,test]"
 ```
 
-The distribution and import name are currently `h2physics`. Version 0.1.0 is published on PyPI; the command below installs the selected optional capabilities. See the [publication status](https://github.com/lyullee/h2physics/blob/main/docs/PUBLICATION_STATUS.md):
+The distribution and import name are currently `h2physics`. The command below installs the selected optional capabilities from the package index. See the [publication status](https://github.com/lyullee/h2physics/blob/main/docs/PUBLICATION_STATUS.md):
 
 ```bash
 python -m pip install "h2physics[thermo,hydraulics]"

@@ -195,3 +195,7 @@ These are options, not automatically running jobs:
 6. Define application-specific acceptance criteria separately if a facility study is requested.
 
 Recording a demonstrated external/data blocker is meaningful progress. Repeated unchanged rejected runs do not increase validation coverage.
+
+## Published version and citation
+
+Version 0.1.0 is public on GitHub, PyPI and Zenodo. The [service receipt](REGISTRY_ARCHIVE_RECEIPT_0_1_0.md) records source revision, distinct distribution hashes, scoped installation checks and DOI. These release-engineering checks do not change the scientific evidence or qualification limits recorded above. Use [publication status](PUBLICATION_STATUS.md) and current CITATION.cff for actual service links and version citation.

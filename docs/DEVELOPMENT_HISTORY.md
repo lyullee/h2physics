@@ -148,3 +148,7 @@ Data sources are [Pd membranes](https://doi.org/10.5281/zenodo.10691625), [AB2 k
 Public documentation retains original API descriptions, assumptions, methods and aggregate findings. Raw observations, native package trees, machine-local receipts and generated outputs are excluded by default. Historical artifact filenames identify outputs to recreate; they are not promises that every clone contains the local cache.
 
 A release needs its own exact commit/version, archive hashes, clean-install result, source/dependency notices, public-tree audit and confirmed publication URLs. A prepared metadata file, login session or successful development build is not evidence that GitHub, PyPI or Zenodo publication occurred. Continue with [Research continuation](RESEARCH_CONTINUATION.md) and [Rights and provenance](RIGHTS_AND_PROVENANCE.md).
+
+## Publication follow-up
+
+Version 0.1.0 is public on GitHub, PyPI and Zenodo. The [service receipt](REGISTRY_ARCHIVE_RECEIPT_0_1_0.md) records source revision, distinct distribution hashes, scoped installation checks and DOI. These release-engineering checks do not change the scientific evidence or qualification limits recorded above. Use [publication status](PUBLICATION_STATUS.md) and current CITATION.cff for actual service links and version citation.

@@ -1,6 +1,6 @@
 # Quickstart: Python calculation and research workflow
 
-This guide uses the source checkout or an installed `h2physics` distribution. Commands assume Python 3.12 and an activated isolated environment. The first public registry release is being prepared; use the checkout installation until it is published.
+This guide uses the source checkout or an installed `h2physics` distribution. Commands assume Python 3.12 and an activated isolated environment. Version 0.1.0 is public on PyPI, GitHub and Zenodo; see [publication status](PUBLICATION_STATUS.md).
 
 ## 1. Install only the capabilities needed
 
@@ -12,7 +12,7 @@ python -m pip install -e ".[thermo,hydraulics,test]"
 
 Activate the environment before the last two commands. On PowerShell use `.venv\Scripts\Activate.ps1`; on POSIX shells use `source .venv/bin/activate`. Optional dependency details are in [DEPENDENCIES.md](DEPENDENCIES.md). External engine source and acquired observations are not part of a core install.
 
-For a published distribution, the corresponding target command is `python -m pip install "h2physics[thermo,hydraulics]"`. Publication availability must be checked separately from this guide. Inspect the version actually installed with:
+For the public registry distribution, the installation command is `python -m pip install "h2physics[thermo,hydraulics]"`. Use `==0.1.0` when reproducing this release rather than implicitly installing a future version. Inspect the version actually installed with:
 
 ```bash
 python -c "from importlib.metadata import version; print(version('h2physics'))"

@@ -1,23 +1,25 @@
 # Publication status: 0.1.0
 
-Project: **h2physics**. Distribution/import: `h2physics`. License for original work: Apache-2.0. Research maturity: Alpha.
+Project/distribution/import: **h2physics**. Original work: Apache-2.0. Research maturity: Alpha.
 
-This file records actual service outcomes separately from local preparation. A built archive is not evidence of registry publication or a DOI.
-
-| Destination | Current status |
+| Destination | Verified outcome |
 | --- | --- |
-| GitHub | Public source snapshot is being prepared for `lyullee/h2physics`; no public repository receipt recorded yet. |
-| PyPI | Not published. Package name lookup returned no existing project; this does not reserve the name. Trusted Publisher registration is pending. |
-| Zenodo | Not published. No record or DOI has been assigned by this project. GitHub integration or a reviewed manual deposit is pending. |
+| GitHub | [Public repository](https://github.com/lyullee/h2physics) and [0.1.0 Alpha release](https://github.com/lyullee/h2physics/releases/tag/v0.1.0) published on 2026-11-02. |
+| PyPI | No upload performed. Trusted Publisher setup and actual registry publication remain pending. A name lookup is not a reservation. |
+| Zenodo | No deposit submitted or DOI verified in this task. GitHub integration or a manual software deposit remains pending. |
+
+The release is public and marked prerelease/Alpha; it is not a draft. Reviewed source commit: `762bfa0348fe2207783924b9e1fc5750b89bc940`. The two attached distributions and SHA256SUMS.txt were confirmed as uploaded. GitHub-reported digests match the local SHA-256 values. The Linux build/audit workflow at the release tag also passed; its publishing job was explicitly skipped. See [release evidence](RELEASE_EVIDENCE_0_1_0.md).
 
 ## Reproduction and continuation
 
-Read [Publishing](PUBLISHING.md), [Publication audit](PUBLICATION_AUDIT.md), [Development history](DEVELOPMENT_HISTORY.md), and [Research continuation](RESEARCH_CONTINUATION.md). The exact built archive hashes and installed-wheel receipt are recorded in the public release evidence when those gates complete.
+Read [Publishing](PUBLISHING.md), [Publication audit](PUBLICATION_AUDIT.md), [Development history](DEVELOPMENT_HISTORY.md), and [Research continuation](RESEARCH_CONTINUATION.md). Build/check receipts are separate from experimental model qualification.
 
-The public source uses a fresh Git history so local development history and excluded artifacts are not carried into publication. Original code, original explanations, test definitions, model manuals, scientific references and reviewed source metadata are retained. External observations, third-party payload images, private configuration and installed engine source are acquired separately.
+The public source starts with fresh Git history. Original code, original explanations, tests, manuals, scientific attribution and reviewed source metadata are retained. External observations, third-party payload images, private configuration and installed engine source are acquired separately. Existing local development history was preserved separately.
 
-## Remaining service setup
+## Remaining service work
 
-PyPI Trusted Publisher setup and Zenodo integration/deposit remain pending. Browser login alone does not authorize a Python upload client; use the documented short-lived Trusted Publisher workflow rather than placing account tokens in source.
+Configure a PyPI Trusted Publisher for owner lyullee, repository h2physics, workflow release.yml, environment pypi. Run the workflow at v0.1.0 with publish_pypi=true only after that setup; verify the actual registry version and installation. The default workflow only builds and cannot publish by default.
 
-For Zenodo, enable the GitHub repository integration before publishing the release intended for archival, or deposit the reviewed assets through a manual record. Add a DOI to CITATION.cff only after the service assigns it. Keep pending items explicit; do not claim all three services are published from a GitHub push alone.
+Enable Zenodo integration before a future release intended for automatic archival, or manually deposit the reviewed 0.1.0 software assets. The existing GitHub release alone is not a verified Zenodo deposit. Add a DOI to CITATION.cff only after the service assigns it. Keep the dataset/engine exclusions in the deposited software.
+
+Documentation and post-build receipts can advance on main after the frozen release tag. They do not change the already uploaded assets or imply that differently rebuilt archive hashes must match timestamped local builds.

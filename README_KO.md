@@ -2,13 +2,15 @@
 
 수소 생산, 저장, 이송, 재료 거동과 사고 결과를 Python 객체로 계산하고 연결하는 연구용 라이브러리입니다. 파라미터 객체·함수·NumPy 배열·시간 이력을 직접 전달하므로 별도 서버나 직렬화 형식이 필요하지 않습니다.
 
-첫 공개 배포를 준비하고 있습니다. 패키지·import 이름은 현재 `h2physics`이며, 공개 레지스트리의 실제 버전과 배포 여부는 릴리스 기록에서 확인해야 합니다. [영문 README](README.md), [빠른 시작](docs/QUICKSTART.md), [상세 사용자·연구자 안내](docs/USER_GUIDE_KO.md)를 함께 사용하세요.
+[GitHub 0.1.0 Alpha 릴리스](https://github.com/lyullee/h2physics/releases/tag/v0.1.0)를 공개했습니다. 패키지·import 이름은 `h2physics`입니다. PyPI 등록과 Zenodo 보관은 준비 중이며 [배포 상태](docs/PUBLICATION_STATUS.md)에 별도로 기록합니다. [영문 README](README.md), [빠른 시작](docs/QUICKSTART.md), [상세 사용자·연구자 안내](docs/USER_GUIDE_KO.md)를 함께 사용하세요.
 
 ## 설치와 첫 실행
 
 기록된 기준 환경은 Python 3.12입니다. 저장소를 내려받은 후 가상환경을 활성화하고 필요한 기능만 설치합니다.
 
 ```bash
+git clone https://github.com/lyullee/h2physics.git
+cd h2physics
 python -m venv .venv
 python -m pip install --upgrade pip
 python -m pip install -e ".[thermo,hydraulics,test]"

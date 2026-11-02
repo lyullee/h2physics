@@ -14,7 +14,7 @@ Target repository: https://github.com/lyullee/h2physics . Use a fresh sanitized 
 
 Distribution/import name: h2physics. Candidate version:0.1.0. The release workflow is .github/workflows/release.yml; its default only builds. Publishing requires a configured PyPI Trusted Publisher for owner lyullee, repository h2physics, workflow release.yml, environment pypi. The initial pending-publisher setup is at https://pypi.org/manage/account/publishing/ . A logged-in browser alone is not a package-upload credential. Never put a persistent upload token into source.
 
-After configuration, manually dispatch the workflow with publish_pypi=true. Verify the actual PyPI project/version and install that version from the registry before marking publication complete. Name availability is not guaranteed by an HTTP404 alone.
+After configuration, manually dispatch the workflow at the reviewed v0.1.0 tag with publish_pypi=true. A newer documentation-only main commit is not a replacement for the release tag. Verify the actual PyPI project/version and install that version from the registry before marking publication complete. Name availability is not guaranteed by an HTTP404 alone.
 
 ## Zenodo
 

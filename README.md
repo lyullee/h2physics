@@ -6,6 +6,8 @@ h2physics supplies calculation objects, explicit physical state and time-series 
 
 This is a research software release. Implementation, software verification, experimental comparison and application qualification have separate evidence. Start with the [quickstart](docs/QUICKSTART.md), [Korean overview](README_KO.md), or [Python API index](docs/PUBLIC_API_INDEX.md).
 
+[Download the public 0.1.0 Alpha release](https://github.com/lyullee/h2physics/releases/tag/v0.1.0). PyPI publication and Zenodo archival remain pending; see [publication status](docs/PUBLICATION_STATUS.md).
+
 ## What is included
 
 | Area | Selected capabilities | Important boundary |
@@ -27,6 +29,8 @@ Python **3.12** is the recorded reference interpreter. The package metadata perm
 For a source checkout:
 
 ```bash
+git clone https://github.com/lyullee/h2physics.git
+cd h2physics
 python -m venv .venv
 # Activate .venv with the command appropriate to your shell.
 python -m pip install --upgrade pip

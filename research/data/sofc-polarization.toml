@@ -1,0 +1,73 @@
+key = "sofc-polarization"
+title = "A dataset for validation of artifical neural network models for SOFC"
+doi = "10.17632/j8b9v4cb9d.1"
+version = "1"
+origin = "mixed"
+license_id = "CC-BY-4.0"
+license_url = "http://creativecommons.org/licenses/by/4.0"
+metadata_url = "https://data.mendeley.com/public-api/datasets/j8b9v4cb9d/snapshot/1"
+metadata_sha256 = "4aeeb8559d6ac159515be9c1084191edfb2ea56e25a2e60508479b8f51ba23f8"
+retrieved_at_utc = "2026-10-26T14:54:10.134386+00:00"
+authors = ["Vanja Subotic", "Michael Eibl", "Christoph Hochenauer"]
+families = ["fuel_cell", "electrochemistry"]
+rights_permitted = true
+validation_qualified = false
+model_integration_status = "source-bound curve inputs to existing HydrogenStack fuel-cell evaluation; diagnostic only, no fit or validation"
+curve_origin_boundary = "Mendeley states collection combines experimental SOFC curves and multiphysics-model-generated curves; individual voltage origin unresolved"
+reader_unit_policy = "fixed explicit declarations from reviewed source description: degC, mA/cm2, V despite corrupted header glyphs"
+hangang_case_id = "sofc-polarization-existing-hydrogen-stack-bridge"
+listed_file_count = 4
+acquired_bytes = 65482
+omitted_files = []
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/j8b9v4cb9d/files?folder_id=root&version=1&$start=0&$limit=1000"
+sha256 = "bc51b1ddff9802b9ce486738b8f72f9bc60719cf28fedf097fef2e16a678ab40"
+
+[[files]]
+name = "Ui_30H2_10H2O_60N2.txt"
+url = "https://data.mendeley.com/public-files/datasets/j8b9v4cb9d/files/9e3b3b4f-7cc6-4457-91a6-d90ee6d1d439/file_downloaded"
+relative_path = "sofc-polarization/1/Ui_30H2_10H2O_60N2.txt"
+size_bytes = 12196
+sha256 = "2b85caac300d4094f26f5acb3499ead26c78154d7ebad81d869c5514992341c9"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "2b85caac300d4094f26f5acb3499ead26c78154d7ebad81d869c5514992341c9"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Ui_50H2_0H2O_50N2.txt"
+url = "https://data.mendeley.com/public-files/datasets/j8b9v4cb9d/files/3156c9a0-53d2-49cd-86b8-0f425fa9c620/file_downloaded"
+relative_path = "sofc-polarization/1/Ui_50H2_0H2O_50N2.txt"
+size_bytes = 17753
+sha256 = "d76a1ec0888e5960a96c80023eb3c73dded77bd43bb52bf849532f1e1f34d102"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "d76a1ec0888e5960a96c80023eb3c73dded77bd43bb52bf849532f1e1f34d102"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Ui_50H2_10H2O_40N2.txt"
+url = "https://data.mendeley.com/public-files/datasets/j8b9v4cb9d/files/6666b406-966e-4f06-836b-13f3df4a28de/file_downloaded"
+relative_path = "sofc-polarization/1/Ui_50H2_10H2O_40N2.txt"
+size_bytes = 17759
+sha256 = "eac5c114ecec8747169dd2f260a599a8f8fdcaeddcea8856ab1fd44161cf4e33"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "eac5c114ecec8747169dd2f260a599a8f8fdcaeddcea8856ab1fd44161cf4e33"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Ui_50H2_20H2O_30N2.txt"
+url = "https://data.mendeley.com/public-files/datasets/j8b9v4cb9d/files/c1708e6f-cfa8-4700-bf2a-71afcd99e8f8/file_downloaded"
+relative_path = "sofc-polarization/1/Ui_50H2_20H2O_30N2.txt"
+size_bytes = 17774
+sha256 = "46c5478fcad9a077b62a25234e4d048ea22b769eed79782349e32ec8deeeb8ed"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "46c5478fcad9a077b62a25234e4d048ea22b769eed79782349e32ec8deeeb8ed"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

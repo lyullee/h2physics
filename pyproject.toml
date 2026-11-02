@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "h2physics"
+version = "0.1.0"
+description = "Composable hydrogen facility and safety physics with qualified data and explicit Python contracts"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "Ugwiyeon Lee"}]
+keywords = ["hydrogen", "physics", "thermodynamics", "process-safety", "research"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+]
+
+dependencies = ["numpy>=1.26,<3", "scipy>=1.14,<2"]
+
+[project.urls]
+Homepage = "https://github.com/lyullee/h2physics"
+Repository = "https://github.com/lyullee/h2physics"
+Documentation = "https://github.com/lyullee/h2physics#readme"
+Issues = "https://github.com/lyullee/h2physics/issues"
+
+[project.optional-dependencies]
+thermo = ["CoolProp>=8,<9"]
+data = ["openpyxl>=3.1,<4", "h5py>=3.11,<4"]
+research_pdf = ["pdfplumber==0.11.10"]
+chemistry = ["cantera>=3.2,<3.3"]
+uncertainty = ["scipy>=1.15,<2"]
+risk = ["process-risk-consequence-toolkit==0.1.0"]
+thermal_response = ["pythermalcomfort==4.7.0", "numba==0.68.1", "llvmlite==0.50.0"]
+molecules = ["rdkit==2026.9.1"]
+hydraulics = ["fluids>=1.3,<2"]
+eis = ["impedance==1.7.1", "pandas>=2.2,<4"]
+solar = ["pandas>=2.2,<4", "pytz>=2024.1"]
+inverse_heat = ["pifira==0.3.0"]
+pool = ["dynamiclh2poolx==0.2.0rc2", "CoolProp>=8,<9"]
+test = ["pytest>=8,<10", "packaging>=24"]
+dev = ["build>=1.2", "ruff>=0.11", "pytest>=8,<10", "packaging>=24"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# Optional provider is imported after the explicit isolated source path is selected.
+"scripts/check_lh2dt_integration.py" = ["E402"]
+# The installed mechanism dependency is optional for a core-only test run.
+"tests/test_cantera.py" = ["E402"]

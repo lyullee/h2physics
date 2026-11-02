@@ -1,0 +1,29 @@
+key = "cds-photo-screen"
+title = "Computational Screening Data of Transition Metal-Doped CdS for Photocatalytic Hydrogen Production"
+doi = "10.5281/zenodo.7056972"
+version = "7056972"
+origin = "computed"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/7056972"
+metadata_sha256 = "79be3795bb757d16eeca3796e9b507beeac0a5359b0121cf5db67e21fbade006"
+retrieved_at_utc = "2026-10-26T15:15:48.585437+00:00"
+authors = ["Yuting Li", "Lourdes Vega", "Daniel Bahamon", "Mutasem Sinnokrot"]
+families = ["photocatalysis", "materials"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 16214
+omitted_files = []
+
+[[files]]
+name = "data_cloud.xlsx"
+url = "https://zenodo.org/api/records/7056972/files/data_cloud.xlsx/content"
+relative_path = "cds-photo-screen/7056972/data_cloud.xlsx"
+size_bytes = 16214
+sha256 = "102e6b194c0e7f3324244c5c8f40d63cafb82c032133f2eb21d60bb8b24f7bd2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fae612e63aa588bb9e348a391db67bda"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

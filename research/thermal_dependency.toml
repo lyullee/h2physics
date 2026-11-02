@@ -1,0 +1,76 @@
+review_date = "2026-10-28"
+purpose = "Optional native ordinary-air multisegment thermal state; no cryogenic injury law"
+native_version = "4.7.0"
+native_python_files = 94
+native_source_aggregate_sha256 = "84eb0b8ccd6d7aba575a3949ff27bc6bfe4485e33ee3e467cc5b57b0237c8d18"
+aggregate_algorithm = "sorted package-relative Python path, NUL, original bytes, NUL"
+native_jos3_sha256 = "cefbe754255d12f20cb38755c98655ff0f45f1264c8fad605412bba677b1a179"
+native_code_bundled = false
+coefficient_tables_bundled = false
+jit = "enabled native JIT; disabled-JIT native import originally failed and is rejected"
+model_paper = "https://doi.org/10.1016/j.enbuild.2020.110575"
+paper_access = "publisher full-text403; bibliographic citation, not inspected full validation evidence"
+documentation = "https://pythermalcomfort.readthedocs.io/en/latest/documentation/models.html"
+
+[[artifacts]]
+name = "pythermalcomfort"
+version = "4.7.0"
+license_id = "MIT"
+filename = "pythermalcomfort-4.7.0-py2.py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/1b/9a/d26a76621c808e0ddcb170c45546b4ed59dc06b1ad2f5605bc7cefa42caa/pythermalcomfort-4.7.0-py2.py3-none-any.whl"
+bytes = 370496
+sha256 = "0b4d96873bd63d2832ad5ab517b2b5d06c6b30ba1f5ea0bfa564a4567502b5bc"
+installed_original_members_matched = 158
+metadata_sha256 = "4862e6a2364ede570065e3b3fc022b93f1d938491109c4400b48edb31d3b9ca2"
+
+[[notices]]
+package = "pythermalcomfort"
+installed_relative_path = "pythermalcomfort-4.7.0.dist-info/licenses/LICENSE"
+bytes = 1106
+sha256 = "6e5fda37ef6f9b91b5227e5df241a1ddedd141d4daaa4c3e396703b4267237ad"
+
+[[artifacts]]
+name = "numba"
+version = "0.68.1"
+license_id = "BSD-2-Clause"
+filename = "numba-0.68.1-cp312-cp312-win_amd64.whl"
+url = "https://files.pythonhosted.org/packages/e9/bb/c9b0129a57e82b97befeca60a53289359653eef33dd3bffd840898fa33aa/numba-0.68.1-cp312-cp312-win_amd64.whl"
+bytes = 2832823
+sha256 = "6d115039768cc2eb3cc99b32355ca507e1bbc653eca5492c83ab6399f218df27"
+installed_original_members_matched = 820
+metadata_sha256 = "8856d996d1b66cffe2aa206d00866ce1a7ec85e50d5d40b3c4070faf8f7c0e8e"
+
+[[notices]]
+package = "numba"
+installed_relative_path = "numba-0.68.1.dist-info/licenses/LICENSE"
+bytes = 1310
+sha256 = "5f7ae5e48a0a107a9d86a9ef6c18dcce68e55959855d39380050deaea366631c"
+
+[[notices]]
+package = "numba"
+installed_relative_path = "numba-0.68.1.dist-info/licenses/LICENSES.third-party"
+bytes = 26891
+sha256 = "e5ea3f50f1c1aa518a86903b85dfd40c4765589998eb683b9382d111d91bb9ee"
+
+[[artifacts]]
+name = "llvmlite"
+version = "0.50.0"
+license_id = "BSD-2-Clause; bundled LLVM notices separately retained"
+filename = "llvmlite-0.50.0-cp312-cp312-win_amd64.whl"
+url = "https://files.pythonhosted.org/packages/64/70/f395702c20b514363061055b5bdebe3513e544139e6d412a5c86e8ea0b30/llvmlite-0.50.0-cp312-cp312-win_amd64.whl"
+bytes = 41865553
+sha256 = "c20595cc3a76e3c85140fdafbf9246c732ddf8e0e646ba2f4e4881f87567300d"
+installed_original_members_matched = 46
+metadata_sha256 = "73486aae1c185a4daea70d2d0f409f056d28ebefb508b2a13b74ec29e043cb1f"
+
+[[notices]]
+package = "llvmlite"
+installed_relative_path = "llvmlite-0.50.0.dist-info/licenses/LICENSE"
+bytes = 1309
+sha256 = "7d6aa93e52a7ae9a995ff6a40c0ea5628311cdf1bd8dcd29c8ce9181f4af3a81"
+
+[[notices]]
+package = "llvmlite"
+installed_relative_path = "llvmlite-0.50.0.dist-info/licenses/LICENSE.thirdparty"
+bytes = 12786
+sha256 = "7b564c7af9ab446d245ba66adc8cda2f61d1d162f842899557499e80b715993a"

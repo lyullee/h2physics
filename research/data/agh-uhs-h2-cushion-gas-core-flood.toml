@@ -1,0 +1,44 @@
+key = "agh-uhs-h2-cushion-gas-core-flood"
+title = "Comparative analysis of hydrogen mixing with a selection of cushion gases in underground hydrogen storage - research data"
+doi = "10.58032/AGH/I5QS9P"
+version = "1.0"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://agh.rodbuk.pl/dataset.xhtml?persistentId=doi%3A10.58032%2FAGH%2FI5QS9P"
+metadata_sha256 = ""
+retrieved_at_utc = "2026-10-31"
+authors = ["Karol Dąbrowski", "Łukasz Klimkowski"]
+families = ["underground_storage", "mixtures", "dispersion"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 6
+acquired_bytes = 0
+raw_redistribution_admitted = false
+current_publisher_page_checked = "2026-10-31"
+publisher_file_page = "https://agh.rodbuk.pl/file.xhtml?fileId=2480&version=1.0"
+candidate_linkage = "The selected raw measurement archive may support a future porous-core hydrogen/cushion-gas breakthrough and mixing comparison after its internal schema, units, instruments and boundary conditions are reviewed. It does not directly validate field-scale cavern cycling or pipeline dispersion."
+schema_status = "not inspected: the selected public file could not be downloaded from this host"
+license_scope = "The official Dataverse record and selected file page declare CC BY 4.0. This metadata receipt does not authorize redistribution of the raw archive in this repository; its 375.7 MB publisher display is rounded and the archive remains unacquired."
+access_gap = "Official API download was attempted from the local shell on 2026-10-31 and failed to connect to agh.rodbuk.pl:443 (curl exit 28 after about 21.6 s). No credentials were used."
+
+[[files]]
+name = "RawDataXrayRaman.zip"
+url = "https://agh.rodbuk.pl/api/access/datafile/2480?gbrecs=true"
+relative_path = ""
+size_bytes = 0
+sha256 = ""
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e5173b39afbaf264f3dbb0b298aa83e5"
+publisher_checksum_verified = false
+status = "failed_unacquired"
+listed_size_display = "375.7 MB (publisher-rounded)"
+error = "Local curl attempt failed to connect to agh.rodbuk.pl:443 (exit 28, 2026-10-31); exact byte size and SHA-256 remain unknown."
+
+[[evidence]]
+url = "https://agh.rodbuk.pl/dataset.xhtml?persistentId=doi%3A10.58032%2FAGH%2FI5QS9P"
+claim = "Official publisher page identifies dataset version 1.0, authors, date, CC BY 4.0, six public files, and a description of measured X-ray/Raman hydrogen/cushion-gas core-flood concentration data."
+
+[[evidence]]
+url = "https://agh.rodbuk.pl/file.xhtml?fileId=2480&version=1.0"
+claim = "Official file page identifies RawDataXrayRaman.zip, publisher-rounded size, MD5, file-level CC BY 4.0 and the core-flood concentration measurement context."

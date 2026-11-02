@@ -1,0 +1,184 @@
+package = "process-monitoring-toolkit"
+version = "0.1.0"
+review_date = "2026-10-28"
+repository_url = "https://github.com/lyullee/process-monitoring-toolkit"
+revision = "79b4cf52a0acd0d0cbd3addbe82c3d98d6385e5a"
+license_id = "MIT"
+license_sha256 = "e0fef3c9588ffa333d456718f5c32ae9450ffeedcaa710e7c6cc44d8c568c06a"
+pypi_metadata_url = "https://pypi.org/pypi/process-monitoring-toolkit/json"
+pypi_status_at_review = 404
+archive_url = "https://codeload.github.com/lyullee/process-monitoring-toolkit/zip/79b4cf52a0acd0d0cbd3addbe82c3d98d6385e5a"
+archive_sha256 = "b75ce534eb8da0d4977ed9ad1221492065adcdc3a12d38487a09d13cd63ff1d5"
+built_wheel_sha256 = "05c9d5473433844a80915727e8e98200ec917b57ce66e0d0bd0ba4bf4defecd4"
+wheel_metadata_sha256 = "99ffd71e4ba5323a214f4048f250833b140b5a5df89d5cf1dfd5f7cae2242e6b"
+third_party_notices_sha256 = "0ded0d0fac922dc95c939d7c34caaa107904652fc22aafd2b6f656313fead2fd"
+native_python_files = 28
+native_python_aggregate_sha256 = "6c4b02f9d578b33c08194a5545e0f524a0b937373aad4f1981e814c3e12ac10b"
+aggregate_algorithm = "SHA256(sorted relative Python paths + original bytes), recursive process_monitoring/**/*.py"
+main_environment_modified = false
+native_source_modified = false
+bundled_in_host = false
+experimental_validation = false
+installation_note = "Source wheel built from exact official archive; installed with no-deps into ignored isolated target. Main NumPy/SciPy/pandas remain separate. No external dataset/model weights installed."
+
+[[native_source]]
+path = "process_monitoring/__init__.py"
+sha256 = "69c25a0a8ead77689b71de5356e1591887c76b18411de5c912d45f8bed5516c7"
+
+[[native_source]]
+path = "process_monitoring/adapters.py"
+sha256 = "ce94b1216a9ffacb8b7e1ff86d4e4c418bdeab9f9e2b05cf724865fd28c51217"
+
+[[native_source]]
+path = "process_monitoring/cli.py"
+sha256 = "47254ef45875681c1f88f5f1d3f58fc2ba578293709ae7260b01eb26480145f2"
+
+[[native_source]]
+path = "process_monitoring/config.py"
+sha256 = "1ef16f27150c62009c8889d85badc336ca01bd0ea02909541743894c25e3ed9c"
+
+[[native_source]]
+path = "process_monitoring/contracts.py"
+sha256 = "4f8dfbf4fc6c09b9397d9b40de88307ae4ca13312ae687b5ca530e36c842c0b8"
+
+[[native_source]]
+path = "process_monitoring/datasets.py"
+sha256 = "4ec224c688beaa0ab701f3c2539072fa87b67fcc42eec9bbdceabd94114dc5b5"
+
+[[native_source]]
+path = "process_monitoring/detectors/__init__.py"
+sha256 = "e04494dedcdd53db324537c3d7b4b7a5b0681226756000b0c3a5bcbfbf3eb26e"
+
+[[native_source]]
+path = "process_monitoring/detectors/base.py"
+sha256 = "ce52e4904b0a1b48c01a2835c112debb0140263871ef0522e3ce6dcfa8ec0f47"
+
+[[native_source]]
+path = "process_monitoring/detectors/classical.py"
+sha256 = "4ff3a3217cb20daf06ee1bd2fcb01cd4c1fd0a62b424caa9411486c1e83fa56e"
+
+[[native_source]]
+path = "process_monitoring/detectors/diffusion.py"
+sha256 = "319a311f6beeeb24d4bac72ad83e0981cb6a1f445e4ff686ee62a4266a08af62"
+
+[[native_source]]
+path = "process_monitoring/detectors/dynamic_pca.py"
+sha256 = "3e77163ee882533a2dcb244e9c940a05b616632c5c7d57824002c5b70d2e97a7"
+
+[[native_source]]
+path = "process_monitoring/detectors/ensemble.py"
+sha256 = "5eecebe7eb1f8fae067de5cb4db9d8cd2d5d702dc5a81447151de0701f08d6d8"
+
+[[native_source]]
+path = "process_monitoring/detectors/graph_infomax.py"
+sha256 = "d3674a12d5071a276553b8ec1be83c3bd10f4ed3c8c936464f2bf1f7eaf44b13"
+
+[[native_source]]
+path = "process_monitoring/detectors/neural.py"
+sha256 = "007f3a7645c48aef9f7325576dd6123fb8257ada4c5039c7905626fce1749b0a"
+
+[[native_source]]
+path = "process_monitoring/detectors/online.py"
+sha256 = "f8283e37aee2eeb58abebfd75eb1bedde522ee44874e3d6c4f2cba4a4caa4d07"
+
+[[native_source]]
+path = "process_monitoring/detectors/statistical.py"
+sha256 = "0be2bf4fc9e2d9c0194ccca432e3acb29ee2012dcd7973052a7212d82bc77b1f"
+
+[[native_source]]
+path = "process_monitoring/detectors/temporal.py"
+sha256 = "0a1d9c4491299fb00dbf637c7722b73cf3748df323598e75a5c96e0e7b0a6ea1"
+
+[[native_source]]
+path = "process_monitoring/evaluation.py"
+sha256 = "53de249438ebf94380f57c80128ff829a2bd7e329abd44a1e4258cca2af0d9c2"
+
+[[native_source]]
+path = "process_monitoring/events.py"
+sha256 = "9b65722ab6436a50892a1526dcabf55ab293aa7b38c97cb573e9640fba576b8d"
+
+[[native_source]]
+path = "process_monitoring/features.py"
+sha256 = "b36ca1f9b1c9aaeb9f89f1579e80c2c60b2c44442b14e59ae5b1a5cc87286a67"
+
+[[native_source]]
+path = "process_monitoring/multimodal.py"
+sha256 = "57d07b91ef7cb2d75f35126de823e27f70f7f4df55c2461cf13bd04de04c3c60"
+
+[[native_source]]
+path = "process_monitoring/pipeline.py"
+sha256 = "c38f06ce7703ce7e941a348d6cfe84f9ecd7efffe4954bece541d9534ab9733c"
+
+[[native_source]]
+path = "process_monitoring/preprocessing.py"
+sha256 = "dd9c99c3fd3089c6edef43162a8f27e7fa1365a41e4cdff01d186fae29f4e06c"
+
+[[native_source]]
+path = "process_monitoring/provenance.py"
+sha256 = "fd6e01c383c21d0fa9dafedd07fb65d76f6e79fafa4fc98aea3c1ad4241c8dfe"
+
+[[native_source]]
+path = "process_monitoring/quality.py"
+sha256 = "124c70df5ae6006cc1f55f340594c00afa794b83249568b22f73d75cfbfb0f6b"
+
+[[native_source]]
+path = "process_monitoring/registry.py"
+sha256 = "418e6bf914ff1bbf1a0c6c3e385ddf4dd9918fca5ffd02dc1e92372fa59dc38a"
+
+[[native_source]]
+path = "process_monitoring/streaming.py"
+sha256 = "f4388a8a70100665688d4a5d459e5c1b3e5246411642e20c03109117bf7574ed"
+
+[[native_source]]
+path = "process_monitoring/thermo.py"
+sha256 = "8fb1e22a27650bfb62b64dc84a9bfdf3dd9b0655053696c4658226cca158dc67"
+
+[[dependency_wheel]]
+name = "scikit-learn"
+version = "1.9.1"
+url = "https://files.pythonhosted.org/packages/72/8d/27c054166bac671770d1ea0ef7716134fe8119c0df224a58c89fd735a61c/scikit_learn-1.9.1-cp312-cp312-win_amd64.whl"
+sha256 = "4b59abb30618121cc46b45972d6bf53a7128b4df4cd346c6ca6f4d5f9031e49c"
+license_id = "BSD-3-Clause"
+[[dependency_wheel.license_file]]
+path = "scikit_learn-1.9.1.dist-info/licenses/COPYING"
+sha256 = "014b1b1ad74cf00997f7081a1635c3c203cd70c08f39c13d9a39347fcd464979"
+
+[[dependency_wheel]]
+name = "joblib"
+version = "1.6.0"
+url = "https://files.pythonhosted.org/packages/18/53/84099323c2ec4be98d935f63c033ac4151ee83836ca1050ede3b3aadf155/joblib-1.6.0-py3-none-any.whl"
+sha256 = "3dbbf9f6e4b592a2357b854608e980fe6390d131d7a82f011a377ef2ebef7aba"
+license_id = "BSD-3-Clause"
+[[dependency_wheel.license_file]]
+path = "joblib-1.6.0.dist-info/licenses/LICENSE.txt"
+sha256 = "42612911c1872c5e4b43f6ae0e8ee59467cd350332241cf72ce90640264fae6a"
+
+[[dependency_wheel]]
+name = "cloudpickle"
+version = "3.1.2"
+url = "https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl"
+sha256 = "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a"
+license_id = "BSD-3-Clause"
+[[dependency_wheel.license_file]]
+path = "cloudpickle-3.1.2.dist-info/licenses/LICENSE"
+sha256 = "3029ea34173e9fdc233ad315dc6b100bd1ea71f529b1c1af97664a272fdc55f5"
+
+[[dependency_wheel]]
+name = "threadpoolctl"
+version = "3.7.0"
+url = "https://files.pythonhosted.org/packages/43/3f/f88a53f60a472b46f4023f56d204dd7de33d34c5d2acbfa0d70a674e639e/threadpoolctl-3.7.0-py3-none-any.whl"
+sha256 = "cd8b60b5641b45c67bbf73c64c843235fc2d8a480c87389f52f5dbee893b86be"
+license_id = "BSD-3-Clause"
+[[dependency_wheel.license_file]]
+path = "threadpoolctl-3.7.0.dist-info/licenses/LICENSE"
+sha256 = "81ac619075248b06e53660b652d10e485f4675f5d0ae0f97ea22370da1f7e23b"
+
+[[dependency_wheel]]
+name = "narwhals"
+version = "2.28.0"
+url = "https://files.pythonhosted.org/packages/cf/82/8ef9c7e0f50493307a49c09cfa7f00c5a778b6d1921f7b2dabe1d3a5809e/narwhals-2.28.0-py3-none-any.whl"
+sha256 = "1f69d6385ec30e2fa6e1fdeb37c562ecabd0f713f6f3e3b58a668c5c9df9567f"
+license_id = "MIT"
+[[dependency_wheel.license_file]]
+path = "narwhals-2.28.0.dist-info/licenses/LICENSE.md"
+sha256 = "811445f30147b8f0c9d444c9025fd528f9532c54b7b83f6e2368473dc91cfdf0"

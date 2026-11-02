@@ -1,0 +1,27 @@
+key = "soe-fault-operation"
+title = "SOE operation under 4 faulty conditions"
+doi = "10.5281/zenodo.10648884"
+version = "1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/10648884"
+metadata_reviewed_at = "2026-10-31"
+authors = ["Group of Energy Materials, EPFL"]
+families = ["electrolysis", "solid_oxide_electrolysis", "fault_operation", "process_monitoring"]
+rights_permitted = true
+raw_redistribution_admitted = false
+license_scope = "Zenodo record API declares CC BY 4.0 for the dataset; the individual MAT-file contents and embedded third-party rights were not reviewed. Cite the dataset and creator if reused."
+validation_qualified = false
+listed_file_count = 11
+listed_total_bytes = 1092175741
+acquired_bytes = 0
+acquisition_status = "identified_not_acquired"
+acquisition_note = "Record describes polarization, temperature, pressure, and flow-rate measurements from a six-repeating-unit, 80 cm2 electrolyzer under four fault conditions: hydrogen starvation, high steam conversion, humidity at the oxygen electrode, and silicon poisoning of the fuel electrode. The 1.092 GB collection requires targeted file/schema review before acquisition."
+integration_status = "metadata_only_gap_contract"
+candidate_existing_models = ["h2physics.electrochemistry.HydrogenStack", "h2physics.adapters.process_monitoring"]
+model_linkage_admitted = false
+missing_evidence = ["file-to-fault/run mapping", "MAT object names and shapes", "channel units and sign conventions", "common clock and sampling cadence", "stack current/voltage and active-area interpretation", "gas flow basis and reference state", "temperature/pressure sensor locations and calibration", "fault onset/transition annotations"]
+metadata_contract_case = "soe-fault-operation-data-schema-gap"
+author_request = "requests/soe_fault_operation_data_request.md"
+

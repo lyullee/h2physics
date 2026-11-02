@@ -1,0 +1,42 @@
+key = "hydrogen-permeation-ms-ahss-1300"
+title = "Hydrogen permeation test on MS AHSS grade 1300"
+doi = "10.17632/tnsgf7v76z.1"
+version = "1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://data.mendeley.com/public-api/datasets/tnsgf7v76z/snapshot/1"
+metadata_sha256 = "4546c7c4ec577d12f0f688ce920a13d514bb2c05e391fd574ad268ac6fa5f1a7"
+authors = ["Giuseppe Macoretta"]
+families = ["materials", "hydrogen_transport", "permeation", "advanced_high_strength_steel"]
+rights_permitted = true
+rights_basis = "The publisher record states CC BY 4.0. Retain contributor credit, license link, and notice of changes; third-party material identified within the attachment may require separate permission."
+license_scope = "Publisher record-level grant. Internal workbook notices and third-party components have not received a separate rights audit."
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 88885
+omitted_files = []
+model_use = "Measured time/current traces from two cathodic-current ramp groups; data are preserved as source observations and are not converted to a diffusivity or boundary flux."
+schema_audit = "Workbook has two sheets with 1261 and 600 rows and six columns. Both sheets have row-1 headers and material labels in E3. Sheet 1 retains 1260 time/current observations in rows 2 through 1261; sheet 2 retains 599 observations in rows 2 through 600. Original UTF-8 sharedStrings XML and openpyxl independently resolve the header Greek mu (U+03BC) as microampere (1e-6 A). Earlier console output rendered this glyph incorrectly; no replacement characters occur in the source unit. Temperature header reports 293 K; the material label is MS AHSS grade 1300."
+limitations = "Pinned publisher metadata method specifies a 50 by 50 by 1.2 mm specimen, Pd-coated anodic face and 0.1 M NaOH. Specimen planform is not verified exposed electrode area; thickness alone does not recover the missing boundary. No surface concentration, current-to-hydrogen flux efficiency, full time-dependent boundary condition or independent normalization definition is assigned. No parameter fitting or material qualification follows."
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/tnsgf7v76z/files?folder_id=root&version=1&$start=0&$limit=1000"
+sha256 = "d23a9b0fc10fac770f1289d98612883ae1fb90e11b1539f5d5a5a699a186bb37"
+
+[[files]]
+name = "Permeation_MS AHSS 1300.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/tnsgf7v76z/files/64121556-2ab2-4aec-8a20-4bc51d48ad44/file_downloaded"
+relative_path = "hydrogen-permeation-ms-ahss-1300/1/Permeation_MS AHSS 1300.xlsx"
+size_bytes = 88885
+sha256 = "117d75a3f8329456732beada95b8f2be8bda688da88e6b8c7c83a9ee49698b3b"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "117d75a3f8329456732beada95b8f2be8bda688da88e6b8c7c83a9ee49698b3b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[sources]]
+title = "Mendeley Data publisher record"
+url = "https://data.mendeley.com/datasets/tnsgf7v76z/1"
+role = "Version, contributor, license and experimental-method metadata."

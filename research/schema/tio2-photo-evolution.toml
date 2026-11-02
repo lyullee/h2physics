@@ -1,0 +1,11 @@
+dataset = "tio2-photo-evolution"
+doi = "10.5281/zenodo.15277951"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "Dataset.zip"
+format = "zip"
+archive_members = 41
+numeric_members = 0
+program_members_not_executed = 0

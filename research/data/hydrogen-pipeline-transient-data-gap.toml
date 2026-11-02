@@ -1,0 +1,101 @@
+key = "hydrogen-pipeline-transient-data-gap"
+title = "Public source audit: measured hydrogen pipeline pressure/flow transients"
+doi = ""
+version = "source search audit 2026-11-01"
+origin = "source_gap"
+license_id = "No qualifying experimental dataset found in reviewed sources"
+metadata_url = "https://zenodo.org/records/17871393"
+authors = ["Hydrogen Physical Models source audit"]
+families = ["hydrogen_pipeline", "pressure_waves", "transient_flow", "data_gap"]
+rights_permitted = false
+rights_evidence_url = ""
+validation_qualified = false
+listed_file_count = 0
+acquired_file_count = 0
+acquired_bytes = 0
+retrieved_at_utc = "2026-11-01"
+raw_data_acquired = false
+source_gap = "No reviewed public source combines measured synchronized absolute pressure at two or more axial pipe taps and inlet/outlet mass flow for pure H2 or a fully specified blend, with pipe geometry, clock/instrument metadata, versioned file checksums, and explicit redistribution rights."
+search_scope = ["Zenodo H2-SimNet v2", "TRR154 InstationaryGasNetworks and GasLib transient data", "Mendeley Portuguese high-pressure hydrogen-blend network outputs", "Mendeley Guo buried hydrogen-blend leak experiment", "NIST Transient Flow Facility and public field-test-standard records", "2024 peer-reviewed hydrogen-pipeline transient-method review", "Zenodo Friction and Roughness v6: primary record, dataset schema, README and software license"]
+search_methods = ["Inspect primary repository records and official source pages for measured-versus-simulated provenance", "Read license and access metadata independently from dataset descriptions", "Record file size/checksum only when the public repository exposes them", "Do not download synthetic or out-of-scope large data files", "Do not digitize figures or infer unlabelled channels"]
+qualification_contract = ["Two or more axial absolute-pressure measurements with declared tap locations and units", "Synchronized inlet/outlet mass-flow measurement with units and support interval", "Pure hydrogen or fully specified mixture composition", "Pipe length, inside diameter, wall, roughness and boundary conditions", "Valve/isolation event trajectory and run clock mapping", "Instrument calibration, bandwidth, sampling cadence, uncertainty and synchronization", "Versioned file inventory, checksums and explicit redistribution/adaptation license"]
+next_action = "Keep Request036 open; seek a source-custodian release meeting the qualification contract. Treat H2-SimNet and GasLib as separate software/scenario benchmarks only, not independent physical-validation data."
+
+[[candidates]]
+id = "friction-roughness-zenodo-v6"
+title = "Friction and Roughness: Dataset and Software"
+url = "https://zenodo.org/records/20025373"
+doi = "10.5281/zenodo.20025373"
+version = "v6"
+origin = "measured steady hydraulic operating points"
+license_id = "MIT software license present; experimental data reuse scope unresolved"
+access_right = "open"
+file_name = "dataset.csv"
+size_bytes = 223
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d0d9f2de7cf95294d7e84a99be1c5d01"
+schema_claim = "Primary README identifies inlet/outlet pressure head in m, volumetric flow in m3/s and kinematic viscosity in m2/s. The published text preview has six steady operating-point rows. The README requires experimental pipe diameter and length but supplies only zero placeholders in its demonstration. No hydrogen composition or synchronized transient clock is established."
+rights_evidence_url = "https://zenodo.org/records/20025373/files/LICENSE?download=1"
+schema_evidence_url = "https://zenodo.org/records/20025373/files/README.md?download=1"
+exclusion_reason = "Not qualified for hydrogen steady or transient pipeline validation: fluid/composition and geometry are not established, observations are steady rather than timed runs, and the MIT text addresses software without an unambiguous experimental-data grant in the reviewed record. No local raw acquisition, redistribution or model fitting performed."
+
+[[candidates]]
+id = "h2-simnet-zenodo-v2"
+title = "H2-SimNet Dataset: A Simulation-based Dataset for Anomaly Detection in Hydrogen Blend Transport Networks"
+url = "https://zenodo.org/records/17871393"
+doi = "10.5281/zenodo.17871393"
+version = "v2"
+origin = "simulated"
+license_id = "CC-BY-4.0"
+access_right = "open"
+file_name = "H2-SimNet-Dataset.zip"
+size_bytes = 509236976
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "15bc64a3afc9e2990c9db66eb37617de"
+schema_claim = "Zenodo record describes CSV and Parquet time series with simulated pressure and mass-flow sensors distributed across an H2-blend network; internal archive members and exact channel schema were not inspected."
+exclusion_reason = "The data are generated from a MATLAB/Simscape model, not measurements. It cannot independently validate physical pipeline dynamics. Not downloaded."
+
+[[candidates]]
+id = "trr154-instationary-gas-networks"
+title = "Instationary Gas Networks / transient GasLib extensions"
+url = "https://github.com/TRR154/InstationaryGasNetworks"
+version = "repository main, inspected 2026-11-01"
+origin = "benchmark boundary schedules and network state files"
+license_id = "Apache-2.0 repository declaration; GasLib network files separately CC-BY-3.0"
+access_right = "public"
+schema_claim = "Source README and transient data page expose XML .bcd time-dependent pressure/flow boundary values and .state snapshots, with XSD schemas. These are scenario input/initial-state records for GasLib instances, not observed sensor histories."
+exclusion_reason = "Not a hydrogen experimental run; useful for solver input interoperability only. No download or redistribution planned in this audit."
+
+[[candidates]]
+id = "portuguese-h2-blend-steady-network-results"
+title = "Impact of Natural Gas Composition on Green Hydrogen Blending Capacity in the Portuguese High-Pressure Gas Network"
+url = "https://data.mendeley.com/datasets/568k39mky7/1"
+doi = "10.17632/568k39mky7.1"
+version = "v1"
+origin = "simulated optimization outputs"
+license_id = "CC-BY-4.0"
+access_right = "open"
+schema_claim = "Repository description states an Excel workbook contains nodal and branch results for hourly steady-state optimization of a six-node, five-segment corridor. Exact workbook file receipt and sheet schema were not audited."
+exclusion_reason = "Steady-state NLP output, not measured transient pressure/flow data. No download in this audit."
+
+[[candidates]]
+id = "guo-buried-h2-blend-pipeline-v2"
+title = "Experimental Study of Pre-ignition Dispersion Dynamics and Flammable Cloud Formation from Buried Hydrogen-Blended Natural Gas Pipeline to Semi-Confined Space"
+url = "https://doi.org/10.17632/x8zkds4fyn.2"
+doi = "10.17632/x8zkds4fyn.2"
+version = "v2"
+origin = "measured buried leak and surface-cloud observations"
+license_id = "CC-BY-4.0"
+local_manifest = "research/data/buried-h2-blend-pipeline.toml"
+schema_claim = "Existing acquired files retain positional raw cells but the released data reviewed by this project do not establish a channel dictionary, engineering units or synchronized line pressure/flow taps."
+exclusion_reason = "Relevant measured leak experiment but wrong observation plane and insufficient schema for Request036. Do not infer meanings from anonymous columns."
+
+[[candidates]]
+id = "nist-transient-flow-facility"
+title = "NIST Transient Flow Facility"
+url = "https://www.nist.gov/programs-projects/transient-flow-facility"
+version = "official public project page inspected 2026-11-01"
+origin = "facility description and metrology records"
+license_id = "No raw experiment dataset license found"
+schema_claim = "Public page describes pressure, temperature and flow transients for hydrogen dispenser-meter metrology; reviewed pages do not expose raw pipe-wave run files or a file inventory."
+exclusion_reason = "No downloadable, checksum-pinned experimental trace package found."

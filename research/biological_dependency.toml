@@ -1,0 +1,451 @@
+package = "qsdsan"
+version = "1.5.3"
+role = "Optional native isothermal ADM1 finite liquid/headspace process"
+license_id = "NCSA"
+installed_license_note = "QSDsan, BioSTEAM and Thermosteam installed LICENSE.txt all grant NCSA; BioSTEAM/Thermosteam PyPI metadata also says MIT, so actual installed LICENSE controls this review."
+bundled_in_host = false
+experimental_validation_claimed = false
+metadata_url = "https://pypi.org/pypi/qsdsan/1.5.3/json"
+repository_url = "https://github.com/QSD-Group/QSDsan"
+observed_repository_revision = "bac88d8fca9d86a01dbfc5694cd4c0fe23f9a259"
+observed_revision_is_installed_release = false
+install_report_sha256 = "87f7c54edb9b6c2aff7d94f682af02f9453a3e3121a63ba5e06d2bbe7e4bf544"
+dependency_note = "Main environment unchanged. Isolated optional target. numpoly1.3.9 source build failed because MSVC14 absent; published pure Python numpoly1.2.14 satisfies native dependency constraint. No native source, coefficient matrix or datasets distributed by host."
+
+[[resolved_distribution]]
+name = "qsdsan"
+version = "1.5.3"
+url = "https://files.pythonhosted.org/packages/73/e6/6bbdf4618e7c8db9cea0f02fd50de0d8453ff3a9543029a326eaa05250e0/qsdsan-1.5.3-py3-none-any.whl"
+sha256 = "b91c5eff069a3703a47e0a2f9b26e8fe8fa875c1f50c7f1a59b5e34a96e33476"
+
+[[resolved_distribution]]
+name = "numpoly"
+version = "1.2.14"
+url = "https://files.pythonhosted.org/packages/3d/e0/29a9011e0be93a73a906919951996cc61e0bb50bf2b676e6a0f6d33edf7e/numpoly-1.2.14-py3-none-any.whl"
+sha256 = "8dbdc29de9212b415661577bebe186a1d35e14edab80c2969e61a421f2865ea5"
+
+[[resolved_distribution]]
+name = "biosteam"
+version = "2.54.0"
+url = "https://files.pythonhosted.org/packages/17/75/bd5b84a9dc5a0344317a5e892c48752835cca399221ddc4a772762232d11/biosteam-2.54.0.tar.gz"
+sha256 = "fa830cad7a544f892a9d2fc6fd32eb60fc5717b31498a2a57fb3258c477e3f36"
+
+[[resolved_distribution]]
+name = "numpy"
+version = "2.5.4"
+url = "https://files.pythonhosted.org/packages/12/33/fefe62073dc8acfd0f2b9ed7c003af2f50aa61555e113e6db02b8f79f145/numpy-2.5.4-cp312-cp312-win_amd64.whl"
+sha256 = "a7b1b6353e36a7e50de2973a38d705c88ee93adcf120673cee7f45a4a3fa223a"
+
+[[resolved_distribution]]
+name = "SALib"
+version = "1.6.0"
+url = "https://files.pythonhosted.org/packages/10/d9/1d2e123d88c388956c3ffd09de804043f3ec77a84e425e6b620d0c3f080b/salib-1.6.0-py3-none-any.whl"
+sha256 = "4bb4f03651543fd883c849e73595bca1e8b5e5e0b6562f6902262ef9bde615df"
+
+[[resolved_distribution]]
+name = "setuptools"
+version = "84.2.1"
+url = "https://files.pythonhosted.org/packages/ef/55/6dc6d6bb953bdfc52519a0059592c52b6e3b8ad51cf8256dffceb55b0610/setuptools-84.2.1-py3-none-any.whl"
+sha256 = "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2"
+
+[[resolved_distribution]]
+name = "sympy"
+version = "1.14.0"
+url = "https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl"
+sha256 = "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5"
+
+[[resolved_distribution]]
+name = "thermosteam"
+version = "0.54.2"
+url = "https://files.pythonhosted.org/packages/7c/72/ac49f5331eb605ceccbf751a6dc615b5270279bfb02f785484a97be4e258/thermosteam-0.54.2.tar.gz"
+sha256 = "4a8a6a03c52ba186f773ae5fabc1a19636bdf1635d57ac4fe580a10044da50f1"
+
+[[resolved_distribution]]
+name = "importlib_metadata"
+version = "10.1.0"
+url = "https://files.pythonhosted.org/packages/65/b6/495438ad95e0102aff8f6786b5474202f38cd5d4700d03a72b77977dec10/importlib_metadata-10.1.0-py3-none-any.whl"
+sha256 = "cf45ce66a929c64e994185a809c04840d0501db17e663810d993d0f4829265c7"
+
+[[resolved_distribution]]
+name = "seaborn"
+version = "0.13.2"
+url = "https://files.pythonhosted.org/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl"
+sha256 = "636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987"
+
+[[resolved_distribution]]
+name = "chaospy"
+version = "4.3.21"
+url = "https://files.pythonhosted.org/packages/b6/85/7c5aaf5b00e8240fda374828c74ea5eb9e7819edb0472838625b026bcc70/chaospy-4.3.21-py3-none-any.whl"
+sha256 = "d68b7c54d316df7d9b6354489741043e8085a651696c227e785119b0ebaaf8a1"
+
+[[resolved_distribution]]
+name = "colorpalette"
+version = "0.3.3"
+url = "https://files.pythonhosted.org/packages/bf/c2/1b8de77cebbe8a825ff2e90a35238f707cb7d5e88f52b6e993686afecd9c/colorpalette-0.3.3.tar.gz"
+sha256 = "e4bb8f5b087b5719bd01e39a4df2a646db15cad9fe765234dd8ba85b47488ceb"
+
+[[resolved_distribution]]
+name = "flexsolve"
+version = "0.5.10"
+url = "https://files.pythonhosted.org/packages/ca/c5/0d1ff900040541a1a54a35a0791ec1ea80d3e0e6677dd66506c1734da0d9/flexsolve-0.5.10.tar.gz"
+sha256 = "5b90db0d79881fe6f685e8458c0ed88fc1b958e6e383467e1db7f9d40d6fc5c0"
+
+[[resolved_distribution]]
+name = "graphviz"
+version = "0.21"
+url = "https://files.pythonhosted.org/packages/91/4c/e0ce1ef95d4000ebc1c11801f9b944fa5910ecc15b5e351865763d8657f8/graphviz-0.21-py3-none-any.whl"
+sha256 = "54f33de9f4f911d7e84e4191749cac8cc5653f815b06738c54db9a15ab8b1e42"
+
+[[resolved_distribution]]
+name = "hensmith"
+version = "0.1.2"
+url = "https://files.pythonhosted.org/packages/f4/72/22cd2ef6b07436ed730b91557a277a568226da4b622a03412bafffd908ee/hensmith-0.1.2-py3-none-any.whl"
+sha256 = "a8209305f4b0219d6e6f9f244a9eaff11edff125b38ae4493ba92afe238cede6"
+
+[[resolved_distribution]]
+name = "ipython"
+version = "9.17.1"
+url = "https://files.pythonhosted.org/packages/2d/1e/65b59cf518c106aa755e7f7da3099027738687a862ec785060702a481320/ipython-9.17.1-py3-none-any.whl"
+sha256 = "6d1645743cfd1a07eb695d85aa2b5fa66721f8cbae9431d4049f7084bbf06509"
+
+[[resolved_distribution]]
+name = "matplotlib"
+version = "3.11.2"
+url = "https://files.pythonhosted.org/packages/04/93/0d239bde12b308262265c2d98909b2f0ecad2b5deeae96241642e822e9c7/matplotlib-3.11.2-cp312-cp312-win_amd64.whl"
+sha256 = "c5c1c68ee401fc98271263410f0e5ce88285abacf7627132914e8adf3d70ff43"
+
+[[resolved_distribution]]
+name = "mpmath"
+version = "1.3.0"
+url = "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl"
+sha256 = "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c"
+
+[[resolved_distribution]]
+name = "numba"
+version = "0.68.0"
+url = "https://files.pythonhosted.org/packages/7e/2b/1b1f8b118cec28513665d8a53ff4f037d6c05720bd9e6f32f947c93c367f/numba-0.68.0-cp312-cp312-win_amd64.whl"
+sha256 = "530961dc7e41ee358eca2b828baf7b645ce6fa466d778bb9dc73855dd103c4f7"
+
+[[resolved_distribution]]
+name = "openpyxl"
+version = "3.1.5"
+url = "https://files.pythonhosted.org/packages/c0/da/977ded879c29cbd04de313843e76868e6e13408a94ed6b987245dc7c8506/openpyxl-3.1.5-py2.py3-none-any.whl"
+sha256 = "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
+
+[[resolved_distribution]]
+name = "pandas"
+version = "3.1.0"
+url = "https://files.pythonhosted.org/packages/10/72/06aefff8fe5efc5e1ca8bfb2695b648a435358f6dc224d4e40159314181a/pandas-3.1.0-cp312-cp312-win_amd64.whl"
+sha256 = "b8c75dbb27c7d170b25c13dd35515da4bb92d40fe8bb3bd2c69a95de2218889b"
+
+[[resolved_distribution]]
+name = "Pint"
+version = "0.26.2"
+url = "https://files.pythonhosted.org/packages/b7/d5/01ea71591a29e88926582e3ca7ed32f8b933e9ebc99187a7ab100587242d/pint-0.26.2-py3-none-any.whl"
+sha256 = "c94124cdb19baa1a84bb65c8bb9a620a9636b9b9cd80f32f30ad7ff795ea2eb8"
+
+[[resolved_distribution]]
+name = "scipy"
+version = "1.18.1"
+url = "https://files.pythonhosted.org/packages/39/e7/979fd14e75008623df31ba70d6bb144700f68feadcea042021c06a05bf82/scipy-1.18.1-cp312-cp312-win_amd64.whl"
+sha256 = "5e4d44984abc0020154ea81b247adeddcc3ac5527b975ff798bd1ba0adc513c2"
+
+[[resolved_distribution]]
+name = "thermo"
+version = "0.6.1"
+url = "https://files.pythonhosted.org/packages/16/e2/64dae8ca4cd2318a49428222646618318def328d2ebe7d64d77aeb12be26/thermo-0.6.1-py3-none-any.whl"
+sha256 = "0c16937885feddcb0d4d1589b4ebdef22c186302a83fbac7ed51fc252a451048"
+
+[[resolved_distribution]]
+name = "xlrd"
+version = "2.0.2"
+url = "https://files.pythonhosted.org/packages/1a/62/c8d562e7766786ba6587d09c5a8ba9f718ed3fa8af7f4553e8f91c36f302/xlrd-2.0.2-py2.py3-none-any.whl"
+sha256 = "ea762c3d29f4cca48d82df517b6d89fbce4db3107f9d78713e48cd321d5c9aa9"
+
+[[resolved_distribution]]
+name = "zipp"
+version = "4.1.2"
+url = "https://files.pythonhosted.org/packages/b8/44/7bd2007260da11cccca29ba2d4c345f1287aa663db38ee7cefeabf6386a5/zipp-4.1.2-py3-none-any.whl"
+sha256 = "b30cb6cd253122169c47de245ca24a86bac2a5d3802ba15bf7ba6414eb9e144d"
+
+[[resolved_distribution]]
+name = "CoolProp"
+version = "8.0.0"
+url = "https://files.pythonhosted.org/packages/3b/8b/e3741cc791868ade376a7c3b46965ce2b4b5cd1fa73550632be74f801e1d/coolprop-8.0.0-cp312-abi3-win_amd64.whl"
+sha256 = "f1f78a2ee9ce703c496a42a68cde9bd6f22b2b964375c2abba39d6dc879918d3"
+
+[[resolved_distribution]]
+name = "ImageIO"
+version = "2.38.1"
+url = "https://files.pythonhosted.org/packages/7d/8a/3b7f62b9df56460959f1b9bef094248d2a4d7f393c5b0d2da8efcdf0e40e/imageio-2.38.1-py3-none-any.whl"
+sha256 = "36d23eb7423d2fb63f637098758edb3d2df3687f7125e0a5ce8596572022dcf9"
+
+[[resolved_distribution]]
+name = "multiprocess"
+version = "0.70.19"
+url = "https://files.pythonhosted.org/packages/71/70/38998b950a97ea279e6bd657575d22d1a2047256caf707d9a10fbce4f065/multiprocess-0.70.19-py312-none-any.whl"
+sha256 = "3a56c0e85dd5025161bac5ce138dcac1e49174c7d8e74596537e729fd5c53c28"
+
+[[resolved_distribution]]
+name = "pydot"
+version = "4.0.1"
+url = "https://files.pythonhosted.org/packages/7e/32/a7125fb28c4261a627f999d5fb4afff25b523800faed2c30979949d6facd/pydot-4.0.1-py3-none-any.whl"
+sha256 = "869c0efadd2708c0be1f916eb669f3d664ca684bc57ffb7ecc08e70d5e93fee6"
+
+[[resolved_distribution]]
+name = "pyglet"
+version = "2.1.19"
+url = "https://files.pythonhosted.org/packages/75/f7/e5c199eb9c5cb3aae817f9102ba6c64f0c82fd4eb69a5d13dc0b1bc98ec0/pyglet-2.1.19-py3-none-any.whl"
+sha256 = "5ba6e8cb0b5ac56a284e43ab411e2bbd504191c32a765abdbd6a6c4b7f1ca317"
+
+[[resolved_distribution]]
+name = "PyYAML"
+version = "6.0.3"
+url = "https://files.pythonhosted.org/packages/86/bf/899e81e4cce32febab4fb42bb97dcdf66bc135272882d1987881a4b519e9/pyyaml-6.0.3-cp312-cp312-win_amd64.whl"
+sha256 = "5fcd34e47f6e0b794d17de1b4ff496c00986e1c83f7ab2fb8fcfe9616ff7477b"
+
+[[resolved_distribution]]
+name = "chemicals"
+version = "1.5.2"
+url = "https://files.pythonhosted.org/packages/22/f5/59eea489c5faf02e651744057bb93d89aacf6c3c3f404abbc4217b7ceae1/chemicals-1.5.2-py3-none-any.whl"
+sha256 = "f85ef7f36e77fee634686c26562929ee61026cd548d89cebd57b2251ca843d6e"
+
+[[resolved_distribution]]
+name = "colorama"
+version = "0.4.6"
+url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl"
+sha256 = "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+
+[[resolved_distribution]]
+name = "contourpy"
+version = "1.4.0"
+url = "https://files.pythonhosted.org/packages/50/a9/dab08786bb4d77ef9a046b3c1be923be4e73c5d07d91f5a54e8ea9b09e41/contourpy-1.4.0-cp312-cp312-win_amd64.whl"
+sha256 = "6e697d94e69f499ff6bebb899cae97a58d5d14f0e1fe9568b43a0248d2f9af8c"
+
+[[resolved_distribution]]
+name = "cycler"
+version = "0.12.1"
+url = "https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl"
+sha256 = "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30"
+
+[[resolved_distribution]]
+name = "dill"
+version = "0.4.1"
+url = "https://files.pythonhosted.org/packages/1e/77/dc8c558f7593132cf8fefec57c4f60c83b16941c574ac5f619abb3ae7933/dill-0.4.1-py3-none-any.whl"
+sha256 = "1e1ce33e978ae97fcfcff5638477032b801c46c7c65cf717f95fbc2248f79a9d"
+
+[[resolved_distribution]]
+name = "flexcache"
+version = "0.3"
+url = "https://files.pythonhosted.org/packages/27/cd/c883e1a7c447479d6e13985565080e3fea88ab5a107c21684c813dba1875/flexcache-0.3-py3-none-any.whl"
+sha256 = "d43c9fea82336af6e0115e308d9d33a185390b8346a017564611f1466dcd2e32"
+
+[[resolved_distribution]]
+name = "flexparser"
+version = "0.4"
+url = "https://files.pythonhosted.org/packages/fe/5e/3be305568fe5f34448807976dc82fc151d76c3e0e03958f34770286278c1/flexparser-0.4-py3-none-any.whl"
+sha256 = "3738b456192dcb3e15620f324c447721023c0293f6af9955b481e91d00179846"
+
+[[resolved_distribution]]
+name = "fluids"
+version = "1.3.1"
+url = "https://files.pythonhosted.org/packages/ee/d3/40646ac276d7d06abd4e8a796efcb44e9cb1fc0b66aaed54be5d4675fc6d/fluids-1.3.1-py3-none-any.whl"
+sha256 = "d9097efe57c910ac14b89a1984d5e7062ee9df1afc84e089d944fdd85404e361"
+
+[[resolved_distribution]]
+name = "fonttools"
+version = "4.67.0"
+url = "https://files.pythonhosted.org/packages/c1/3a/625a6dd0173e88dbea1826405b4bcbfa06c6ca095310ed720caba36b2e43/fonttools-4.67.0-cp312-cp312-win_amd64.whl"
+sha256 = "2bfab2f5d1d255dec82f4bd082a1c10e77df808e42210890f50a9c30bf91570e"
+
+[[resolved_distribution]]
+name = "ipython_pygments_lexers"
+version = "1.1.1"
+url = "https://files.pythonhosted.org/packages/d9/33/1f075bf72b0b747cb3288d011319aaf64083cf2efef8354174e3ed4540e2/ipython_pygments_lexers-1.1.1-py3-none-any.whl"
+sha256 = "a9462224a505ade19a605f71f8fa63c2048833ce50abc86768a0d81d876dc81c"
+
+[[resolved_distribution]]
+name = "jedi"
+version = "0.20.1"
+url = "https://files.pythonhosted.org/packages/be/c7/71eb0d51cdcbb63b857c931aa4e9218b078b5d9f8ecd383b234f28fe7b0f/jedi-0.20.1-py2.py3-none-any.whl"
+sha256 = "0fb16d86c4a4c73c37ba518c77419975e30fcc620658a8d14fbb5720cdd34142"
+
+[[resolved_distribution]]
+name = "kiwisolver"
+version = "1.5.1"
+url = "https://files.pythonhosted.org/packages/6e/7c/7b210498f9f92e1cd7855f260fa69ef056881087b199ee20c208f0e4189a/kiwisolver-1.5.1-cp312-cp312-win_amd64.whl"
+sha256 = "06a6917674de9e0fe3f66f5430787f59a9f2ddb64af9b714eaec547e29ef5c19"
+
+[[resolved_distribution]]
+name = "llvmlite"
+version = "0.50.0"
+url = "https://files.pythonhosted.org/packages/64/70/f395702c20b514363061055b5bdebe3513e544139e6d412a5c86e8ea0b30/llvmlite-0.50.0-cp312-cp312-win_amd64.whl"
+sha256 = "c20595cc3a76e3c85140fdafbf9246c732ddf8e0e646ba2f4e4881f87567300d"
+
+[[resolved_distribution]]
+name = "matplotlib-inline"
+version = "0.2.2"
+url = "https://files.pythonhosted.org/packages/41/09/5b161152e2d90f7b87f781c2e1267494aef9c32498df793f73ad0a0a494a/matplotlib_inline-0.2.2-py3-none-any.whl"
+sha256 = "3c821cf1c209f59fb2d2d64abbf5b23b67bcb2210d663f9918dd851c6da1fcf6"
+
+[[resolved_distribution]]
+name = "packaging"
+version = "26.3"
+url = "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl"
+sha256 = "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+
+[[resolved_distribution]]
+name = "pillow"
+version = "13.0.0"
+url = "https://files.pythonhosted.org/packages/ff/cd/73a79ecdc822076002eb24b5e1e4a530b0bb5310fcb6d239abbec877110b/pillow-13.0.0-cp312-cp312-win_amd64.whl"
+sha256 = "ff3fe9eb621fbb9db4c4be33ab946f6bac5f98ab50ca8d3260503653656c961b"
+
+[[resolved_distribution]]
+name = "platformdirs"
+version = "4.13.6"
+url = "https://files.pythonhosted.org/packages/a8/24/b312a9466839b1f708eed42790b47e927dc7f774a528bb49b1cdf8b734b9/platformdirs-4.13.6-py3-none-any.whl"
+sha256 = "21fc198fb09f3e78cadcdfd8a6ae4fd65cadc64a3cba78b694321c2996114a3e"
+
+[[resolved_distribution]]
+name = "prompt_toolkit"
+version = "3.0.53"
+url = "https://files.pythonhosted.org/packages/54/6f/84908cad2d6aa5144abcf7b42709fe4fdb459bc640ec7ac5786e7693dabc/prompt_toolkit-3.0.53-py3-none-any.whl"
+sha256 = "01c0891d7f9237d5e339f7d3e42cdae80b7534abb1c7c0e3352efba6231492f2"
+
+[[resolved_distribution]]
+name = "psutil"
+version = "7.2.2"
+url = "https://files.pythonhosted.org/packages/b4/90/e2159492b5426be0c1fef7acba807a03511f97c5f86b3caeda6ad92351a7/psutil-7.2.2-cp37-abi3-win_amd64.whl"
+sha256 = "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988"
+
+[[resolved_distribution]]
+name = "Pygments"
+version = "2.21.0"
+url = "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl"
+sha256 = "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9"
+
+[[resolved_distribution]]
+name = "pyparsing"
+version = "3.3.3"
+url = "https://files.pythonhosted.org/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl"
+sha256 = "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4"
+
+[[resolved_distribution]]
+name = "python-dateutil"
+version = "3.0.0"
+url = "https://files.pythonhosted.org/packages/5a/17/cebee01d1c0c1441174cf0456ddc91b280d79acb65340c05e41d77866ee8/python_dateutil-3.0.0-py2.py3-none-any.whl"
+sha256 = "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd"
+
+[[resolved_distribution]]
+name = "stack-data"
+version = "0.6.3"
+url = "https://files.pythonhosted.org/packages/f1/7b/ce1eafaf1a76852e2ec9b22edecf1daa58175c090266e9f6c64afcd81d91/stack_data-0.6.3-py3-none-any.whl"
+sha256 = "d5558e0c25a4cb0853cddad3d77da9891a08cb85dd9f9f91b9f8cd66e511e695"
+
+[[resolved_distribution]]
+name = "traitlets"
+version = "5.16.1"
+url = "https://files.pythonhosted.org/packages/ad/66/0d785f0bc5e4315a96c989bb476d0fc07ea4f85132550c7b156ca2035d52/traitlets-5.16.1-py3-none-any.whl"
+sha256 = "f775618166caa0396c8e337099240f2bd3e5e917d203b2e6fbe21a58d3cb1f6b"
+
+[[resolved_distribution]]
+name = "typing_extensions"
+version = "4.16.0"
+url = "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl"
+sha256 = "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+
+[[resolved_distribution]]
+name = "ansicolors"
+version = "1.1.8"
+url = "https://files.pythonhosted.org/packages/53/18/a56e2fe47b259bb52201093a3a9d4a32014f9d85071ad07e9d60600890ca/ansicolors-1.1.8-py2.py3-none-any.whl"
+sha256 = "00d2dde5a675579325902536738dd27e4fac1fd68f773fe36c21044eb559e187"
+
+[[resolved_distribution]]
+name = "et_xmlfile"
+version = "2.0.0"
+url = "https://files.pythonhosted.org/packages/c1/8b/5fe2cc11fee489817272089c4203e679c63b570a5aaeb18d852ae3cbba6a/et_xmlfile-2.0.0-py3-none-any.whl"
+sha256 = "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa"
+
+[[resolved_distribution]]
+name = "tzdata"
+version = "2026.5"
+url = "https://files.pythonhosted.org/packages/94/21/1e5995a1c920cce14e4bffae20c665ec10e7ed03ab25e006cd741092b718/tzdata-2026.5-py2.py3-none-any.whl"
+sha256 = "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac"
+
+[[resolved_distribution]]
+name = "asttokens"
+version = "3.0.2"
+url = "https://files.pythonhosted.org/packages/d4/2b/04b8a15f3a1c77bc79ddf5c73875327f34b4fa75982df2b76e45e402d364/asttokens-3.0.2-py3-none-any.whl"
+sha256 = "9da13157f5b28becde0bd374fc677dcd3c290614264eff096f167c469cd9f933"
+
+[[resolved_distribution]]
+name = "executing"
+version = "2.3.0"
+url = "https://files.pythonhosted.org/packages/4d/dd/8bc67e7d5ffc1d88aa5af511189dfb76dc4e1e5b808fab186146ef2663e5/executing-2.3.0-py3-none-any.whl"
+sha256 = "736e859c9f8701f11fcf516856f26f562e04776387824b43a35a1dfe21c84122"
+
+[[resolved_distribution]]
+name = "parso"
+version = "0.8.7"
+url = "https://files.pythonhosted.org/packages/99/5d/8268b644392ee874ee82a635cd0df1773de230bde356c38de28e298392cc/parso-0.8.7-py2.py3-none-any.whl"
+sha256 = "a8926eb2a1b915486941fdbd31e86a4baf88fe8c210f25f2f35ecec5b574ca1c"
+
+[[resolved_distribution]]
+name = "six"
+version = "1.17.0"
+url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl"
+sha256 = "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+
+[[resolved_distribution]]
+name = "wcwidth"
+version = "0.9.4"
+url = "https://files.pythonhosted.org/packages/d6/f1/c123f902bc2ff9e9c2ab66241b8872204df87cbb18ecdf035e120860fedc/wcwidth-0.9.4-cp310-abi3-win_amd64.whl"
+sha256 = "f28d77153303450ee13ebbe888297e75cf532c754555b6cabafc9bdda16c421c"
+
+[[resolved_distribution]]
+name = "pure_eval"
+version = "0.2.4"
+url = "https://files.pythonhosted.org/packages/6d/18/83376915176eb058cb86470eb7396388a13350b09a8f233a79303bbcbc5b/pure_eval-0.2.4-py3-none-any.whl"
+sha256 = "96cae060a313cfaad51bb761278bfb0e62dc0248d9315a81173752dc546cd37a"
+
+[fixed_native_solver]
+repository_url = "https://github.com/BioSTEAMDevelopmentGroup/biosteam"
+revision = "0acb320455d3c6cdaace85bf6ca27a1256706918"
+version_string = "2.54.0"
+license_id = "NCSA"
+archive_url = "https://github.com/BioSTEAMDevelopmentGroup/biosteam/archive/0acb320455d3c6cdaace85bf6ca27a1256706918.zip"
+archive_sha256 = "cdb40ab8bf67921de2250d73d95148978f1ed6855bcb341816852b5201ec5705"
+reason = "Official upstream fixes solver-y0 aliasing, retains initial state and failed native solve without substituting a host integrator. Published2.54.0 rejected by exact source fingerprint."
+
+[[native_package_source]]
+name = "qsdsan"
+algorithm = "SHA256(sorted relative POSIX name + NUL + bytes; all .py/.tsv files)"
+file_count = 149
+sha256 = "f1d3da4179425a1aa719738f838e3050c6994d6358a8f2a4341b118a20f15ac1"
+
+[[native_package_source]]
+name = "biosteam"
+algorithm = "SHA256(sorted relative POSIX name + NUL + bytes; all .py/.tsv files)"
+file_count = 138
+sha256 = "f3fbd02664878eb18ec3972c5683ba887f6bf2685833038fb879bdbe0a177cc1"
+
+[[native_package_source]]
+name = "thermosteam"
+algorithm = "SHA256(sorted relative POSIX name + NUL + bytes; all .py/.tsv files)"
+file_count = 87
+sha256 = "3cfb9abb2b265669bc18e6ea2dd68a2c178fabe68a9d3d59feabb0dbdb4a4248"
+
+[[reviewed_installed_license]]
+package = "qsdsan"
+license_id = "NCSA"
+sha256 = "38288cf55644a068a10f01b3b06331c7d303ce48463576933a42303751c271e3"
+
+[[reviewed_installed_license]]
+package = "biosteam"
+license_id = "NCSA"
+sha256 = "f0a4dc808c56c3256d1f24a6203486c05dee7f9e6b7e0fe4ba2f2d9f3906de52"
+
+[[reviewed_installed_license]]
+package = "thermosteam"
+license_id = "NCSA"
+sha256 = "3b2fccbfafc0285fa3a0eb631d411614ec1231c7344a41c094b834e125433cbb"

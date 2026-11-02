@@ -1,0 +1,2 @@
+* text=auto eol=lf
+data_sources/grinhy2/*.csv -text

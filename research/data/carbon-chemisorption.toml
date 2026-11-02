@@ -1,0 +1,258 @@
+key = "carbon-chemisorption"
+title = "Physisorption and Total Chemisorption Isotherms in Nanoporous Carbon"
+doi = "10.17632/vyp4wbhxzr.1"
+version = "1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "http://creativecommons.org/licenses/by/4.0"
+metadata_url = "https://data.mendeley.com/public-api/datasets/vyp4wbhxzr/snapshot/1"
+metadata_sha256 = "028397968b939e7e2adb5be3673aede15a6f29863c4e5fc068f55770f120676e"
+retrieved_at_utc = "2026-10-26T14:53:58.839933+00:00"
+authors = ["Stephen Tsz Tang Lam"]
+families = ["adsorption", "chemisorption"]
+rights_permitted = true
+license_scope = "Mendeley metadata declares CC BY 4.0 for the deposited version-1 files. Attribute Stephen Tsz Tang Lam and DOI. The dataset grant is not treated as permission for the associated article, figures or third-party material. Raw file redistribution is not admitted by this repository."
+raw_redistribution_admitted = false
+third_party_component_rights_reviewed = false
+validation_qualified = false
+model_linkage_status = "blocked_adsorbate_basis_and_stp_reference_gap"
+candidate_existing_model = "h2physics.adsorption.ExtendedLangmuirIsotherm"
+model_linkage_admitted = false
+missing_model_link_evidence = ["STP temperature and pressure defining Volume (STP cm3/g)", "whether reported uptake is absolute/total surface uptake or another retained-gas inventory", "whether Pressure (torr) is absolute equilibrium pressure and whether values are raw measurements or transformed values", "mapping of H2 columns/material names across the 15-column total-chemisorption table and sample identity", "row-specific H2 chemisorption temperature/pretreatment and equilibration metadata", "uncertainty/repeat population and source measurement procedure", "evidence that the existing homogeneous Langmuir model form is appropriate for the total H2 interaction over the measured domain"]
+metadata_contract_case = "carbon-h2-chemisorption-model-link-gap"
+author_request = "requests/carbon_h2_chemisorption_basis_request.md"
+listed_file_count = 19
+acquired_bytes = 26374
+omitted_files = []
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/vyp4wbhxzr/files?folder_id=root&version=1&$start=0&$limit=1000"
+sha256 = "b373b84bd8f6c7573a9fa0bc41b1655eacbcae2ea3c257856f8c37cc3561ed45"
+
+[[files]]
+name = "CO2_Graphenit-OX.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/2fd5b1db-773c-478c-816b-6d7ea291dabc/file_downloaded"
+relative_path = "carbon-chemisorption/1/CO2_Graphenit-OX.csv"
+size_bytes = 636
+sha256 = "9428ffd6695125d6a6be29f14d8813f889d1de00a5d6054898fd4f18a88e43c3"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "9428ffd6695125d6a6be29f14d8813f889d1de00a5d6054898fd4f18a88e43c3"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "CO2_IG110U.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/c6f303c6-2f21-43a7-9870-fcc2697e6549/file_downloaded"
+relative_path = "carbon-chemisorption/1/CO2_IG110U.csv"
+size_bytes = 646
+sha256 = "8978b2191273d90c9b0c0e82e6b204402576000a7d43aeff39103e467de4a372"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "8978b2191273d90c9b0c0e82e6b204402576000a7d43aeff39103e467de4a372"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "CO2_MSC30.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/36b7a06f-90ac-4559-8dd0-7235411c8e89/file_downloaded"
+relative_path = "carbon-chemisorption/1/CO2_MSC30.csv"
+size_bytes = 658
+sha256 = "0a99d745360996f4cda83a2c10dc0e6ca16d50c51ff3d94d9bb7e0985f6d5615"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "0a99d745360996f4cda83a2c10dc0e6ca16d50c51ff3d94d9bb7e0985f6d5615"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "N2_NRB40M.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/1dd2aad8-4f6f-490d-b0f9-5790974c36b9/file_downloaded"
+relative_path = "carbon-chemisorption/1/N2_NRB40M.csv"
+size_bytes = 1126
+sha256 = "eb0777423a590cd24df2a86fc2dc9bef8ad79b12d73211d0672eae05f925d626"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "eb0777423a590cd24df2a86fc2dc9bef8ad79b12d73211d0672eae05f925d626"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "N2_GraphenitOX.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/a2dcf6b9-5e63-4741-8b3e-d151b2ebfe0a/file_downloaded"
+relative_path = "carbon-chemisorption/1/N2_GraphenitOX.csv"
+size_bytes = 1205
+sha256 = "9753a27c2a10e8e6701ab2525eaf8f0c940be2a34f8fb4b2dc82647a9a1ebb36"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "9753a27c2a10e8e6701ab2525eaf8f0c940be2a34f8fb4b2dc82647a9a1ebb36"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "CO2_NRB40M.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/c8a442ea-c4d6-441b-81e5-03917129db84/file_downloaded"
+relative_path = "carbon-chemisorption/1/CO2_NRB40M.csv"
+size_bytes = 1235
+sha256 = "4f5b2f4374fb20fef032afed898e4af81057c8ed9ef34cd4b493615705042ca7"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "4f5b2f4374fb20fef032afed898e4af81057c8ed9ef34cd4b493615705042ca7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "CO2_CTR12x40.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/a14da6e3-a3db-4986-8bb9-1c4e21d97268/file_downloaded"
+relative_path = "carbon-chemisorption/1/CO2_CTR12x40.csv"
+size_bytes = 1276
+sha256 = "9d998a63b753824473765461a9266d4604bddcf00a4291a8202aeda47a74b4e5"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "9d998a63b753824473765461a9266d4604bddcf00a4291a8202aeda47a74b4e5"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "N2_OLC12x40.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/c9a68fa8-152a-4977-aff4-d7c99bc71e55/file_downloaded"
+relative_path = "carbon-chemisorption/1/N2_OLC12x40.csv"
+size_bytes = 1312
+sha256 = "d35d5f08be73d4df9cba8869c9114fe5dcfe9d4491706017dabc7326d487f513"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "d35d5f08be73d4df9cba8869c9114fe5dcfe9d4491706017dabc7326d487f513"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "N2_PAC200.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/5b24ea9a-0e95-4e07-bfaa-b1926a248e80/file_downloaded"
+relative_path = "carbon-chemisorption/1/N2_PAC200.csv"
+size_bytes = 1312
+sha256 = "33af56d49c70dd562845d77a24557553a603068c34a25d7c1d950f216a6412e7"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "33af56d49c70dd562845d77a24557553a603068c34a25d7c1d950f216a6412e7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "N2_IG110U.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/6633f4b9-b33d-4a9f-94cd-89424d0fcff9/file_downloaded"
+relative_path = "carbon-chemisorption/1/N2_IG110U.csv"
+size_bytes = 1376
+sha256 = "8a6ba6d7d15bc1226db3e488ebaa2dba023cea2f7f0fd65ed7734573b9005711"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "8a6ba6d7d15bc1226db3e488ebaa2dba023cea2f7f0fd65ed7734573b9005711"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "N2_NV612.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/a4632e1e-dba6-44eb-956b-579edca0ffb2/file_downloaded"
+relative_path = "carbon-chemisorption/1/N2_NV612.csv"
+size_bytes = 1506
+sha256 = "ab74f2a9db1a0591d6b8b6049c65be363daa5ee419580341305b921442c8bb72"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "ab74f2a9db1a0591d6b8b6049c65be363daa5ee419580341305b921442c8bb72"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "CO2_NV612.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/eef1eb0e-a01e-4a66-995d-2b1fbf8e1be1/file_downloaded"
+relative_path = "carbon-chemisorption/1/CO2_NV612.csv"
+size_bytes = 1507
+sha256 = "1b48cb2986fe0cb070c634dc660b77a3e04fc06533f3e41cbe5f53f1067dbed7"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "1b48cb2986fe0cb070c634dc660b77a3e04fc06533f3e41cbe5f53f1067dbed7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "N2_CTR12x40.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/e293e7d1-2121-4f4e-b04b-41e5d1f5ca26/file_downloaded"
+relative_path = "carbon-chemisorption/1/N2_CTR12x40.csv"
+size_bytes = 1507
+sha256 = "c5030317bc9d97132fb5ab9e332ce319e8244a3dab01ee99587aceea54ef86ba"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "c5030317bc9d97132fb5ab9e332ce319e8244a3dab01ee99587aceea54ef86ba"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "N2_OVC4x8.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/9d5aa33c-27bc-4fd0-a817-e8e5eb3fd830/file_downloaded"
+relative_path = "carbon-chemisorption/1/N2_OVC4x8.csv"
+size_bytes = 1509
+sha256 = "e4f27e2a30804f760e9dd4a14f76863c6f24408a197edc25c0001904be301ec9"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "e4f27e2a30804f760e9dd4a14f76863c6f24408a197edc25c0001904be301ec9"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "N2_MSC30.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/62523ff0-03fd-4f32-9081-9634a78ba269/file_downloaded"
+relative_path = "carbon-chemisorption/1/N2_MSC30.csv"
+size_bytes = 1537
+sha256 = "57a444281b5901ce1037e73926b9ae1e8f8a58fcf69f9947372ab6735b2c3474"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "57a444281b5901ce1037e73926b9ae1e8f8a58fcf69f9947372ab6735b2c3474"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "CO2_OLC12x40.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/b364ab3b-7d29-4772-a446-411005cd1d63/file_downloaded"
+relative_path = "carbon-chemisorption/1/CO2_OLC12x40.csv"
+size_bytes = 1546
+sha256 = "a3a5f36ee5b6924c9b7175f0d3f6e07c1b93df6c39a1624231ce8d46332ee9f9"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "a3a5f36ee5b6924c9b7175f0d3f6e07c1b93df6c39a1624231ce8d46332ee9f9"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "CO2_PAC200.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/d641059e-8960-4a63-8551-5e6bb49117b8/file_downloaded"
+relative_path = "carbon-chemisorption/1/CO2_PAC200.csv"
+size_bytes = 1553
+sha256 = "6b3b9cd3aea2b3d81a1b1e9b25fa5ade64ae30a0b5f8c5e4518c474bf9ea5364"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "6b3b9cd3aea2b3d81a1b1e9b25fa5ade64ae30a0b5f8c5e4518c474bf9ea5364"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "CO2_OVC4x8.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/deaeb849-2307-477f-ba8b-60543cb9bd7b/file_downloaded"
+relative_path = "carbon-chemisorption/1/CO2_OVC4x8.csv"
+size_bytes = 1595
+sha256 = "7b20e4a7d560feed03cde3bc89436627955450d6c1bb945c588835300514a56c"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "7b20e4a7d560feed03cde3bc89436627955450d6c1bb945c588835300514a56c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "total_chemisorption_isotherms.csv"
+url = "https://data.mendeley.com/public-files/datasets/vyp4wbhxzr/files/1c420229-3853-43cf-9c47-c9889c1b1f0d/file_downloaded"
+relative_path = "carbon-chemisorption/1/total_chemisorption_isotherms.csv"
+size_bytes = 3332
+sha256 = "1224b5ba3198f24b30569e30678845fcebe345548c446f438806a5fcdada3312"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "1224b5ba3198f24b30569e30678845fcebe345548c446f438806a5fcdada3312"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

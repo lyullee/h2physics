@@ -1,0 +1,74 @@
+dataset = "h2safe-indoor"
+doi = ""
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "1788206575-HVAC_information.docx"
+format = "docx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "1787856683-Dataset.zip"
+format = "zip"
+archive_members = 13
+numeric_members = 7
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "Lab2_Large/sensors.csv"
+format = "delimited"
+rows = 37
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["id", "X", "Y", "Z"]
+
+[[files.tables]]
+name = "Lab2_Large/test1.csv"
+format = "delimited"
+rows = 3993
+columns = 33
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["time", "p18", "p13", "p19", "p16", "p17", "p14", "p15", "p30", "p1", "p2", "p4", "p6", "p5", "p7", "p8", "p3", "p27", "p26", "p25", "p24", "p23", "p22", "p21", "p20", "p12", "p10", "p11", "p9", "p36", "p31", "p37", "p32"]
+
+[[files.tables]]
+name = "Lab2_Large/test2.csv"
+format = "delimited"
+rows = 3113
+columns = 33
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["time", "p18", "p13", "p19", "p16", "p17", "p14", "p15", "p30", "p1", "p2", "p4", "p6", "p5", "p7", "p8", "p3", "p27", "p26", "p25", "p24", "p23", "p22", "p21", "p20", "p12", "p10", "p11", "p9", "p36", "p31", "p37", "p32"]
+
+[[files.tables]]
+name = "Lab2_Large/test3.csv"
+format = "delimited"
+rows = 5646
+columns = 33
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["time", "p18", "p13", "p19", "p16", "p17", "p14", "p15", "p30", "p1", "p2", "p4", "p6", "p5", "p7", "p8", "p3", "p27", "p26", "p25", "p24", "p23", "p22", "p21", "p20", "p12", "p10", "p11", "p9", "p36", "p31", "p37", "p32"]
+
+[[files.tables]]
+name = "Lab2_Large/test4.csv"
+format = "delimited"
+rows = 5758
+columns = 33
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["time", "p18", "p13", "p19", "p16", "p17", "p14", "p15", "p30", "p1", "p2", "p4", "p6", "p5", "p7", "p8", "p3", "p27", "p26", "p25", "p24", "p23", "p22", "p21", "p20", "p12", "p10", "p11", "p9", "p36", "p31", "p37", "p32"]
+
+[[files.tables]]
+name = "Lab1_Small/sensors.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["id", "X", "Y", "Z"]
+
+[[files.tables]]
+name = "Lab1_Small/test1.csv"
+format = "delimited"
+rows = 2542
+columns = 25
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["time", "p1", "p2", "p3", "p4", "p5", "p6", "p7", "p8", "p9", "p10", "p11", "p12", "p13", "p14", "p15", "p16", "p17", "p18", "p19", "p20", "p21", "p22", "p23", "p24"]

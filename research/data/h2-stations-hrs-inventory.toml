@@ -1,0 +1,47 @@
+key = "h2-stations-hrs-inventory"
+title = "Clean Hydrogen JU H2-Stations public station-list export"
+doi = ""
+version = "map-export snapshot retrieved 2026-10-31; platform dataset is rolling"
+origin = "compiled_inventory"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://map.h2-stations.eu/"
+metadata_sha256 = "daba7faf9f6e724ecdc7adf98f19c7e9f7b2e30016aba6255d9d5f84b54b74d1"
+metadata_relative_path = "h2-stations/2026-11-01/map-metadata-024420Z.html"
+metadata_cache_root = "data/raw"
+metadata_size_bytes = 24752
+metadata_retrieved_at_utc = "2026-11-01T02:44:20.110014Z"
+metadata_content_type = "text/html; charset=utf-8"
+metadata_response_url = "https://map.h2-stations.eu/"
+metadata_snapshot_scope = "Exact unmodified HTTPS response body of the publisher landing page, acquired separately on 2026-11-01. The historical workbook acquisition did not retain metadata bytes; this later snapshot is not asserted to reproduce the 2026-10-31 website or identify an immutable platform dataset version. The cached page includes the station-list download and dataset-license notice."
+metadata_redistribution_scope = "Publisher HTML is retained only in the ignored provenance cache. The recorded dataset license is not extended to website code or assets, and this receipt does not authorize redistribution of the cached HTML."
+metadata_api_url = "https://map.h2-stations.eu/hrs-list"
+authors = ["Clean Hydrogen Joint Undertaking"]
+families = ["hydrogen_refuelling_stations", "facility_inventory", "operational_metadata"]
+rights_permitted = true
+rights_evidence_url = "https://docs.h2-stations.eu/for-data-users/#licensing"
+license_scope = "The provider's data-user documentation expressly includes the HRS station-list Excel export under CC BY 4.0. This selected workbook contains station registry text fields only; station photographs and token-gated API history are outside this acquisition."
+validation_qualified = false
+listed_file_count = 1
+acquired_file_count = 1
+acquired_bytes = 15024
+retrieved_at_utc = "2026-10-31"
+snapshot_stability = "The station list is a rolling platform export, not a versioned immutable deposit. This receipt pins only the retrieved workbook by path, byte count, and SHA-256."
+acquisition_scope = "Public HRS station-list workbook only; no photos or API history."
+dataset_limitations = ["Workbook contains station registry metadata only; it does not contain live availability, usage, hydrogen storage, pricing, fuelling pressure/temperature traces, or dispensing time series.", "API v2 usage, hydrogen-storage and pricing signals are described by official documentation but require a personal bearer token; no token-gated payload is included in this snapshot.", "Operator-entered station properties may be incomplete or stale; this inventory cannot validate refuelling physics, protocol controls, station capacity performance, or safety models."]
+attribution = "Clean Hydrogen Joint Undertaking, H2-Stations public HRS export, retrieved 2026-10-31; CC BY 4.0. Retain the source credit and license when adapting or redistributing this snapshot."
+schema_audit_status = "workbook_structure_only"
+sheet_names = ["Hrs"]
+sheet_dimensions = ["166 rows x 7 columns"]
+column_names = ["name", "HRS operator", "HRS owner", "street address", "postal code", "city", "country"]
+qualification_status = "source-bound operational inventory candidate; not process/safety validation data"
+
+[[files]]
+name = "hrs-list-2026-10-31.xlsx"
+url = "https://map.h2-stations.eu/hrs-list"
+relative_path = "h2-stations/2026-10-31/hrs-list-2026-10-31.xlsx"
+size_bytes = 15024
+sha256 = "87378bed700330ddad64c364b542a69ae34e14d71c800b241c9d92cf112ea02a"
+publisher_checksum_algorithm = "none_published"
+publisher_checksum_verified = false
+status = "acquired"

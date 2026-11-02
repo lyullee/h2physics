@@ -1,0 +1,35 @@
+dataset = "lohc-enthalpies"
+doi = "10.5281/zenodo.10926772"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "HydrogenStorage/QM9-LOHC-QM9-LOHC.zip"
+format = "zip"
+archive_members = 16
+numeric_members = 3
+program_members_not_executed = 3
+
+[[files.tables]]
+name = "HydrogenStorage-QM9-LOHC-1fe4a16/QM9-LOHC-web/QM9_G4MP2_all.csv"
+format = "delimited"
+rows = 10373
+columns = 13
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "Unnamed: 0", "unsat_SMILE", "sat_SMILE", "delta_H", "nH2", "pH2", "heavy_atom_count", "molar_mass", "nOxygen", "nNitrogen", "nAromaticRings", "nHBD"]
+
+[[files.tables]]
+name = "HydrogenStorage-QM9-LOHC-1fe4a16/QM9-LOHC_new_molecules.csv"
+format = "delimited"
+rows = 9841
+columns = 5
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["unsat_SMILE", "sat_SMILE", "delta_H", "nH2", "pH2"]
+
+[[files.tables]]
+name = "HydrogenStorage-QM9-LOHC-1fe4a16/QM9_G4MP2_all.csv"
+format = "delimited"
+rows = 10373
+columns = 13
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "Unnamed: 0", "unsat_SMILE", "sat_SMILE", "delta_H", "nH2", "pH2", "heavy_atom_count", "molar_mass", "nOxygen", "nNitrogen", "nAromaticRings", "nHBD"]

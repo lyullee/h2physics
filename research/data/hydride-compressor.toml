@@ -1,0 +1,35 @@
+key = "hydride-compressor"
+title = "Experimental Dataset for a Two-Stage Metal Hydride Hydrogen Compressor"
+doi = "10.5281/zenodo.19036733"
+version = "v1.2"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/19036733"
+metadata_sha256 = "0e6f3bca640b9c4994c04941394614142b4b789070102934859bdd4dfeb513bf"
+retrieved_at_utc = "2026-10-26T15:38:07.793980+00:00"
+authors = ["Lukas Fleming"]
+families = ["hydride", "compression", "thermal"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 377874239
+omitted_files = []
+model_link_status = "evidence_gated_temperature_observation_diagnostic"
+model_link_target = "storage.hydride_compressor.HydrideCompressorTrace.points[].snapshot.bed.solid_temperature_k"
+model_link_api = "h2physics.adapters.compare_mhc_temperature_to_compressor_bed"
+model_link_case = "mhc-compressor-temperature-observation-contract"
+model_link_scope = "One exact raw measured logger temperature channel in K compared to bed solid temperature only after caller supplies sensor-to-bed mapping, clock alignment and interpolation evidence; no fit or equipment validation."
+model_link_gap = "MHC logger aliases do not establish thermocouple location on the hydride bed. Different recorder clocks coexist and a checked example differs by about 2 s."
+
+[[files]]
+name = "LukasFleming/MHC-Dataset-v1.2.zip"
+url = "https://zenodo.org/api/records/19036733/files/LukasFleming/MHC-Dataset-v1.2.zip/content"
+relative_path = "hydride-compressor/v1.2/MHC-Dataset-v1.2.zip"
+size_bytes = 377874239
+sha256 = "91755fb1e555e0eb32d160ac140a4261b6bb47d24944c7e717b723fe2a641e32"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "64cbe2a68c0af5dc2e4a0a9690003eac"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

@@ -1,0 +1,54 @@
+key = "pem-ripple-degradation"
+title = "Raw IV-curve and continuous-voltage measurements for current-ripple PEM electrolyser degradation study"
+doi = "10.17632/93jz2rgy4d.2"
+version = "2"
+publisher = "Mendeley Data"
+origin = "measured"
+source_updated_at = ""
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://data.mendeley.com/datasets/93jz2rgy4d/2"
+metadata_api_url = "https://data.mendeley.com/public-api/datasets/93jz2rgy4d?version=2"
+metadata_sha256 = "4a7d67e74438acdb897493fffccf07c8c8a8ade3bf84cda0f5b8a00de90ddd9e"
+metadata_bytes = 3067
+metadata_relative_path = "pem-ripple-degradation/93jz2rgy4d/v2/record-v2.json"
+file_listing_api_url = "https://data.mendeley.com/public-api/datasets/93jz2rgy4d/files?folder_id=root&version=2&$start=0&$limit=1000"
+file_listing_sha256 = "c73e3458ba1433b8abdeef1c1fa964ad0acd95f4557f13abf3f62e655b4cd16e"
+file_listing_relative_path = "pem-ripple-degradation/93jz2rgy4d/v2/files-v2.json"
+retrieved_at_utc = "2026-10-31T14:04:20.510956+00:00"
+authors = ["Kingston Nguyen", "Dezso Sera", "Saman A. Gorji", "Jonathan Love", "Geoff Walker"]
+families = ["electrolysis", "pem", "current_ripple", "polarization", "degradation"]
+rights_permitted = true
+rights_evidence_url = "https://data.mendeley.com/datasets/93jz2rgy4d/2"
+attribution = "Nguyen, K.; Sera, D.; Gorji, S. A.; Love, J.; Walker, G. (2026), Raw IV-curve and continuous-voltage measurements for current-ripple PEM electrolyser degradation study, Mendeley Data v2, DOI 10.17632/93jz2rgy4d.2; CC BY 4.0."
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 90759411
+omitted_files = []
+acquired_file_count = 1
+acquisition_status = "1/1 publisher-listed ZIP acquired; size and SHA-256 verified; raw archive is ignored under data/raw"
+schema_status = "README confirms 36 unaveraged IV CSV files (four cells; baseline plus eight later characterizations), four continuous timestamp/current/voltage logs, and one reported-fit table. IV current_A and voltage_V are A and V; step_index is an integer sweep index. Continuous current_A and voltage_V are A and V; timestamp is timezone-naive with millisecond tokens. Fitted R_mem is ohm, i_0 and I_lim are A, RMSE is V; alpha remains a reported scalar without an assigned unit."
+operating_conditions_reported = "The README reports one 1,000-hour campaign and common 2 A mean current: PEM1 300 Hz ripple, PEM2 pure DC, PEM3 600 Hz ripple, PEM4 1,200 Hz ripple; the three ripple cells use 50% magnitude. It identifies continuous logging as approximately 1 Hz, with gaps during polarization sessions."
+model_link_boundary = "Raw cell current cannot be converted to current density without active area. Temperature, pressure, water-feed state, sensor calibration/uncertainty, clock timezone and cross-cell synchronization are not supplied in the reviewed schema. Keep fit rows separate from measurements; no independent HydrogenStack validation, missing-period reconstruction, stack-level state or performance qualification is admitted."
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/93jz2rgy4d/files?folder_id=root&version=2&$start=0&$limit=1000"
+sha256 = "ac5f318d1e4cf27044e45e8b3173b94652e7dcee3feb30bdeb5466d8265e625e"
+relative_path = "pem-ripple-degradation/2/repository-file-list-0-ac5f318d1e4cf27044e45e8b3173b94652e7dcee3feb30bdeb5466d8265e625e.json"
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/93jz2rgy4d/snapshot/2"
+sha256 = "ae18c653d1cba66d4af6992566cd8cd9f5db9a581c842912b909280e857fe1e7"
+relative_path = "pem-ripple-degradation/2/repository-metadata-ae18c653d1cba66d4af6992566cd8cd9f5db9a581c842912b909280e857fe1e7.json"
+
+[[files]]
+name = "PEM_ripple_degradation_data.zip"
+url = "https://data.mendeley.com/public-files/datasets/93jz2rgy4d/files/89e783b4-e1f6-4b0c-8891-5b05ed97b112/file_downloaded"
+relative_path = "pem-ripple-degradation/2/PEM_ripple_degradation_data.zip"
+size_bytes = 90759411
+sha256 = "47c908a780fb61636ac87dcb0cc2891edfd2a8f2e4437d7e6169cfece3639eab"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "47c908a780fb61636ac87dcb0cc2891edfd2a8f2e4437d7e6169cfece3639eab"
+publisher_checksum_verified = true
+status = "cached"
+error = ""

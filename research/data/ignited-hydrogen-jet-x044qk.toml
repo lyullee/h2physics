@@ -1,0 +1,36 @@
+key = "ignited-hydrogen-jet-x044qk"
+title = "Replication data for: Laboratory-Scale Experiments on Ignited Hydrogen Jets: Flame Acceleration and Overpressure Analysis"
+doi = "10.18710/X044QK"
+version = "1.0"
+origin = "measured"
+license_id = "CC0-1.0"
+license_url = "https://creativecommons.org/publicdomain/zero/1.0/"
+metadata_url = "https://dataverse.no/api/datasets/%3ApersistentId/versions/1.0?persistentId=doi%3A10.18710%2FX044QK"
+metadata_sha256 = "8bf897ba8362f0227e2560e8e5f96de9b3407d607a4b05e3a95cc26a05b8912b"
+metadata_size_bytes = 40399
+retrieved_at_utc = "2026-10-31"
+authors = ["Agnieszka Weronika Lach"]
+families = ["hydrogen_release", "underexpanded_jet", "delayed_ignition", "overpressure"]
+rights_permitted = true
+validation_qualified = false
+model_integration_status = "source-row average pressure-derived MFR and reported H2 release duration can project to one finite IntervalMassSource bin under caller evidence; not a pressure/nozzle recalculation"
+source_flow_note = "publisher labels matrix MFR as calculated from experimental pressure; pressure basis and calibration unresolved; source MFR is carried unchanged"
+projection_assumptions = "caller supplies release clock placement, source location, pure-H2 representative state, and evidence accepting reported average flow; one constant mean-rate bin is not the absent transient history"
+hangang_bridge_case_id = "x044qk-average-flow-finite-hydrogen-source-bridge"
+listed_file_count = 47
+acquired_bytes = 14199
+omitted_files = ["00_Readme.txt", "39 experiment CSV histories (including a missing EXP_022)", "six high-speed video bundles"]
+notes = "The 40-row matrix is acquired; the publisher notes MFR is calculated from experimental pressure. Pressure basis and upstream pressure conversion are unresolved. No raw voltage-to-pressure conversion is performed."
+
+[[files]]
+name = "Matrix and H2 flow results.xlsx"
+url = "https://dataverse.no/api/access/datafile/268340"
+relative_path = "ignited-hydrogen-jets-x044qk/1/Matrix and H2 flow results.xlsx"
+file_persistent_id = "doi:10.18710/X044QK/JH7P7P"
+size_bytes = 14199
+sha256 = "c50162c995c01bb37c407e7ce0f132301297bf3b2562518c86940fb758ae2557"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "6c929ee530ac393ee8e76f6db2eff05c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

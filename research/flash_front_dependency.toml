@@ -1,0 +1,21 @@
+status = "implemented_unverified"
+scientific_execution = "deferred_by_user"
+native_owners = ["Cantera3.2", "SciPy shortest paths", "shared h2physics CanteraGas"]
+review_date = "2026-10-28"
+rights = "Existing Cantera/SciPy BSD-3-Clause; no mechanism or solver vendored"
+
+[[reviewed_files]]
+path = "src/h2physics/adapters/cantera.py"
+sha256 = "19d2618b0e3dd4109f938433a8e735b0783151afaeacff36ac971a2933517184"
+
+[[reviewed_files]]
+path = "research/native_cantera.md"
+sha256 = "2ca1268305fe1af3f5a902d9d56d26c31549ca4c57af33a121c81f54075d24c8"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/cantera-3.2.0.dist-info/METADATA"
+sha256 = "f483c140b917b5e758f57ac8232ece2aeb7756325801395428470a64467824c7"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/scipy-1.18.1.dist-info/METADATA"
+sha256 = "c8313d18ca0168ff291fe0a3b50532f3a18b14547695e9aa7ca1c1ce6eca92dc"

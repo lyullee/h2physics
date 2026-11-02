@@ -1,0 +1,70 @@
+key = "preslhy-pool"
+title = "PRESLHY Experiment series 3.4"
+doi = "10.35097/1319"
+version = "archive-1"
+origin = "measured"
+source_updated_at = "2023-11-15T14:53:58.000Z"
+license_id = "CC-BY-SA-4.0"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+metadata_url = "https://api.datacite.org/dois/10.35097/1319"
+metadata_sha256 = "87909e64481949cc540ba18d0669abeb1d9dd618b5090f29ba042bd908db67e3"
+retrieved_at_utc = "2026-10-26T21:13:40.305281+00:00"
+authors = ["Friedrich, A.", "Veser, A.", "Gerstner, J.", "Jordan, T.", "Kuznetsov, M.", "Kotchourko, N."]
+families = ["pool", "evaporation", "cryogenic"]
+rights_permitted = false
+validation_qualified = false
+listed_file_count = 11
+acquired_bytes = 0
+omitted_files = ["20200320-Concrete01-Final.xlsx", "20200324-Concrete02-Final.xlsx", "20200408-Gravel01-Final.xlsx", "20200409-Sand01-Final.xlsx", "20200415-Sand02Wind-Final.xlsx", "20200416-Sand03Wind-Final.xlsx", "20200417-Concrete03Wind-Final.xlsx", "20200422-Gravel02-Final.xlsx", "20200423-Gravel03Wind-Final.xlsx", "20200423-Water01-Final.xlsx", "Draft-20210727-PRESLHY_D3_5_E3_4-UNIgnitedPool.docx"]
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/en/dataset/qlJbWWMklPSWYTZx"
+sha256 = "3a888e87467febb9959dad7d0fbecf3e37927eb6ad3c72d6121b4a313b91187d"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/ajax/getFolderContent?folderId=qlJbWWMklPSWYTZx&start=0&length=100&draw=1&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&columns%5B0%5D%5Bdata%5D=titleName"
+sha256 = "d2fb2f2fcca9c854e151fec743720535b3c5ad2a07005e97954b6bed3e50848d"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/spOnldtDHNkdQUVZ"
+sha256 = "8558e6c9493210303d14855281a3f6a9f0818ac78be9521e1d677ada83401914"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/aoerhpixpQLnxMOu"
+sha256 = "603d7d940a96319922ee8c0177c5e78dbf034758cc6d5261cc8986e1d4bce949"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/RewhfETdUxcqnOtU"
+sha256 = "f5e1eab80e1cfbff04dd89c80d09cb1fc75cce8210ca92acc16893baab80840d"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/ZgMItkIfGYZYKUUl"
+sha256 = "e54e7376fb3c7a678fe78d44658ac229dc2147c6684c0d4f6fcf0caf742fffb6"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/kRtHWsYlOxMAJmgY"
+sha256 = "0acfedf645ba41e1d6308026c3e835284c5ee76e6aac279331350f3db3b117fb"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/oQSzBMuguNvJxXFb"
+sha256 = "176f0e1be76c9ff857c92038e77de28458a4b43b8f54200829cc7174a3e9ac4e"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/EdsukFyqVzpCnqLn"
+sha256 = "7ac25f983adc75ed437aec8df02ec242878f78c683c096e4728482b617cbb05a"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/AqJgLghsoOzkYyeu"
+sha256 = "3961096c988e9b1f16d184fa3ce91cd9a27d1e0fbdc699680658a9267d5e4111"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/hoohpYcOyMKSsPtU"
+sha256 = "babd5a76d5ff06adab570b80e8d508d6de7d0c3e8a44d49d6a00391ab726e54c"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/AsRVXlhCTtpplZXV"
+sha256 = "0b39dc4bf8a2a19bc672fa1aa8774a99b6350184ed35555dc497067bd92d88fd"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/ZGrBANEpeJQTzsxr"
+sha256 = "d334c63da59ebc89bc39a6ec55b5aadcb5d455d0c1468d4f4f3bb17036d88820"

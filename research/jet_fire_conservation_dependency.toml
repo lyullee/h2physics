@@ -1,0 +1,71 @@
+status = "implemented_unverified_diagnostic_only"
+physical_jet_fire_status = "planned_rejected_native_gap"
+scientific_execution = "deferred_by_user"
+new_installation = false
+existing_hyram_receipt = "research/preferred_dispersion_dependencies.toml"
+native_hyram_version = "6.1"
+native_hyram_license = "GPL-3.0-only"
+native_hyram_source = "https://github.com/sandialabs/hyram"
+native_hyram_tree_sha256 = "d5865e1ae7b5c77b985e06b45d7a5607543703c1834fc50f7c5d96f32a0c22de"
+native_caloric_version = "Cantera3.2.0"
+native_caloric_license = "BSD-3-Clause"
+native_caloric_provider = "Existing h2physics.adapters.cantera_thermo.CanteraMolarEnthalpy"
+native_caloric_data = "Separately installed nasa_gas.yaml; five neutral ideal-gas species only; no source/data redistribution"
+original_thermochemistry_source = "NASA-TM-4513, 1993, https://ntrs.nasa.gov/citations/19940013151"
+original_thermochemistry_rights = "NTRS metadata: Work of the US Gov. Public Use Permitted; native package attribution remains separate"
+scope = "Selected unchanged native-field flux diagnostics; no source, chemistry or radiation correction; no accepted family promotion"
+compatible_runtime = "Existing separately isolated HyRAM/SciPy1.16.3 profile; Cantera3.2.0/CoolProp8 already installed. Nurion compatibility unexecuted."
+
+[[reviewed_files]]
+path = "src/h2physics/adapters/hyram_flame.py"
+sha256 = "3bd001f56174fccbfca6ca5ec2a882af3ffb45b656fae0f9f496b5670e7dae39"
+
+[[reviewed_files]]
+path = "src/h2physics/adapters/cantera_thermo.py"
+sha256 = "f5bf30b7536c432fd84f9b7c4b81a72949dc936a9662a7c89f15ea8a62e8d027"
+
+[[reviewed_files]]
+path = "artifacts/native_hyram_packages/hyram/phys/_flame.py"
+sha256 = "9a5954cdb304531ae877ce855cc3851f18fbb23d87725324c4018becdc2671d8"
+
+[[reviewed_files]]
+path = "artifacts/native_hyram_packages/hyram/phys/_jet.py"
+sha256 = "46e80d82aee29e1912e32f626a4c04f6d390e07e7dd3398c5c28c372835301a6"
+
+[[reviewed_files]]
+path = "artifacts/native_hyram_packages/hyram/phys/_therm.py"
+sha256 = "fdc042d6aa62cac4c6b99f068410bdb6e0573d1f3054caa5fa5d9fc20385840d"
+
+[[reviewed_files]]
+path = "artifacts/native_hyram_packages/hyram/phys/_comps.py"
+sha256 = "6270f56c7dc904ab4be357ba15f5b55e13b94a83f4621a204e10e21908b8ea57"
+
+[[reviewed_files]]
+path = "artifacts/native_hyram_packages/hyram/phys/_notional_nozzle.py"
+sha256 = "157b1a2861b85ff1523fea1c9ccdfdc3f0bb051fe4d044652481015486abcb66"
+
+[[reviewed_files]]
+path = "artifacts/native_hyram_packages/hyram/phys/_fuel_props.py"
+sha256 = "380432a75611da0b3f66f6a4e7ea81b425b39f3ab3150ad64d584b6f2de8181f"
+
+[[reviewed_files]]
+path = "artifacts/native_hyram_packages/hyram-6.1.dist-info/licenses/COPYING.txt"
+license_id = "GPL-3.0-only"
+sha256 = "3237699d9e6781c85877365abd9493ca132a0fd31f43e1a3278b8e75f3654af4"
+
+[[reviewed_files]]
+path = "artifacts/native_hyram_packages/hyram-6.1.dist-info/METADATA"
+sha256 = "639e1b7843a0c6a5ba92b5ca1d6e9550b5fe0db86de587bd80c9183a98a73d52"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/cantera/data/nasa_gas.yaml"
+sha256 = "4de6199d65d2d3db782e30573720c723130953707336add59713b02d8667e4db"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/cantera-3.2.0.dist-info/licenses/License.txt"
+license_id = "BSD-3-Clause"
+sha256 = "e92980b9712ce20e73898a97b0116889e84e07f548d6be8591e87dcad79c41bb"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/cantera-3.2.0.dist-info/METADATA"
+sha256 = "f483c140b917b5e758f57ac8232ece2aeb7756325801395428470a64467824c7"

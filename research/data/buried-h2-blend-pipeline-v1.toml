@@ -1,0 +1,96 @@
+key = "buried-h2-blend-pipeline-v1"
+title = "Experimental Study of Pre-ignition Dispersion Dynamics and Flammable Cloud Formation from Buried Hydrogen-Blended Natural Gas Pipeline to Semi-Confined Space"
+doi = "10.17632/x8zkds4fyn.1"
+version = "1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+license_scope = "Version 1 snapshot declares CC BY 4.0. The repository warns that separately identified third-party content may have its own terms; no raw attachment is redistributed by this project."
+metadata_url = "https://data.mendeley.com/public-api/datasets/x8zkds4fyn/snapshot/1"
+metadata_sha256 = "5088261c84a08ea467329fe9e91be167208230ac908365ad946ab6d697800e29"
+retrieved_at_utc = "2026-10-29T14:54:58+00:00"
+authors = ["Wenxin Guo"]
+families = ["buried_pipeline_release", "dispersion", "flammable_cloud"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 12
+acquired_bytes = 0
+record_status = "superseded"
+superseded_by_doi = "10.17632/x8zkds4fyn.2"
+version_note = "The repository's v2 snapshot is the current record. All 12 v1 listed attachment SHA-256 values equal the corresponding v2 listing; this is a metadata comparison only, not a local attachment hash or schema inspection."
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/x8zkds4fyn/files?folder_id=root&version=1&$start=0&$limit=1000"
+sha256 = "e8a1f91c6f84d9f2012b20e7660ceb93f19e1eb5e0d238aac050be3120fb5e46"
+
+[[files]]
+name = "H-232.csv"
+status = "listed"
+size_bytes = 1532
+sha256 = "66ccc6633475fcdabb4c11371eea546d8c85a6d8294d980b89e3da5e9be9320c"
+
+[[files]]
+name = "H-325.csv"
+status = "listed"
+size_bytes = 1286
+sha256 = "490bf6f9efedcc5ae5730543e217c0c7925d30e08a7dc2a8073385fafb4b1a21"
+
+[[files]]
+name = "H-476.csv"
+status = "listed"
+size_bytes = 1656
+sha256 = "059495b9d071632933237cbd717d7870b0c2fc6bdadbec3504a51b3c23aed948"
+
+[[files]]
+name = "hydrogenAll10%.csv"
+status = "listed"
+size_bytes = 1286
+sha256 = "db81cdcfb6946005eed0450d81b94f3040cf09f4774559f968dcc1a81aa8b3a5"
+
+[[files]]
+name = "hydrogenAll20% .csv"
+status = "listed"
+size_bytes = 1270
+sha256 = "87570f3f164bb2f2056656b682aa816963fa870a6c55226375aafbfca642a162"
+
+[[files]]
+name = "hydrogenAll30%  .csv"
+status = "listed"
+size_bytes = 1336
+sha256 = "f982012c4ae43736678b05b8c5872d0cf1f52db395f48b5c46d8d8c36dbb0f33"
+
+[[files]]
+name = "m-232.csv"
+status = "listed"
+size_bytes = 1812
+sha256 = "95d3a4c0c134553f69bbbb845c41d210b3f3e621a03d19e19766d68cdff06290"
+
+[[files]]
+name = "m-325.csv"
+status = "listed"
+size_bytes = 1340
+sha256 = "329cfe7178100fcd67e5017130c134642958c43621bc74ad814b2fe1bd865066"
+
+[[files]]
+name = "m-476.csv"
+status = "listed"
+size_bytes = 1866
+sha256 = "10d3e1abd1f8a3d08e1b8b90c2e7fc1366625c26b24d595fc6e8d2c8ce39352b"
+
+[[files]]
+name = "methaneAll10% .csv"
+status = "listed"
+size_bytes = 1510
+sha256 = "d4e96b7267d5016de129a77e9d48d95e08bdd6b58af7bee30100088101023fa9"
+
+[[files]]
+name = "methaneAll20% .csv"
+status = "listed"
+size_bytes = 1700
+sha256 = "3969c828e051debbf623acaab9fd006a8646efe00b1e48bbb6f427a0a4fc602b"
+
+[[files]]
+name = "methaneAll30%.csv"
+status = "listed"
+size_bytes = 1720
+sha256 = "2af84c0cfb041f4f5000765af5fdd692d36675c6db536efad69d183ca8db3879"

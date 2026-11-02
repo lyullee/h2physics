@@ -1,0 +1,63 @@
+name = "pyH2A"
+version = "0.0a8"
+status = "reviewed_not_installed_or_executed"
+reviewed_at = "2026-10-28"
+code_license = "MIT"
+noncode_license = "CC-BY-4.0"
+author = "Jacob Schneidewind"
+metadata_url = "https://pypi.org/pypi/pyH2A/json"
+metadata_sha256 = "b11d01ee5273ccfc99e847ac47f2beaa81126eff562f4dc847e906a4e7752f43"
+wheel_url = "https://files.pythonhosted.org/packages/04/f0/314ba781ece670ff32ff8fb763af7c6ac9de469930ff8af4b9cf0956945d/pyH2A-0.0a8-py3-none-any.whl"
+wheel_sha256 = "e7ec4e860bfeaa7625710e128ec338f017f7243c1f884d74570643f85a4048d0"
+wheel_bytes = 1041802
+package_tree_sha256 = "a69e8c5a3e89dbd6ee6ff1f5477c0707560b6bf95d2d3b04171382dcfd078d84"
+requires_python = ">=3.7"
+dependency_names = ["click", "numpy", "scipy", "pandas", "matplotlib"]
+api_reference = "https://pyh2a.readthedocs.io/en/latest/pyH2A/discounted_cash_flow.html"
+source_repository = "https://github.com/jschneidewind/pyH2A"
+native_installation_target = "HPC explicit economics environment; no local install"
+validation_status = "implemented_unverified"
+notes = "Complete direct Python dict; no Defaults.md merge or finance formula copied. Historical native tables remain optional provider resources; no current price claim."
+
+[[reviewed_files]]
+path = "pyH2A/Discounted_Cash_Flow.py"
+sha256 = "7ed02348afe9a65c7d0bd1545a6850d55c57e6fdbc73843c81e68558d9bff1d9"
+
+[[reviewed_files]]
+path = "pyH2A/Lookup_Tables/GDP_Implicit_Deflator_Price_Index.csv"
+sha256 = "35b64accf92f16abc9756542cdf6d694e6a8da5d09584474e5a10652946ca7a1"
+
+[[reviewed_files]]
+path = "pyH2A/Lookup_Tables/Labor_Index.csv"
+sha256 = "6553381b776476499d362005730946a4c13564e685f8d9eb4a65838fcd776b26"
+
+[[reviewed_files]]
+path = "pyH2A/Lookup_Tables/MACRS.csv"
+sha256 = "f14175e093494410fbab5f658a6bdde719d3f3a032a91652275cec90124be70e"
+
+[[reviewed_files]]
+path = "pyH2A/Lookup_Tables/Plant_Cost_Index.csv"
+sha256 = "3b5648aae04f081f0cd74f9ce32a93c4e51b9a1bdcf8672a975795a188beea93"
+
+[[reviewed_files]]
+path = "pyH2A/Lookup_Tables/SRI_Chemical_Price_Index.csv"
+sha256 = "a20268fe84df4b0faeec859bd5f43d4f7ca973fd8aefdfaeaef8a5d72fec63de"
+
+[[reviewed_files]]
+path = "pyH2A/Utilities/input_modification.py"
+sha256 = "a995b4510fd449d48e10561e85fdf922ed9380ed1f0a7498aef61b26f3bf8f50"
+
+[[reviewed_files]]
+path = "pyH2A-0.0a8.dist-info/LICENSE"
+sha256 = "0654ba7b35b5fb9a7540a93e65f05c054b2a2294af38d3309a6cd76906347e79"
+
+[[reviewed_files]]
+path = "pyH2A-0.0a8.dist-info/LICENSE-CC-BY.txt"
+sha256 = "95df2e9564862e51d69683a899b6dcc8218d577057bdf67322880769ff85f29e"
+
+[excluded_candidate]
+name = "ProFAST"
+version = "1.0.6"
+license_url = "https://github.com/NatLabRockies/ProFAST/blob/main/LICENSE"
+reason = "Noncommercial internal research EULA and redistribution restrictions; not selected, downloaded or installed as an engine."
+engine_execution = false

@@ -1,0 +1,9 @@
+# Optional native process profile; install into a separate target/environment.
+# Exact resolved artifacts and NCSA source/license evidence: research/biological_dependency.toml.
+# The fixed official source shares2.54.0 with the rejected published solver.
+qsdsan==1.5.3
+thermosteam==0.54.2
+biosteam @ https://github.com/BioSTEAMDevelopmentGroup/biosteam/archive/0acb320455d3c6cdaace85bf6ca27a1256706918.zip
+numpoly==1.2.14
+numpy==2.5.4
+scipy==1.18.1

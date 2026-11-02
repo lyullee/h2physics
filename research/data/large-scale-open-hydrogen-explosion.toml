@@ -1,0 +1,72 @@
+key = "large-scale-open-hydrogen-explosion"
+title = "Replication dataset for: Large-Scale Hydrogen Explosion Experiments: Obstructed Releases in open atmosphere"
+doi = "10.18710/WSKBIJ"
+version = "1.0"
+origin = "measured"
+license_id = "CC0-1.0"
+license_url = "https://creativecommons.org/publicdomain/zero/1.0/legalcode"
+metadata_url = "https://dataverse.no/api/datasets/:persistentId/?persistentId=doi%3A10.18710%2FWSKBIJ"
+metadata_reviewed_at = "2026-10-31"
+authors = ["Agnieszka Weronika Lach"]
+families = ["combustion", "open_field_explosion", "jet_release", "overpressure"]
+rights_permitted = true
+license_scope = "DataverseNO latest-version API declares CC0-1.0 at dataset scope; all 59 file records are public (restricted=false), but file records expose no separate license field. Preserve citation/attribution as good practice. The record-level terms were reviewed; file contents and embedded third-party rights were not."
+validation_qualified = false
+listed_file_count = 59
+listed_text_plain_count = 52
+listed_other_mime_count = 7
+listed_total_bytes = 96861179314
+acquired_bytes = 207881806
+acquisition_status = "readme_summary_and_test001_trace_acquired"
+acquisition_candidate_class = "small_open_observation_summary"
+acquisition_scope_estimate_bytes = 207881806
+acquisition_note = "The 6,753 B README, 21,165 B Experimental_results_.xlsx summary and one 207,853,888 B Test001 raw trace were acquired individually from the official DataverseNO file API. Publisher MD5 and local SHA-256 receipts are pinned below. Other test traces and multi-GB CINE videos were not acquired. Raw files remain under ignored data/raw storage."
+model_linkage_status = "raw_single_trace_ingested_no_quantitative_model_comparison"
+model_link_target = "h2physics.adapters.obstacle_dispersion.HydrogenCFDSource"
+model_link_case = "large-scale-h2-explosion-fds-observation-link-gap"
+model_link_scope = "The selected workbook contains per-test summary values for nozzle diameter, reservoir pressure, an ignition-position code and four explosion-pressure sensor channels. The summary is ingested as source observation metadata only. It is not a pressure-time history, and the existing low-Mach FDS source boundary does not predict explosion pressure or flame acceleration."
+missing_model_link_evidence = ["absolute x-axis coordinates, frame and full calibration details for each pressure sensor", "per-test source mass-flow histories, especially tests without a Coriolis flow measurement", "complete obstacle layout and ignition-position mapping from workbook codes to coordinates", "ambient temperature, humidity and wind history", "a validated explosion/flame-acceleration and pressure observation model compatible with the open-field tests"]
+
+[schema_audit]
+state = "readme_workbook_and_one_raw_trace_schema_acquired"
+inspection = "The official DataverseNO version 1 record declares CC0-1.0, and its README and 20.7 KB workbook were acquired from the official per-file API. The workbook has a test summary with columns for test number, nozzle diameter [mm], reservoir pressure [bar], ignition-position code and four explosion-pressure sensor summaries [kPa]. The README describes high-pressure measurements, equal sensor spacing along x, ignition-trigger synchronization, calibration relations, and mass-flow measurements for tests 1-27 only."
+limitations = "README, summary workbook and Test001 time history are acquired. The selected trace retains absolute timestamp as source text, elapsed sample seconds, four pressure channels in kPa, and PT1/PT2/MFR/camera-trigger voltage. Voltage channels remain uncalibrated because row-specific offset evidence is absent. Sensor spacing/origin, ignition-code coordinates, ambient conditions and several source histories remain unspecified. No explosion or FDS comparison is supported."
+
+[[sources]]
+title = "DataverseNO version 1 primary dataset record"
+url = "https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/WSKBIJ"
+role = "Record page declares CC0-1.0, public file access and describes the experimental families and instrumentation."
+
+[[selected_candidates]]
+name = "00_Readme.txt"
+persistent_id = "doi:10.18710/WSKBIJ/X2UO8B"
+size_bytes_reported = "6.6 KB"
+size_bytes = 6753
+publisher_md5 = "5642ccb734e8449bf52c0be83e4d0f23"
+sha256 = "cb7d4651d700cbd8da67cb69c3cec63ebabc4ffadbf6d5e1a2a38d63b622fb99"
+relative_path = "large-scale-h2-explosion-wskbij/1/00_Readme.txt"
+status = "acquired"
+
+[[selected_candidates]]
+name = "Test001.txt"
+persistent_id = "doi:10.18710/WSKBIJ/PIQIIP"
+file_id = 268129
+size_bytes_reported = "207.9 MB"
+size_bytes = 207853888
+publisher_md5 = "6a2b1e93513c33d9400ba8abf4b9d082"
+sha256 = "c5f2a991c611dff77f3f2c027da2a1505e1c7843b212cdddd90b0eb9b44ec703"
+transfer_gzip_size_bytes = 66314797
+transfer_gzip_sha256 = "da3673ff937db2f230e2f2d98638aac6023edda38464b7310a066a3aa4db4d32"
+relative_path = "large-scale-h2-explosion-wskbij/1/Test001.txt"
+status = "acquired"
+
+[[selected_candidates]]
+name = "Experimental_results_.xlsx"
+persistent_id = "doi:10.18710/WSKBIJ/NHJV9H"
+size_bytes_reported = "20.7 KB"
+size_bytes = 21165
+publisher_md5 = "73ee4f29ca08612f46b7a37980cbe4df"
+sha256 = "5ca3813fd7e9ade6c0d1aa623d2a7f5346760334b1c8b014a4ea3235ae5dbd34"
+relative_path = "large-scale-h2-explosion-wskbij/1/Experimental_results_.xlsx"
+status = "acquired"
+

@@ -1,0 +1,186 @@
+key = "preslhy-discharge"
+title = "PRESLHY Experiment series E3.1 (Cryogenic Hydrogen Blow-down/Discharge) results – part A \"high pressure\""
+doi = "10.35097/1187"
+version = "archive-1"
+origin = "measured"
+source_updated_at = "2023-11-15T14:54:08.000Z"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/legalcode"
+metadata_url = "https://api.datacite.org/dois/10.35097/1187"
+metadata_sha256 = "35b5b51f7e926608efa35b309977892bddedc5739208b1073ded2d0fefec7ed8"
+retrieved_at_utc = "2026-10-26T18:27:18.236213+00:00"
+authors = ["Jordan, Thomas"]
+families = ["release", "cryogenic", "blowdown"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 10
+acquired_bytes = 1313096235
+omitted_files = []
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/en/dataset/vuyYifgxlfOuFrSP"
+sha256 = "62e39be7b6dbf61ae402d1b4b54de01f1c246ad50c8fbecf8e8d0946e7128a75"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/ajax/getFolderContent?folderId=vuyYifgxlfOuFrSP&start=0&length=100&draw=1&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&columns%5B0%5D%5Bdata%5D=titleName"
+sha256 = "1c994360c9ebc5d4a9e255d88625d777dba2626c6e53bb2fb7766403688da095"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/xXWPHEgYANmsOPAT"
+sha256 = "e3de5ad1d96ac0a65d253a8060b0ee834d45049284bfcbae919219b76158577b"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/XzAqVnmbYUCCnrBm"
+sha256 = "6a3c3d7c0028ba76dfae68ff1b1580b465e4d475d5908a51658edab2a2cfd4c0"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/GYzHrVlYNRgNqDoY"
+sha256 = "f0191f706c082d72587123c1c1e1fd2e82fbe0066174da775cdcf64e0211e313"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/NocxpTVYCyIKkfxt"
+sha256 = "ea47513c057c4f4d9a2da0a90d32c5045b05eba94dcef318a19eed558f156749"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/nMMgxmqJYSfSGanS"
+sha256 = "d87c2e28663dde6000195ad86a60a24759c8ba5cfd8734ee38b91f39e6ccad1b"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/qAUCTgJErpcRunzR"
+sha256 = "8088184d911961722ba4d032144a8c29ecc718eca81b797ffb502bed24031a42"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/gpFTeHMWxuaAsAeK"
+sha256 = "13aa95568b6b419b7c8b0190368cbb91369a2c4d3752b11e00fbe0a7d82270f6"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/pQjrmzEQurdaEyKy"
+sha256 = "50b0a029869467d60ea3c6bdfeffca87bed45598c7706e8d2ae6fd2ba4b6d6a1"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/PRBRPowSZFtBOeYw"
+sha256 = "675d44bddefb4af5e7659225e1b93a2084724d79fa2ec8fbc914807bb951059b"
+
+[[supporting_metadata]]
+url = "https://radar.kit.edu/radar/file/getDownloadLink/hcyMfJGDQSAYGsmz"
+sha256 = "30893b1abb95f985cc0f4c72d5be7abd0ef4b4d1ba518fef2e8f000602ef026a"
+
+[[files]]
+name = "PRESLHY_D3_4_E3P1A_DisCha_190723.pdf"
+url = "https://radar.kit.edu/radar-backend/archives/vuyYifgxlfOuFrSP/retrieveFile/hcyMfJGDQSAYGsmz"
+relative_path = "preslhy-discharge/archive-1/PRESLHY_D3_4_E3P1A_DisCha_190723.pdf"
+size_bytes = 3500621
+sha256 = "27872e8f8f1dc51396e8759c77b32b3799039a91d2d7172c8f6df186a6402fe8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "083064b42ec6795d39af3a8e87cd958b"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PRE3P1A_KIT_D4_80K_PICS.zip"
+url = "https://radar.kit.edu/radar-backend/archives/vuyYifgxlfOuFrSP/retrieveFile/PRBRPowSZFtBOeYw"
+relative_path = "preslhy-discharge/archive-1/PRE3P1A_KIT_D4_80K_PICS.zip"
+size_bytes = 42848784
+sha256 = "b330c4149007d606c41c8d9f0e079779ec18fed676262900f1a23ea477fe1175"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4addcc259a98fd375bee67105f2c38c0"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PRE3P1A_KIT_D1_300K_DATA.zip"
+url = "https://radar.kit.edu/radar-backend/archives/vuyYifgxlfOuFrSP/retrieveFile/GYzHrVlYNRgNqDoY"
+relative_path = "preslhy-discharge/archive-1/PRE3P1A_KIT_D1_300K_DATA.zip"
+size_bytes = 126700831
+sha256 = "ff00311e65e43964906906d8c2dcfa146964ff48caf44ea4763733b0237ab3f3"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fe7bb03dfb2eaaf0cfe3c2acddfec8ff"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PRE3P1A_KIT_D1_80K-DATA.zip"
+url = "https://radar.kit.edu/radar-backend/archives/vuyYifgxlfOuFrSP/retrieveFile/NocxpTVYCyIKkfxt"
+relative_path = "preslhy-discharge/archive-1/PRE3P1A_KIT_D1_80K-DATA.zip"
+size_bytes = 127786640
+sha256 = "49ae4cf6721f24664ced28e8673ef5bb15a062b5a65016caca000634dbb6c63b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3094105b1798dd660f8e1b2bc932bd42"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PRE3P1A_KIT_D4_300K_DATA.zip"
+url = "https://radar.kit.edu/radar-backend/archives/vuyYifgxlfOuFrSP/retrieveFile/gpFTeHMWxuaAsAeK"
+relative_path = "preslhy-discharge/archive-1/PRE3P1A_KIT_D4_300K_DATA.zip"
+size_bytes = 132802943
+sha256 = "2da4a342c2ed07d3ab923374d5dc67a2e43b5f010e39ae9476bf5ffc0f7dad26"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a7ab62971f359a0976333cec86f6738e"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PRE3P1A_KIT_D2_300K_DATA.zip"
+url = "https://radar.kit.edu/radar-backend/archives/vuyYifgxlfOuFrSP/retrieveFile/nMMgxmqJYSfSGanS"
+relative_path = "preslhy-discharge/archive-1/PRE3P1A_KIT_D2_300K_DATA.zip"
+size_bytes = 136186382
+sha256 = "c6fe47842efc9629729d48131645a0d3c315b29a20853cc793428ba89420b9dd"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "678ade33b192e24349f43ab5271a22c6"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PRE3P1A_KIT_D05_80K-DATA.zip"
+url = "https://radar.kit.edu/radar-backend/archives/vuyYifgxlfOuFrSP/retrieveFile/XzAqVnmbYUCCnrBm"
+relative_path = "preslhy-discharge/archive-1/PRE3P1A_KIT_D05_80K-DATA.zip"
+size_bytes = 160418597
+sha256 = "571052ac1b78274c731cf4f29aa68eac8119a2f5ff0ec46ad7925a2d6a4d3147"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f0df26e75cb29058454f557825677153"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PRE3P1A_KIT_D05_300K_DATA.zip"
+url = "https://radar.kit.edu/radar-backend/archives/vuyYifgxlfOuFrSP/retrieveFile/xXWPHEgYANmsOPAT"
+relative_path = "preslhy-discharge/archive-1/PRE3P1A_KIT_D05_300K_DATA.zip"
+size_bytes = 161246838
+sha256 = "e16f901306605e90a505f8311711965496de172a502ba429c76f2d35f360c8d5"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "903edbc3dd85e8aa4aee2b0f73910b0b"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PRE3P1A_KIT_D2_80K-DATA.zip"
+url = "https://radar.kit.edu/radar-backend/archives/vuyYifgxlfOuFrSP/retrieveFile/qAUCTgJErpcRunzR"
+relative_path = "preslhy-discharge/archive-1/PRE3P1A_KIT_D2_80K-DATA.zip"
+size_bytes = 185741321
+sha256 = "d433bd5ee8cfa2ed1b3d729e8eba0a8d6f40a95f3455d357f18b8bb3b956ca60"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ccdbc0fad4b7308dba86c1569ed22e6d"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "PRE3P1A_KIT_D4_80K_DATA.zip"
+url = "https://radar.kit.edu/radar-backend/archives/vuyYifgxlfOuFrSP/retrieveFile/pQjrmzEQurdaEyKy"
+relative_path = "preslhy-discharge/archive-1/PRE3P1A_KIT_D4_80K_DATA.zip"
+size_bytes = 235863278
+sha256 = "a0d728f051693bafd0059bf1afafce51877419fc9ab8c5f444bf02c4cfb65e66"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2843fe50eac792e18efbb4e77f0cfd28"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

@@ -1,0 +1,38 @@
+review_date = "2026-10-27"
+selection = "User preference: HyRAM high-pressure gas; SLABx-LH2 liquid-origin dispersion; no implicit fallback"
+installation = "Separately installed native engines; no native source/data bundled by this host"
+compatible_scipy = "1.16.3"
+default_scipy_failure = "HyRAM6.1 under SciPy1.18.1: dopri5._solout positional-argument TypeError"
+fresh_environment_dependency_check = "passed"
+fresh_environment_native_replay = "same retained HyRAM initialization failure and SLAB high/low-wind pass/fail outcomes"
+
+[[providers]]
+name = "hyram"
+version = "6.1"
+license = "GPL-3.0-only"
+source_url = "https://github.com/sandialabs/hyram"
+pypi_metadata_url = "https://pypi.org/pypi/hyram/6.1/json"
+published_wheel_sha256 = "823838bea388f3a5778469a2cc8ae1cb77d4893b7bb2993c563c4c507bcae576"
+installed_license_member = "hyram-6.1.dist-info/licenses/COPYING.txt"
+installed_license_sha256 = "3237699d9e6781c85877365abd9493ca132a0fd31f43e1a3278b8e75f3654af4"
+python_paths_bytes_sha256 = "d5865e1ae7b5c77b985e06b45d7a5607543703c1834fc50f7c5d96f32a0c22de"
+scope = "Actual native high-pressure jet; Gaussian-entry H2 mass gap rejected by host; not field validation"
+
+[[providers]]
+name = "slabx"
+version = "1.0.8"
+license = "MIT"
+source_url = "https://github.com/lyullee/slabx"
+source_revision = "820e368ba6454aad8627dac5967115d9648c80c7"
+installed_license_sha256 = "2a0f3988d169fce7ed6a3d5d5fb4d72ff02e5e3267c12dd6c177c7c17f795f67"
+python_paths_bytes_sha256 = "3f8d37baf91ac46eceec11a0219d1fe0e4c41029be356ada90aba995215c6fe5"
+
+[[providers]]
+name = "slabx-lh2"
+version = "0.2.0"
+license = "MIT"
+source_url = "https://github.com/lyullee/slabx-lh2"
+source_revision = "1ef613102819de1c2feebd062aff3b49997e1927"
+installed_license_sha256 = "5adc50ab481524f5c7083a0f28f1901b52a28e54b2b5ba9db0f160c30ffa844a"
+python_paths_bytes_sha256 = "374bc73a9b5c0605ad846db397369e2493d9b5d5cc416a21b5e619785ec0da67"
+scope = "Actual native steady LH2-vapor cloud; finite source inventory and post-run premise checks, not independent field validation"

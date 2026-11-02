@@ -1,0 +1,185 @@
+key = "pressure-ignited"
+title = "Hydrogen Safety: Pressure Peaking Phenomena-ignited releases"
+doi = "10.23642/usn.17934047.v1"
+version = "1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://api.figshare.com/v2/articles/17934047"
+metadata_sha256 = "2a90b3a7f28efd58e7507bc0567837287bf86236ad8fc9d0e70f15ef7a115730"
+retrieved_at_utc = "2026-10-26T15:59:40.191546+00:00"
+authors = ["Agnieszka Lach", "Andre Vagner Gaathaug"]
+families = ["enclosure", "combustion"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 33
+acquired_bytes = 495316865
+omitted_files = ["HTE341USN0022READ191111.mat", "HTE341USN0005READ191111.mat", "HTE341USN0010READ191111.mat", "HTE341USN0008READ191111.mat", "HTE341USN0026READ191111.mat", "HTE341USN0019READ191111.mat", "HTE341USN0014READ191111.mat", "HTE341USN0028READ191111.mat", "HTE341USN0002READ191111.mat", "HTE341USN0020READ191111.mat", "HTE341USN0029READ191111.mat", "HTE341USN0027READ191111.mat", "HTE341USN0001READ191111.mat", "HTE341USN0025READ191111.mat", "HTE341USN0023READ191111.mat", "HTE341USN0024READ191111.mat", "HTE341USN0004READ191111.mat", "HTE341USN0030READ191111.mat", "HTE341USN0031READ191111.mat"]
+
+[[files]]
+name = "Readme_Hydrogen safety- Pressure Peaking Phenomena-ignited releases.docx"
+url = "https://ndownloader.figshare.com/files/33660374"
+relative_path = "pressure-ignited/1/Readme_Hydrogen safety- Pressure Peaking Phenomena-ignited releases.docx"
+size_bytes = 15264
+sha256 = "e3fc56e5eb909998ef7cece1ae14a9a6ed61feb2969633191f83244f4429339d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "facce8660a5be2c5738449f323968086"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "File handling guide.docx"
+url = "https://ndownloader.figshare.com/files/32657504"
+relative_path = "pressure-ignited/1/File handling guide.docx"
+size_bytes = 16893
+sha256 = "0e4d1ee145c9721f4db7e4d556547c44bf32f2145462a7094583402ca9f6f972"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "460bd5401251064fe2a8c4ac5404dd9c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0015READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655707"
+relative_path = "pressure-ignited/1/HTE341USN0015READ191111.mat"
+size_bytes = 40666968
+sha256 = "3c03a1fbc0164622e0354505b9272d0deb44dffbfe1baaf33e591533b83be5a4"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "63880bdd5e17eab73918bb6889c038d6"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0016READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655692"
+relative_path = "pressure-ignited/1/HTE341USN0016READ191111.mat"
+size_bytes = 40697671
+sha256 = "c299e7a66d43123aa36a524c746e61249472a427c76e07d8bdb6847e3107d1d7"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f718762c4243448f4e843cb43511c2ee"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0012READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655743"
+relative_path = "pressure-ignited/1/HTE341USN0012READ191111.mat"
+size_bytes = 40877440
+sha256 = "75be6a0665907af8ae386b2178d7207448f2e5652994be29822a3d4e9a835fb9"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "816d754c3edb2ce82a39f1696ece14f7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0003READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655878"
+relative_path = "pressure-ignited/1/HTE341USN0003READ191111.mat"
+size_bytes = 41212810
+sha256 = "0c2b78d227651ecabe8de8cafc331353bed577d9643bc80ac8ca14b620e35a44"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8911624132d23ffe14d8a6b99027479a"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0011READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655752"
+relative_path = "pressure-ignited/1/HTE341USN0011READ191111.mat"
+size_bytes = 41315811
+sha256 = "dd0b962ddfa8044b74043100501b73f4ebd208a8c4503de59f0964fcea5a4e4d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b51b98d892a86751fd30beb521b024d8"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0009READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655776"
+relative_path = "pressure-ignited/1/HTE341USN0009READ191111.mat"
+size_bytes = 41375928
+sha256 = "bf27d5c572cb801de43fbe527a64df84d2a62faf238037ee0f95f142650d2ae5"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f5770155db92899b798db34615b2b6db"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0013READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655740"
+relative_path = "pressure-ignited/1/HTE341USN0013READ191111.mat"
+size_bytes = 41387557
+sha256 = "d1dffd57d62d237ed6df24123ee01e0a595f6a8ab8526c1fed9ecf9601eccc33"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0df1add8f73ce0e8ebf9c4b3ddd7d6f7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0018READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655656"
+relative_path = "pressure-ignited/1/HTE341USN0018READ191111.mat"
+size_bytes = 41444716
+sha256 = "6e8fec622ea9cf35a993c5496727bf1ec83c2a4b97afc3139ea42471578abea1"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "26f6508c05fa7df056153ba84491d933"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0007READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655809"
+relative_path = "pressure-ignited/1/HTE341USN0007READ191111.mat"
+size_bytes = 41478900
+sha256 = "5dc93c39b9e85b66bcff0794a7ca6e5df6e75a6344050d8e3ef5b67ac97fc61f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8a29f3dd0d5d1817589542c073a67fae"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0021READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655605"
+relative_path = "pressure-ignited/1/HTE341USN0021READ191111.mat"
+size_bytes = 41521647
+sha256 = "b52c2f0c89cd9d4cbfd014230c44e8ca2d40cacc91628d20bc70dd1065b897bd"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d788b0db68869b37121e142edd190a5b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0006READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655827"
+relative_path = "pressure-ignited/1/HTE341USN0006READ191111.mat"
+size_bytes = 41626433
+sha256 = "09669038f0c71b00de243125946c8cb0da645cfbbbd4236c0ff0a55a82472eb5"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "14638534b64675f2825c96211a99940e"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE341USN0017READ191111.mat"
+url = "https://ndownloader.figshare.com/files/32655674"
+relative_path = "pressure-ignited/1/HTE341USN0017READ191111.mat"
+size_bytes = 41678827
+sha256 = "7e7bb02cc27e0b549329dd3ad7e2d9104d32b0163e30e02b34f8148c913ab088"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "08940689d1f84b6ef7f50108f2983513"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

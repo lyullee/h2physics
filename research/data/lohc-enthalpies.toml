@@ -1,0 +1,29 @@
+key = "lohc-enthalpies"
+title = "HydrogenStorage/QM9-LOHC: QM9-LOHC"
+doi = "10.5281/zenodo.10926772"
+version = "QM9-LOHC"
+origin = "computed"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/10926772"
+metadata_sha256 = "4d16df837f82898fd83a3d2df4f61589720901b1c45e99edf41bbe79cf0d0923"
+retrieved_at_utc = "2026-10-26T15:59:42.257621+00:00"
+authors = ["Hassan Harb"]
+families = ["lohc", "reaction"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 575892
+omitted_files = []
+
+[[files]]
+name = "HydrogenStorage/QM9-LOHC-QM9-LOHC.zip"
+url = "https://zenodo.org/api/records/10926772/files/HydrogenStorage/QM9-LOHC-QM9-LOHC.zip/content"
+relative_path = "lohc-enthalpies/QM9-LOHC/QM9-LOHC-QM9-LOHC.zip"
+size_bytes = 575892
+sha256 = "9f89ee72586dd00e5be58c0650b11d2e135e993873f90da23c8094c5265ee242"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "6118c466a0f909cc95175e084912605d"
+publisher_checksum_verified = true
+status = "cached"
+error = ""

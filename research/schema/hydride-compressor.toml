@@ -1,0 +1,1555 @@
+dataset = "hydride-compressor"
+doi = "10.5281/zenodo.19036733"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "LukasFleming/MHC-Dataset-v1.2.zip"
+format = "zip"
+archive_members = 37
+numeric_members = 31
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 1.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 33
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 1.xlsx:Cycle Definition Exp.1"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "1", "Thermal Analysis", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 1.xlsx:Cycle Data Exp.1"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 1.xlsx:Heat Balance Exp.1"
+format = "xlsx"
+rows = 2002
+columns = 51
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 1.xlsx:Summary Exp.1"
+format = "xlsx"
+rows = 40
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "1", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 10.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 10.xlsx:Cycle Definition Exp.10"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "10", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 10.xlsx:Cycle Data Exp.10"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 10.xlsx:H2 Mass Balance Exp.10"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "10", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 10.xlsx:Heat Balance Exp.10"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 10.xlsx:Efficiency Exp.10"
+format = "xlsx"
+rows = 46
+columns = 5
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 10.xlsx:Summary Exp.10"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "10", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 11.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 11.xlsx:Cycle Definition Exp.11"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "11", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 11.xlsx:Cycle Data Exp.11"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 11.xlsx:H2 Mass Balance Exp.11"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "11", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 11.xlsx:Heat Balance Exp.11"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 11.xlsx:Efficiency Exp.11"
+format = "xlsx"
+rows = 46
+columns = 5
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 11.xlsx:Summary Exp.11"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "11", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 12.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 12.xlsx:Cycle Definition Exp.12"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "12", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 12.xlsx:Cycle Data Exp.12"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 12.xlsx:H2 Mass Balance Exp.12"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "12", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 12.xlsx:Heat Balance Exp.12"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 12.xlsx:Efficiency Exp.12"
+format = "xlsx"
+rows = 46
+columns = 5
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 12.xlsx:Summary Exp.12"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "12", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 13.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 13.xlsx:Cycle Definition Exp.13"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "13", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 13.xlsx:Cycle Data Exp.13"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 13.xlsx:H2 Mass Balance Exp.13"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "13", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 13.xlsx:Heat Balance Exp.13"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 13.xlsx:Efficiency Exp.13"
+format = "xlsx"
+rows = 46
+columns = 5
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 13.xlsx:Summary Exp.13"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "13", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 14.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 14.xlsx:Cycle Definition Exp.14"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "14", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 14.xlsx:Cycle Data Exp.14"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 14.xlsx:H2 Mass Balance Exp.14"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "14", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 14.xlsx:Heat Balance Exp.14"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 14.xlsx:Efficiency Exp.14"
+format = "xlsx"
+rows = 46
+columns = 5
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 14.xlsx:Summary Exp.14"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "14", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 15.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 33
+columns = 23
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 15.xlsx:Cycle Definition Exp.15"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "15", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 15.xlsx:Cycle Data Exp.15"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 15.xlsx:H2 Mass Balance Exp.15"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "15", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 15.xlsx:Heat Balance Exp.15"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 15.xlsx:Efficiency Exp.15"
+format = "xlsx"
+rows = 46
+columns = 5
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 15.xlsx:Summary Exp.15"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "15", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 16.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 16.xlsx:Cycle Definition Exp.16"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiments No.", "16", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 16.xlsx:Cycle Data Exp.16"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 16.xlsx:H2 Mass Balance Exp.16"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiments No.", "16", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 16.xlsx:Heat Balance Exp.16"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 16.xlsx:Efficiency Exp.16"
+format = "xlsx"
+rows = 46
+columns = 5
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 16.xlsx:Summary Exp.16"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "16", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 17.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 17.xlsx:Cycle Definition Exp.17"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "17", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 17.xlsx:Cycle Data Exp.17"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 17.xlsx:H2 Mass Balance Exp.17"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "17", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 17.xlsx:Heat Balance Exp.17"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 17.xlsx:Efficiency Exp.17"
+format = "xlsx"
+rows = 46
+columns = 5
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 17.xlsx:Summary Exp.17"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "17", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 18.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 18.xlsx:Cycle Definition Exp.18"
+format = "xlsx"
+rows = 13857
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "18", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 18.xlsx:Cycle Data Exp.18"
+format = "xlsx"
+rows = 1813
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 18.xlsx:H2 Mass Balance Exp.18"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "18", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 18.xlsx:Heat Balance Exp.18"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 18.xlsx:Efficiency Exp.18"
+format = "xlsx"
+rows = 46
+columns = 15
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 18.xlsx:Summary Exp.18"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "18", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 19.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 19.xlsx:Cycle Definition Exp.19"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "19", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 19.xlsx:Cycle Data Exp.19"
+format = "xlsx"
+rows = 1813
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 19.xlsx:H2 Mass Balance Exp.19"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "19", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 19.xlsx:Heat Balance Exp.19"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 19.xlsx:Efficiency Exp.19"
+format = "xlsx"
+rows = 46
+columns = 15
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 19.xlsx:Summary Exp.19"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "19", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 2.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 2.xlsx:Cycle Definition Exp.2"
+format = "xlsx"
+rows = 13858
+columns = 60
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "2", "Thermal Analysis", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 2.xlsx:Cycle Data Exp.2"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 2.xlsx:Heat Balance Exp.2"
+format = "xlsx"
+rows = 3622
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 2.xlsx:Summary Exp.2"
+format = "xlsx"
+rows = 40
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "2", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 20.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 20.xlsx:Cycle Definition Exp.20"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiments No.", "20", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 20.xlsx:Cycle Data Exp.20"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 20.xlsx:H2 Mass Balance Exp.20"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiments No.", "20", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 20.xlsx:Heat Balance Exp.20"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 20.xlsx:Efficiency Exp.20"
+format = "xlsx"
+rows = 46
+columns = 15
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 20.xlsx:Summary Exp.20"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "20", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 21.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 21.xlsx:Cycle Definition Exp.21"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "21", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 21.xlsx:Cycle Data Exp.21"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 21.xlsx:H2 Mass Balance Exp.21"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "21", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 21.xlsx:Heat Balance Exp.21"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 21.xlsx:Efficiency Exp.21"
+format = "xlsx"
+rows = 46
+columns = 15
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 21.xlsx:Summary Exp.21"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "21", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 22.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 22.xlsx:Cycle Definition Exp.22"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "22", "Two-Stage Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 22.xlsx:Cycle Data Exp.22"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 22.xlsx:H2 Mass Balance Exp.22"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "22", "Two-Stage Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 22.xlsx:Heat Balance Exp.22"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 22.xlsx:Efficiency Exp.22"
+format = "xlsx"
+rows = 46
+columns = 22
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 22.xlsx:Summary Exp.22"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "22", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 23.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 23.xlsx:Cycle Definition Exp.23"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "23", "Two-Stage Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 23.xlsx:Cycle Data Exp.23"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 23.xlsx:H2 Mass Balance Exp.23"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "23", "Two-Stage Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 23.xlsx:Heat Balance Exp.23"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 23.xlsx:Efficiency Exp.23"
+format = "xlsx"
+rows = 46
+columns = 22
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 23.xlsx:Summary Exp.23"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "23", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 24.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 24.xlsx:Cycle Definition Exp.24"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "24", "Two-Stage Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 24.xlsx:Cycle Data Exp.24"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 24.xlsx:H2 Mass Balance Exp.24"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "24", "Two-Stage Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 24.xlsx:Heat Balance Exp.24"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 24.xlsx:Efficiency Exp.24"
+format = "xlsx"
+rows = 46
+columns = 22
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "Do not delete", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 24.xlsx:Summary Exp.24"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "24", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 25.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 25.xlsx:Cycle Definition Exp.25"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "25", "Two-Stage Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 25.xlsx:Cycle Data Exp.25"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 25.xlsx:H2 Mass Balance Exp.25"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "25", "Two-Stage Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 25.xlsx:Heat Balance Exp.25"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 25.xlsx:Efficiency Exp.25"
+format = "xlsx"
+rows = 46
+columns = 22
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "Do not delete", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 25.xlsx:Summary Exp.25"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "25", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 26.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 26.xlsx:Cycle Definition Exp.26"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "26", "Two-Stage Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 26.xlsx:Cycle Data Exp.26"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 26.xlsx:H2 Mass Balance Exp.26"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "26", "Two-Stage Compression", "Single Tank", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 26.xlsx:Heat Balance Exp.26"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 26.xlsx:Efficiency Exp.26"
+format = "xlsx"
+rows = 46
+columns = 22
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "Do not delete", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 26.xlsx:Summary Exp.26"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "26", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 27.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 27.xlsx:Cycle Definition Exp.27"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "27", "Two-Stage Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 27.xlsx:Cycle Data Exp.27"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 27.xlsx:H2 Mass Balance Exp.27"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "27", "Two-Stage Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 27.xlsx:Heat Balance Exp.27"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 27.xlsx:Efficiency Exp.27"
+format = "xlsx"
+rows = 46
+columns = 22
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "Do not delete", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 27.xlsx:Summary Exp.27"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "27", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 28.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 28.xlsx:Cycle Definition Exp.28"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "28", "Two-Stage Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 28.xlsx:Cycle Data Exp.28"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 28.xlsx:H2 Mass Balance Exp.28"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "28", "Two-Stage Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 28.xlsx:Heat Balance Exp.28"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 28.xlsx:Efficiency Exp.28"
+format = "xlsx"
+rows = 46
+columns = 22
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "Do not delete", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 28.xlsx:Summary Exp.28"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "28", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 29.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 29.xlsx:Cycle Definition Exp.29"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "29", "Two-Stage Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 29.xlsx:Cycle Data Exp.29"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 29.xlsx:H2 Mass Balance Exp.29"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "29", "Two-Stage Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 29.xlsx:Heat Balance Exp.29"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 29.xlsx:Efficiency Exp.29"
+format = "xlsx"
+rows = 46
+columns = 22
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "Do not delete", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 29.xlsx:Summary Exp.29"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "29", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 3.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 3.xlsx:Cycle Definition Exp.3"
+format = "xlsx"
+rows = 13864
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "3", "Capacity Measurement", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 3.xlsx:Cycle Data Exp.3"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 3.xlsx:H2 Mass Balance Exp.3"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "3", "Material", "Single Tank", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 4.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 4.xlsx:Cycle Definition Exp.4"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "4", "Capacity Measurement", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 4.xlsx:Cycle 1 Data Exp.4"
+format = "xlsx"
+rows = 3603
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 4.xlsx:Cycle 2 Data Exp.4"
+format = "xlsx"
+rows = 3603
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 4.xlsx:Cycle 1 H2 Mass Balance Exp.4"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "4 cyc 1", "Material", "Single Tank", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 4.xlsx:Cycle 2 H2 Mass Balance Exp.4"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "4 cyc 2", "Material", "Single Tank", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 5.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 5.xlsx:Cycle Definition Exp.5"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "5", "Capacity Measurement", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 5.xlsx:Cycle Data Exp.5"
+format = "xlsx"
+rows = 3603
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 5.xlsx:H2 Mass Balance Exp.5"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "5", "Capacity Measurement", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 6.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 6.xlsx:Cycle Definition Exp.6"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "6", "Capacitiy Measurement", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 6.xlsx:Cycle Data Exp.6"
+format = "xlsx"
+rows = 3612
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 6.xlsx:H2 Mass Balance Exp.6"
+format = "xlsx"
+rows = 3620
+columns = 126
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "6", "Capacitiy Measurement", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "", "", "", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 7.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 7.xlsx:Cycle Definition Exp.7"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "7", "Capacity Measurement", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 7.xlsx:Cycle Data Exp.7"
+format = "xlsx"
+rows = 3603
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 7.xlsx:H2 Mass Balance Exp.7"
+format = "xlsx"
+rows = 3620
+columns = 126
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "7", "Capacity Measurement", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "", "", "", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 8.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 8.xlsx:Cycle Definition Exp.8"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No", "8", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 8.xlsx:Cycle Data Exp.8"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 8.xlsx:H2 Mass Balance Exp.8"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No", "8", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 8.xlsx:Heat Balance Exp.8"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 8.xlsx:Efficiency Exp.8"
+format = "xlsx"
+rows = 46
+columns = 5
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 8.xlsx:Summary Exp.8"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "8", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 9.xlsx:Sensor Overview"
+format = "xlsx"
+rows = 32
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 9.xlsx:Cycle Definition Exp.9"
+format = "xlsx"
+rows = 13858
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "9", "Single Tank Compression", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 9.xlsx:Cycle Data Exp.9"
+format = "xlsx"
+rows = 3612
+columns = 41
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 9.xlsx:H2 Mass Balance Exp.9"
+format = "xlsx"
+rows = 3620
+columns = 124
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "9", "Single Tank Compression", "", "m MH [g]", "Volume [L]", "filling bulk density [kg/m³]", "max capacity theoretical [wt%]", "σ(total capacity theoretical) [wt%]", "total time [min]", "", "", "", "Start Absorption [min]", "Stop Absorption [min]", "time Absorption [min]", "H2 Absorption no gp[g]", "σ(H2 Absorption no gp) [g]", "capacity Absorption gp [wt%]", "σ(capacity Absorption gp) [wt%]", "", "", "", "time Start Desorption [min]", "time Stop Desorption [min]", "time Desorption [min]", "H2 Desorption no gp[g]", " σ(H2 Desorption no gp) [g]", " capacity Desorption gp [wt%]", " σ(capacity Desorption gp) [wt%]", "", "", "", "", "", "", "Constants:", "Gasconstant", "Molmass H2 [g/mol]", "Normliterfactor L/mol", "", "NIST eq. Values", "", "a", "b", "c", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 9.xlsx:Heat Balance Exp.9"
+format = "xlsx"
+rows = 1822
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "abs", "", "", "", "des", "", "", "Evaluation of full cycle", "", "Stage I", "Stage II", "Sum", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 9.xlsx:Efficiency Exp.9"
+format = "xlsx"
+rows = 46
+columns = 5
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Dataset/Experiment 9.xlsx:Summary Exp.9"
+format = "xlsx"
+rows = 41
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Experiment No.", "9", "", "", "", "", "", "", "", "", "Do not delete"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/Experiment Overview.xlsx:Tabelle1"
+format = "xlsx"
+rows = 35
+columns = 8
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Exp. No.", "Stage", "Material", "", "Description", "p1", "p2", "½ Cycle Time"]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/PCI data.xlsx:Ti-Zr-Mn-V-Fe Absorption"
+format = "xlsx"
+rows = 260
+columns = 31
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Ti0.95Zr0.05Mn1.46V0.45Fe0.09 (Hydralloy®C5)  Absorption PCIs", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/PCI data.xlsx:Ti-Zr-Mn-V-Fe Desorption"
+format = "xlsx"
+rows = 154
+columns = 31
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Ti0.95Zr0.05Mn1.46V0.45Fe0.09 (Hydralloy®C5)  Desorption PCIs", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/PCI data.xlsx:Mm-Ni-Fe-Al Absorption"
+format = "xlsx"
+rows = 260
+columns = 31
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["MmNi4.43Fe0.87Al0.01C0.02  Absorption PCIs", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/PCI data.xlsx:Mm-Ni-Fe-Al Desorption"
+format = "xlsx"
+rows = 82
+columns = 31
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["MmNi4.43Fe0.87Al0.01C0.02  Desorption PCIs", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/PCI data.xlsx:Ti-Cr-Mn-Fe-V Absorption"
+format = "xlsx"
+rows = 260
+columns = 31
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["TiCr1.24Mn0.21Fe0.41V0.01   Absorption PCIs", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "LukasFleming-MHC-Dataset-680ec48/PCI data.xlsx:Ti-Cr-Mn-Fe-V Desorption"
+format = "xlsx"
+rows = 260
+columns = 31
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["TiCr1.24Mn0.21Fe0.41V0.01   Desorption PCIs", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]

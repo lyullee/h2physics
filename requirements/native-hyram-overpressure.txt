@@ -1,0 +1,5 @@
+# Separate native environment for the standalone HyRAM Bauwens correlation.
+# HyRAM+ is GPL-3.0-only; see docs/NATIVE_OVERPRESSURE.md and upstream license.
+hyram==6.1
+scipy==1.16.3
+numpy>=1.26,<2.6

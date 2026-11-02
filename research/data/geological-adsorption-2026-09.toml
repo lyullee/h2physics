@@ -1,0 +1,89 @@
+key = "geological-adsorption-2026-09"
+title = "Data and code for: Redefining the metrological limits of hydrogen adsorption in geological materials"
+doi = "10.5281/zenodo.22305898"
+concept_doi = "10.5281/zenodo.19695750"
+version = "Zenodo latest version record 22305898; publication date 2026-09-14; API omits semantic version string"
+publisher = "Zenodo"
+authors = ["Vujevic, Ivan", "Magnin, Valerie", "Jelavic, Stanislav", "Guillet-Nicolas, Remy", "GREKOV, Denys", "de Rango, Patricia", "BAUDOIN, Simon", "LEWIN, Éric", "YAO, YAN", "Donze, Frederic-Victor", "Truche, Laurent"]
+origin = "Measured high-pressure H2 adsorption and He calibration data for geological and reference materials; archive also contains processed isotherms, analysis scripts, documentation and validation artifacts"
+metadata_url = "https://zenodo.org/api/records/22305898"
+metadata_sha256 = "9c4fb7d78565928ec7d7c3299d017e56c5131de5df6411beea54487c70c8214a"
+metadata_bytes = 8393
+metadata_relative_path = "geological-adsorption/zenodo-22305898/record.json"
+metadata_capture = "HTTP 200 JSON API response; SHA-256 over the exact 8,393-byte response saved on 2026-10-29"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+license_scope = "The exact Zenodo latest-version API record identifies access_right=open and license=cc-by-4.0. Zenodo's deposit documentation states the selected license applies to every file in the deposition. This record-level declaration is not a separate audit of rights in any literature-derived third-party material inside the archive; individual data provenance remains to be reviewed. Host reuse will be limited to authors' experimental data candidates; bundled analysis code, figures and fonts are not reused."
+access_level = "public"
+record_is_latest = true
+listed_file_count = 1
+acquired_bytes = 5063714
+archive_entries = 104
+internal_sha256_manifest_entries = 81
+internal_sha256_manifest_verified = true
+internal_sha256_mismatches = 0
+cox_authoritative_source_sha256 = "9bd0bc421b375f7a1bcda522dfbf14c9ef7ae28bcc9b21e1a3e7fdc37e2072fb"
+rights_api_observation = "Zenodo API record metadata.license.id=cc-by-4.0; the metadata rights field is null. README instructs users to apply the license stated on the record. Bundled Liberation Serif font has separate OFL-1.1 text."
+archive_schema_inspected = false
+processed_isotherm_schema_inspected = true
+processed_isotherm_file_count = 4
+processed_isotherm_data_rows = 24
+processed_isotherm_columns_per_file = 38
+raw_csv_schema_inspected = true
+raw_csv_schema_file_count = 14
+raw_csv_schema_report = "research/geological_raw_schema.md"
+raw_h2_equilibrium_rows = 18
+raw_he_calibration_rows = 33
+raw_sample_configuration_rows = 4
+raw_data_extracted = false
+raw_data_in_git = false
+rights_permitted = true
+third_party_component_rights_reviewed = false
+validation_qualified = false
+supersedes_record = "10.5281/zenodo.19695751"
+model_use = "Relevant measured reference for high-pressure (~up to 100 bar) adsorption in geological materials and low-uptake metrology at ~291 K. Zenodo's latest description says the study reports excess adsorption. This is not absolute uptake suitable for the finite-adsorption-vessel inventory without a separately supported excess-to-absolute correction, and it is not a commercial adsorbent-bed or vessel-capacity validation dataset."
+next_action = "Raw CSV header/width/blank/hash audit is complete for 14 members; qualify raw logger clocks, missing He calibration observation, linked COx workbook inputs and uncertainty propagation. Preserve signed excess-loading basis; require independently supported excess-to-absolute correction before finite-vessel use."
+
+[acquisition]
+retrieved_at_utc = "2026-10-29"
+download_url = "https://zenodo.org/api/records/22305898/files/submission_package.zip/content"
+relative_path = "geological-adsorption/zenodo-22305898/submission_package.zip"
+sha256 = "40c16cca5099e2c69dc44aceb43300854307b3a6c8351c43013afc9967e60dc6"
+publisher_checksum = "md5:36875754050944906f08e356198f1b94"
+publisher_checksum_verified = true
+status = "acquired_latest_open_CC_BY_4_0_processed_isotherm_schema_audited"
+
+[archive_inventory]
+inspection_method = "Downloaded file size and SHA-256/Zenodo MD5 verification; ZIP central-directory listing; README.md and DATA_DICTIONARY.md read in memory; the four processed isotherm CSVs were streamed in memory for header and row audit, without extraction; raw logger/calibration tables remain uninspected; no bundled code execution, analysis or model calculation"
+top_level_directory = "submission_package ZENODO_MINIMAL_FINAL/"
+relevant_entries = ["01_raw_data/cox/cox results raw.xlsx", "01_raw_data/h2_he_equilibrium/h2_equilibrium_points.csv", "01_raw_data/h2_he_equilibrium/he_calibration_points.csv", "01_raw_data/mof177_logger/mof177_h2_run107.csv", "02_processed_data/isotherms/cox.csv", "02_processed_data/isotherms/kunipia.csv", "02_processed_data/isotherms/laponite.csv", "02_processed_data/isotherms/mof177.csv", "DATA_DICTIONARY.md", "05_validation/validation_report.json"]
+limitations = "Four processed isotherm tables and all 14 raw CSV member header/width/blank/hash structures are inspected. No raw logger averaging, fit, EOS or numerical qualification ran. COx workbook/link analysis, source meanings, raw clocks, uncertainty reproduction, third-party rights and absolute/excess conversion remain open. Literature-derived records are outside admitted reuse; figures/fonts/code are not copied."
+
+[[sources]]
+title = "Zenodo immutable latest-version API record"
+url = "https://zenodo.org/api/records/22305898"
+role = "Primary record metadata for DOI, public-open access, CC BY 4.0 license, latest-version relation, file name, byte size and publisher MD5 checksum."
+
+[[sources]]
+title = "Zenodo latest dataset landing page"
+url = "https://zenodo.org/records/22305898"
+role = "Primary depositor description of measured H2 adsorption, materials, approximate pressure/temperature scope, excess-loading uncertainty treatment and the correction of an erroneous COx source workbook in the earlier version."
+
+[[sources]]
+title = "Zenodo license scope documentation"
+url = "https://developers.zenodo.org/#licenses"
+role = "Zenodo documentation says the selected record license applies to all files in a deposition; repository metadata receives separate CC0 treatment."
+
+[[sources]]
+title = "Creative Commons Attribution 4.0 International"
+url = "https://creativecommons.org/licenses/by/4.0/"
+role = "License terms; attribution and indication of changes are required for reused licensed data."
+
+[[files]]
+name = "submission_package.zip"
+url = "https://zenodo.org/api/records/22305898/files/submission_package.zip/content"
+relative_path = "geological-adsorption/zenodo-22305898/submission_package.zip"
+size_bytes = 5063714
+sha256 = "40c16cca5099e2c69dc44aceb43300854307b3a6c8351c43013afc9967e60dc6"
+md5 = "36875754050944906f08e356198f1b94"
+status = "acquired_archive_listing_only"

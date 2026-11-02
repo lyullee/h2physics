@@ -1,0 +1,139 @@
+dataset = "austenite-embrittlement"
+doi = "10.5281/zenodo.23107780"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "requirements.txt"
+format = "txt"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "LICENSE-DATA.txt"
+format = "txt"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "record_composition_map.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "record_composition_map.csv"
+format = "delimited"
+rows = 102
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["record_id", "comp_key"]
+
+[[files]]
+name = "compositions.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "compositions.csv"
+format = "delimited"
+rows = 31
+columns = 17
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["comp_key", "material_label", "composition_basis", "derive_nieq", "derive_md30", "composition_source", "C", "Si", "Mn", "Cr", "Ni", "Mo", "N", "Cu", "Nb", "Ti", "notes"]
+
+[[files]]
+name = "data_dictionary.md"
+format = "md"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "CONTRIBUTING.md"
+format = "md"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "README.md"
+format = "md"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "HE-Austenite_v1.0.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HE-Austenite_v1.0.xlsx:Read me"
+format = "xlsx"
+rows = 12
+columns = 1
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["HE-Austenite v0.2"]
+
+[[files.tables]]
+name = "HE-Austenite_v1.0.xlsx:Data"
+format = "xlsx"
+rows = 114
+columns = 47
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["record id", "source id", "source short", "alloy", "heat", "material family", "product form", "is weld", "zone", "weld process", "filler metal", "ferrite number", "hydrogen exposure", "h2 pressure MPa", "hydrogen content wppm", "charging time h", "test temperature K", "test temperature C", "strain rate per s", "test type", "property name", "reference environment", "property reference", "property h2", "relative ratio", "embrittlement flag", "C wt pct", "Si wt pct", "Mn wt pct", "Cr wt pct", "Ni wt pct", "Mo wt pct", "N wt pct", "Cu wt pct", "Nb wt pct", "Ti wt pct", "composition basis", "composition source", "ni equivalent", "ni equivalent reported", "md30 calculated", "derived assumptions", "derived", "verified", "notes", "RA ratio (base metal)", "RA ratio (weld)"]
+
+[[files.tables]]
+name = "HE-Austenite_v1.0.xlsx:Summary"
+format = "xlsx"
+rows = 24
+columns = 4
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["HE-Austenite v0.2 — summary", "", "", ""]
+
+[[files.tables]]
+name = "HE-Austenite_v1.0.xlsx:Data dictionary"
+format = "xlsx"
+rows = 31
+columns = 4
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Column", "Meaning", "Units / values", "Records populated"]
+
+[[files.tables]]
+name = "HE-Austenite_v1.0.xlsx:Sources"
+format = "xlsx"
+rows = 10
+columns = 4
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Source id", "Citation", "Link", "Access"]
+
+[[files.tables]]
+name = "HE-Austenite_v1.0.xlsx:Extraction log"
+format = "xlsx"
+rows = 21
+columns = 3
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Source", "Status", "Reason"]
+
+[[files]]
+name = "he_austenite_v1.0.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "he_austenite_v1.0.csv"
+format = "delimited"
+rows = 113
+columns = 45
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["record_id", "source_id", "source_short", "alloy", "heat", "material_family", "product_form", "is_weld", "zone", "weld_process", "filler_metal", "ferrite_number", "hydrogen_exposure", "h2_pressure_MPa", "hydrogen_content_wppm", "charging_time_h", "test_temperature_K", "test_temperature_C", "strain_rate_per_s", "test_type", "property_name", "reference_environment", "property_reference", "property_h2", "relative_ratio", "embrittlement_flag", "C_wt_pct", "Si_wt_pct", "Mn_wt_pct", "Cr_wt_pct", "Ni_wt_pct", "Mo_wt_pct", "N_wt_pct", "Cu_wt_pct", "Nb_wt_pct", "Ti_wt_pct", "composition_basis", "composition_source", "ni_equivalent", "ni_equivalent_reported", "md30_calculated", "derived_assumptions", "derived", "verified", "notes"]

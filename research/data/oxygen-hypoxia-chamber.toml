@@ -1,0 +1,61 @@
+key = "oxygen-hypoxia-chamber"
+title = "Data from: A modeling approach to inform in vitro Hypoxia platforms for patient-specific analyses"
+doi = "10.5061/dryad.t1g1jwtg9"
+version = "6"
+origin = "measured"
+source_updated_at = ""
+license_id = "CC0-1.0"
+license_url = "https://creativecommons.org/publicdomain/zero/1.0/"
+metadata_url = "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.t1g1jwtg9"
+metadata_sha256 = "a875d98d391a7c7d4a8d727f5bf094bdad424815ab4be3debe624c06e060a5ab"
+retrieved_at_utc = "2026-10-30T04:38:52.837192+00:00"
+authors = ["Nida Qayyum", "Andrew Cole", "Pim Oomen", "Rami Khayat", "Anna Grosberg"]
+families = ["oxygen_dilution", "monitoring"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 2
+acquired_bytes = 0
+omitted_files = []
+model_linkage_status = "blocked_downloaded_workbook_schema_and_source_boundary"
+model_link_target = "h2physics.adapters.oxygen_deficiency.CanteraOxygenRoom.run"
+model_link_case = "oxygen-hypoxia-chamber-gas-transfer-model-link-gap"
+model_link_scope = "Dryad describes measured oxygen-chamber data that may support a gas-phase O2 trace comparison, but current acquisition has no workbook bytes; the gas-inlet mass/volume-flow basis and experimental boundary conditions are not available to reconstruct the native source boundary."
+missing_model_link_evidence = ["downloaded hash-verified workbook bytes and exact sheet headers/row mapping", "total inlet gas flow units and reference pressure/temperature", "inlet O2 time series joined to total flow on a shared recorder clock", "inlet gas composition beyond O2 fraction and source thermodynamic state", "chamber volume/pressure/vent boundary matched to the existing gas-volume model", "sensor locations, calibration and response-delay correction for gas-phase O2", "liquid oxygen transfer and evaporation model terms outside the existing gas-only room API"]
+
+[schema_audit]
+state = "primary_readme_schema_description_only"
+inspection = "Dryad primary page describes one workbook with ten sheets and measurements of chamber gas/liquid temperature, well-water evaporation, gas/liquid oxygen, inlet oxygen fraction, and inlet flow patterns."
+limitations = "Exact workbook headers, row values, flow units/reference state, sheet pairing and hash cannot be reviewed because both file downloads failed in the captured acquisition. The existing oxygen-deficiency model represents a gas volume and does not model liquid oxygen transfer or evaporation."
+
+[[supporting_metadata]]
+url = "https://datadryad.org/api/v2/versions/446442/files"
+sha256 = "ef4d67fc3bf67134af042219e292553ec6844c1e688ea6e85732b81195889d9b"
+
+[[sources]]
+title = "Dryad version 6 primary record and rendered README"
+url = "https://datadryad.org/dataset/doi:10.5061/dryad.t1g1jwtg9"
+role = "Record declares CC0 1.0 and identifies the two files; rendered README describes the ten workbook sheets, observed quantities, and intended model use."
+
+[[files]]
+name = "README.md"
+url = "https://datadryad.org/api/v2/files/4800943/download"
+relative_path = ""
+size_bytes = 0
+sha256 = ""
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "93517b02fa207c24ca7510802eff56da82f0e49aafa598229481d8d451ce6bc5"
+publisher_checksum_verified = false
+status = "failed"
+error = "HTTP Error 401: Unauthorized"
+
+[[files]]
+name = "Compiled_Data_PAPER_unformatted.xlsx"
+url = "https://datadryad.org/api/v2/files/4800936/download"
+relative_path = ""
+size_bytes = 0
+sha256 = ""
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "f301464111d1feb33c1b28a192b8b9d868a352a6041d8f4b0da03eeccc152383"
+publisher_checksum_verified = false
+status = "failed"
+error = "HTTP Error 401: Unauthorized"

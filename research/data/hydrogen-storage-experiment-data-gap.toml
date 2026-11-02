@@ -1,0 +1,103 @@
+key = "hydrogen-storage-experiment-data-gap"
+title = "Primary-source audit: measured hydrogen storage materials and tank histories"
+doi = ""
+version = "source search audit 2026-11-01"
+origin = "source_gap"
+license_id = "No new qualifying dataset acquired; review existing source-specific licenses"
+metadata_url = ""
+rights_permitted = false
+raw_data_acquired = false
+validation_qualified = false
+audit_date = "2026-11-01"
+audit_scope = ["measured hydride PCT and cycling", "cryogenic LH2 tank pressure, heat leak, boiloff and self-pressurization histories"]
+audit_method = "Primary repository and official research-organization metadata review; existing local receipts and recorded checksums inspected; no publication figures digitized."
+result = "No new dataset met the combined raw-schema, explicit-license, and measurement-provenance criteria for acquisition as validation evidence. Existing measured records cover adjacent but narrower equipment/process scopes."
+documentation = "docs/HYDROGEN_STORAGE_EXPERIMENT_DATA_GAP.md"
+
+[[existing_records]]
+key = "ab2-hydride-tank"
+doi = "10.17632/8km9z62tct.1"
+license_id = "CC-BY-4.0"
+origin = "measured"
+inventory = "3 XLSX files; 59,809,253 bytes; approximately 1 s flow-through tank absorption/desorption measurements. Existing receipt includes filenames, sizes, publisher SHA-256 and local acquisition paths."
+schema = "Time, flow, pressure, five shell temperatures and cumulative uptake/release fields; see existing source receipt and HYDRIDE_DATA documentation."
+schema_limitations = "MFC reference conditions and pressure basis, measurement uncertainty, and shell-to-bed temperature relationship are unresolved."
+hash_audit = "All 3 local file SHA-256 values matched the recorded publisher checksums on 2026-11-01."
+validation_qualified = false
+
+[[existing_records]]
+key = "hydride-compressor"
+doi = "10.5281/zenodo.19036733"
+license_id = "CC-BY-4.0"
+origin = "measured"
+inventory = "Existing receipt describes 29 experiment workbooks and logger channels."
+schema = "Source logger channels and units retained by the existing source-bound reader; source clock offsets remain explicit."
+schema_limitations = "Calibration export, sensor locations, flow reference and calibration remain incompletely resolved. This is compressor operation, not a raw PCT isotherm series."
+hash_audit = "Local source archive SHA-256 matched the existing receipt on 2026-11-01."
+validation_qualified = false
+
+[[existing_records]]
+key = "cryo-neutron-phase-change"
+doi = "10.17632/z5zc7kk76g.2"
+license_id = "CC-BY-4.0"
+origin = "measured"
+inventory = "3 selected CSV members; 499,266 bytes; 5,391 nominal 1 s DAQ rows, 1,165 nominal 10 s image rows, and 6 image-window rate rows."
+schema = "DAQ, image and image-window rate schemas are enumerated in the existing receipt."
+schema_limitations = "Cell-scale conical neutron-imaging experiment, not a tank; separate clocks; time-zone and phase-rate/error units unresolved."
+hash_audit = "All 3 selected local CSV SHA-256 values matched the existing receipt on 2026-11-01."
+validation_qualified = false
+
+[[existing_records]]
+key = "preslhy-discharge"
+doi = "10.35097/1187"
+license_id = "CC-BY-4.0"
+origin = "measured"
+inventory = "Existing receipt includes cryogenic high-pressure hydrogen discharge data. Three selected cold archive ZIPs total 549391239 bytes."
+schema = "Source pressure and temperature time traces are described in the existing source-bound records."
+schema_limitations = "Discharge/blowdown, not long-term storage heat leak or self-pressurization; channel calibration and interpretation limits remain in the existing comparison documentation."
+hash_audit = "All 3 selected local cold archive SHA-256 values matched the existing receipts on 2026-11-01."
+validation_qualified = false
+
+[[leads]]
+name = "Sandia ML-HydPARK curated materials table"
+doi = "10.5281/zenodo.10680097"
+metadata_url = "https://zenodo.org/records/10680097"
+license_id = "CC-BY-4.0"
+status = "acquired into ignored data/raw with a file-specific receipt and lossless screening reader"
+scope = "Curated material property table; not original PCT curves, time histories, or complete experiment-level uncertainty metadata."
+disposition = "May support material screening after caller review; not measured-curve validation. See docs/ML_HYDPARK_SCREENING.md."
+
+[[leads]]
+name = "DOE Hydrogen Storage Materials Database / HydPARK"
+metadata_url = "https://www.energy.gov/cmei/fuels/databases"
+license_id = "unresolved"
+status = "database discovery lead; raw dataset rights and downloadable experimental schema not confirmed"
+disposition = "Do not acquire or redistribute until the actual repository grant and original data schema are verified."
+
+[[leads]]
+name = "NASA ZBOT"
+metadata_url = "https://gipoc.grc.nasa.gov/wp/msg/zbot/"
+license_id = "unresolved; portal identifies access for authorized users"
+status = "restricted-data lead; ZBOT-1 working fluid is PnP simulant"
+disposition = "Not admitted as openly downloadable data or direct H2-fluid validation; no plot digitization."
+
+[[leads]]
+name = "NASA MHTB / SHIIVER cryogenic tank experiments"
+metadata_url = "https://ntrs.nasa.gov/"
+license_id = "unresolved for raw experimental files"
+status = "technical reports and plotted summaries located; no openly licensed machine-readable raw time-series package established"
+disposition = "Strong search lead only. Do not reconstruct data from figures or infer raw-file reuse rights from report availability."
+
+[[excluded_records]]
+name = "High-Resolution Metal Hydride PCT Isotherm Data"
+doi = "10.17632/trpnk55pmz.1"
+origin = "simulated"
+license_id = "CC-BY-4.0"
+reason = "Deposited curves are explicitly simulated. Suitable only for source-reader/regression work, not independent experimental validation."
+
+[[excluded_records]]
+name = "Hydrogen storage publication figures and tables"
+doi = ""
+origin = "derived_from_publications"
+license_id = "varies; not cleared as reusable raw dataset"
+reason = "No digitization or transcription was performed; report availability does not establish dataset-level reuse rights or provide original machine-readable records."

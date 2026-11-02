@@ -1,0 +1,54 @@
+review_date = "2026-10-28"
+development_status = "implemented_unverified"
+local_execution = "No native import/model/pytest/replay/benchmark/example/case execution"
+role = "Optional native static cylindrical-shell stress/SIF/FAD with supplied thermal material law"
+prior_receipt = "research/fracture_dependency.toml"
+package = "helpr"
+version = "2.1.0"
+revision = "ae12d20b6608123af41dd9d5f70db6b6547fece5"
+source_url = "https://github.com/sandialabs/helpr"
+license_id = "BSD-3-Clause"
+license_sha256 = "61948c7b8e104dd3acb3e26e1c45332edc3f75dece4c745359ad1cd06d912534"
+bundled_in_host = false
+installation_status = "Source-only read-only inspection; deferred isolated Nurion install"
+runtime_lock_status = "Pending native HELPR/transitive licenses plus existing CoolProp/LH2DT profile resolution"
+scientific_context_url = "https://energy.sandia.gov/programs/sustainable-transportation/hydrogen/hydrogen-safety-codes-and-standards/helpr/"
+documentation_url = "https://sandialabs.github.io/helpr/"
+primary_presentation_url = "https://www.sandia.gov/app/uploads/sites/273/2023/11/HELPR_Poster_IHC_2023_SAND2023_8941C.pdf"
+
+[[reviewed_source]]
+path = "src/helpr/physics/pipe.py"
+sha256 = "2f1c7ec883c82cb31084341d922fa08f75509b857aa317e73699a673828e8363"
+
+[[reviewed_source]]
+path = "src/helpr/physics/material.py"
+sha256 = "2a0bbde888b086ccb2efbe4cedf1795e56733a376521650f4f35b5bc4c0a5324"
+
+[[reviewed_source]]
+path = "src/helpr/physics/crack_initiation.py"
+sha256 = "f29cead7164337ef833fd9f31894be701f1fb95e891609edb91d98a6798c3b80"
+
+[[reviewed_source]]
+path = "src/helpr/physics/stress_state.py"
+sha256 = "f4e892b61c56bf5567a7e2efae8a7fc51212a45c26e81687272cfc7a2e1d6bd1"
+
+[[reviewed_source]]
+path = "src/helpr/physics/fracture.py"
+sha256 = "a369318836a635057632c449a57229821d82f03faba8aee92dc5b6515172c58b"
+
+[[reviewed_source]]
+path = "src/helpr/utilities/plots.py"
+sha256 = "cc6aed23ae096e268dd9854d1a39d48cba69e500bf280d41da947a692bb92433"
+scope = "Existing native 2016 FAD function only; no plot execution; native module import has its own matplotlib setting"
+
+[[reviewed_source]]
+path = "src/helpr/utilities/parameter.py"
+sha256 = "b3aff09d5f1a8cb0180c4b2c21f1a2e8dbb9ddc7848edcc677fdfc8fb6be9b27"
+
+[physical_limits]
+geometry = "Inside axial elliptical fixed part-through flaw,5<=Ri/t<=20,0<a/t<=0.8,a/c<=1"
+pressure = "Absolute SI outside and inside; positive tensile differential only; native MPa conversion"
+material = "Explicit supplied thermal/H2/pressure-qualified yield/K-resistance/cutoff; no default alloy or H2 correction"
+reference = "Native simple uncracked hoop reference plus native Anderson SIF; not complete API579 Level2"
+history = "Finite sampled P/T mechanical reconstruction with explicit region/clock/frame/source; not new fluid ODE"
+post_initiation = "No opening/fragment/blast/frequency/probability model"

@@ -1,0 +1,19 @@
+dataset = "dark-fermentation"
+doi = "10.17632/2nwcdx9hst.2"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "Raw data.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "Raw data.xlsx:Data"
+format = "xlsx"
+rows = 831
+columns = 24
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Nr.", "R", "Duration (d)", "Temperature (°C)", "pH", "HRT (d)", "BP (L/d)", "CO2 (vol%)", "CH4 (vol%)", "H2 (vol%)", "HP (L/d)", "HY (L/g)", "HPR (L/(L/d))", "MP (L/d)", "MPR (L/(L/d))", "OLR (COD) (g/L/d)", "COD in (g/L)", "COD out  (g/L)", "Hac (g/L)", "HPr_1 (g/L)", "Hbu (g/L)", "Hva (g/L)", "Hca (g/L)", "tVFA (g/L)"]

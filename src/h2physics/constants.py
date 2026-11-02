@@ -1,0 +1,7 @@
+"""SI molar constants from exact defining constants, kept in one numerical basis."""
+
+AVOGADRO_MOL_INV = 6.02214076e23
+BOLTZMANN_J_K = 1.380649e-23
+ELEMENTARY_CHARGE_C = 1.602176634e-19
+R_J_MOL_K = AVOGADRO_MOL_INV * BOLTZMANN_J_K
+FARADAY_C_MOL = AVOGADRO_MOL_INV * ELEMENTARY_CHARGE_C

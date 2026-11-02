@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+/tmp/
+data/raw/
+data/processed/
+artifacts/
+*.npz
+*.mat
+*.xlsx
+*.zip
+*.tar.gz
+.env
+*.pem
+*.key
+research/*.log
+validation/results/
+
+# External observation payloads are acquired separately, never published.
+research/data/payload/
+
+# Setuptools temporary source distribution tree.
+/h2physics-*/

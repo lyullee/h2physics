@@ -1,0 +1,23 @@
+dataset_key = "hydrogen-core-flood"
+version = "1"
+source_format = "xlsx"
+reader_api = "h2physics.data.load_hydrogen_core_flood"
+reader_output = "CoreFloodTable"
+admitted_worksheet = "Kr"
+attachment_count = 4
+publisher_header_row = 1
+row_identity = "hydrogen-core-flood:<exact publisher filename>:Kr:row-<one-based workbook row>"
+cell_policy = "Keep native spreadsheet values and exact header strings; preserve formulas as formula expressions; do not normalize, average, convert, or fit."
+required_checks = [
+  "Mendeley dataset key, title, DOI, version, contributors, CC BY 4.0 URL, and pinned metadata digest",
+  "exact publisher listing bytes and listing digest",
+  "all four ordered attachment names, IDs, download URLs, sizes, publisher digests, and local SHA-256 values",
+  "exact Kr worksheet presence in each workbook",
+  "ordered rows retained with stable source row identities",
+]
+not_inferred = [
+  "relative-permeability normalization or constitutive law",
+  "saturation averaging or relabeling",
+  "unit conversion or uncertain cell interpretation",
+  "fit coefficients or model qualification",
+]

@@ -1,0 +1,29 @@
+key = "pem-crossover"
+title = "Datasets: Time-Resolved Performance and Stability of Different Gas Recombination Catalysts in PEM Water Electrolysis"
+doi = "10.5281/zenodo.19361280"
+version = "Version v1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/19361280"
+metadata_sha256 = "badeb08dd6814ec80a51b2d573d2d845db18b67a94c285c93ce4642f77f9055f"
+retrieved_at_utc = "2026-10-26T15:51:47.345390+00:00"
+authors = ["Brundiers, Steffen"]
+families = ["electrolysis", "crossover", "degradation"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 199357168
+omitted_files = []
+
+[[files]]
+name = "pem_water_electrolysis_degradation_data.zip"
+url = "https://zenodo.org/api/records/19361280/files/pem_water_electrolysis_degradation_data.zip/content"
+relative_path = "pem-crossover/Version v1/pem_water_electrolysis_degradation_data.zip"
+size_bytes = 199357168
+sha256 = "ef15233374ece3af33a3f876a80d8a7c38c965dff122b884c6ebd39f391952e4"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b161b3a2eb0d655266bd13618da386a7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

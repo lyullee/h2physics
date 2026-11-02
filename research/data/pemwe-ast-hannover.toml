@@ -1,0 +1,36 @@
+key = "pemwe-ast-hannover"
+title = "PEMWE Single Cell Dataset under AST Protocol: Electrochemical and Operational Data (1402 h)"
+doi = "10.25835/yun7znp0"
+version = "LUIS version 1.0; updated 2025-04-10"
+publisher = "Leibniz University Hannover Research Data Repository"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://data.uni-hannover.de/dataset/pemwe-single-cell-dataset-under-ast-protocol"
+metadata_api_url = "https://data.uni-hannover.de/api/3/action/package_show?id=pemwe-single-cell-dataset-under-ast-protocol"
+metadata_sha256 = "8e3c43b50e69fecdfafc47d03990fc6fd12abfc6c70d012c8b3e5ff6f8673665"
+metadata_bytes = 3588
+metadata_relative_path = "electrolyzer-source-metadata/pemwe-ast-hannover/ckan-record.json"
+authors = ["Alexander Rex", "Boris Bensmann", "Richard Hanke-Rauschenbach"]
+families = ["pem_electrolysis", "accelerated_stress_test", "operation", "time_series"]
+rights_permitted = true
+rights_evidence_url = "https://data.uni-hannover.de/dataset/pemwe-single-cell-dataset-under-ast-protocol"
+attribution = "Rex, A.; Bensmann, B.; Hanke-Rauschenbach, R. (2024), PEMWE Single Cell Dataset under AST Protocol: Electrochemical and Operational Data (1402 h), LUIS, DOI 10.25835/yun7znp0; CC BY 4.0."
+validation_qualified = false
+listed_file_count = 1
+acquired_file_count = 0
+acquired_bytes = 0
+retrieved_at_utc = "2026-10-31"
+candidate_only = true
+acquisition_status = "metadata-only; 709,873,892-byte CSV not downloaded"
+schema_status = "Repository API exposes one CSV resource and thematic tags for electrochemical and operational data, but its API response supplies no column description, units, sampling interval, calibration, or channel clock. The 1402 h title describes campaign duration, not sample cadence."
+source_data_boundary = "Potential long-duration PEM single-cell electrochemical/operation record. Do not infer channel units or use as a validation input until data dictionary, protocol conditions and synchronization are reviewed."
+
+[[files]]
+name = "PEMWE_single_cell_AST_1402h.csv"
+url = "https://data.uni-hannover.de/dataset/8385b5d3-fab9-4d8a-be49-a77109e9e99b/resource/68e04470-9889-4a31-89cd-cd48766d37aa/download/pemwe_single_cell_ast_1402h.csv"
+size_bytes = 709873892
+publisher_checksum_algorithm = "unavailable"
+publisher_checksum = ""
+publisher_checksum_verified = false
+status = "deferred_large_file_and_schema_review"

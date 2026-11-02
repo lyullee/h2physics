@@ -1,0 +1,297 @@
+key = "hydrogen-channel"
+title = "Experimental Data of Hydrogen Dispersion in an Open-ended Rectangular Channel"
+doi = "10.23642/usn.26117989.v2"
+version = "2"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://api.figshare.com/v2/articles/26117989"
+metadata_sha256 = "ecfb5690fe87b9c8ad9293a0783e33a24818556d38446e97e1103c8c3d1eb2dc"
+retrieved_at_utc = "2026-10-26T15:01:37.442351+00:00"
+authors = ["Mathias Henriksen", "Hannibal E. Fossum", "Espen Åkervik", "Dag Bjerketvedt"]
+families = ["dispersion", "release"]
+rights_permitted = true
+license_scope = "Figshare V2 article metadata declares CC BY 4.0; this repository excludes raw archives from Git and package distribution. Third-party component terms are not separately confirmed."
+validation_qualified = false
+listed_file_count = 23
+acquired_bytes = 49243504
+omitted_files = []
+case_label_source_file = "ReadMe.txt"
+case_label_source_sha256 = "c474c05b9c3983c609030755c8f6e9d854fa53a8531b81425da87e206e837b04"
+case_label_scope = "Exact publisher file-to-test label lookup only; labels do not encode sensor units, clock meanings, conditions, or physics."
+
+[[files]]
+name = "ReadMe.txt"
+url = "https://ndownloader.figshare.com/files/54825911"
+relative_path = "hydrogen-channel/2/ReadMe.txt"
+size_bytes = 2499
+sha256 = "c474c05b9c3983c609030755c8f6e9d854fa53a8531b81425da87e206e837b04"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7c4fc4e6c97c465034876016db90a075"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00005.zip"
+url = "https://ndownloader.figshare.com/files/54824042"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00005.zip"
+size_bytes = 1893720
+sha256 = "b6243a250ca5dcef7a1577132d3740af34efc0fe9baebbc02087203b23cea0d9"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cd2231ae657141761ca92bb9e3b0aa64"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00003.zip"
+url = "https://ndownloader.figshare.com/files/54824036"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00003.zip"
+size_bytes = 2001430
+sha256 = "9672c49321a9619768b09aa695226ed3c7d7e2bf0210c2bf35d6d8ce88737cbb"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "aa1c1e37cce76c025ba86808c4e4064a"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00027.zip"
+url = "https://ndownloader.figshare.com/files/54824069"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00027.zip"
+size_bytes = 2034963
+sha256 = "5b59ac382e0d55e68e3fd84ae7ab3fd6fb2c51b18b853b2e1cbeecf661e87d53"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "acea91eedf248dbb19fba32c895c9625"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00028.zip"
+url = "https://ndownloader.figshare.com/files/54824075"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00028.zip"
+size_bytes = 2045248
+sha256 = "146b5ed7dc2826c6564469f75ef757c9fb9bc6ff39df8c208c5f21d2211a05ce"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4302a40de706afe3448bfae1c5522dae"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00006.zip"
+url = "https://ndownloader.figshare.com/files/54824045"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00006.zip"
+size_bytes = 2060025
+sha256 = "42e969b035e94c1eabe74ab8da89a5b527ecc734e868b0b01e55ca4c345889c5"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c7be30a4ba5f8d63e221ef6c24df5a92"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00012.zip"
+url = "https://ndownloader.figshare.com/files/54824057"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00012.zip"
+size_bytes = 2081982
+sha256 = "8dc8a7040b6f894c75a4aed3f8791f3e446a4512a3a3c3c04bc71a735a3a8eeb"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fc68e1c589074ddc395753016dbf262c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00014.zip"
+url = "https://ndownloader.figshare.com/files/54824063"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00014.zip"
+size_bytes = 2084607
+sha256 = "c571ba54c3d61faf467b9a85c5707b1983344335d3cd460705759c43ca2eac03"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "53af91744c24d544cfddbe47b985d540"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00007.zip"
+url = "https://ndownloader.figshare.com/files/54824048"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00007.zip"
+size_bytes = 2116367
+sha256 = "fd0610fc26f8b45c81b632a18472b439d10689c57ea2643040da79315ac41c66"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "96e0e5463daa25d306865402e7ffbd3c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00011.zip"
+url = "https://ndownloader.figshare.com/files/54824060"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00011.zip"
+size_bytes = 2133066
+sha256 = "f28bb82ee1d0f2d008670bd069e8e0a5d1ef3a29b874a822813beb778a50e9ca"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d986e4e8986c02d2bcb7e740a547dca8"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00013.zip"
+url = "https://ndownloader.figshare.com/files/54824066"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00013.zip"
+size_bytes = 2140030
+sha256 = "7812732ec04bafd18ec82cc352705814d6b60914f4a7add1fb2349b71aaefebe"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "37f1cb17db40d9bb419da6705169f3f5"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00009.zip"
+url = "https://ndownloader.figshare.com/files/54824054"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00009.zip"
+size_bytes = 2160984
+sha256 = "f54ecd967bdb325a10b6cdf74e5ed7edb003d2ceaed2383a326be7b57babb029"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "9aa668eac2a03466084c20a4509b4fa0"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00008.zip"
+url = "https://ndownloader.figshare.com/files/54824051"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00008.zip"
+size_bytes = 2183474
+sha256 = "eac542a8041c180f9359d9ad2f9cdfe0e7250a8c2b5c5fc78126bdbea0cb817e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "bcf8ebe762eeb995f5c53e9a75ec42bf"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00026.zip"
+url = "https://ndownloader.figshare.com/files/54824072"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00026.zip"
+size_bytes = 2199349
+sha256 = "caf1fbd8f6946380415559ebc78d3877dca6d681792bafe006c31baead818b12"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "71d5f0a1b39d1204ba479ed9df80e4c1"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00031.zip"
+url = "https://ndownloader.figshare.com/files/54824084"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00031.zip"
+size_bytes = 2248254
+sha256 = "023cba0cd4dfe1063c7145de2c14dbfe93bd7c240f4dfcda11a4d3f8f0973279"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7de8e76a4bc29e9b5ee32254045f7223"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00029.zip"
+url = "https://ndownloader.figshare.com/files/54824078"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00029.zip"
+size_bytes = 2275908
+sha256 = "b243ece57613a2757239cccd38571a4170ccb063bc75ff7325348996e08f5301"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5cdd5c111226ba91c6f4ea10a42dc042"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00041.zip"
+url = "https://ndownloader.figshare.com/files/54824090"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00041.zip"
+size_bytes = 2287912
+sha256 = "e28dfb5854e917581f95dab4ab193012ee684dc5676725424127bf859408c949"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7aafc6c2c5231154b10229dceb9f8312"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00045.zip"
+url = "https://ndownloader.figshare.com/files/54824099"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00045.zip"
+size_bytes = 2302256
+sha256 = "81e31b7262b6f590957bce4129539376a029019c8d858bb3a52013f79dac9e07"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "55f7ca90eecd913031c1d69487e56026"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00004.zip"
+url = "https://ndownloader.figshare.com/files/54824039"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00004.zip"
+size_bytes = 2369546
+sha256 = "17e3f3e0014a7c9cefb97ba591c486feb9c734ec30a6421fbd35ceba457d74ae"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "625ea03e60cf1aae984a77d26574b1e0"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00030.zip"
+url = "https://ndownloader.figshare.com/files/54824081"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00030.zip"
+size_bytes = 2426741
+sha256 = "46003f0e3f7dc60f0fdf78c0705036398dcffdf39fc8840eef4212e9df16c32e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4bc7b36ebe68f8decbc718b9470232cc"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00040.zip"
+url = "https://ndownloader.figshare.com/files/54824087"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00040.zip"
+size_bytes = 2428526
+sha256 = "2b0e70df3740f3ebc351e40904d5ed3a4374f72cd066e80a84ad5a55ed9f4e39"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "92c3537747fc3b7ff56943eea0fdacac"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00044.zip"
+url = "https://ndownloader.figshare.com/files/54824096"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00044.zip"
+size_bytes = 2840050
+sha256 = "3045f0d8cd3a7bcb18d8d5e9b35c85ec50b84d870c86a81d704725856bba3264"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "da93654658cfeb24025b2285b366a858"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "23_FFI_P101_T00042.zip"
+url = "https://ndownloader.figshare.com/files/54824093"
+relative_path = "hydrogen-channel/2/23_FFI_P101_T00042.zip"
+size_bytes = 2926567
+sha256 = "6d36e766fe813b9a4e081c7fa78abf8d137d7159da7a65bfc4b910d67d17b6f1"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2ae8e021de0c25a3e406444b09a24e68"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

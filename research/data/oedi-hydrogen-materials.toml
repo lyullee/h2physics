@@ -1,0 +1,67 @@
+key = "oedi-hydrogen-materials"
+title = "Technical Reference for Hydrogen Compatibility of Materials"
+identifier = "https://data.openei.org/submissions/277"
+version = "Data.gov metadata modified 2026-07-14T21:10:57Z"
+publisher = "National Renewable Energy Laboratory"
+data_contact = "Christopher San Marchi, Sandia National Laboratories"
+origin = "Curated material strength, fatigue and fracture data measured in gaseous hydrogen; source record states these are compiled from reports and publications"
+metadata_url = "https://catalog.data.gov/harvest_record/92043d96-92bb-4103-ab8e-f71786ebc1ec/raw"
+metadata_sha256 = "8bfe376f5c582eef35f2f6e90f10845a9e038bc611a20205a79dd16b79b81e6d"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+license_scope = "Data.gov's explicit dataset license applies to the eight listed XLSX distributions, including the acquired workbook; no contrary file-level notice appears in the harvested metadata. Preserve attribution."
+access_level = "public"
+listed_xlsx_count = 8
+acquired_xlsx_count = 1
+acquired_bytes = 58357
+rights_permitted = true
+validation_qualified = false
+model_use = "Candidate measured fatigue crack-growth observations for one tempered-martensitic 4130X steel and narrow hydrogen/air conditions; not a general material law or vessel-life validation."
+next_action = "Use workbook observations at 45 MPa for a source-bound native fatigue-rate comparison; retain unknown heat mapping, geometry/precrack and vessel-applicability limits, and do not fit parameters."
+
+[schema_audit]
+audited = true
+file = "low-alloy-tempered-martensite-1211san11fat.xlsx"
+raw_path = "data/raw/oedi-h2-materials/low-alloy-tempered-martensite-1211san11fat.xlsx"
+sha256 = "1dcfb0500aa4fa21f32111785a71c5025f9cf77c07f88b414f051a2f42f4a33a"
+publisher_checksum = "No file checksum was supplied by the harvested Data.gov metadata."
+workbook_layout = "Four sheets: material metadata, environment metadata, fatigue properties and a plot. The fatigue sheet contains five paired delta-K/da-dN series: four rows labeled H2: 45 MPa / room temperature and one labeled air: 0.1 MPa / room temperature. ASTM E647, orientation, R-ratio, frequency and reference fields are present."
+condition_discrepancy = "HyMatBase reports 4.5 MPa for this record, while the matching workbook and Sandia publication record state 45 MPa. The local workbook MD5 exactly matches the HyMatBase file checksum, so this is a metadata disagreement for identical bytes, not a file-selection ambiguity."
+condition_resolution = "Admit 45 MPa as the condition of the workbook observations: the workbook Environment sheet specifies H2 at 45 MPa, its SHA-256 is pinned here, its MD5 matches the HyMatBase-linked file, and the Sandia publication landing page for the study specifies 45 MPa. Preserve the contradictory HyMatBase field as a metadata discrepancy; do not relabel the workbook as 4.5 MPa."
+condition_identity_admitted = true
+condition_authority_url = "https://www.sandia.gov/research/publications/details/fracture-and-fatigue-tolerant-steel-pressure-vessels-for-gaseous-hydrogen-2010-12-01/"
+limitations = "One steel/temper and narrow temperature, R-ratio and frequency conditions; the workbook supplies fatigue-rate points rather than specimen crack-length histories. Geometry, material heat mapping, precrack and point-level provenance remain limited. Model comparison can use the reported points at 45 MPa but does not by itself qualify a vessel-life prediction."
+inspection_method = "Read-only XLSX package/schema inspection, SHA-256 and MD5 identity verification, and comparison with the original publisher workbook conditions and Sandia publication metadata; no model calculations or parameter fitting."
+zip_member_count = 19
+zip_expanded_bytes = 207552
+xlsx_read_warning = "openpyxl logged an unsupported extension warning during read-only inspection; the acquired workbook was not saved or modified."
+
+[[sources]]
+title = "Data.gov catalog record"
+url = "https://catalog.data.gov/dataset/technical-reference-for-hydrogen-compatibility-of-materials"
+role = "Official harvested record for public access, CC BY 4.0 license, listed distributions and dataset description."
+
+[[sources]]
+title = "OEDI dataset page"
+url = "https://data.openei.org/submissions/277"
+role = "Original dataset landing page; public access returned HTTP 429 during this review. The harvested Data.gov metadata remains the acquisition and license source."
+
+[[sources]]
+title = "Related HyMatBase 4130X record"
+url = "https://hymatbase.stfc.ac.uk/records/pytvh-6n886"
+role = "Record lists 4.5 MPa H2 and MD5 300ff2f91554a9dc9f52956ecc5895cf, exactly matching the separately CC-BY-licensed OEDI workbook bytes. The condition field conflicts with the file contents and the Sandia study record; use it as a preserved metadata discrepancy only. Its blank per-record rights area is not used as a license for workbook data."
+
+[[sources]]
+title = "Sandia study publication record"
+url = "https://www.sandia.gov/research/publications/details/fracture-and-fatigue-tolerant-steel-pressure-vessels-for-gaseous-hydrogen-2010-12-01/"
+role = "Primary study record identifies fatigue crack-growth measurements on 4130X in 45 MPa hydrogen gas; corroborates the workbook's pressure condition."
+
+[[files]]
+name = "low-alloy-tempered-martensite-1211san11fat.xlsx"
+url = "https://data.openei.org/files/277/1211san11fat.xlsx"
+relative_path = "oedi-h2-materials/low-alloy-tempered-martensite-1211san11fat.xlsx"
+size_bytes = 58357
+sha256 = "1dcfb0500aa4fa21f32111785a71c5025f9cf77c07f88b414f051a2f42f4a33a"
+md5 = "300ff2f91554a9dc9f52956ecc5895cf"
+status = "acquired_source_condition_admitted_45_MPa_metadata_discrepancy_retained"
+error = ""

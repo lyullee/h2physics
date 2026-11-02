@@ -1,0 +1,296 @@
+package = "pvlib"
+version = "0.16.1"
+status = "installed_source_reviewed_not_executed"
+model_status = "implemented_unverified"
+review_date = "2026-10-28"
+repository_url = "https://github.com/pvlib/pvlib-python"
+revision = "ba161f9962f7a95fb8bd052fe646ba8234e99d95"
+metadata_url = "https://pypi.org/pypi/pvlib/0.16.1/json"
+license_id = "BSD-3-Clause"
+license_sha256 = "a02e12ddaada3cf0d5dbdd8affdd577c2eec640758a95842a304f7513b8c0be4"
+wheel_url = "https://files.pythonhosted.org/packages/14/aa/e5089a4a61fea61d9bd69c23b9fdbbacea6d175c114f2c45be7ef6391b3e/pvlib-0.16.1-py3-none-any.whl"
+wheel_sha256 = "4e61b5228a13f782413d7cf8cc48eb6e62e7bf55d155958fa9fd72420b63603d"
+wheel_size_bytes = 19368848
+native_python_aggregate_sha256 = "ca5be5d34c8afac877fe5755ce57543b360b16da80006998a1614a65704ae5a6"
+aggregate_algorithm = "SHA256(sorted relative Python paths + original bytes), recursive pvlib/**/*.py"
+native_python_files = 67
+installed_target = "artifacts/native_pvlib_packages"
+installation = "pip install --no-deps --target; original wheel SHA verified; main environment untouched"
+native_source_modified = false
+main_environment_modified = false
+native_model_executed = false
+local_tests_executed = false
+local_replay_executed = false
+experimental_validation = false
+bundled_in_host = false
+requires_python = ">=3.11"
+required_dependencies = ["numpy>=1.23.2", "pandas>=1.5.0", "pytz", "requests", "scipy>=1.9.2", "h5py", "tzdata"]
+rights_note = "Original native LICENSE/AUTHORS remain with separate optional package. No native algorithm, coefficient database or dataset is copied into host source."
+
+[[native_source]]
+path = "pvlib/__init__.py"
+sha256 = "bdd5c070184b1c769b66ad617469c1128a397227fa84b212ee6089b609d65940"
+
+[[native_source]]
+path = "pvlib/_deprecation.py"
+sha256 = "a41664246575af79baabaca6a9b41c4fffedfeda149034203d86022bf62ed6ca"
+
+[[native_source]]
+path = "pvlib/albedo.py"
+sha256 = "32aae40f3b6717a55668ced6dbc006184802c802ba5f5ddb0ef3e4f5811a8a65"
+
+[[native_source]]
+path = "pvlib/atmosphere.py"
+sha256 = "c275478b8f09bcc055d6c86f0db775f9161933a89e526cffeb162f2af6033287"
+
+[[native_source]]
+path = "pvlib/bifacial/__init__.py"
+sha256 = "7930e960e6e7ce0ee2c5a593101a8dbcdc7e5da4a1293ea3f77bfeef4c9ce951"
+
+[[native_source]]
+path = "pvlib/bifacial/ants2d.py"
+sha256 = "f58fac8efe162c21d3adb7aae1e0e4a3ac868f71e70c1c968d1b15903786a42b"
+
+[[native_source]]
+path = "pvlib/bifacial/infinite_sheds.py"
+sha256 = "6588d905ebd4f3226a1e8f12d547ef43a49f29b6d0064563e7ab24be4ef6c897"
+
+[[native_source]]
+path = "pvlib/bifacial/loss_models.py"
+sha256 = "c58eb3e5a664fb42bf78b516e97917238224f28c4a1503d0205cee520c68607a"
+
+[[native_source]]
+path = "pvlib/bifacial/pvfactors.py"
+sha256 = "ea8d718792e2865e403bcaab3160985315490897b8f96ac5cd8670ceaffc9f42"
+
+[[native_source]]
+path = "pvlib/bifacial/utils.py"
+sha256 = "78132814405a3ebf71708166a741bb8824961d1b5967732e884ba855079f432f"
+
+[[native_source]]
+path = "pvlib/clearsky.py"
+sha256 = "18d42cd85781695f27b7d03f2176139192a1774b6b4652cd264b8beefeeda468"
+
+[[native_source]]
+path = "pvlib/iam.py"
+sha256 = "82137e04d285d1333ee27ca4b7a6defb405612280f7688447b0cae20585be34a"
+
+[[native_source]]
+path = "pvlib/inverter.py"
+sha256 = "78b25bc11905ffae65876da2dee455db5cdef4527860c139c8bf47a831cc2dd0"
+
+[[native_source]]
+path = "pvlib/iotools/__init__.py"
+sha256 = "81f9ad6449ba81a7f8d98515a90f7537f1424583d998d850d783675cd3fbb984"
+
+[[native_source]]
+path = "pvlib/iotools/acis.py"
+sha256 = "3ef0fba630379f97d7e962308153b8a349ec7954b9acf15dcdb86712e92a154e"
+
+[[native_source]]
+path = "pvlib/iotools/bsrn.py"
+sha256 = "769c04173798e1425252570c3c73abf03f788fa7b10e2903e302a43ff451045d"
+
+[[native_source]]
+path = "pvlib/iotools/crn.py"
+sha256 = "3cbba0738445ff42f37ac5879f208eb71f4a9aa7840991fd9317178338231ab4"
+
+[[native_source]]
+path = "pvlib/iotools/epw.py"
+sha256 = "b28139ca42cdb788f60824664e17fcd1d7f9a67496951770e4f6bfba1149c844"
+
+[[native_source]]
+path = "pvlib/iotools/era5.py"
+sha256 = "d304ad03fb710c457de1c1ccf5705dc3d35dcb9d32bd9ffcddc63b2ad95a23c3"
+
+[[native_source]]
+path = "pvlib/iotools/merra2.py"
+sha256 = "70801c6cb7196e7a609b2d8705b411cdd5621d9b9ca45a18382d96cafdb0741e"
+
+[[native_source]]
+path = "pvlib/iotools/meteonorm.py"
+sha256 = "4f206165470c7ef5f1c3e5f54a679d42f8dd8dfafad42a3bbce6a7a15af0389d"
+
+[[native_source]]
+path = "pvlib/iotools/midc.py"
+sha256 = "b3d593333243306016c8a43ab8f97e67ffc9c369c53349cf933caa6c66c9c03b"
+
+[[native_source]]
+path = "pvlib/iotools/nasa_power.py"
+sha256 = "18288f4972c394637238cf82a1184648f9653e46295301a05d565d575097aac3"
+
+[[native_source]]
+path = "pvlib/iotools/panond.py"
+sha256 = "a242baccd879afe1f58033db65199611c6186819a27cf869d44491f8fd9833db"
+
+[[native_source]]
+path = "pvlib/iotools/psm4.py"
+sha256 = "f05047a5db6ac131b23bcae2e34f4f477dbffa1e432f21d215a70ded82684e60"
+
+[[native_source]]
+path = "pvlib/iotools/pvgis.py"
+sha256 = "c00a047d2d2b16a100f7f0403260a4aeeb9feef9c33ca153c652553c3e689a0e"
+
+[[native_source]]
+path = "pvlib/iotools/sodapro.py"
+sha256 = "4ad3a4c313317167125d528de8695533333630321b29bf58ac6f42c774a4c3e2"
+
+[[native_source]]
+path = "pvlib/iotools/solaranywhere.py"
+sha256 = "99a64d284e2f4d46b17b9e2b3e720c942a7b2330f4ba3681832776809366a7fb"
+
+[[native_source]]
+path = "pvlib/iotools/solargis.py"
+sha256 = "e85788b2ab3f6ecda836b506be4bfb0dce00948b038b0a42b39a0555c06178ef"
+
+[[native_source]]
+path = "pvlib/iotools/solcast.py"
+sha256 = "7792647d1f101755d3b6d66ec18383ab0afcc977f9b48bf24e8754c0bd1d4e20"
+
+[[native_source]]
+path = "pvlib/iotools/solrad.py"
+sha256 = "9a70a3a35518bd385188a79f51e7959349347fc9174a5119f75367b4e6ceec60"
+
+[[native_source]]
+path = "pvlib/iotools/srml.py"
+sha256 = "e5ef65413c464755522e6dee4059b47481f3cf39074da165f4bdf0378a3132ce"
+
+[[native_source]]
+path = "pvlib/iotools/surfrad.py"
+sha256 = "aa09e4f68c5680d90e41664fcff4158f1fd8ffffb168201d08eae996c305abea"
+
+[[native_source]]
+path = "pvlib/iotools/tmy.py"
+sha256 = "93de9be37397ba27b3ab753009504c9d69663ec6d47fcaf2e47bd9f4ba5a5fa4"
+
+[[native_source]]
+path = "pvlib/irradiance.py"
+sha256 = "e607fa36bd6d279385bdbf1d71b7793630cd4e7e67c6ccc70ef29052f578391c"
+
+[[native_source]]
+path = "pvlib/ivtools/__init__.py"
+sha256 = "6e75033ea93308ff7a09a1452b71b0e0735ccc9a07b4ef9c23d181180b595462"
+
+[[native_source]]
+path = "pvlib/ivtools/sde.py"
+sha256 = "1cbda813bd0bb3bc5c7229326944a2e9240ac77716112e57a1a3001ae3233c8c"
+
+[[native_source]]
+path = "pvlib/ivtools/sdm/__init__.py"
+sha256 = "fcd9fe5b0734875d321c76fc51d4b2916219c0162c8f7680f3e4ba9ee4669b56"
+
+[[native_source]]
+path = "pvlib/ivtools/sdm/_fit_desoto_pvsyst_sandia.py"
+sha256 = "67612fdc5a1d1111baff9ed5e5386a8b5aa87e996d1ee8e18f8861ef8c0f8bfd"
+
+[[native_source]]
+path = "pvlib/ivtools/sdm/cec.py"
+sha256 = "fd8663babaddf8765f9b722577d3dec17279e1f4450f53b8959d27b7aec832d0"
+
+[[native_source]]
+path = "pvlib/ivtools/sdm/desoto.py"
+sha256 = "dfaac1c08d54f2fe4742aa43d919c36e9aacf7e65cc83de4716a15115e38dcff"
+
+[[native_source]]
+path = "pvlib/ivtools/sdm/pvsyst.py"
+sha256 = "be7f3b89880c7075fd2f1e527d7bd1a5a174179554cc26d68a337b7fbe124f10"
+
+[[native_source]]
+path = "pvlib/ivtools/utils.py"
+sha256 = "924ca8d14857de2cf672e7fcb2fc93efdaaf0ac54c803966fbdd8eb38d4aec25"
+
+[[native_source]]
+path = "pvlib/location.py"
+sha256 = "c17ba1924c545493814121816aabb88198ea8a9a306f3bdcb431ca47ac49f572"
+
+[[native_source]]
+path = "pvlib/modelchain.py"
+sha256 = "6a70fee4c19ab2bfd4ae77452492d8177d10fa1caab63e83d1b7770d9158366e"
+
+[[native_source]]
+path = "pvlib/pvarray.py"
+sha256 = "5a8f57988b1a68840b8c3e4a014637189d9b3c4d0c6ad5ce41bcb1cc86bb1386"
+
+[[native_source]]
+path = "pvlib/pvsystem.py"
+sha256 = "881de34dd0ec21ac9dc2c89f1b73568f6a566099df0b9a0f92d41874e4c313f0"
+
+[[native_source]]
+path = "pvlib/scaling.py"
+sha256 = "95113a9c1c2c74073dbda4d9e99e517b2d6e63e2a166e7fbf225db07db02f579"
+
+[[native_source]]
+path = "pvlib/shading.py"
+sha256 = "c62aa44dc2d6f228f3bb21c470723375a656b08b00653d5a5e6efdfcc3b9be8f"
+
+[[native_source]]
+path = "pvlib/singlediode.py"
+sha256 = "72ed35a25dc38453fa702caf5e563a3cd2f82971896518c5a8b12fff98430bdf"
+
+[[native_source]]
+path = "pvlib/snow.py"
+sha256 = "48a5cc73129a36f51c72d6cf0093372788033a769e616f8f66358f66bf0301aa"
+
+[[native_source]]
+path = "pvlib/soiling.py"
+sha256 = "a748e698095e6822eee768b83184271ce41bfc2d83c2b714cc43e755434e5e89"
+
+[[native_source]]
+path = "pvlib/solarposition.py"
+sha256 = "4a564432547e2b04de82bd77e1b93a7d8926e9b49016b902789be9027dfaad81"
+
+[[native_source]]
+path = "pvlib/spa.py"
+sha256 = "207ec1c731fe01767945770d2ca5c3c38c23647c6c34052f343c72bc39a1dabf"
+
+[[native_source]]
+path = "pvlib/spa_c_files/__init__.py"
+sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[native_source]]
+path = "pvlib/spa_c_files/setup.py"
+sha256 = "45c3047f4476c0a1c98efa541f9cba876da6f3acba52b757c243e41ca3667b8f"
+
+[[native_source]]
+path = "pvlib/spa_c_files/spa_py_example.py"
+sha256 = "a779acd2684bc9c02e649c9a13759a81eaa777fe7ace1d842b15cafa395325f8"
+
+[[native_source]]
+path = "pvlib/spectrum/__init__.py"
+sha256 = "bc871e2403e44805d19a94f9dd5441c1de7eaea6956b54f0b3723524e69630e6"
+
+[[native_source]]
+path = "pvlib/spectrum/irradiance.py"
+sha256 = "dc8ee5518e0fd4180208b05f0b7f004308875d74f350f38bbf5e34c0f5c470db"
+
+[[native_source]]
+path = "pvlib/spectrum/mismatch.py"
+sha256 = "7c0d3cc4ee19b803b0791631595cf4786533d926d84c847f865f8bad339caead"
+
+[[native_source]]
+path = "pvlib/spectrum/response.py"
+sha256 = "046da8b5896056979dda0fb8f68a9df9e9ae099fe773823ac462d9d07a8bae32"
+
+[[native_source]]
+path = "pvlib/spectrum/spectrl2.py"
+sha256 = "4b8234811fe7c8ad8b700c0c67ac0cbef7e3394b67f0b707c5e9977f826f14b7"
+
+[[native_source]]
+path = "pvlib/temperature.py"
+sha256 = "2adbab834d25836007bad5fc429acd2b53b83dc99b7be6d288bc1644d5a18319"
+
+[[native_source]]
+path = "pvlib/tools.py"
+sha256 = "cf1d6f33270835d80677112bfdae281777f4aab2a1e74d6ac9fb324a783ec926"
+
+[[native_source]]
+path = "pvlib/tracking.py"
+sha256 = "8d34a2d845860d4a3e7b6019b88ee2293de34492aea17cb5189774214fa25c84"
+
+[[native_source]]
+path = "pvlib/transformer.py"
+sha256 = "173d98415865fe82abe5b30b36fd9c7c9987cf2259caefe70f12a5bae5cc30d8"
+
+[[native_source]]
+path = "pvlib/version.py"
+sha256 = "d0238dcf2392377e0981b6a3f49cde985b9a1276d138dff2c69f9a87afcac714"

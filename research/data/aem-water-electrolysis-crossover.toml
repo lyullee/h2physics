@@ -1,0 +1,35 @@
+key = "aem-water-electrolysis-crossover"
+title = "Data for the Publication: Impact of Electrolyte Feed and Catalyst-Coated Substrate Properties on Cell Performance and Hydrogen Crossover in AEM Water Electrolysis"
+doi = "10.5281/zenodo.20068087"
+version = "v1"
+origin = "measured"
+source_updated_at = "2026-07-14T23:56:27.535781+09:00"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/20068087"
+metadata_sha256 = "bd56cdc61eab1904d7436e8708e3dd332fd743a7161a6c3cd0b98a62e6c254ea"
+metadata_snapshot_path = "aem-water-electrolysis-crossover/20068087/zenodo-record.json"
+retrieved_at_utc = "2026-10-31T23:08:43.373203+00:00"
+authors = ["Witte, Jan", "Trinke, Patrick", "Bensmann, Boris", "Becker, Maik", "Olszok, Vinzent", "Weber, Alfred P.", "Hanke-Rauschenbach, Richard", "Turek, Thomas"]
+families = ["electrolysis", "aem", "crossover", "polarization"]
+rights_permitted = true
+raw_redistribution_admitted = false
+license_scope = "Zenodo record 10.5281/zenodo.20068087 declares CC BY 4.0. This manifest covers only SI2_raw_data.xlsx from version v1; preserve record attribution. The acquired workbook remains in ignored raw storage and is excluded from source distributions."
+attribution = "Witte, J.; Trinke, P.; Bensmann, B.; Becker, M.; Olszok, V.; Weber, A. P.; Hanke-Rauschenbach, R.; Turek, T. (2026). Data for the Publication: Impact of Electrolyte Feed and Catalyst-Coated Substrate Properties on Cell Performance and Hydrogen Crossover in AEM Water Electrolysis, v1. Zenodo. https://doi.org/10.5281/zenodo.20068087"
+third_party_component_rights_reviewed = false
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 1780457
+omitted_files = []
+
+[[files]]
+name = "SI2_raw_data.xlsx"
+url = "https://zenodo.org/api/records/20068087/files/SI2_raw_data.xlsx/content"
+relative_path = "aem-water-electrolysis-crossover/20068087/SI2_raw_data.xlsx"
+size_bytes = 1780457
+sha256 = "f9729dfc0b068962843ceb089bedbc6f6eb1ea8f52e214cd7eba6550d6c334ad"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "9d5a8655039f014431d3b9bc81e0d3f7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

@@ -1,0 +1,109 @@
+key = "peace-alkaline-short-stack"
+title = "Experimental Operational Data from a Pressurized Alkaline Electrolyser Short Stack (PEACE Project)"
+doi = "10.5281/zenodo.19605474"
+version = "v1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/19605474"
+metadata_api_url = "https://zenodo.org/api/records/19605474"
+authors = ["Hesham Mahfouz", "Sai Ram Vissavajhala", "Lars Röntzsch"]
+publisher = "Zenodo; Brandenburg University of Technology Cottbus-Senftenberg"
+families = ["electrolysis", "alkaline", "pressurized_stack"]
+rights_permitted = true
+rights_evidence = "Zenodo record metadata declares cc-by-4.0; source-of-record page identifies the deposited v1 dataset."
+metadata_sha256 = "7552976c9578d3e9f2231970afb56b123d373604a4314468b9bca6653bb0f3de"
+metadata_relative_path = "peace-alkaline/repository-metadata-20261101T024353Z-7552976c9578.json"
+metadata_snapshot_size_bytes = 7508
+metadata_retrieved_at_utc = "2026-11-01T02:43:53.463645+00:00"
+metadata_response_url = "https://zenodo.org/api/records/19605474"
+metadata_http_status = 200
+metadata_record_revision = 4
+metadata_concept_doi = "10.5281/zenodo.19605473"
+metadata_version_basis = "The captured API has no metadata.version string. Its relations.version index is 0 under parent record 19605473, identifying the first deposited version and supporting the existing curated v1 label. Record revision 4 is not a dataset v4 label."
+metadata_snapshot_status = "Exact new primary-publisher HTTPS response retained in ignored raw storage and SHA-256 verified. DOI, record ID, creators, CC BY 4.0 declaration and all seven file sizes/publisher MD5 values agree with the existing source receipt. This later snapshot is not asserted to recover the unretained historical response bytes."
+metadata_snapshot_scope = "Pins the exact 2026-11-01T02:43:53Z JSON response body, not a permanently invariant HTTP response. Previous observed response digests differed and their bytes were not retained; their original history is preserved below. No explanation for those body changes is inferred."
+metadata_http_receipt_relative_path = "peace-alkaline/repository-metadata-20261101T024353Z-7552976c9578-http-receipt.json"
+metadata_http_receipt_sha256 = "f90173204f63187553575d548f87980377376b55c9c62544b9736fb89731903a"
+metadata_snapshot_history = "HTTP 200 from the versioned Zenodo API on 2026-11-01, but the 7,508-byte response body changed between retrieval pairs (observed SHA-256  a605ce332e7a0099077e229b852cbc7cd1a38c953453ecffabef3a3f5afa42c3 and be3139862c25a496d57dbef2b7865629e493137bd2453f06cc9b5fa94ea256da). The exact response was not retained; no metadata hash is asserted."
+listed_file_count = 7
+acquired_bytes = 11514333
+acquisition_status = "four selected source files acquired from the public record download endpoints; all publisher MD5 checks verified; raw files remain in ignored data/raw/"
+omitted_files = ["experiment_1_cleaned.csv", "experiment_2_cleaned.csv", "experiment_3_cleaned.csv"]
+license_scope = "Record-level CC BY 4.0 evidence; preserve creator attribution and DOI. Raw bytes stay in ignored data/raw/ and are not distributed in source releases."
+raw_directory = "data/raw/peace-alkaline"
+validation_qualified = false
+raw_schema_status = "first-row headers checked in all three acquired files; identical 131-field header; no unit inference"
+raw_header_sha256_utf8_line = "7f90bc358ace32a0a500c87e4358ffdd2bf2e05af3f329a515f4240c2ca16a05"
+
+[[files]]
+name = "column_descriptions.csv"
+url = "https://zenodo.org/api/records/19605474/files/column_descriptions.csv/content"
+relative_path = "peace-alkaline/column_descriptions.csv"
+size_bytes = 1302
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5b9911a5a1ffa4343adef517911950c7"
+publisher_checksum_verified = true
+local_sha256 = "937031d4d73368dc20bd8eb99ebc8dafca9ab74ede2938b2ca6ef42e925abcd4"
+sha256 = "937031d4d73368dc20bd8eb99ebc8dafca9ab74ede2938b2ca6ef42e925abcd4"
+status = "acquired_publisher_md5_verified"
+
+[[files]]
+name = "experiment_1_raw.csv"
+url = "https://zenodo.org/api/records/19605474/files/experiment_1_raw.csv/content"
+relative_path = "peace-alkaline/experiment_1_raw.csv"
+size_bytes = 2669201
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1c020c97ef92b2fb62e972c49bffb093"
+publisher_checksum_verified = true
+local_sha256 = "b16042c5da8e9eb66cc625250823d87b58160604d17d3bc306247645661d08a1"
+sha256 = "b16042c5da8e9eb66cc625250823d87b58160604d17d3bc306247645661d08a1"
+status = "acquired_publisher_md5_verified"
+
+[[files]]
+name = "experiment_2_raw.csv"
+url = "https://zenodo.org/api/records/19605474/files/experiment_2_raw.csv/content"
+relative_path = "peace-alkaline/experiment_2_raw.csv"
+size_bytes = 3545237
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8bbf66430a9611140111539e8a8ef150"
+publisher_checksum_verified = true
+local_sha256 = "599744022d400afa3ff6956a7f30ec7bf50a5e548b319165ecf2b9a307a60307"
+sha256 = "599744022d400afa3ff6956a7f30ec7bf50a5e548b319165ecf2b9a307a60307"
+status = "acquired_publisher_md5_verified"
+
+[[files]]
+name = "experiment_3_raw.csv"
+url = "https://zenodo.org/api/records/19605474/files/experiment_3_raw.csv/content"
+relative_path = "peace-alkaline/experiment_3_raw.csv"
+size_bytes = 5298593
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "24f3bc2639fed8d5a1b0f58dc2ad19a5"
+publisher_checksum_verified = true
+local_sha256 = "f867cd6c06b96cb2b1b1710dc446fbbe03e9acf6c3657c8e4ba4dafeb1caecf0"
+sha256 = "f867cd6c06b96cb2b1b1710dc446fbbe03e9acf6c3657c8e4ba4dafeb1caecf0"
+status = "acquired_publisher_md5_verified"
+
+[[files]]
+name = "experiment_1_cleaned.csv"
+url = "https://zenodo.org/api/records/19605474/files/experiment_1_cleaned.csv/content"
+size_bytes = 789250
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "31f3585db246763bc29a741826f5d590"
+status = "intentionally_omitted"
+
+[[files]]
+name = "experiment_2_cleaned.csv"
+url = "https://zenodo.org/api/records/19605474/files/experiment_2_cleaned.csv/content"
+size_bytes = 1044370
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f2b1b70b434df52e5550e8d0e0e1a112"
+status = "intentionally_omitted"
+
+[[files]]
+name = "experiment_3_cleaned.csv"
+url = "https://zenodo.org/api/records/19605474/files/experiment_3_cleaned.csv/content"
+size_bytes = 1588004
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cd0884f6f9bce8dffe6f43bca21c3cda"
+status = "intentionally_omitted"

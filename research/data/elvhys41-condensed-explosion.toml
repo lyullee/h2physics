@@ -1,0 +1,60 @@
+key = "elvhys41-condensed-explosion"
+title = "ELVHYS 4.1 Oxygen enrichment and condensed phase explosions"
+doi = "10.18710/YGHHTR"
+version = "1.1"
+origin = "measured"
+license_id = "CC0-1.0"
+license_url = "https://creativecommons.org/publicdomain/zero/1.0/"
+metadata_url = "https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/YGHHTR"
+metadata_sha256 = "ff3f628e09c0e472e9c473e1d924065618b44deb1f24827ee6cbc2ec8cdb02d4"
+metadata_reviewed_at = "2026-11-01"
+authors = ["Wayne Rattigan", "Janet Welch", "Janni Vizma"]
+families = ["cryogenic_hydrogen", "oxygen_enrichment", "vent_composition", "condensed_phase_explosion"]
+rights_permitted = true
+raw_redistribution_admitted = false
+license_scope = "DataverseNO version 1.1 dataset terms declare CC0 1.0. Only the public README, metadata CSV and Test-1 concentration CSV were acquired for internal source-bound reading; selected raw bytes remain in gitignored data/raw and are excluded from package/source exports. Cite the dataset and creators as good practice."
+validation_qualified = false
+listed_file_count = 11
+listed_total_size_display = "22.6 MB"
+acquired_bytes = 1_035_075
+acquisition_status = "selected_cc0_files_acquired_and_sha256_verified"
+model_linkage_status = "pointwise_vent_composition_diagnostic_with_explicit_region_mapping"
+model_link_case = "elvhys41-vent-composition-source-ingest"
+model_link_target = "h2physics.adapters.oxygen_deficiency.CanteraOxygenRoom"
+model_link_scope = "A new source reader preserves Test-1 vent H2/O2 sensor values (vol%). An adapter can compare selected admissible readings to an existing current OxygenRoomResult only at exact time matches, with explicit clock offset, gas-fraction basis, vent-to-region mixing and volume/state evidence. Negative and physically impossible sensor values remain raw but are rejected from pointwise comparison; no clipping, fitting, or cryogenic/condensed-phase explosion model is added."
+missing_model_link_evidence = ["source-to-model homogeneous-region mapping for the vent sample point", "free gas volume and gas-state mapping during liquid fill/evaporation", "boundary histories for air feed, vent and cryogenic hydrogen vapor release", "published outlet-flow calibration is still marked waiting for calibration", "the concentration comparison covers vent composition only and does not reproduce condensed-phase explosion, ignition, blast pressure, or flame physics"]
+sensor_uncertainty = "README gives H2 sensor uncertainty ±2.0% of full scale (0–100 vol%) and O2 sensor uncertainty ±1% of full scale (0–120 vol%). Retain these as source metadata; the adapter reports residuals and applies no weighting."
+
+[[files]]
+name = "00_ELVHYSWP4_1 README.txt"
+url = "https://doi.org/10.18710/YGHHTR/UJERLM"
+relative_path = "elvhys-condensed-explosion/1/00_ELVHYSWP4_1 README.txt"
+size_bytes = 7769
+persistent_id = "doi:10.18710/YGHHTR/UJERLM"
+publisher_md5 = "a8649100dab484f0ce9e89a14cd75142"
+sha256 = "afaaf3f55823f6d9c6ee9cb71df7e50a2d7d2755c85e03195da892f9ca0b05d1"
+status = "acquired_gitignored_raw"
+
+[[files]]
+name = "ELE401HSEMETA.csv"
+url = "https://doi.org/10.18710/YGHHTR/PRXTVW"
+relative_path = "elvhys-condensed-explosion/1/ELE401HSEMETA.csv"
+size_bytes = 2291
+persistent_id = "doi:10.18710/YGHHTR/PRXTVW"
+publisher_md5 = "637bbc863c18d3110a90567e9afe3824"
+sha256 = "625ecee98de0ef3ca5a6b574b67f7f09d5efe9331da9a16f3bc7b058574de798"
+status = "acquired_gitignored_raw"
+
+[[files]]
+name = "ELE401HSE001CONC20251021.csv"
+url = "https://doi.org/10.18710/YGHHTR/PRYHDE"
+relative_path = "elvhys-condensed-explosion/1/ELE401HSE001CONC20251021.csv"
+size_bytes = 1025015
+persistent_id = "doi:10.18710/YGHHTR/PRYHDE"
+publisher_md5 = "65c081d72b84e6fe47617c6c603b16f3"
+sha256 = "f2239638dc86a1d482a87f1e886951a9f5cdadbdc4594109f925c654ce9da9a6"
+status = "acquired_gitignored_raw"
+
+[[sources]]
+url = "https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/YGHHTR"
+description = "Official DataverseNO record and README: CC0 terms, test description, 100 L container, 1 Hz sampling, time/channel units, sensor delay alignment, sensor calibration and uncertainty notes."

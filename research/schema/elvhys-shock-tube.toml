@@ -1,0 +1,610 @@
+dataset = "elvhys-shock-tube"
+doi = "10.18710/M5LOLM"
+license_id = "CC0-1.0"
+validation_qualified = false
+
+[[files]]
+name = "ObservationELE431KIT041.txt"
+format = "txt"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "ObservationELE431KIT011.txt"
+format = "txt"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "ELE431KITMETA.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KITMETA.csv"
+format = "delimited"
+rows = 13
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Title", "ELVHYS 4.3.1 BLEVE-phenomenon (Boiling Liquid Expanding Vapor Explosion)"]
+
+[[files]]
+name = "00_README_ELVHYS_WP_4_3_1.txt"
+format = "txt"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "ELE431KIT142TEMP20260806.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT142TEMP20260806.csv"
+format = "delimited"
+rows = 19496
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT041TEMPL20260730.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041TEMPL20260730.csv"
+format = "delimited"
+rows = 20512
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT041TEMP20260731.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041TEMP20260731.csv"
+format = "delimited"
+rows = 23829
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT011TEMP20260727.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT011TEMP20260727.csv"
+format = "delimited"
+rows = 25540
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT041TEMP20260729.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041TEMP20260729.csv"
+format = "delimited"
+rows = 26324
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT031TEMP20260728.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT031TEMP20260728.csv"
+format = "delimited"
+rows = 33160
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT132TEMP20260805.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT132TEMP20260805.csv"
+format = "delimited"
+rows = 40567
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT141TEMP20260806.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT141TEMP20260806.csv"
+format = "delimited"
+rows = 45262
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT031TEMP20260723.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT031TEMP20260723.csv"
+format = "delimited"
+rows = 50082
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT111TEMP20260805.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT111TEMP20260805.csv"
+format = "delimited"
+rows = 51510
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT041TEMP20260724.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041TEMP20260724.csv"
+format = "delimited"
+rows = 59223
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT142PRESS20260806.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT142PRESS20260806.csv"
+format = "delimited"
+rows = 48434
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT041PRESS20260731.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041PRESS20260731.csv"
+format = "delimited"
+rows = 49905
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT041PRESS20260729.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041PRESS20260729.csv"
+format = "delimited"
+rows = 51417
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT011PRESS20260727.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT011PRESS20260727.csv"
+format = "delimited"
+rows = 48863
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT141PRESS20260806.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT141PRESS20260806.csv"
+format = "delimited"
+rows = 54675
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT031PRESS20260723.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT031PRESS20260723.csv"
+format = "delimited"
+rows = 56033
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT141MICR20260806.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT141MICR20260806.csv"
+format = "delimited"
+rows = 262144
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "SLM - Sound level (dB)"]
+
+[[files]]
+name = "ELE431KIT142MICR20260806.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT142MICR20260806.csv"
+format = "delimited"
+rows = 262144
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "SLM - Sound level (dB)"]
+
+[[files]]
+name = "ELE431KIT132PRESS20260805.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT132PRESS20260805.csv"
+format = "delimited"
+rows = 60457
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT031PRESS20260728.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT031PRESS20260728.csv"
+format = "delimited"
+rows = 57181
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT041PRESS20260730.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041PRESS20260730.csv"
+format = "delimited"
+rows = 62091
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT041PRESS20260724.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041PRESS20260724.csv"
+format = "delimited"
+rows = 62602
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT111PRESS20260805.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT111PRESS20260805.csv"
+format = "delimited"
+rows = 70657
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT021TEMP20260722.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT021TEMP20260722.csv"
+format = "delimited"
+rows = 97281
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "T_2a (K)", "T_2b (K)", "T_2c (K)", "T_2d (K)", "T_2e (K)", "Jet temperature 1 (K)", "Jet temperature 2 (K)"]
+
+[[files]]
+name = "ELE431KIT021PRESS20260722.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT021PRESS20260722.csv"
+format = "delimited"
+rows = 101108
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (minutes)", "p_20 (bar_a)", "p_1 (bar_g)", "p_3 (bar_g)", "Dp_01 (bar)", "V_220 (mbar_g)", "p_V07 (mbar_g)", "p_GFK (mbar_g)"]
+
+[[files]]
+name = "ELE431KIT111PRESF20260805.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT111PRESF20260805.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]
+
+[[files]]
+name = "ELE431KIT132PRESF20260805.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT132PRESF20260805.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]
+
+[[files]]
+name = "ELE431KIT142PRESF20260806.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT142PRESF20260806.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]
+
+[[files]]
+name = "ELE431KIT141PRESF20260806.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT141PRESF20260806.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]
+
+[[files]]
+name = "ELE431KIT031PRESF20260728.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT031PRESF20260728.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]
+
+[[files]]
+name = "ELE431KIT041PRESF20260730.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041PRESF20260730.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]
+
+[[files]]
+name = "ELE431KIT041PRESF20260731.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041PRESF20260731.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]
+
+[[files]]
+name = "ELE431KIT041PRESF20260729.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041PRESF20260729.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]
+
+[[files]]
+name = "ELE431KIT041PRESF20260724.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT041PRESF20260724.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]
+
+[[files]]
+name = "ELE431KIT021PRESF20260722.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT021PRESF20260722.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]
+
+[[files]]
+name = "ELE431KIT031PRESF20260723.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT031PRESF20260723.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]
+
+[[files]]
+name = "ELE431KIT011PRESF20260727.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ELE431KIT011PRESF20260727.csv"
+format = "delimited"
+rows = 262144
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time (seconds)", "PC101 - p_2a (bar_a)", "PC102 - p_2b (bar_a)", "PC103 - p_2c (bar_a)", "PC104 - p_2d (bar_a)", "PC105 - p_2e (bar_a)", "PC106 - p_2f (bar_a)", "PW111 (bar_a)", "PW112 (bar_a)", "PW113 (bar_a)", "PW114 (bar_a)", "PW115 (bar_a)"]

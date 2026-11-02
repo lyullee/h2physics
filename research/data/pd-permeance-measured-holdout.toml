@@ -1,0 +1,33 @@
+# Source metadata only; external observations are not distributed.
+key = "pd-permeance-measured-holdout"
+title = "Measured pure hydrogen permeance of supported Pd-based membranes"
+doi = "10.5281/zenodo.10691625"
+version = "10691625"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/10691625"
+metadata_sha256 = "26e6ceb5708514cdcebec1863bd24ebd56e2a847ffe1e00c1f3fb9fd9a87a6da"
+registered_at_utc = "2026-11-02T11:46:41.841458+00:00"
+authors = ["Ververs, Wout Jacob René", "Arratibel, Alba", "Di Felice, Luca", "Gallucci, Fausto"]
+families = ["materials.permeation"]
+rights_permitted = true
+validation_qualified = false
+raw_redistribution_admitted = false
+listed_file_count = 1
+acquired_bytes = 21629
+license_scope = "Dataset-level CC BY 4.0; embedded third-party components remain unreviewed; no raw redistribution admitted."
+third_party_component_rights_reviewed = false
+notes = "Effective permeance only; physical thickness, diffusivity and solubility are not identified. Same-apparatus temperature holdout; no pointwise uncertainty or independent-lab qualification."
+
+[[files]]
+name = "DataPalladiumBasedMembranes.xlsx"
+url = "https://zenodo.org/api/records/10691625/files/DataPalladiumBasedMembranes.xlsx/content"
+relative_path = "pd-permeance-measured-holdout/10691625/DataPalladiumBasedMembranes.xlsx"
+local_ignored_path = "data/raw/material-validation-candidates/20261102/pd-data.xlsx"
+size_bytes = 21629
+sha256 = "042e32db5d70257c5d322a472ac85991fa1668036ea58f606f915a2932ff1af8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f4eec195c254ed7ded3c2598c0ff9775"
+publisher_checksum_verified = true
+status = "acquired"

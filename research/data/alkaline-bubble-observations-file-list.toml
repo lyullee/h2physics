@@ -1,0 +1,359 @@
+# Source listing transcribed from the official anonymous endpoint; listing SHA-256 below binds the original response bytes.
+record_url = "https://data.mendeley.com/datasets/r6np4f7gmf/2"
+endpoint = "https://data.mendeley.com/public-api/datasets/r6np4f7gmf/files?folder_id=root&version=2&$start=0&$limit=1000"
+record_version = "2"
+response_sha256 = "6dfcf1e0c455ddf0320639ef15452a12b37ba18283dc665c0f70e772ec90b5f1"
+file_count = 35
+publisher_total_root_bytes = 375513822
+
+[[files]]
+filename = "README – Data Description.txt"
+id = "c1fba07a-15f5-4e01-bad9-79d71b39cb40"
+size = 1274
+type = "text/plain"
+publisher_sha = "21946b964b3b260361f7bf797583f28a7fc6c1db3c02ddca1f77d9d956fc0c57"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = true
+local_sha256 = "21946b964b3b260361f7bf797583f28a7fc6c1db3c02ddca1f77d9d956fc0c57"
+local_path = "data/raw/alkaline-bubble-observations/README-Data-Description.txt"
+
+[[files]]
+filename = "S1_0.0015Acm2_H2.mp4"
+id = "425e9976-69c7-4918-ada3-8f771805dbff"
+size = 3195968
+type = "video/mp4"
+publisher_sha = "bf0facc8d85c5bbc772dba81f617b7c4c1b945e92faff0547eded3fbabc84418"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S1_0.0015Acm2_H2.png"
+id = "de64e1a8-c406-422a-8b9d-653fb87f25b5"
+size = 301508
+type = "image/png"
+publisher_sha = "39717a7f641908795949f3350fce2988c703bb3231c7594ad5aad0694bd4408c"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S10 0.1Acm2 H2.mp4"
+id = "14d401cf-de8d-462e-a090-a296ff239b60"
+size = 8995136
+type = "video/mp4"
+publisher_sha = "3af90f27a958038a7da55e2e2e25578536b89c539bb39395f2d8d242b81847ec"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S10 0.1Acm2 H2.png"
+id = "3a5e1d50-6f3a-4bda-92a1-25d3fc191a85"
+size = 392735
+type = "image/png"
+publisher_sha = "c61b02bfcda9436a23a24d2f897168db3fe7376c79f07e30789d1530d70cf587"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S11 0.2Acm2 H2.mp4"
+id = "eafb1e0b-c2e0-44c6-b76c-b02aaef21867"
+size = 18852041
+type = "video/mp4"
+publisher_sha = "52c1fcde2aa690d736ff64e4445c6c74a67664878eb72f5f8438c39a6a325e05"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S11 0.2Acm2 H2.png"
+id = "590e1b91-7539-4375-a33f-05783d5e0c58"
+size = 475660
+type = "image/png"
+publisher_sha = "c6b082f9e860ba9071d5bbd43aee21aa0b185cccc4d646b29536c2bef4dd382a"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S12 0.3Acm2 H2.mp4"
+id = "9a7cc714-304e-48c4-86e9-abe2bc8afe74"
+size = 22960787
+type = "video/mp4"
+publisher_sha = "b2a738c6cf028a0c13f3be7a2cd858c41b1b42cadb1916ae14d1ef003679b36d"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S12 0.3Acm2 H2.png"
+id = "8ca2da01-2c2f-47c6-a6c2-42d38ea0c796"
+size = 461688
+type = "image/png"
+publisher_sha = "63dfe67966b24cc8d2484f4c2457314c3de82de586c5626d8bd8a0050eedf89e"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S13 0.4Acm2 H2.mp4"
+id = "37a72a19-3fbf-4305-b02b-934d5a7598ad"
+size = 11735814
+type = "video/mp4"
+publisher_sha = "7525be1765bb3eadb77f669cbf2e025c9f8a2a5f7580612007369375dc4bdc88"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S13 0.4Acm2 H2.png"
+id = "85f8136a-056c-4c9c-8b3a-a23dee917ac4"
+size = 350808
+type = "image/png"
+publisher_sha = "65a26b48d04a3b7332b3254b0611ef0fd85d7cae1b51ff28be4b46fcb6646feb"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S14 0.5Acm2 H2.mp4"
+id = "1c76b228-5640-4dba-8846-45d31510959d"
+size = 17006826
+type = "video/mp4"
+publisher_sha = "af05aee8ed87d3c396ec81a2f2c7b4148d9ed7b17a10ec548c00f00aae067453"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S14 0.5Acm2 H2.png"
+id = "fb230456-88a9-44d0-829c-9336f41e8b8b"
+size = 511204
+type = "image/png"
+publisher_sha = "6106050f0e3cb893dae999873e8b6764c243598f5cce1d49cfb8642867f702a4"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S15 0.2Acm2 3So2 3Sh2.mp4"
+id = "98a47186-a141-4119-856e-f43cdbd24c30"
+size = 14722507
+type = "video/mp4"
+publisher_sha = "1c2f0bb6617e1e4900a8de7a2c0ec30859fcc71be9011bc24af867760ae5bb22"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S15 0.2Acm2 3So2 3Sh2.png"
+id = "6ece0142-b7dd-4059-8c2a-08560b12d214"
+size = 286115
+type = "image/png"
+publisher_sha = "1c21a86876332b1bd65825b09523c2bc57ac18816125c65ac4434ccdb64911c2"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S16 0.2Acm2 3Sh2 3So2.mp4"
+id = "8a96d43c-b75c-4a18-9e90-c847c0a6a533"
+size = 27465472
+type = "video/mp4"
+publisher_sha = "8cfa97c10591f4cdbe67ab2849b21634a4feba6e3918a465b9c10424d6abfbf6"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S16 0.2Acm2 3Sh2 3So2.png"
+id = "59a0bf95-8ab1-47b2-9bab-0aa962ef8a88"
+size = 413506
+type = "image/png"
+publisher_sha = "7f93a365a5c37736fe6c8f5d6f1f38ac449482afe2fc29b0857d47f5dfa68f53"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S17 2.2 1.8 1 0 V  O2 .mp4"
+id = "1a625703-cbf2-45ee-bcdd-808fd3e38068"
+size = 52034843
+type = "video/mp4"
+publisher_sha = "31e43368428dc566bf85f57476ee9318542bfaafe30d771c41c6395b594cae7b"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S17 2.2 1.8 1 0 V  O2 .png"
+id = "b281266a-fbf0-4876-9eb8-a4a0053cacb5"
+size = 532425
+type = "image/png"
+publisher_sha = "c3beded7633db433ab77f78b2f8ef70c8b65f611b6ccaec67597018d080e9add"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S2_0.0015Acm2_O2.mp4"
+id = "bf343ff9-420c-465e-88fd-120d9844930d"
+size = 14284642
+type = "video/mp4"
+publisher_sha = "58c4918175ceef3bd9f3c2b735fec46b8d2d4cf19ea32d5b9e66118185a61111"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S2_0.0015Acm2_O2.png"
+id = "5c3651f2-438c-4b9b-80a9-8cf63b9ea68a"
+size = 479928
+type = "image/png"
+publisher_sha = "8d443704ef13c5a1afa6f605edf93c00803bceab5cea915c5a7af56df9b034c7"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S3 0.05Acm2 O2.mp4"
+id = "647361b3-402d-4ef5-803c-f47ffb840d03"
+size = 31592391
+type = "video/mp4"
+publisher_sha = "d565153940f5a07de5177b4d0b1619e281831576f56b9aa7afd9c096ce70906f"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S3 0.05Acm2 O2.png"
+id = "4405d371-c158-4840-ab49-ac52f5ae32a2"
+size = 669105
+type = "image/png"
+publisher_sha = "4d97ed3608814f31a76ba6c0fe91539ad5263882f2b9fda175c7570384608229"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S4 0.1Acm2 O2.mp4"
+id = "ee068b58-0474-45a1-a540-0c6f7b07d5df"
+size = 27084892
+type = "video/mp4"
+publisher_sha = "0f42824d25be8c5eb6b736ef4208791fa96cfbb553833860050acd1d9a4e93a7"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S4 0.1Acm2 O2.png"
+id = "0a72af2a-2f17-4a55-8268-0c2f210dcc93"
+size = 613834
+type = "image/png"
+publisher_sha = "8efec6ab7226174cf17c6cd14081103bf6d3db9e567f78886dccdbf506735e80"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S5 0.2Acm2 O2.mp4"
+id = "58a139d2-13fe-4838-a3b1-2f8160f1dcf1"
+size = 23349497
+type = "video/mp4"
+publisher_sha = "8349942f1f07f9fbc44598901968aea86fff6e874d383b202752deb983620bb2"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S5 0.2Acm2 O2.png"
+id = "9876e85a-8278-448b-a8c8-c6dd10e0a781"
+size = 589019
+type = "image/png"
+publisher_sha = "a454c0edf4ceae45d1a3ac7bfc7a6474ee674644a364eea7150d427b7aaf75cf"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S6 0.3Acm2 O2.mp4"
+id = "30f27ec8-9fa9-4aad-9ee4-a314a31f45f4"
+size = 32801003
+type = "video/mp4"
+publisher_sha = "96f089fea0a1ddf1e78c485182b0f2d850ed5985c440fb43bbbc792226641dab"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S6 0.3Acm2 O2.png"
+id = "fd155e0f-f9d4-4d24-9bb8-91469c4fdb51"
+size = 640875
+type = "image/png"
+publisher_sha = "c52bedb83ef1daf1064861f7fcb640d097fde3c3e9114dc71b21d8b9ed0113b9"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S7 0.4Acm2 O2.mp4"
+id = "1d2e3913-988a-42fa-beef-61cc6c7b1837"
+size = 25497032
+type = "video/mp4"
+publisher_sha = "68227d3fb0e6b64f3122a83c2174a1f3c381636d20f1fbe61bc2a7d85f80d5a5"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S7 0.4Acm2 O2.png"
+id = "34595190-4d25-4312-bda3-04745a61e934"
+size = 674228
+type = "image/png"
+publisher_sha = "67ed81ef4309545731f03b5ceb571311de35a03955d98e5dc30221e76cf9e45b"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S8 0.5Acm2 O2.mp4"
+id = "2795da08-def4-4dc4-b45f-ff12a711d4c3"
+size = 26807368
+type = "video/mp4"
+publisher_sha = "f2cfea34048b198d7198618bf2d6bff02c2221ac634b2f6cbe1bb8c16b7b4f05"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S8 0.5Acm2 O2.png"
+id = "f81f481b-3d69-4dc7-b8af-d48095aabc39"
+size = 529474
+type = "image/png"
+publisher_sha = "5f74e3df462ea96124f72b4c13253af10a53d67afe3c10cba376c84fb6734229"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S9 0.05Acm2 H2.mp4"
+id = "89c91d31-89ca-43c3-8811-3aa10bae219d"
+size = 8831632
+type = "video/mp4"
+publisher_sha = "496452aa2b1358b83840dbab177b7c2f5b8c9c5276e1974c7122518b8081e2d9"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false
+
+[[files]]
+filename = "S9 0.05Acm2 H2.png"
+id = "bdee95fe-45c0-47ac-952e-cf8abc32f627"
+size = 372585
+type = "image/png"
+publisher_sha = "fb88293b8747da869e8e249a651994a9718ca2dc6c206b1349d021d26ca17f75"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+downloaded = false

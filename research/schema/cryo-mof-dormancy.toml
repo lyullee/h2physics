@@ -1,0 +1,1016 @@
+dataset = "cryo-mof-dormancy"
+doi = "10.57745/FCV2R0"
+license_id = "etalab-2.0"
+validation_qualified = false
+
+[[files]]
+name = "ISOCHORES.100%--MIL-101(Cr).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.100%--MIL-101(Cr).csv"
+format = "delimited"
+rows = 20
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERATURE (K) ", "PRESSURE (torr)"]
+
+[[files]]
+name = "ISOCHORES.85%--MOF-5+1%EG.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.85%--MOF-5+1%EG.csv"
+format = "delimited"
+rows = 20
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERTURE (K)", "PRESSURE (torr)"]
+
+[[files]]
+name = "ISOCHORES.100%--MOF-5.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.100%--MOF-5.csv"
+format = "delimited"
+rows = 17
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERATURE (K) ", "PRESSURE (torr)"]
+
+[[files]]
+name = "ISOCHORES.100%--MOF-5+1%EG.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.100%--MOF-5+1%EG.csv"
+format = "delimited"
+rows = 17
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERTURE (K) ", "PRESSURE (torr)"]
+
+[[files]]
+name = "ISOCHORES.100%--MIL-101(Cr)+1% GO.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.100%--MIL-101(Cr)+1% GO.csv"
+format = "delimited"
+rows = 20
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERATURE (K) ", "PRESSURE (torr)"]
+
+[[files]]
+name = "ISOCHORES.85%--MIL-101(Cr).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.85%--MIL-101(Cr).csv"
+format = "delimited"
+rows = 20
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERATURE (K)", "PRESSURE (torr)"]
+
+[[files]]
+name = "ISOCHORES.85%--MIL-101(Cr)+1%GO.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.85%--MIL-101(Cr)+1%GO.csv"
+format = "delimited"
+rows = 20
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERTURE (K)", "PRESSURE (torr)"]
+
+[[files]]
+name = "ISOCHORES.85%--MOF-5.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.85%--MOF-5.csv"
+format = "delimited"
+rows = 20
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERATURE (K)", "PRESSURE (torr)"]
+
+[[files]]
+name = "ISOCHORES.100%--MIL-100(Fe).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.100%--MIL-100(Fe).csv"
+format = "delimited"
+rows = 22
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERATURE (K) ", "PRESSURE (torr)"]
+
+[[files]]
+name = "ISOCHORES.100%--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.100%--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+rows = 22
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERATURE (K) ", "PRESSURE (torr)"]
+
+[[files]]
+name = "ISOCHORES.85%--MIL-100(Fe).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.85%--MIL-100(Fe).csv"
+format = "delimited"
+rows = 25
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERATURE (K) ", "PRESSURE (torr)"]
+
+[[files]]
+name = "ISOCHORES.85%--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "ISOCHORES.85%--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+rows = 25
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["TEMPERTURE (K)", "PRESSURE (torr)"]
+
+[[files]]
+name = "H2.77K--MOF-5+1%EG.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.77K--MOF-5+1%EG.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar) ", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed (mmol/g)"]
+
+[[files]]
+name = "H2.77K--MOF-5.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.77K--MOF-5.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar) ", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed (mmol/g)"]
+
+[[files]]
+name = "H2.20K--MIL-101(Cr).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.20K--MIL-101(Cr).csv"
+format = "delimited"
+rows = 23
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p) ", "Quantity Adsorbed (cm3 g-1 STP) ", "Relative pressure desorption (p/p) ", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "H2.20K--MIL-101(Cr)+1%GO.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.20K--MIL-101(Cr)+1%GO.csv"
+format = "delimited"
+rows = 23
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p) ", "Quantity Adsorbed (cm3 g-1 STP) ", "Relative pressure desorption (p/p) ", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "H2.20K--MOF-5.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.20K--MOF-5.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p) ", "Quantity Adsorbed (cm3 g-1 STP) ", "Relative pressure desorption (p/p) ", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "H2.77K--MIL-101(Cr).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.77K--MIL-101(Cr).csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar) ", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed (mmol/g)"]
+
+[[files]]
+name = "H2.87K--MOF-5+1%EG.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.87K--MOF-5+1%EG.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar) ", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed (mmol/g)"]
+
+[[files]]
+name = "H2.77K--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.77K--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar) ", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed (mmol/g)"]
+
+[[files]]
+name = "H2.77K--MIL-101(Cr) +1% GO.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.77K--MIL-101(Cr) +1% GO.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar) ", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed (mmol/g)"]
+
+[[files]]
+name = "H2.87K--MIL-101(Cr)+1%GO.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.87K--MIL-101(Cr)+1%GO.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar)", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed (mmol/g)"]
+
+[[files]]
+name = "H2.87K--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.87K--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar) ", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed  (mmol/g)"]
+
+[[files]]
+name = "H2.87K--MIL-101(Cr).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.87K--MIL-101(Cr).csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar)", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed (mmol/g)"]
+
+[[files]]
+name = "H2.87K--MIL-100(Fe).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.87K--MIL-100(Fe).csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar) ", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed (mmol/g)"]
+
+[[files]]
+name = "H2.87K--MOF-5.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.87K--MOF-5.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar) ", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed (mmol/g)"]
+
+[[files]]
+name = "H2.20K--MIL-100(Fe).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.20K--MIL-100(Fe).csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p) ", "Quantity Adsorbed (cm3 g-1 STP) ", "Relative pressure desorption (p/p) ", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "H2.20K--MOF-5+1%EG.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.20K--MOF-5+1%EG.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p) ", "Quantity Adsorbed (cm3 g-1 STP) ", "Relative pressure desorption (p/p) ", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "H2.20K--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.20K--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p) ", "Quantity Adsorbed (cm3 g-1 STP) ", "Relative pressure desorption (p/p) ", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "H2.77K--MIL-100(Fe).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "H2.77K--MIL-100(Fe).csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (bar) ", "Quantity Adsorbed (mmol/g) ", "Relative pressure desorption (bar) ", "Quantity Desorbed (mmol/g)"]
+
+[[files]]
+name = "AR--MIL-100(Fe) .csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "AR--MIL-100(Fe) .csv"
+format = "delimited"
+rows = 50
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p) ", "Quantity Adsorbed (cm3 g-1 STP) ", "Relative pressure desorption (p/p) ", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "AR--MIL-100(Fe) +0.5% QDOTS-1.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "AR--MIL-100(Fe) +0.5% QDOTS-1.csv"
+format = "delimited"
+rows = 58
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p°)", "Quantity Adsorbed (cm3 g-1 STP)", "Relative pressure desorption (p/p°)", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "N2--MOF-5 + 1% EG.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2--MOF-5 + 1% EG.csv"
+format = "delimited"
+rows = 64
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p)", "Quantity Adsorbed (cm3 g-1 STP)", "Relative pressure desorption (p/p)", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "N2--MOF-5.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2--MOF-5.csv"
+format = "delimited"
+rows = 67
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p)", "Quantity Adsorbed (cm3 g-1 STP)", "Relative pressure desorption (p/p)", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "DTG--MIL-101(Cr).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "DTG--MIL-101(Cr).csv"
+format = "delimited"
+rows = 175
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K) ", "Mass loss (wt.%)"]
+
+[[files]]
+name = "AR-- MIL-101(Cr) + 1%GO.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "AR-- MIL-101(Cr) + 1%GO.csv"
+format = "delimited"
+rows = 70
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure Adsorption (p/p) ", "Quantity Adsorbed (cm3 g-1 STP)", "Relative pressure Desorption (p/p) ", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "DTG--MOF-6.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "DTG--MOF-6.csv"
+format = "delimited"
+rows = 175
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K) ", "Mass loss (wt.%)"]
+
+[[files]]
+name = "N2--MIL-100(Fe) + 0.5% QDOTS.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2--MIL-100(Fe) + 0.5% QDOTS.csv"
+format = "delimited"
+rows = 67
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p)", "Quantity Adsorbed (cm3 g-1 STP)", "Relative pressure desorption (p/p)", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "AR--MOF-5 +1%EG.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "AR--MOF-5 +1%EG.csv"
+format = "delimited"
+rows = 72
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure Adsorption (p/p) ", "Quantity Adsorbed (cm3 g-1 STP) ", "Relative pressure Desorption (p/p) ", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "N2--MIL-101(Cr).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2--MIL-101(Cr).csv"
+format = "delimited"
+rows = 67
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p)", "Quantity Adsorbed (cm3 g-1 STP)", "Relative pressure desorption (p/p)", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "AR--MOF-5 .csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "AR--MOF-5 .csv"
+format = "delimited"
+rows = 74
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure Adsorption (p/p) ", "Quantity Adsorbed (cm3 g-1 STP) ", "Relative pressure Desorption (p/p) ", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "DTG--MIL-100(Fe) -1.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "DTG--MIL-100(Fe) -1.csv"
+format = "delimited"
+rows = 173
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K) ", "Mass loss (wt.%)"]
+
+[[files]]
+name = "DTG--MIL-100(Fe) + 0.5% QDOTS-1.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "DTG--MIL-100(Fe) + 0.5% QDOTS-1.csv"
+format = "delimited"
+rows = 174
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K) ", "Mass loss (wt.%)"]
+
+[[files]]
+name = "TGA--MIL-100(Fe).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "TGA--MIL-100(Fe).csv"
+format = "delimited"
+rows = 172
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K)", "Mass loss (wt.%)"]
+
+[[files]]
+name = "DTG-- MIL-101(Cr) + 1% GO.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "DTG-- MIL-101(Cr) + 1% GO.csv"
+format = "delimited"
+rows = 176
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K) ", "Mass loss (wt.%)"]
+
+[[files]]
+name = "AR--MIL-101(Cr).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "AR--MIL-101(Cr).csv"
+format = "delimited"
+rows = 75
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure Adsorption (p/p) ", "Quantity Adsorbed (cm3 g-1 STP) ", "Relative pressure Desorption (p/p) ", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "DTG--MOF-5 + 1%EG-1.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "DTG--MOF-5 + 1%EG-1.csv"
+format = "delimited"
+rows = 176
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K) ", "Mass loss (wt.%)"]
+
+[[files]]
+name = "TGA--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "TGA--MIL-100(Fe)+0.5%QDOTS.csv"
+format = "delimited"
+rows = 174
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K)", "Mass loss (wt.%)"]
+
+[[files]]
+name = "TGA--MIL-101(Cr) .csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "TGA--MIL-101(Cr) .csv"
+format = "delimited"
+rows = 175
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K)", "Mass loss (wt.%)"]
+
+[[files]]
+name = "TGA--MOF-5.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "TGA--MOF-5.csv"
+format = "delimited"
+rows = 170
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K)", "Mass loss (wt.%)"]
+
+[[files]]
+name = "N2--MIL-101(Cr) + 1%GO.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2--MIL-101(Cr) + 1%GO.csv"
+format = "delimited"
+rows = 102
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p)", "Quantity Adsorbed (cm3 g-1 STP)", "Relative pressure desorption (p/p)", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "TGA--MIL-101(Cr) +1%GO.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "TGA--MIL-101(Cr) +1%GO.csv"
+format = "delimited"
+rows = 176
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K)", "Mass loss (wt.%)"]
+
+[[files]]
+name = "TGA--MOF-5+1%EG.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "TGA--MOF-5+1%EG.csv"
+format = "delimited"
+rows = 167
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Temperature (K)", "Mass loss (wt.%)"]
+
+[[files]]
+name = "N2--MIL-100(Fe).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2--MIL-100(Fe).csv"
+format = "delimited"
+rows = 113
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative pressure adsorption (p/p)", "Quantity Adsorbed (cm3 g-1 STP)", "Relative pressure desorption (p/p)", "Quantity Desorbed (cm3 g-1 STP)"]
+
+[[files]]
+name = "PSD--MIL-101(Cr).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "PSD--MIL-101(Cr).csv"
+format = "delimited"
+rows = 200
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["w (nm)", "dV/dw (cm3 g-1 nm)", "V cum (cm3 g-1)", "S cum (m2 g-1)"]
+
+[[files]]
+name = "PSD--MIL-100(Fe).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "PSD--MIL-100(Fe).csv"
+format = "delimited"
+rows = 200
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["w (nm)", "dV/dw (cm3 g-1 nm)", "V cum (cm3 g-1)", "(m2 g-1)"]
+
+[[files]]
+name = "PSD--MIL-100(Fe)+0.5%QDOTs.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "PSD--MIL-100(Fe)+0.5%QDOTs.csv"
+format = "delimited"
+rows = 200
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["w (nm)", "dV/dw (cm3 g-1 nm)", "V cum (cm3 g-1)", "S cum (m2 g-1)"]
+
+[[files]]
+name = "PSD--MOF-5+1% EG.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "PSD--MOF-5+1% EG.csv"
+format = "delimited"
+rows = 200
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["w (nm)", "dV/dw (cm3 g-1 nm)", "V cum (cm3 g-1)", "S cum (m2 g-1)"]
+
+[[files]]
+name = "PSD--MOF-5.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "PSD--MOF-5.csv"
+format = "delimited"
+rows = 200
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["w (nm)", "dV/dw (cm3 g-1 nm)", "V cum (cm3 g-1)", "S cum (m2 g-1)"]
+
+[[files]]
+name = "PSD--MIL-101(Cr)+1%GO.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "PSD--MIL-101(Cr)+1%GO.csv"
+format = "delimited"
+rows = 200
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["w (nm)", "dV/dw (cm3 g-1 nm)", "V cum (cm3 g-1)", "S cum (m2 g-1)"]
+
+[[files]]
+name = "XRD--MIL-100(Fe) +0.5%QDOTS.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "XRD--MIL-100(Fe) +0.5%QDOTS.csv"
+format = "delimited"
+rows = 4501
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["2 (theta degrees)", "Intensity (a.u.)"]
+
+[[files]]
+name = "XRD--MIL-101(Cr) + 1% GO.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "XRD--MIL-101(Cr) + 1% GO.csv"
+format = "delimited"
+rows = 4501
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["2 (theta degrees)", "Intensity (a.u)"]
+
+[[files]]
+name = "XRD--MIL-101(Cr).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "XRD--MIL-101(Cr).csv"
+format = "delimited"
+rows = 4501
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["2 (theta degrees)", "Intensity (a.u)"]
+
+[[files]]
+name = "XRD--MOF-5 + 1% EG.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "XRD--MOF-5 + 1% EG.csv"
+format = "delimited"
+rows = 4501
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["2 (theta degrees)", "Intensity (a.u)"]
+
+[[files]]
+name = "XRD--MOF-5.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "XRD--MOF-5.csv"
+format = "delimited"
+rows = 4501
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["2 (theta degrees)", "Intensity (a.u)"]
+
+[[files]]
+name = "XRD--MIL-100(Fe).csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "XRD--MIL-100(Fe).csv"
+format = "delimited"
+rows = 4501
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["2 (theta degrees)", "Intensity (a.u)"]
+
+[[files]]
+name = "FTIR-1.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "FTIR-1.csv"
+format = "delimited"
+rows = 3401
+columns = 7
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Wave number (cm-1) ", "MOF-5 Transmitance (a.u) ", "M5-EG 1 Transmitance (a.u) ", "MIL-101(Cr) Transmitance (a.u) ", "MIL-101(Cr)+1% GO Transmitance (a.u) ", "MIL-100(Fe) Transmitance (a.u) ", "MIL-100 (Fe) + 0.5% QDOTs Transmitance (a.u)"]
+
+[[files]]
+name = "1.README for Dataset Liquid hydrogen extended dormancy using MOFs and MOF-carbon hybrids-1.pdf"
+format = "pdf"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0

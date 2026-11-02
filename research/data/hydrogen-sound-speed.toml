@@ -1,0 +1,61 @@
+key = "hydrogen-sound-speed"
+title = "Hydrogen Speed-of-Sound Literature Data Compilation"
+doi = "10.5281/zenodo.21355851"
+version = "1.0.0"
+origin = "compiled_measurements"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/21355851"
+metadata_sha256 = "1d83651ff168e7eae59c3688e25957392169034ebbdbd05c2cefe3c8b75ee3ad"
+retrieved_at_utc = "2026-10-26T14:52:43.948789+00:00"
+authors = ["Latcham, Riley", "Bernardini, Luca", "Richter, Markus", "Trusler, Martin"]
+families = ["thermodynamics", "sound_speed"]
+rights_permitted = true
+license_scope = "Zenodo metadata declares CC BY 4.0 for the deposited compilation. Attribute all named dataset authors and DOI. This grant is recorded for the deposited files only; rights in cited source publications, third-party figures and the omitted pif_reader.py are not inferred. Raw archive redistribution is not admitted by this repository."
+raw_redistribution_admitted = false
+third_party_component_rights_reviewed = false
+validation_qualified = false
+listed_file_count = 4
+acquired_bytes = 63968
+omitted_files = ["pif_reader.py"]
+integration_status = "source-bound local HEOS replay executed: 761 compared / 266 excluded; independence unresolved"
+linked_existing_model = "CoolPropProperties.state_pt -> ThermoState.speed_of_sound_m_s"
+comparison_scope = "exact source rows only; normal/para spin basis must match; no fit/interpolation/extrapolation"
+case_id = "hydrogen-acoustic-source-to-coolprop-pointwise-diagnostic"
+limitations = ["historical EOS training overlap unresolved", "not independent validation", "no universal accuracy claim"]
+
+[[files]]
+name = "H2_speedofsound_literature_summary.txt"
+url = "https://zenodo.org/api/records/21355851/files/H2_speedofsound_literature_summary.txt/content"
+relative_path = "hydrogen-sound-speed/1.0.0/H2_speedofsound_literature_summary.txt"
+size_bytes = 6883
+sha256 = "b48d6b3f6399f0995eda903d6e28a1f19db95685b64e0637df74492e5fb78568"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "68b5d4cc6dde71553c219feb4eaed9c5"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "README.md"
+url = "https://zenodo.org/api/records/21355851/files/README.md/content"
+relative_path = "hydrogen-sound-speed/1.0.0/README.md"
+size_bytes = 11259
+sha256 = "8dec1eca0bc047ae1e8f792026d665544ede3aea158d6df5e62f7b3f2816e2e7"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8e3637f1a964cd4aeb4bebea3f2cd3e7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "H2_speedofsound_dataset.zip"
+url = "https://zenodo.org/api/records/21355851/files/H2_speedofsound_dataset.zip/content"
+relative_path = "hydrogen-sound-speed/1.0.0/H2_speedofsound_dataset.zip"
+size_bytes = 45826
+sha256 = "38a5c10a9fb06c41a32f4fbba4ac0d1dabb3b38a7e80490ebc587a2e6dcfd553"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d564f1a2e5b19d1c979d7f321f05de2b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

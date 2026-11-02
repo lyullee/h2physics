@@ -1,0 +1,45 @@
+schema_version = 1
+dataset_id = "cal-state-la-hrs-operational"
+status = "access_and_raw_data_license_unresolved"
+audit_date = "2026-10-31"
+source_type = "measured_operational_data_described_in_articles"
+origin = "California State University Los Angeles Hydrogen Research and Fueling Facility"
+raw_data_acquired = false
+raw_data_reusable_license = "not established"
+raw_data_asset_ids = []
+raw_data_download_urls = []
+raw_data_checksums = []
+publication_only = true
+notes = "University repository records for both articles report no associated files. Article open-access terms apply to the article, not automatically to separately described underlying station records."
+
+[[records]]
+record_id = "genovese-hrs-back-to-back-2021"
+title = "Hydrogen station in situ back-to-back fueling data for design and modeling"
+authors = ["Matteo Genovese", "David Blekhman", "Michael Dray", "Petronilla Fragiacomo"]
+citation = "Genovese, M.; Blekhman, D.; Dray, M.; Fragiacomo, P. Journal of Cleaner Production 329 (2021), article 129737."
+doi = "10.1016/j.jclepro.2021.129737"
+publisher_record_url = "https://www.sciencedirect.com/science/article/pii/S0959652621039135"
+university_repository_record_url = "https://iris.unical.it/handle/20.500.11770/326609"
+repository_handle = "20.500.11770/326609"
+publisher_asset_id = "PII:S0959652621039135"
+repository_raw_files = []
+article_rights = "Publisher page reports © 2021 Elsevier Ltd. All rights reserved."
+raw_data_license = "not stated in inspected publisher or university repository record"
+described_data_period = "one year; exact range not confirmed in inspected record"
+described_scope = "fueling frequency, multiple daily events, back-to-back scenarios, cooling response, pressure, thermodynamic observations, and vehicle state of charge"
+
+[[records]]
+record_id = "genovese-hrs-multiyear-energy-2024"
+title = "Multi-year energy performance data for an electrolysis-based hydrogen refueling station"
+authors = ["Matteo Genovese", "David Blekhman", "Michael Dray", "Petronilla Fragiacomo"]
+citation = "Genovese, M.; Blekhman, D.; Dray, M.; Fragiacomo, P. International Journal of Hydrogen Energy 52, Part B (2024), 688–704."
+doi = "10.1016/j.ijhydene.2023.04.084"
+publisher_record_url = "https://www.sciencedirect.com/science/article/pii/S0360319923018190"
+university_repository_record_url = "https://iris.unical.it/handle/20.500.11770/348868"
+repository_handle = "20.500.11770/348868"
+publisher_asset_id = "PII:S0360319923018190"
+repository_raw_files = []
+article_rights = "Open access under Creative Commons Attribution 4.0 International (CC BY 4.0), as stated in the publisher-hosted article copy."
+raw_data_license = "not stated separately; the article license is not treated as a license for absent raw data files"
+described_data_period = "2016-2020"
+described_scope = "more than 4,500 fueling events, dispensed hydrogen, electrolyzer and storage/refueling compressor operation, energy-performance metrics"

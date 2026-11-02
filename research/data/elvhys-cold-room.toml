@@ -1,0 +1,2394 @@
+key = "elvhys-cold-room"
+title = "ELVHYS 4.2 - Leakage into cold room/tank connection space considering barriers and obstacles"
+doi = "10.18710/JXJP0H"
+version = "1.1"
+origin = "measured"
+source_updated_at = "2026-10-21T08:14:38Z"
+license_id = "CC0-1.0"
+license_url = "http://creativecommons.org/publicdomain/zero/1.0"
+metadata_url = "https://dataverse.no/api/datasets/:persistentId/?persistentId=doi%3A10.18710%2FJXJP0H"
+metadata_sha256 = "85ce468734fa5be9ce8642668fc895917e59c3657aa89201e4f3ea8b23f41c96"
+retrieved_at_utc = "2026-10-28T08:52:48.748793+00:00"
+authors = ["Rattigan, Wayne", "Welch, Janet", "Vizma, Janni"]
+families = ["cryogenic", "enclosure", "ventilation", "oxygen_observation"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 198
+acquired_bytes = 1429209739
+omitted_files = []
+
+[[files]]
+name = "ELE402HSEMETA.csv"
+url = "https://dataverse.no/api/access/datafile/254386?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSEMETA.csv"
+size_bytes = 2325
+sha256 = "84d71b9ee69b7814174a15a98243c7681da8cc1e9a8af7b7ebc1307e28e8d488"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f6e1a4c245d0fef8f5864d32274c6f82"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "00_ELVHYSWP4_2 README.txt"
+url = "https://dataverse.no/api/access/datafile/254380?format=original"
+relative_path = "elvhys-cold-room/1.1/00_ELVHYSWP4_2 README.txt"
+size_bytes = 11305
+sha256 = "c6166236c7087ba4a457990470a69c125df436ac20e67b4b35d94e3a3df3fc42"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e90a73473c7ab834ad1b9d438da96056"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELVHYS WP4.2 TCS Sensor Details.pdf"
+url = "https://dataverse.no/api/access/datafile/254561?format=original"
+relative_path = "elvhys-cold-room/1.1/ELVHYS WP4.2 TCS Sensor Details.pdf"
+size_bytes = 158331
+sha256 = "bedb3115c22e7f080ab10beef6ed0f3269a0997929e56a6455e80e3acd2911b6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a88016b559a202f8bf34b551b175eb16"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE402HSE048FLMT20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254229?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE048FLMT20251128.csv"
+size_bytes = 344890
+sha256 = "cb32abd80695c17447739e0352d5a5daa72d8b87369b80a2766f56ef4d88fe03"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8faa6760f2b340bdeb7ae3834bf7ace1"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE045FLMT20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254224?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE045FLMT20251128.csv"
+size_bytes = 362212
+sha256 = "ae15a55f08b817fc75996b5cb11a5adf192593e3ce33ff9d2a8cf86b083d10b6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "31d669e1ea1b72d22360f8c11fc1a789"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE044FLMT20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254288?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE044FLMT20251128.csv"
+size_bytes = 371482
+sha256 = "07c51c29b6914daa0ee9b4e207570f8fb18457b4bc095b80e43732f4d9bb638f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c022e63af0e21398a77af6ac32721bb8"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE047FLMT20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254299?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE047FLMT20251128.csv"
+size_bytes = 402153
+sha256 = "5110daedb2ff59a05c11b4eb88d0b9051d28708701a9c2cdd2f57e4ae6d587a3"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f5353816f7033e53269300e5615dcc07"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE043FLMT20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254321?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE043FLMT20251128.csv"
+size_bytes = 426284
+sha256 = "fe303433d6d5510dd62458ad1eedfed625fff3c3c28638a4ee44f5cafa09fa5f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "53cc10083fa86f5ac95e7fef614730bf"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE028FLMT20251115.csv"
+url = "https://dataverse.no/api/access/datafile/254283?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE028FLMT20251115.csv"
+size_bytes = 542937
+sha256 = "96c6b1f3eb57fff46e12ae81c0fa76d42ca4ff24ea7135a8df6539ecf67dea23"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b0d141c0a77c8a7c0105a952cec7c8e7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE009FLMT2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254307?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE009FLMT2025118.csv"
+size_bytes = 678687
+sha256 = "271d35ff79cc3f34c32510967e09f4becb41d2811b832572fe6de89db7a2f4fa"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2fd8050999b48a7fb94e1ea696d665dd"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE029FLMT20251115.csv"
+url = "https://dataverse.no/api/access/datafile/254364?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE029FLMT20251115.csv"
+size_bytes = 685343
+sha256 = "34e71f75d3c2ee295bac9fc6a3e10b1cd0530a71b5b1fe5a1c3d7e9f704f48dc"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "60f2a7fd1a0a1db1d95b7be9f580fd6f"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE007FLMT2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254327?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE007FLMT2025118.csv"
+size_bytes = 798949
+sha256 = "c58940e6971a57cca57107c7f6fd67850badde7d89a1e55563c4d8a0794ff3a6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "702f69c7a5b114082f121c12db64d370"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE004FLMT2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254377?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE004FLMT2025118.csv"
+size_bytes = 800194
+sha256 = "53c2725699629e893e5e85fd3c48c50ecc10fa0cee48326c285bcf1dade4cc43"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "12f15d608dd9fb8d4fef7ac748aa3096"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE025FLMT20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254319?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE025FLMT20251114.csv"
+size_bytes = 816563
+sha256 = "c8637642e8dcadde0ea83fecbfa815d062cc180a1999a7831b61556cafd0ad75"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "01b3faf63042242b404e8ff69a39919c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE046FLMT20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254378?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE046FLMT20251128.csv"
+size_bytes = 837644
+sha256 = "d670ea7b6444d6f2c9db012aa54bd2511ea653ea9f33404057821e4ed0742cf8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "66011118df8d20817ec1581192c9e942"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE012FLMT20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254363?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE012FLMT20251111.csv"
+size_bytes = 840488
+sha256 = "7a3f073f255b68713a7a4223232808a1450df9f2804858df1d75477d20b1fd73"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a9c8af379b264531a6549e4650b638b6"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE003FLMT2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254292?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE003FLMT2025118.csv"
+size_bytes = 917153
+sha256 = "435b0f643788d16eee2b4d77affe135bd9edac994524cbd6f8d3eeaf70879964"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0d12de78a363446a6030694bf1bf0421"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE038PRES20251126.csv"
+url = "https://dataverse.no/api/access/datafile/254385?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE038PRES20251126.csv"
+size_bytes = 976267
+sha256 = "764f82a045675abe7e203122d440bf2ff4c63b6459056a3bdcef84656f5b0e48"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4388040242591cc3398dd32f1d8f6034"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE005FLMT2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254335?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE005FLMT2025118.csv"
+size_bytes = 989085
+sha256 = "ab9a2eccee70c6c912bc5d5b9e539c511a02360903be7480b1da7167f5685d1f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "36927db4046b1c5b943901bd3562fe1b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE010FLMT20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254295?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE010FLMT20251111.csv"
+size_bytes = 991662
+sha256 = "c09a32947c1bcdee3f5e1cfdecf41a000de4adc85a2fad201f3d0cdc263be24b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "10485ca53bf341a47c9afdf5ec0abcbc"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE006FLMT2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254297?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE006FLMT2025118.csv"
+size_bytes = 994648
+sha256 = "553f2d4bb56cd390eedcce4b2624403c2a8c41969fec8817025e247fe78e4da5"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ccb814cadcf7c4233a57853799fdacac"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE011FLMT20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254225?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE011FLMT20251111.csv"
+size_bytes = 999105
+sha256 = "59a4c49d08ad38cc3b7ae73d62d66c96e51620c154a67dc84f541bc37315f7f5"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "91e5d4b522ae75a4923583199b538c54"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE0024FLMT20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254252?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE0024FLMT20251114.csv"
+size_bytes = 1000975
+sha256 = "c62f9b099ee38c8752f9732a3498d1fc053e56b94623d5a14b410aa90d8e949d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "db1574f6a3af475abe5f87373d785a06"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE026FLMT20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254317?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE026FLMT20251114.csv"
+size_bytes = 1046027
+sha256 = "7ddd5345a85838650ddd34041c3915578a6ee637eef24de7ffa9f61095e614b9"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f7dc43aeba5b1063e51ce0fc17ae63d4"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE014FLMT20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254287?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE014FLMT20251112.csv"
+size_bytes = 1096275
+sha256 = "7e4da8787d22837fbee8021239175ed4347056ae32adaf42ff85c670e8d210fc"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "dbb5cbdf448a3dcb38536a8aaa2fa3b2"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE008FLMT2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254383?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE008FLMT2025118.csv"
+size_bytes = 1129358
+sha256 = "13b2aef29e9b8a2ada875cae5acfe4b9f48ac2a604d6c213b073013774a9fd27"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b56f606be7cd8071c9446f14f5aa9df8"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE015FLMT20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254311?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE015FLMT20251112.csv"
+size_bytes = 1131346
+sha256 = "33991ca55e467ccebe4690dcb6e1fc197b97dd57a7852e4cb5ea37fa3f67ba74"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "86a2fe60664c619ceb54f4fa047ed407"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE013FLMT20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254333?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE013FLMT20251111.csv"
+size_bytes = 1171572
+sha256 = "c3d6926e061065e1c657184fd28d03b388be3c518da252a6e1c68fe92e40ec14"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "de07f8a5c6335e10c67a87dec62e6185"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE028MISC20251115.csv"
+url = "https://dataverse.no/api/access/datafile/254372?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE028MISC20251115.csv"
+size_bytes = 1191732
+sha256 = "2f04750754cde49f3b2935c283aae9f26f5e8d2fffed5b94253446e47b80ec22"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e2d8678714894c4563894cc7dd352993"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE025MISC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254347?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE025MISC20251114.csv"
+size_bytes = 1213769
+sha256 = "c3ffa0aaca2e4a78a5364f604297b1d8d51a123f02331c537db03606b9d9c6aa"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c8c42d58b13cc3a62ea11f28bdc7013c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE042PRES20251127.csv"
+url = "https://dataverse.no/api/access/datafile/254350?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE042PRES20251127.csv"
+size_bytes = 1314592
+sha256 = "4bf3c3b2bae267fad1f212c9506b52ba4af521b57c6c5ab4883196b153385f73"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4a71d2f7254a42b8d94123df1e9daa2d"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE028PRES20251115.csv"
+url = "https://dataverse.no/api/access/datafile/254325?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE028PRES20251115.csv"
+size_bytes = 1322744
+sha256 = "2c8738e2852f89aa078f9c7a3422cb05c34d9c8d7a1fe1f20b331bd680e984e7"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b27894ac66dad49dcafc8b51ed0f7655"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE025PRES20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254337?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE025PRES20251114.csv"
+size_bytes = 1327552
+sha256 = "7efbee8dc80cfede7165bf0dca682f339249b7a9380722088cc65d3e80150864"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "08d88b2daf36912fe5be1a2aba7cb8cd"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE027FLMT20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254403?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE027FLMT20251114.csv"
+size_bytes = 1366251
+sha256 = "674838a2ad23de36a32c12375f4638ac83a0573e5359fc0b75e9b37b2c89e958"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8109d36018ce46b767b0cb3b0115297d"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE020FLMT20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254315?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE020FLMT20251113.csv"
+size_bytes = 1436502
+sha256 = "b00b38afd2bb14fa55c2de60197655271f30e6187880ce270034f27e53ff162d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "62c3f06819d6ba0c37da96822883a33f"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE029MISC20251115.csv"
+url = "https://dataverse.no/api/access/datafile/254240?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE029MISC20251115.csv"
+size_bytes = 1495547
+sha256 = "45bd5c4ef399938d12ca4b3302fc8775415e1cafc84cd37efcecc21e5ae0d724"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "6a81fd48eb9d28ce4dd932d40215788c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE040CONC20251126.csv"
+url = "https://dataverse.no/api/access/datafile/254276?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE040CONC20251126.csv"
+size_bytes = 1524989
+sha256 = "040ebdf5476c1157cce8d8d41698aba0124a8f11bf9080039c020df0ab618b25"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "648737f14fb4413c3d2fc5ada8312359"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE018FLMT20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254368?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE018FLMT20251112.csv"
+size_bytes = 1526036
+sha256 = "0369f24aae7ca33f96e05979b1ca07f68b9c6abef286b2432760a49487214376"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7cc6772d72e98f00f79eee475acb1014"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE040MISC20251126.csv"
+url = "https://dataverse.no/api/access/datafile/254326?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE040MISC20251126.csv"
+size_bytes = 1529269
+sha256 = "d7d32b651b49fe7c096c1d7d67145a202f416886dc641d0ca125202e8fb15d1e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "6c05fb9ef8fe0e2764d159c74095aedd"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE0024MISC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254257?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE0024MISC20251114.csv"
+size_bytes = 1533722
+sha256 = "42eaeeeea72a2d9bef7130d26d8666951cbb0a6167c9306998d419ea7663f835"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "41659e9ae3bd5f265a487c0d41dc7162"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE026MISC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254324?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE026MISC20251114.csv"
+size_bytes = 1536971
+sha256 = "3a43d2c25ac89dad471303391d4413cf8277704be95c7358a21030471979a6cc"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0e13a8ed4cddcf237fcfc3c2147bf327"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE038MISC20251126.csv"
+url = "https://dataverse.no/api/access/datafile/254243?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE038MISC20251126.csv"
+size_bytes = 1550610
+sha256 = "45f5912687db0a647106c01d71d81f6c216dabee3caddd5caca39437c3df32c6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3cccc8d995ac382cbbc2453327ae37dc"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE038CONC20251126.csv"
+url = "https://dataverse.no/api/access/datafile/254398?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE038CONC20251126.csv"
+size_bytes = 1576819
+sha256 = "62a8754c94c6a726eea93bbd743d1664a3fc463751ca7d2ef81ae58e2b820785"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "48d6cc657d8d4bdeca9e178350595384"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE009MISC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254320?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE009MISC2025118.csv"
+size_bytes = 1581494
+sha256 = "ae30dde53f7ec9bde61187942b0a46f88533bf7a4b04eb7960aa20ab3a7b3b4f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fe91acc29793ed12fceb0c5fad7b46b5"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE048MISC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254220?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE048MISC20251128.csv"
+size_bytes = 1587767
+sha256 = "ca6b522180def6cb4f7843267737a27459f58a86e023b700f87422a17d0fbbe2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cc996a27476e59c1f495317bb8ae4645"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE023FLMT20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254339?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE023FLMT20251114.csv"
+size_bytes = 1605862
+sha256 = "819151b03366ddadf5830b55ac746c8fa72a931dc55b796509822746547f3167"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "61ad764962fdd828868e192108be9ef5"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE045MISC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254216?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE045MISC20251128.csv"
+size_bytes = 1628490
+sha256 = "fb13df96227fe7c41f03a05897695b0abc1ed5b3c3e149b19da430574fcb227f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "6d897901305a28089c5d72acc88bd498"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE042CONC20251127.csv"
+url = "https://dataverse.no/api/access/datafile/254361?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE042CONC20251127.csv"
+size_bytes = 1633230
+sha256 = "06e9f3145ad8492048b4c7a2ae6f17ae644eb81c6ab9be0159967fef53cfc13f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "afaca40a946ac5c64016f972258defd7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE042MISC20251127.csv"
+url = "https://dataverse.no/api/access/datafile/254365?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE042MISC20251127.csv"
+size_bytes = 1652117
+sha256 = "574716b905254e9f80c063a0d896df5f8fff7f99979087242115b1fd008e2227"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "420a71a54aa4f30ab6d608d3abba096e"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE0024PRES20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254266?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE0024PRES20251114.csv"
+size_bytes = 1658947
+sha256 = "2503984010ca4ed74ae82721c136ac621b624810627d49bb6635bc687b8aca50"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5843a5e45da823606d9d69b23f40ca87"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE0044MISC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254381?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE0044MISC20251128.csv"
+size_bytes = 1665042
+sha256 = "fd1dcdf99d408f600c6d3bb00d9ba24d2bbfc7b198642aa486f1bf14331e68c0"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "16f0cd93b346de4b986a43983d60bd81"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE036CONC20251125.csv"
+url = "https://dataverse.no/api/access/datafile/254296?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE036CONC20251125.csv"
+size_bytes = 1689448
+sha256 = "c97521ece835938080a2d36943b0d333004557f0fce43bc26b75e98ec8cf7871"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "9ec907f01f28e4036ee89122d453a738"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE036MISC20251125.csv"
+url = "https://dataverse.no/api/access/datafile/254259?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE036MISC20251125.csv"
+size_bytes = 1690397
+sha256 = "1eb98171bf842b6c144be902849b01dc8f569a033c4ee8eab8fc9030d639887c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d88154e60be25b15a67fe32120acff1b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE026PRES20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254375?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE026PRES20251114.csv"
+size_bytes = 1697611
+sha256 = "60d30488b6aeebe59ad3b3e4b1eda9c30f117f0a30148a4aa5bde70501969b52"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "598a34df704a71c4ca6d539c08c499fd"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE009PRES2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254271?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE009PRES2025118.csv"
+size_bytes = 1707813
+sha256 = "ebe113f9529298dd37a1e8baea3d7390ebadad949c213983c3d150385037bc97"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "42704d659c42d6099c43204ff3c6ebe7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE048PRES20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254379?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE048PRES20251128.csv"
+size_bytes = 1713859
+sha256 = "7b0e91a5caa4c1659d8bdb0c9cd03e67e329f0d558719950632ec67092e8c04c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ace5f251804ac7806d30bf39054ed45c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE029PRES20251115.csv"
+url = "https://dataverse.no/api/access/datafile/254217?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE029PRES20251115.csv"
+size_bytes = 1723565
+sha256 = "3142b9ea12847b8befe8d9d305787f3c25832ea9f49928adbbb6227f640ff00c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4a4f57caa024080df84a8e4df5fe0a48"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE022FLMT20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254284?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE022FLMT20251114.csv"
+size_bytes = 1795978
+sha256 = "c2d9599cfe481ddc22cf3ee6949778743d6a4dda79821665bc5c5669e8ede368"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3389e54af0371e61c8dc3b619ccdb075"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE047MISC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254218?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE047MISC20251128.csv"
+size_bytes = 1805581
+sha256 = "9f627c8a2b9210b7b41169a8448d285e4892e2a3933b23243917b0219ee06468"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e3e35304a85c5473ef6fe8e3766e8051"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE045PRES20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254277?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE045PRES20251128.csv"
+size_bytes = 1807468
+sha256 = "2523f0008932a55ae73311687e9984c446dbdad8150d01e8ee67b5db914230fe"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fc1e4cd3d174bb84c35e44a4a3cb05d4"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE007MISC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254305?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE007MISC2025118.csv"
+size_bytes = 1848023
+sha256 = "14979eeaf245edb37082534d27515830be2f2d51eb1f1c3ac025cc9b761bea2d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1446cd3c003c476937f9e3ed2117e195"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE044PRES20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254391?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE044PRES20251128.csv"
+size_bytes = 1856369
+sha256 = "388d587e3be66d44701b260f0ce3c7745c07ec7205a46d1ec561cd9e321e6243"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "45c5440f51cf2e750cf0a45a15495f84"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE004MISC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254407?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE004MISC2025118.csv"
+size_bytes = 1895445
+sha256 = "cfc395f6a6b1fc38da755eb96e0a407c39659629ca933f69d87443f9e867c22d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d47a039a452ddbac2488d93c6b43e688"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE041CONC20251127.csv"
+url = "https://dataverse.no/api/access/datafile/254387?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE041CONC20251127.csv"
+size_bytes = 1906536
+sha256 = "63f10749e00364a468e16c3d371a7bd1095fdf982d17f8aad425971d4390895e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0ec733cabb4fba73cd77de884c270dde"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE043MISC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254275?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE043MISC20251128.csv"
+size_bytes = 1913447
+sha256 = "d8318a8c559047d3056f8b8ace896fcbdbfea28ff4b5379d04877ed6a5b07a48"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "03566596b6590641434e49339bda7ad3"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE041MISC20251127.csv"
+url = "https://dataverse.no/api/access/datafile/254262?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE041MISC20251127.csv"
+size_bytes = 1934076
+sha256 = "2a1643f0ca5ee04d7affc132a83836dea4dab0ea7d9baca56ddd0a6b3327cbaa"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cef5be76163c257d67b765b6210a9122"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE012MISC20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254345?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE012MISC20251111.csv"
+size_bytes = 1946072
+sha256 = "b5a6398b826599d83bc9c1dbe105524f4ac4c27dd4d478df87da32452dd7cc57"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b1d06555c303059cd4a967f7b713d208"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE047PRES20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254334?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE047PRES20251128.csv"
+size_bytes = 1992137
+sha256 = "484e3651039e4221b7194449f76af64254639528760d43f24aeda3a415d92488"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4fa8c6111f7f060c08457fa395374164"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE017FLMT20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254395?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE017FLMT20251112.csv"
+size_bytes = 1994060
+sha256 = "57a63ca029b7d24b7b4d774f2cd06d04d42c44e9eb4c16de0203af453a68dd6f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "edb73589cca6c6a6bca2ca1e6f9d2638"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE019FLMT20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254323?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE019FLMT20251113.csv"
+size_bytes = 2005732
+sha256 = "b44cace9039d91d23a1ec0b12099681cc03554d3bfba6bc4434ae3a9122ee030"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5178412c6fdb6a68d38386cd3aeb7caf"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE027MISC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254332?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE027MISC20251114.csv"
+size_bytes = 2017337
+sha256 = "50e75c5519abf7cf63c26cadf3363a6e55b6acf9c85a8b0fd1a29a8afb8a9e1c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "566110e9c89e9a276cc71ca83ae19398"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE007PRES2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254298?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE007PRES2025118.csv"
+size_bytes = 2020113
+sha256 = "0cd351f5c515154a6eaf8bc6865b7878bef14362d56fbaf509c4b781ef3a7f71"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "6212c17833cffb8ba9fdf1bc397e5be5"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE004PRES2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254312?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE004PRES2025118.csv"
+size_bytes = 2029728
+sha256 = "232a5c6926faa1c422c37fc6eca8e707ec18fa11c8769eb7285a23d986ce1d78"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d28d6319980bdae0a12ebbe4d3f5916e"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE016FLMT20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254261?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE016FLMT20251112.csv"
+size_bytes = 2094834
+sha256 = "2bf4d9e037b79f5e0fe046a2f44d50449f1c86315b3c94d4c10d970c11b64186"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a9cc373b3d1ef18cf49cbecbf006d713"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE012PRES20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254231?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE012PRES20251111.csv"
+size_bytes = 2117755
+sha256 = "47b2982b26f6c58b915d020b4157014c447bb21398f99b53e93ef98a52784d07"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8a64238a02973c701377880a2a2236bf"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE043PRES20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254309?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE043PRES20251128.csv"
+size_bytes = 2136561
+sha256 = "9341ee8629380ba175086dade41f575b8986feb5659e30211a60221e254235ac"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8ed3fc59047b0a580137a1b6a896ccc8"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE020MISC20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254392?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE020MISC20251113.csv"
+size_bytes = 2175056
+sha256 = "1850679dce0d6fd2df306c2e1455333e47700be860b1a881092c10d7d68e7ca8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2e26b32e644399299aeaaeec4aa3b93f"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE003MISC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254245?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE003MISC2025118.csv"
+size_bytes = 2182764
+sha256 = "95418f62aeeb3bd374b062dd1d8e16d895af04940d3c0b42c6d0ce3a21086a9d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f6c4e673af2808cd01e4e70cc63609b6"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE005MISC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254222?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE005MISC2025118.csv"
+size_bytes = 2223052
+sha256 = "3a86e20fdd60be04a03f23e7602490ced56df6d8e270680185ab41a55a5ae7ec"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f229bcff00588eed9cf79c36ec06dd4c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE027PRES20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254322?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE027PRES20251114.csv"
+size_bytes = 2240617
+sha256 = "e5595e39365bad49373e51a0543817330684e3d0aa8209ac2e6b9b456ecd53b9"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "527fa38ade62f9eb0c1e23fb4b285875"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE010MISC20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254397?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE010MISC20251111.csv"
+size_bytes = 2304974
+sha256 = "d3ed6e270af46af3059771f40509a2e2b4c2d58dc98d87ba798d7bce8301c2f5"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "af69c541a4c125abd674308354c5c2fc"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE006MISC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254289?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE006MISC2025118.csv"
+size_bytes = 2317034
+sha256 = "7417a1cc86137593e26a36984f3359b880f4e087289e93ba729c2b2f5fd661f0"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a68538876a8fd3c978d6bde2d79c1e8f"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE011MISC20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254316?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE011MISC20251111.csv"
+size_bytes = 2319417
+sha256 = "407b276129d16cd8092e4c4818d76a8a329031fb7cf9530b8e9a1b0110cce4b5"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "14d998ea9533c03f0164e6e99bce2c2a"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE020PRES20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254293?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE020PRES20251113.csv"
+size_bytes = 2353146
+sha256 = "2f7e27e656a1dcad1ec8bcf482c015be7f625f2ccea16799731166b92df22041"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a5ca73c9159d11741259747f395a4e72"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE003PRES2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254285?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE003PRES2025118.csv"
+size_bytes = 2356576
+sha256 = "492d0e4892045ad64820f13be796516b27e8eb1597fd7c3dd7826fa449a362b4"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "bca85e513917f35cdfcacfdb0ef29c66"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE018MISC20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254269?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE018MISC20251112.csv"
+size_bytes = 2360949
+sha256 = "eb2892a1fff77c00bfa5293c7b434eaf4d7112a1a79219ee86fbfb0fdd900a1c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e98efea1ee14cbc5de8ff299514e0848"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE005PRES2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254373?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE005PRES2025118.csv"
+size_bytes = 2426168
+sha256 = "abb95eb3b57f78fc172797e6225e1b344d26eeebccd6b1b95dd7f8562c78b90c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "55d1a26e6171fc0cc1ed81f7dc284bc6"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE023MISC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254340?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE023MISC20251114.csv"
+size_bytes = 2442871
+sha256 = "2b9d53b1ebb42b691b38c40f5e09e5dcc017f9e94a5ddea50630391614bebdb8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "117ad06b17db795a51f6543badb18608"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE014MISC20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254313?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE014MISC20251112.csv"
+size_bytes = 2532444
+sha256 = "a9ad706472b43411b153e3447f609f280c4de8390ccf33bea28267e1dd46bf7e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "52678e3d6fc2b1a47f6e1db0ca597124"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE010PRES20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254362?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE010PRES20251111.csv"
+size_bytes = 2546186
+sha256 = "845a555edbfd0f7e4e3c2f8e65182556d476ec739bb8633d1497e689e2a21dd0"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1155d03dad3097badfabee97a36499af"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE006PRES2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254282?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE006PRES2025118.csv"
+size_bytes = 2550484
+sha256 = "f8ed34764c6f6a9f5e0275a65922bde211a9dc0ecb5506b752166a62f9c3830e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a0a1bce214ce428c591a17b64e66ce05"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE011PRES20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254359?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE011PRES20251111.csv"
+size_bytes = 2579140
+sha256 = "59fd2286678d0d8180edaa2f333ec5314a37bbecaf9a6dcaba2a707f5f5f243b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a3db4d373885667f7d1a254129d2c758"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE018PRES20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254404?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE018PRES20251112.csv"
+size_bytes = 2591610
+sha256 = "f8f41cae982e1f22ccc3af9e2a1e0c1eda011fa33710765d3f93c56d0b2bea1b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8e64a3286768ed76e4d35f97a081dcdd"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE015MISC20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254328?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE015MISC20251112.csv"
+size_bytes = 2616376
+sha256 = "387f1746cd2c4578589f33d0d25583e256b530a290a6db8f09f7b5c8d9fbaa1a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4b72e0a26bc060c2225e78149ae80a08"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE008MISC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254402?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE008MISC2025118.csv"
+size_bytes = 2637877
+sha256 = "dad4b8a48dfb4b08fa562d95c6c4e4308a2fdd8066907f7bca76d92d80a0fe41"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "db1a42aabf3dd5f9c76fa9892b769d80"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE023PRES20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254219?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE023PRES20251114.csv"
+size_bytes = 2689358
+sha256 = "3e4b4a5d51702050e4d556e2627278b0c67d9fb95aeb0e195aea239113573734"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cc20ee6bba6957c72b2357211e22c8df"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE013MISC20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254247?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE013MISC20251111.csv"
+size_bytes = 2713637
+sha256 = "f09757c2c8ba4215625e4175900c5bd4ebded95f2d7ceb524f9255280e446ec2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "04141a4d2766f36a2185ae479c3aa035"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE022MISC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254253?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE022MISC20251114.csv"
+size_bytes = 2761801
+sha256 = "5cdcd5d795ced6ce32ae0ef0b1030e54f85c46ffd706e3aea0c0747954cc8f68"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1047f1dfdf1a55bf9ac9f4d7b9f2e8ae"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE015PRES20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254308?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE015PRES20251112.csv"
+size_bytes = 2830716
+sha256 = "0dad493022d700af0526646c03a70520b2f72dd4f43390a8b63fe2b4c8657572"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "61ce2705dcd5dee7cf94c3e46201c7fb"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE014PRES20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254370?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE014PRES20251112.csv"
+size_bytes = 2832703
+sha256 = "2c6cd40bdb6229cc4048dbed8342746d594e453ed9c305fbfa2b3da60e32ad49"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0415a038fb29167736deaa8543c3ee4e"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE008PRES2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254384?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE008PRES2025118.csv"
+size_bytes = 2888363
+sha256 = "b19eac4121936e1581f03307756ab78c93861cd92eb02479dd2de2d70898ab34"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3438e87924a3da90bace3af9db7b8f12"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE013PRES20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254239?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE013PRES20251111.csv"
+size_bytes = 2954403
+sha256 = "c386cd619bf8aa2c37738ba589fada8fa5605c70cb7d8a1908138de54e8dd288"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1e20b839b5215b836f3c77adac163624"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE022PRES20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254331?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE022PRES20251114.csv"
+size_bytes = 2998888
+sha256 = "eacfb804c3a521703be244f1420872c3f4abc7eb1736f358006f509ae9c97402"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "bb4819d12caa9f88bcda3c1caada2720"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE017MISC20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254376?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE017MISC20251112.csv"
+size_bytes = 3052521
+sha256 = "77b4db3cd5117774356b6bb0de74eb4ec415a10b000f85d9cd1f4418fab9ada8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c2739b357066a624e383524d2a339aa4"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE019MISC20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254393?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE019MISC20251113.csv"
+size_bytes = 3126157
+sha256 = "a28210e91804acddd4706bdee8afe405c7035487fe2837ed50746d36b889fa84"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "aecbb369668b412548572a4ad806c76f"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE019PRES20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254356?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE019PRES20251113.csv"
+size_bytes = 3310141
+sha256 = "006980aaab7dc101c0bc2d5c2ac81887dd76bc8442b2987dfc320cdb0bb8facb"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "238eb1a2037e3a7114ec3b927ae5153e"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE017PRES20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254369?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE017PRES20251112.csv"
+size_bytes = 3360020
+sha256 = "5e440c1577cce9aebcff3a4ed912862271a71942633130be6de0263b97ff12ad"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0dac04935fe3b1720d5f83c1afed52f7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE021FLMT20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254314?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE021FLMT20251113.csv"
+size_bytes = 3410085
+sha256 = "4eb3bebb297be7fe93b520c27f1f134853501b322f1fae9db40b08b347f2f831"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4b6904e9378ef219eda7b8eb84bce1e8"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE046MISC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254338?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE046MISC20251128.csv"
+size_bytes = 3774815
+sha256 = "1316ece36f28b4331b4ddf751af3820a73b00d41bf6fead81e1584ae496941de"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "000caa1d9e7959caae836925e711cc44"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE046PRES20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254270?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE046PRES20251128.csv"
+size_bytes = 4229989
+sha256 = "25b52d67cec5589772c17111385ccc70391e73c5251c497345eaec4ec3f773bb"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "357de09903e3f1772b887fff92537ba7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE025CONC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254279?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE025CONC20251114.csv"
+size_bytes = 4565928
+sha256 = "238b9765a4b68d7c8e63463823b2679722761008afc1c3959f685e4a280cd9a6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2c0185bd472d02aa4d780f08e5ededfa"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE028CONC20251115.csv"
+url = "https://dataverse.no/api/access/datafile/254294?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE028CONC20251115.csv"
+size_bytes = 4713476
+sha256 = "5ed33215db6d0da86a453ab59a58776c618f559abd19a6743d7a6debb2a9be8a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5d8ac039aa0e9da60591f94387f0ae79"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE016MISC20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254290?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE016MISC20251112.csv"
+size_bytes = 4861182
+sha256 = "2f6109ea1724c6b74c3d64b4663001b03539b003f7feab8dfae05696b762d3b7"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4f5b595ffb286ac9ad55794f36fe01be"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE040PRES20251126.csv"
+url = "https://dataverse.no/api/access/datafile/254248?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE040PRES20251126.csv"
+size_bytes = 4881111
+sha256 = "8ca001f0b81e4263a47272d6992586e858f45a42d65276d63497678afb21f5be"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "04266afb2d4bdfaa81b72fc52b0d898a"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE021MISC20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254263?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE021MISC20251113.csv"
+size_bytes = 5198886
+sha256 = "0f86ca7cee9ca5aca2ab072830af591645434bd7630a436fade6dd072b268de0"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ca29ccd8b9fccaddd17a0461d2446f9c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE016PRES20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254260?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE016PRES20251112.csv"
+size_bytes = 5415909
+sha256 = "cca213dc8b6434222cb621494b6fa5f44302794a2d2d6efab09951d9be8bca9c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "85fff9d56e44fd899c74ef88803f9247"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE024CONC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254267?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE024CONC20251114.csv"
+size_bytes = 5686178
+sha256 = "30023efff2a268abb632003ff56167f29c747440c56f329c2a45524a3f4a5f98"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3794a4bca6b675ab9a4ae1547fcea5c6"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE029CONC20251115.csv"
+url = "https://dataverse.no/api/access/datafile/254306?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE029CONC20251115.csv"
+size_bytes = 5768202
+sha256 = "1457c8a9d13adb698d7c14541c5dbeca2d054139cba1fffdbd262e1cd04345ec"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "22228c09785f513e9183ca31a65b19b7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE021PRES20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254366?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE021PRES20251113.csv"
+size_bytes = 5819888
+sha256 = "b6075ff6365472d02501987ba00c908c8303cb6f1d889442659450de6ba4949f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "614d8830c5c2e4793db6dac53ed321a7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE048CONC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254228?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE048CONC20251128.csv"
+size_bytes = 5889283
+sha256 = "70eca8dcab71490f3813773f1aedadd632b60917029e4142e645f6bab92cedd8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e957f7f7bbef48eaa134c1a4d4454835"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE026CONC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254265?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE026CONC20251114.csv"
+size_bytes = 5931861
+sha256 = "3c8914b9b31b22a75ba9d28c983d39b3df23fd1625ba50d160922f1911afe9c2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "6717a3836e03dc16c75b7a5f006e7146"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE009CONC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254256?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE009CONC2025118.csv"
+size_bytes = 6088760
+sha256 = "2fdfa6c38cc50c7f93b3d35754cdc1d250cbd5b41beaa512440facf7fef9df63"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "abdb2d44e7d2256cd626ce2e6f25429c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE045CONC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254344?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE045CONC20251128.csv"
+size_bytes = 6150960
+sha256 = "6eb1dc800a6a32612536f496bb2da9b206c12b2fcf28acf2a84e559dcc2b23fb"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cc3296096eb6b879ddd1a54d128f884d"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE044CONC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254221?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE044CONC20251128.csv"
+size_bytes = 6264597
+sha256 = "fed15217d1d60c2f3d9635ca57ffaf52f171773a3f13d4bb29d3b88200546919"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1cac98d3c8d19c26bfb54e64a614a993"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE004CONC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254238?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE004CONC2025118.csv"
+size_bytes = 6790044
+sha256 = "38c6353508ec003221fa1d2b26d03ee11f9b0f1b48fcfacb02dc981c5ceaada9"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e5347af9781c1b3e60854ec16857b95a"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE047CONC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254406?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE047CONC20251128.csv"
+size_bytes = 6842554
+sha256 = "c0c6efce32344a5775455bbf4a14db41ad746ba15da8a8deee4aa98df6348b21"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "995eed5a8b5a5d7386f4b75e74547c90"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE007CONC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254374?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE007CONC2025118.csv"
+size_bytes = 6929975
+sha256 = "7037bea3c0cd2e0cee61fd8ffdbf1f1ff893cc76c6866088d1b0b619a9e7447f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0be69396ffda9cc48fdd5f02f8683d5a"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE028TEMP20251115.csv"
+url = "https://dataverse.no/api/access/datafile/254232?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE028TEMP20251115.csv"
+size_bytes = 7047063
+sha256 = "9777479f26ac02e85764033fd7c7b998038180baaf560e248944c61bb0470a56"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e9888f4c39b63c406ce007c38bac4e4f"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE402HSE030FLMT20251118.csv"
+url = "https://dataverse.no/api/access/datafile/254251?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE030FLMT20251118.csv"
+size_bytes = 7048666
+sha256 = "a92eeb79e36516bf4ce229527113da810a5ef726a6eacbf44aae2d12d70df65f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "70f4407bb9002e80949b781f87b0998b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE025TEMP20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254278?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE025TEMP20251114.csv"
+size_bytes = 7162459
+sha256 = "c9bca2644085ae58e16a51dfb399bdf91dd78f8a6c732e71d160842095a48ab2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c3dd34676e2107c5898a4614d558dc18"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE012CONC20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254394?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE012CONC20251111.csv"
+size_bytes = 7269833
+sha256 = "e9c48bbb5faf1c3683f1d2f036019fdcd3a9e59893b9fb34d50c58730e0e2043"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8e3a150c915d6e4eca3e61adb1e31739"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE003CONC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254233?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE003CONC2025118.csv"
+size_bytes = 7578570
+sha256 = "d2efac5f04081fa367a63f6d248944f57de5b813dc87bc1b1491e315bd955906"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2a3f01fc8107fd38a980ffb5ef48230a"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE005CONC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254273?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE005CONC2025118.csv"
+size_bytes = 7655292
+sha256 = "09e39361099db2d336fb20eb52e8927357efd2cd82a6d67c71822314f26f8271"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8cf0573b5be25c5469015803b28a3e17"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE027CONC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254371?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE027CONC20251114.csv"
+size_bytes = 7961077
+sha256 = "8e8516c42d61e400b76678d81eacb0f07a98209bc388efadf671b07d6ccef5d3"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "96402b6044e800a9bd73fdfe4ba6138b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE020CONC20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254346?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE020CONC20251113.csv"
+size_bytes = 8024049
+sha256 = "a00768221dac0e14ea17e5958eabf13e2ddaea7ba2c162ed14c58f1b3a117f19"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "79cd4ab8a2f1042be30ca13e4d609398"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE030MISC20251118.csv"
+url = "https://dataverse.no/api/access/datafile/254352?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE030MISC20251118.csv"
+size_bytes = 8303042
+sha256 = "e56261658f06b69541fed5472bac1db22dec2d8e3f2b9420be70eb9c6afb8269"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "83037d21946f29738269eec411df418e"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE010CONC20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254300?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE010CONC20251111.csv"
+size_bytes = 8541270
+sha256 = "534ddacd0b96a5cd04c46c8cce93b3d268012705e45dd28a8904563850c71480"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "bddfc764c4793f82a9b27ca2937ca912"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE006CONC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254264?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE006CONC2025118.csv"
+size_bytes = 8594293
+sha256 = "fbb8a08167df4c5ba76961622ef8468193dfb828ef98935cde0ed81a5c7f0a7b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2cbba077adbd87c9db964a2c429e82f9"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE011CONC20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254301?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE011CONC20251111.csv"
+size_bytes = 8639379
+sha256 = "5eaa47e1ffe1aabea53265043b976821434c5b77db110321d4023d841e86759e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "904756b5284fc9a3344f4ce3a2edf32e"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE043CONC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254303?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE043CONC20251128.csv"
+size_bytes = 8675547
+sha256 = "f2c47a9efeb0535995afa398b991ab24419f104d2896c332f6164f4f2653c171"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4138389c7ab4ca6b1076250987ce975a"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE018CONC20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254382?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE018CONC20251112.csv"
+size_bytes = 8752445
+sha256 = "25577b44b4e912701e67d64f4712669ceea87daea72a50a92643b27d95d2ca7e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1f19069c79f893531d93bdefe9225eed"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE0024TEMP20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254249?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE0024TEMP20251114.csv"
+size_bytes = 8879680
+sha256 = "f9bc1091f986396814e332d88661d5fedb85bdf4ffff0f44f111adeb486a64f1"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "bf685496d7fd4bd034cd83930cfba4dd"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE029TEMP20251115.csv"
+url = "https://dataverse.no/api/access/datafile/254230?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE029TEMP20251115.csv"
+size_bytes = 8889225
+sha256 = "e7e604c64dd9d716bc620234c344ee786fa43fa829e1250e2c39a08279d84d1a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "49886c18c62147124f2b863b98f5ba1c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE040TEMP20251126.csv"
+url = "https://dataverse.no/api/access/datafile/254254?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE040TEMP20251126.csv"
+size_bytes = 8967020
+sha256 = "e6bf67d60ae02ab552d4d74dbd2e982d79edc1372e3294af6df462ee2d03a45c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "00cbc5de75af2cab4628c11e46570cb6"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE026TEMP20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254227?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE026TEMP20251114.csv"
+size_bytes = 9102467
+sha256 = "ffa77b8912c8fa8634997a6a9b1eb7bea524cd3a319307b30e7d301969f0f01b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a8420fae738bbd16ebd1744f1a147bba"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE023CONC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254405?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE023CONC20251114.csv"
+size_bytes = 9160352
+sha256 = "89892b6b5e0b0ee66aa0e5ba0c545a7222b6a94399b9f0d8065f4d69935085e2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d10a91d68d943de2540edf5fc09b731d"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE048TEMP20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254351?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE048TEMP20251128.csv"
+size_bytes = 9213369
+sha256 = "5c2e201d5d9308ee2a2dfaf112da9e8130bb83e036e849211a3d9a6e770e1d55"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b27f92272a59dddd7b1daf905f555648"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE030PRES20251118.csv"
+url = "https://dataverse.no/api/access/datafile/254355?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE030PRES20251118.csv"
+size_bytes = 9227061
+sha256 = "8c01c2f543e719d043ea2950b305962414b7f2f65a87fceb80e9df31c658db9b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1c89cc31dfb37f6b6f793db5c6b619b5"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE038TEMP20251126.csv"
+url = "https://dataverse.no/api/access/datafile/254226?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE038TEMP20251126.csv"
+size_bytes = 9227126
+sha256 = "a2bdc09de5a2fd25c4efd1ee487c12605d2fab89c55ff64937f23b73ca02fa5a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a8d3a5d02789240b18fefb83c92495aa"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE009TEMP2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254360?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE009TEMP2025118.csv"
+size_bytes = 9281545
+sha256 = "a08fb820b15a194bc1270577777705c5c7e4c18e41987151c1bf0a1349219fc3"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1aec026e947b14d6c892cf45ec579142"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE014CONC20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254410?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE014CONC20251112.csv"
+size_bytes = 9407355
+sha256 = "2963e070614171045709136c4768b4f5bf8a6d0b4d119dc89dac0dedd2578b69"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2267384bc1cf9e86de4c377366805a58"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE042TEMP20251127.csv"
+url = "https://dataverse.no/api/access/datafile/254357?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE042TEMP20251127.csv"
+size_bytes = 9596621
+sha256 = "e4152f4635e19829e13cd01b25d7827ea9d6126fac3ca07eb46df01a6b5e2f22"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a8d55f7b9e11dc4f1650c0482182b08b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE045TEMP20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254280?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE045TEMP20251128.csv"
+size_bytes = 9671683
+sha256 = "a1d9cff5f4e5c8a6329c1e81b84e8d1c830bc583cb31c44814840dc3c01e28e3"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b2f37ef7d591419c5d22329285ab3e0a"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE015CONC20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254348?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE015CONC20251112.csv"
+size_bytes = 9702897
+sha256 = "d70cda4d5ce571c07e128da97fd366a11fdc468f2e47840632620d288f0722ee"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "345ef83751b20b59c796c2d8bac04879"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE008CONC2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254274?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE008CONC2025118.csv"
+size_bytes = 9741000
+sha256 = "5463eba83c7cc15c9ac0bd7724fea55b875a170f772a07285c8c83a5906aa2ea"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f66dcc167bdd881301b7be6bd5c60ed0"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE044TEMP20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254268?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE044TEMP20251128.csv"
+size_bytes = 9844364
+sha256 = "b0209ae82b61503254c1cc5e6b86b298931ed7ca6cf2209fff76b4afd8367277"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f6f137264e3e88a8951f9671ffe93065"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE036TEMP20251125.csv"
+url = "https://dataverse.no/api/access/datafile/254237?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE036TEMP20251125.csv"
+size_bytes = 9870399
+sha256 = "b1a6316cdde8ec09b4124026fa5e626698263245ad4eee4eba6467b7455c6a95"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8693e700966109cd4f6217d86b77f408"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE041PRES20251127.csv"
+url = "https://dataverse.no/api/access/datafile/254399?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE041PRES20251127.csv"
+size_bytes = 9892721
+sha256 = "e6a1270d3cc16c73ac6e75d56b5332b2709aa544192da5d8bb6c224413446c11"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "175870c0faf260be528fdc947100d843"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE013CONC20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254241?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE013CONC20251111.csv"
+size_bytes = 10081877
+sha256 = "d9ff4c70482b6d1fc36ffbc90ee9502c699e09c7e607f45a361e8fa714f9d231"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "9e4b22216fed10f06de0c70fb3298c55"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE022CONC20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254367?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE022CONC20251114.csv"
+size_bytes = 10259685
+sha256 = "6cbfc8706cd31f3b085f79a878caa7e674c983cf1662227c05e78db494347e6a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5dc7d01d9bb5f0f140bdfa4d6303eec8"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE047TEMP20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254310?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE047TEMP20251128.csv"
+size_bytes = 10664170
+sha256 = "7c42b37631f55a01d6f89a2411b8311157b3133af0aabdfd885306c2de2c6c3c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fd380c23283f06e05c7fbd9dd557ec39"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE007TEMP2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254401?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE007TEMP2025118.csv"
+size_bytes = 10928797
+sha256 = "63cb90c1451ee727e3177a1fbaaeb4cde3419ca4ccbde97672b051c8086e625a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c5121c6b586c4c260896cbbd2a744238"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE004TEMP2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254244?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE004TEMP2025118.csv"
+size_bytes = 10941687
+sha256 = "9ec465fa6f955bd86a5fd41531004fc1322abef372208ee80a69596f36ca7b6b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f5fcbf394b2eddd09e272151ce9e2359"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE041TEMP20251127.csv"
+url = "https://dataverse.no/api/access/datafile/254342?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE041TEMP20251127.csv"
+size_bytes = 11174938
+sha256 = "81cfdde3aeb94c7ac04bf8474e332cf06ae5a649a181f41c999b506834babc78"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "eca83b8c7451c36047d460438cfeb8ed"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE0043TEMP20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254272?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE0043TEMP20251128.csv"
+size_bytes = 11366793
+sha256 = "8c18da70539e2c58d311049ed12deb288842c563d7320a5263d41c70fa16f601"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e96749cfc4053edf61dc21719dd6ae75"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE019CONC20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254343?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE019CONC20251113.csv"
+size_bytes = 11410962
+sha256 = "55b832db5ef22ace06dc277e05ca4a3301fc35dbf3da95492a77bf93e8572869"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7df9340ce65ef542b2772e473e13bab1"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE017CONC20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254353?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE017CONC20251112.csv"
+size_bytes = 11458694
+sha256 = "dbb3030190e3e1927558acd58064f676e9d61f387a23dad2510443b5c2a4718c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "bcdd590251f5ffb4ce3df7756e64308e"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE012TEMP20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254354?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE012TEMP20251111.csv"
+size_bytes = 11487513
+sha256 = "48548401371b428a26a29f01fabf53c934fad8e5a5aeb5c08ffe0db7e26f106b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0697fe954f06491b1f92d656534c7b38"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE027TEMP20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254286?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE027TEMP20251114.csv"
+size_bytes = 11916314
+sha256 = "85e5bd9e9b7512bbb16ee4a79d08c18c4d5d1bb36c227658a1b1ba8ba24ff034"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e32d73ea0a3f5244a73164c7aa66acd9"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE003TEMP2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254242?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE003TEMP2025118.csv"
+size_bytes = 12535399
+sha256 = "a6613c0bf429c26cdeb0135a4a7bddd46e69bd9b3c7221885e8106842cdffffb"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ee726bbddecdb55b90b4fe73e82eeb6b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE020TEMP20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254234?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE020TEMP20251113.csv"
+size_bytes = 12614066
+sha256 = "79cbf2d063ae998bf345b30bb242e6dc9d86049d83894a4335627249ac8bad21"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "47507ff0e36050fcb748d77db749edee"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE005TEMP2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254318?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE005TEMP2025118.csv"
+size_bytes = 13018248
+sha256 = "672e038d8b5f5bae33000c99c0440f0b229c49186f04a040640300c8dfd8456a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "77f98894957623357277e0f48a9ddb41"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE010TEMP20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254258?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE010TEMP20251111.csv"
+size_bytes = 13547178
+sha256 = "ea126c5ce52dc8c80a755ceaa488290040f00ea2ca4a72fed2fafd8eb64eefb2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ebb7629d9d5c2fc88755aa7062ff3506"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE006TEMP2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254330?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE006TEMP2025118.csv"
+size_bytes = 13590586
+sha256 = "63f48eb57fcb2be3bb9b9be0d73f84a853a4cf6163a4749f3e277f4d28f93b42"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "50bca3678d2044b4230d92d785738d41"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE011TEMP20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254396?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE011TEMP20251111.csv"
+size_bytes = 13650302
+sha256 = "e06b7621d9cda9967916641c38675e3f2a8d3fd8009fc86ff00d798ba3ff4528"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "438034654dd079e6d440bc1501879b81"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE018TEMP20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254349?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE018TEMP20251112.csv"
+size_bytes = 13904023
+sha256 = "cae6e8b4af49e82b1312bc3699a93ab4221abc8008acc25870baedd04c091e8b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b74ab545008e05fb12c421452b6459e1"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE023TEMP20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254281?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE023TEMP20251114.csv"
+size_bytes = 14296918
+sha256 = "04496b878ff61c0e02e79d1bb317798bc47a164f5ac2fc1490503987bbe22a3a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ef4e9293503f1314c59c25b0909e7b77"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE046CONC20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254336?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE046CONC20251128.csv"
+size_bytes = 14527182
+sha256 = "d1d71e08a7556498995af9f24fc344eb2d72ba46ab77f49221687884f58a9bd9"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8d754dafa793c1575bd857afdabcce99"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE014TEMP20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254358?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE014TEMP20251112.csv"
+size_bytes = 14974106
+sha256 = "476ad0f4be770c5db0b37c642402e5133791f27ecf2a36704bb5a1e8b92ced61"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5c630c7fc4cbfa1d9413bcc0a3e62cc3"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE008TEMP2025118.csv"
+url = "https://dataverse.no/api/access/datafile/254408?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE008TEMP2025118.csv"
+size_bytes = 15426866
+sha256 = "cc80c32f4fb6fce133a227ad46eb237ccc8190a1c1232c427ecb4f9e246d4e3a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "88b994da2a6af076bef4f8d5f8ecee04"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE015TEMP20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254235?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE015TEMP20251112.csv"
+size_bytes = 15454160
+sha256 = "486df5af42c030a7d9cfb94629d15176ace2aa1466dd697475adc3abd1ddf61f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cbcdcc8c0e50070d5f1a64c79372985f"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE022TEMP20251114.csv"
+url = "https://dataverse.no/api/access/datafile/254389?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE022TEMP20251114.csv"
+size_bytes = 15993939
+sha256 = "a639863028d29a2880e40e6b59b61d55fb0a64af73ec039784e58a17ff1f6e20"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "31f197979aeba46faa8b43ddd9d4aa7d"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE013TEMP20251111.csv"
+url = "https://dataverse.no/api/access/datafile/254215?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE013TEMP20251111.csv"
+size_bytes = 15996480
+sha256 = "cc16e3798aefa3cd7d07ec275d702f6ade8a8d44284ffb7fcdb59a85779a0a7f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8c08c4c8b4d4ddb777e662c425d7b168"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE016CONC20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254409?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE016CONC20251112.csv"
+size_bytes = 17883683
+sha256 = "b7699cd71fb3192adbfb50e192f3e5468950e62ec0ff69387f9712d6b87eac78"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f1fbc86c5742a2d2f3869613193fb2e5"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE017TEMP20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254302?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE017TEMP20251112.csv"
+size_bytes = 18089027
+sha256 = "dffe47e158d9613e465690f6736a0b63bcce7ef7434f6f1fe1150ed99c07e1e7"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fa5703e09e2cfb26d549d97772af3b37"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE019TEMP20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254250?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE019TEMP20251113.csv"
+size_bytes = 18131077
+sha256 = "fe28e5f405c3dbd6dca1477c69b155527e8dfb7dc5534281bd0ae6ae1b44f412"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c2a880384493f29d5337e866f6a21dac"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE031FLMT20251118.csv"
+url = "https://dataverse.no/api/access/datafile/254255?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE031FLMT20251118.csv"
+size_bytes = 19305346
+sha256 = "cd3e53bcbcbe08ecd52de21baa6bd1aa1d79391c914d08f900a2b4f6c537e4be"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "99853cdf460f5a452d8e0f8392d4607c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE021CONC20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254223?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE021CONC20251113.csv"
+size_bytes = 19846836
+sha256 = "801cee3175722ce812eb442d0bf6683c7f526636aba0a8725c8b9ab91426eee2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e01cea6a6f920e8ace85083d359d4a76"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE031MISC20251118.csv"
+url = "https://dataverse.no/api/access/datafile/254390?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE031MISC20251118.csv"
+size_bytes = 21856847
+sha256 = "9c1af0fe044e439c80d12c0287c171114acf6a82c9cb56da4328acd4f8af6f37"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "85717027839f87614dbd523df5bd7dbb"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE046TEMP20251128.csv"
+url = "https://dataverse.no/api/access/datafile/254304?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE046TEMP20251128.csv"
+size_bytes = 22270640
+sha256 = "3aa02c87e3acfef116bc104d132ad9a9e7fd62e8134cdd090f1b47b0c98100fd"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b7ccb6a6553593e49a22f40a37a9cbf3"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE031PRES20251118.csv"
+url = "https://dataverse.no/api/access/datafile/254246?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE031PRES20251118.csv"
+size_bytes = 24795352
+sha256 = "ebfe71240f150c695187cfa5d902eeb386b1936a5a47ea7b329f17986af06346"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cc3de6d8e34f948f2869c780c91b8661"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE016TEMP20251112.csv"
+url = "https://dataverse.no/api/access/datafile/254388?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE016TEMP20251112.csv"
+size_bytes = 28558909
+sha256 = "cafd1fcb5704f7859fa7da5c45794d1bb8822dc27cade30bea4c245a036942f8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c620ad5a8c8844c0010459573abd1367"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE030CONC20251118.csv"
+url = "https://dataverse.no/api/access/datafile/254291?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE030CONC20251118.csv"
+size_bytes = 30024136
+sha256 = "e739fafe3b376f3c156422e0ebe04b51743052b1313d552df3ca505ea406d559"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "946097fc7c7ca789a57720c41c207b63"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE021TEMP20251113.csv"
+url = "https://dataverse.no/api/access/datafile/254341?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE021TEMP20251113.csv"
+size_bytes = 30179446
+sha256 = "4b4ff2f163cafa231be96ea3f83fa059d118f34532899425e172fc4b08e1b15c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e13bbeadbfa641109c4d7687bbe16b9c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE036PRES20251125.csv"
+url = "https://dataverse.no/api/access/datafile/254400?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE036PRES20251125.csv"
+size_bytes = 30707506
+sha256 = "2d5e8eb01321617f95d62d3354e9cfacb4b22ff6f411e9f37b1b90e358448577"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1261cb0d2e3fe177dae3c7fb233adff6"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE030TEMP20251118.csv"
+url = "https://dataverse.no/api/access/datafile/254329?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE030TEMP20251118.csv"
+size_bytes = 47779570
+sha256 = "fd6c70d5917e2bd9c39103b166f98dddb935e7635453ccb756ec398d99c5ef51"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "9edbea1029eebdd839f5d25d6a5882e9"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE031CONC20251118.csv"
+url = "https://dataverse.no/api/access/datafile/254412?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE031CONC20251118.csv"
+size_bytes = 84057808
+sha256 = "f13510cf8ce5dc8690114af95d39b1db412d24bd2daa168da7765649780b9be4"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "836d001e0248c2b1c02859ae33092323"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "ELE402HSE031TEMP20251118.csv"
+url = "https://dataverse.no/api/access/datafile/254411?format=original"
+relative_path = "elvhys-cold-room/1.1/ELE402HSE031TEMP20251118.csv"
+size_bytes = 130762412
+sha256 = "fe1b610704cd328d3b6efbc4015043f8fb6b2629db8d231bc6203fdf9131645c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "537d8f422f984282586c2c8e5e88c560"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

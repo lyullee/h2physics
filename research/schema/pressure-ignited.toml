@@ -1,0 +1,774 @@
+dataset = "pressure-ignited"
+doi = "10.23642/usn.17934047.v1"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "Readme_Hydrogen safety- Pressure Peaking Phenomena-ignited releases.docx"
+format = "docx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "File handling guide.docx"
+format = "docx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "HTE341USN0015READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 78894
+columns = 3
+counting_basis = "(78894, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []
+
+[[files]]
+name = "HTE341USN0016READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 75213
+columns = 3
+counting_basis = "(75213, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []
+
+[[files]]
+name = "HTE341USN0012READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 115639
+columns = 3
+counting_basis = "(115639, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []
+
+[[files]]
+name = "HTE341USN0003READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 187014
+columns = 3
+counting_basis = "(187014, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []
+
+[[files]]
+name = "HTE341USN0011READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 169618
+columns = 3
+counting_basis = "(169618, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []
+
+[[files]]
+name = "HTE341USN0009READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 124744
+columns = 3
+counting_basis = "(124744, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []
+
+[[files]]
+name = "HTE341USN0013READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 151916
+columns = 3
+counting_basis = "(151916, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []
+
+[[files]]
+name = "HTE341USN0018READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 174695
+columns = 3
+counting_basis = "(174695, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []
+
+[[files]]
+name = "HTE341USN0007READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 152544
+columns = 3
+counting_basis = "(152544, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []
+
+[[files]]
+name = "HTE341USN0021READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 185601
+columns = 3
+counting_basis = "(185601, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []
+
+[[files]]
+name = "HTE341USN0006READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 166245
+columns = 3
+counting_basis = "(166245, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []
+
+[[files]]
+name = "HTE341USN0017READ191111.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 179177
+columns = 3
+counting_basis = "(179177, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 7
+counting_basis = "(999999, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 7
+counting_basis = "(1, 7)"
+column_names = []
+
+[[files.tables]]
+name = "Tavg"
+format = "mat"
+rows = 999999
+columns = 1
+counting_basis = "(999999, 1)"
+column_names = []

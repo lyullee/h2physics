@@ -1,0 +1,265 @@
+status = "acquired_measured_electrochemical_data"
+doi = "10.34810/data2866"
+version = "1.0"
+origin = "measured_electrochemical_dataset; bundle and tabular schemas audited; not a whole-cell hydrogen-production record"
+title = "Replication data for \"Towards the implementation of a more economical catalyst for hydrogen production in microbial electrolysis cells\""
+registry_url = "https://api.datacite.org/dois/10.34810/data2866"
+registry_sha256 = "1cc05e8e6da7553b9122fdaf51bca570c521f7f1e37b9042e2b82cddc7da56cd"
+publisher_url = "https://dataverse.csuc.cat/citation?persistentId=doi:10.34810/data2866"
+publisher = "CORA.Repositori de Dades de Recerca"
+license_claim = "CC0-1.0 per DataCite registry; publisher file exceptions not yet audited"
+license_url = "https://creativecommons.org/publicdomain/zero/1.0/legalcode"
+reviewed_at_utc = "2026-10-29T00:00:00Z"
+assets_acquired = 23
+validation_qualified = false
+catalog_count_increment = 0
+acquisition_blocker = ""
+next_action = "Keep the source-bound reader and integrity cases as implemented_unverified; resolve file-level rights exceptions before distributing raw assets; do not infer whole-cell hydrogen production, Faradaic efficiency, or microbial kinetics"
+reader_status = "implemented_unverified"
+deferred_validation_cases = ["mec-electrode-data-provenance", "mec-electrode-data-integrity"]
+scientific_model_validation = false
+
+publisher_landing_url = "https://dataverse.csuc.cat/dataset.xhtml?persistentId=doi:10.34810/data2866"
+publisher_landing_sha256 = "613ecda53864c5a9d924e85bc4fb137080a3c82dac08051e864bfcba3d1a29b6"
+publisher_record_license = "CC0-1.0; confirmed from publisher structured metadata"
+file_exceptions_reviewed = false
+file_exception_status = "Publisher OAI DDI exposed dataset-level CC0 terms and per-file media types, but no per-file rights/exception fields. The public dataset bundle was acquired under the record-level CC0 grant; keep raw files out of public distributions until any exceptional terms are ruled out."
+preview_is_complete_inventory = true
+preview_file_count = 23
+preview_scope = "Complete archive inventory and metadata/schema audit; raw files remain under ignored data/raw/"
+public_export_status = "Official OAI metadata succeeded; standard public dataset-download endpoint returned a ZIP. The separate Dataverse JSON API still returned an HTML challenge and was not bypassed."
+
+publisher_oai_endpoint = "https://dataverse.csuc.cat/oai?verb=GetRecord&metadataPrefix=oai_datacite&identifier=doi:10.34810/DATA2866"
+publisher_oai_status = 200
+publisher_oai_content_type = "text/xml; charset=UTF-8"
+publisher_oai_response_date = "2026-10-28T19:34:25Z"
+publisher_oai_record_datestamp = "2026-10-09T00:00:11Z"
+publisher_oai_bytes = 10817
+publisher_oai_sha256 = "8904413d0721d4862ef2c20053fd63c64524cb8b2e3c81f1cc37684b235d54b4"
+publisher_ddi_tou = "Dataset-level CC0 1.0; file-level rights overrides are not represented in the exposed OAI DDI fields."
+bulk_download_endpoint = "https://dataverse.csuc.cat/api/access/dataset/:persistentId?persistentId=doi%3A10.34810%2FDATA2866"
+bulk_download_status = 200
+bulk_download_content_type = "application/zip; charset=UTF-8"
+bulk_download_disposition = "doi-10.34810-data2866_1.0.zip"
+bulk_download_bytes = 10942457
+bulk_download_sha256 = "6b89042f16ad9e50f57df325b446aceb42231b2274b491f12a51fd1e7cf9a798"
+raw_archive_path = "data/raw/mec_data2866_1.0.zip"
+raw_extracted_path = "data/raw/mec_data2866_1.0/"
+archive_entry_count = 24
+archive_dataset_file_count = 23
+archive_manifest_entry = "MANIFEST.TXT (publisher-provided names, media types, byte sizes; 985 bytes)"
+archive_integrity = "Archive listed and extracted without path components; all extracted file sizes agree with MANIFEST.TXT. SHA-256 recorded for every entry. Publisher MD5 matched all ten files in the previously observed preview."
+
+[schema_audit]
+audited = true
+audit_method = "ODF XML structure and publisher-provided README/MANIFEST inspection; no model solve or parameter fit"
+lsv_file = "LSV_Catalysts_CarbonCloth.ods"
+lsv_layout = "One shared potential coordinate versus six named electrode current series; 3001 complete numeric samples per series. Current is documented in A and potential in V relative to Ag/AgCl; geometric electrode area is not supplied, so current density is not inferred."
+eis_file = "EIS_Catalysts_Electrodes.ods"
+eis_layout = "Eight named electrode conditions as real/imaginary impedance pairs, units Ohm; 38 numeric paired rows follow two header rows. The second header row contains literal #NAME? cells and there is no frequency coordinate, so frequency-dependent circuit fitting is not supported."
+current_density_file = "Current density_Alloys.ods"
+current_density_layout = "One day coordinate and six labelled felt/cloth series; 3673 complete numeric observations per series. An additional terminal row contains only a zero time coordinate and no response values; it must remain an incomplete row, not be filled or treated as a measurement. Units are mA/cm^2 and days per the source readme."
+ancillary_files = "Sixteen TIFFs and three JPEGs (catalyst/electrode images), plus Readme.txt; image contents are not model inputs here."
+readme_consistency = "Several per-series prose descriptions repeat another catalyst label; use the ODS column headers as observed and retain the discrepancy. The README reports no data-quality procedure."
+model_use = "Potential comparative electrode polarization/impedance and current-density retention evidence only. This collection does not report hydrogen production rate, gas composition, Faradaic efficiency, substrate conversion, microbial activity, or complete cell thermal/electrical balances. It cannot by itself calibrate or validate the finite MEC model."
+
+[[public_file_metadata_preview]]
+name = "a-1.tif"
+file_id = "393138"
+publisher_md5 = "90914faa2e86326c9d282ed43dc820e2"
+access_label = "Public on publisher record"
+asset_acquired = true
+
+[[acquired_file]]
+name = "a-1.tif"
+size = 893645
+sha256 = "430512f6a62076bba3e700e925f59c7a988d2d81d3975f55cca783af1fbafa60"
+publisher_md5 = "90914faa2e86326c9d282ed43dc820e2"
+
+[[acquired_file]]
+name = "a-2.tif"
+size = 893621
+sha256 = "8894320cedfa228a4b94a75b6d2ac094f783de2b75d9d8eee52274b86a84a5a1"
+publisher_md5 = "76036de3460fbdd8986f78f921bb991f"
+
+[[acquired_file]]
+name = "a-3.tif"
+size = 893640
+sha256 = "54c65830999f14dc21b7af97bd6806a623818ff64ca452186034a9e7325ecad7"
+publisher_md5 = "1a130021c47ae8f3846e5170f6e2788d"
+
+[[acquired_file]]
+name = "a.jpeg"
+size = 66053
+sha256 = "158ea62c94fdcbd0b344fa085ab1555cbaaf23240ab70c7117259ff4afaaefbf"
+publisher_md5 = "527af74c9deba1c6fa981ec06c9e7a08"
+
+[[acquired_file]]
+name = "a.tif"
+size = 893634
+sha256 = "e12ee675feabf34a02574cc090cb4b2b44ba1c2c4b2d065ff1b119a23be501d1"
+publisher_md5 = "cdb53ac9141d4a248085a669da5fa8fb"
+
+[[acquired_file]]
+name = "b-1.tif"
+size = 893633
+sha256 = "12730eeda563934b21d71cf8783bd53296f851eab759e048135d5a712fdf768e"
+publisher_md5 = "32aa8506b349d11b13285189a2092284"
+
+[[acquired_file]]
+name = "b-2.tif"
+size = 893621
+sha256 = "4385974851a29d4e90c7e310c90ee5c3f2a2b3c37b7d31b3266b658f50248338"
+publisher_md5 = "83946b8aec12f077855207ce9493624c"
+
+[[acquired_file]]
+name = "b-3.tif"
+size = 893622
+sha256 = "d0a2304d93f40a9649baae147c31c5859bbb9f3e2365d053158d03e861c8f40b"
+publisher_md5 = "3a8280f312a6342c2ee71d98d8d29df1"
+
+[[acquired_file]]
+name = "b.jpeg"
+size = 75127
+sha256 = "8085f7c7cbc6cedd33f5e755cda451a3fc62bd51017f33f96117dc5742acc415"
+publisher_md5 = "b3b3d35feea8e4acc49872e6742ec1d0"
+
+[[acquired_file]]
+name = "b.tif"
+size = 893628
+sha256 = "5000188bbb7ef1942669c031abf197923c2e6dad86326f1b68acae26747c4aa6"
+publisher_md5 = "97a9a9cf929546c7c6196849201abf26"
+
+[[acquired_file]]
+name = "c-1.tif"
+size = 893645
+sha256 = "202a08f86a9f83309b07bcaf798abdb8a294600aa6b1195024a981986c8cbc39"
+
+[[acquired_file]]
+name = "c-2.tif"
+size = 893621
+sha256 = "657ec495511a7d9e37202d008e5e3c58b3a35bdef202c8925d302aed496e3800"
+
+[[acquired_file]]
+name = "c-3.tif"
+size = 893633
+sha256 = "5f987aa3364ec1a7a59612211dcaf17778bf129b514339f66d72e964f19d7ad0"
+
+[[acquired_file]]
+name = "c.jpeg"
+size = 96958
+sha256 = "7db8534a0ce36fe00a0596691f8c3feb4aa8c3951282829c787294d97b11569f"
+
+[[acquired_file]]
+name = "c.tif"
+size = 893633
+sha256 = "303a5d60db27dee34ab1a84c23f871f61f1211e51cd8c9ce5f608fe660be4c18"
+
+[[acquired_file]]
+name = "Current density_Alloys.ods"
+size = 218178
+sha256 = "940b8ba42266774077cc488c19f1700e9fec921fa00b9d3ed7f8790830993996"
+
+[[acquired_file]]
+name = "d-1.tif"
+size = 893622
+sha256 = "bf29a60e707feb0a47e2a9bd97745c25ea2f1b7b6b4194a59af318fbd975cbc0"
+
+[[acquired_file]]
+name = "d-2.tif"
+size = 893639
+sha256 = "402f7b0454be853de2fe32dff8a40286417bb9dee7430a1c8903d7fbab4a7e0d"
+
+[[acquired_file]]
+name = "d-3.tif"
+size = 893616
+sha256 = "d35e8f9d36eb19ff1b775f9d9954e6764cfd9981996992c2af9d60575ff2a7ca"
+
+[[acquired_file]]
+name = "d.tif"
+size = 893634
+sha256 = "d02e6b9e9582d4330da108939e5b298379bbe9f8db361ab087d4be3d2f829be3"
+
+[[acquired_file]]
+name = "EIS_Catalysts_Electrodes.ods"
+size = 14814
+sha256 = "2ae4220f58c02fb7f29a882281c3006990bf6cffd75f9395ee5f14f6f12ca1f3"
+
+[[acquired_file]]
+name = "LSV_Catalysts_CarbonCloth.ods"
+size = 196418
+sha256 = "22116a643f43ef981835550c04a9fac14341420bd7a0da751c6e9d1539f98256"
+
+[[acquired_file]]
+name = "Readme.txt"
+size = 15751
+sha256 = "7d4965c6fbd7c5b8cd56ec3d917cc5b1deea25ae6b2c4392b55561279303a4e0"
+
+[[acquired_file]]
+name = "MANIFEST.TXT"
+size = 985
+sha256 = "be42f4ea775a6c0a081b96596dd8fa6f59681f2563a4401d66976d20723331dc"
+publisher_manifest = true
+
+[[public_file_metadata_preview]]
+name = "a-2.tif"
+file_id = "393147"
+publisher_md5 = "76036de3460fbdd8986f78f921bb991f"
+access_label = "Public on publisher record"
+asset_acquired = true
+
+[[public_file_metadata_preview]]
+name = "a-3.tif"
+file_id = "393150"
+publisher_md5 = "1a130021c47ae8f3846e5170f6e2788d"
+access_label = "Public on publisher record"
+asset_acquired = true
+
+[[public_file_metadata_preview]]
+name = "a.jpeg"
+file_id = "393125"
+publisher_md5 = "527af74c9deba1c6fa981ec06c9e7a08"
+access_label = "Public on publisher record"
+asset_acquired = true
+
+[[public_file_metadata_preview]]
+name = "a.tif"
+file_id = "393129"
+publisher_md5 = "cdb53ac9141d4a248085a669da5fa8fb"
+access_label = "Public on publisher record"
+asset_acquired = true
+
+[[public_file_metadata_preview]]
+name = "b-1.tif"
+file_id = "393152"
+publisher_md5 = "32aa8506b349d11b13285189a2092284"
+access_label = "Public on publisher record"
+asset_acquired = true
+
+[[public_file_metadata_preview]]
+name = "b-2.tif"
+file_id = "393139"
+publisher_md5 = "83946b8aec12f077855207ce9493624c"
+access_label = "Public on publisher record"
+asset_acquired = true
+
+[[public_file_metadata_preview]]
+name = "b-3.tif"
+file_id = "393149"
+publisher_md5 = "3a8280f312a6342c2ee71d98d8d29df1"
+access_label = "Public on publisher record"
+asset_acquired = true
+
+[[public_file_metadata_preview]]
+name = "b.jpeg"
+file_id = "393151"
+publisher_md5 = "b3b3d35feea8e4acc49872e6742ec1d0"
+access_label = "Public on publisher record"
+asset_acquired = true
+
+[[public_file_metadata_preview]]
+name = "b.tif"
+file_id = "393135"
+publisher_md5 = "97a9a9cf9295463abb03830bdf998b28"
+access_label = "Public on publisher record"
+asset_acquired = true

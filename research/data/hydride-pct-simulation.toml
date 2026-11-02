@@ -1,0 +1,102 @@
+key = "hydride-pct-simulation"
+title = "High-Resolution Metal Hydride Pressure-Concentration-Temperature Isotherm Data"
+doi = "10.17632/trpnk55pmz.1"
+version = "1"
+origin = "simulated"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+rights_evidence_url = "https://data.mendeley.com/datasets/trpnk55pmz/1"
+license_scope = "The Mendeley Data version-1 record identifies the deposited dataset as CC BY 4.0 and describes these isotherms as simulated. Attribute Douw Faurie and DOI 10.17632/trpnk55pmz.1. This grant is not treated as permission for associated articles, scripts or third-party content. Raw workbooks remain outside Git and package distributions."
+raw_redistribution_admitted = false
+metadata_url = "https://data.mendeley.com/public-api/datasets/trpnk55pmz/snapshot/1"
+metadata_sha256 = "c2388a64769aa5eb2f3b9f4bb32b5ac574f3a5aa761dd3d0ea797baf512e00c0"
+retrieved_at_utc = "2026-10-26T14:57:18.857471+00:00"
+authors = ["Douw Faurie"]
+families = ["hydride", "equilibrium"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 5
+acquired_bytes = 13138739
+omitted_files = []
+model_link_status = "metadata_and_header_gap"
+model_link_target = "storage.hydride_equilibrium / VanthoffPlateau.fugacity_pa"
+source_reader = "h2physics.data.hydride_pct.load_hydride_pct_workbook"
+source_reader_case = "hydride-pct-xlsx-source-preservation"
+source_reader_documentation = "docs/HYDRIDE_PCT_SOURCE_READER.md"
+schema_observation = "Read-only workbook-header review: all five acquired workbooks contain ABS and DES sheets, repeated temperature labels in degC and K, pressure labels in bar, and concentration labels in NL/kg (three files) or wt% (two files). No data rows were converted or fitted."
+unresolved_model_mapping = [
+  "Pressure gauge/absolute basis is not established by the reviewed source metadata or worksheet headers.",
+  "NL/kg normal-volume reference and uptake denominator are not documented in the reviewed metadata/headers.",
+  "wt% denominator/sample basis and conversion to the model's H2 loading fraction are not resolved.",
+  "The source is labeled simulated, so agreement can only be a source-implementation regression, not independent equilibrium validation.",
+]
+required_model_link_evidence = [
+  "Source-specific definitions for pressure and both concentration bases, including normal-volume reference conditions and uptake denominator.",
+  "Material/worksheet identity and each isotherm temperature-column mapping.",
+  "Explicit mapping from reported concentration to mol H2 per mol material or mass loading fraction accepted by the target equilibrium model.",
+  "Provenance of simulated curves and parent model/code to prevent circular use as independent evidence.",
+]
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/trpnk55pmz/files?folder_id=root&version=1&$start=0&$limit=1000"
+sha256 = "a61df9eaa79a47e137d92f0ca06192eeec7e0f60a3d109ae081f59a14219bd7b"
+
+[[files]]
+name = "V75Ti10Zr7.5Ni7.5 Simulated Isotherm data.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/trpnk55pmz/files/e4bc167f-e2eb-4488-bbbc-2018cf73f37e/file_downloaded"
+relative_path = "hydride-pct-simulation/1/V75Ti10Zr7.5Ni7.5 Simulated Isotherm data.xlsx"
+size_bytes = 1833482
+sha256 = "75d6973a7374dabaa6acaed821d2f396b89953ee577c09a5e1ce66294e959260"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "75d6973a7374dabaa6acaed821d2f396b89953ee577c09a5e1ce66294e959260"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Ti1.15Fe Simulated Isotherm data.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/trpnk55pmz/files/9146888b-8ed1-4d25-a0a6-37ca74d16328/file_downloaded"
+relative_path = "hydride-pct-simulation/1/Ti1.15Fe Simulated Isotherm data.xlsx"
+size_bytes = 1941572
+sha256 = "cbf16a17571e84a206069bb38e4ceace1f20530e1369330d0fbfa7b28ba95dfc"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "cbf16a17571e84a206069bb38e4ceace1f20530e1369330d0fbfa7b28ba95dfc"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "La0.8Ce0.2Ni5 Simulated Isotherm data.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/trpnk55pmz/files/d3558c02-8a48-4321-a648-df3c42daf93e/file_downloaded"
+relative_path = "hydride-pct-simulation/1/La0.8Ce0.2Ni5 Simulated Isotherm data.xlsx"
+size_bytes = 2221176
+sha256 = "81492a7fe6b41253801ecb06ed371e7cde04466583b99297307cc7681ea992bd"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "81492a7fe6b41253801ecb06ed371e7cde04466583b99297307cc7681ea992bd"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "LaNi4.9Sn.01 Simulated Isotherm data.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/trpnk55pmz/files/ca9c1936-4995-4147-aa2b-bf8e64bf0b38/file_downloaded"
+relative_path = "hydride-pct-simulation/1/LaNi4.9Sn.01 Simulated Isotherm data.xlsx"
+size_bytes = 2571096
+sha256 = "cb34db0ab43a6ad430c4a1f931f5c390d609c14a1c80e722a4ce1549f78129a0"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "cb34db0ab43a6ad430c4a1f931f5c390d609c14a1c80e722a4ce1549f78129a0"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "LaNi4.8Sn0.2 Simulated Isotherm data.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/trpnk55pmz/files/91bccbdb-a1c7-4218-bd7f-25800e9e139b/file_downloaded"
+relative_path = "hydride-pct-simulation/1/LaNi4.8Sn0.2 Simulated Isotherm data.xlsx"
+size_bytes = 4571413
+sha256 = "8e06124e7db6d6ff4af0b46d717bfc3ffc4168434d211a217b254f82ca9a489c"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "8e06124e7db6d6ff4af0b46d717bfc3ffc4168434d211a217b254f82ca9a489c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

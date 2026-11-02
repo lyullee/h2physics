@@ -1,0 +1,54 @@
+key = "hysam-sampling-system"
+title = "Group B -- HySam system measurement data"
+doi = "10.5281/zenodo.20590842"
+version = "v1.0"
+origin = "measured"
+source_updated_at = ""
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/20590842"
+metadata_sha256 = "312afd497b04fb45bcad907802fae42039f1722961f361dce6a825c87b5e05e6"
+retrieved_at_utc = "2026-10-31T11:28:01.920693+00:00"
+authors = ["The Hydrogen and Fuel Cell Center"]
+families = ["hydrogen_transfer", "fuel_sampling", "high_pressure_measurement", "thermal_transient"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 3
+acquired_bytes = 1022797
+omitted_files = []
+
+[[files]]
+name = "20241023_Test_4_HySaM_CESAME.xlsx"
+url = "https://zenodo.org/api/records/20590842/files/20241023_Test_4_HySaM_CESAME.xlsx/content"
+relative_path = "hysam-sampling-system/v1.0/20241023_Test_4_HySaM_CESAME.xlsx"
+size_bytes = 75292
+sha256 = "bc9e5cbd23350b7320a96d627854cc5154f1b92ff987e087c957b1da691ea4aa"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ce0f85c5b12f55300bf8a5792e9221c8"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "20241024_Test_9_HySaM.xlsx"
+url = "https://zenodo.org/api/records/20590842/files/20241024_Test_9_HySaM.xlsx/content"
+relative_path = "hysam-sampling-system/v1.0/20241024_Test_9_HySaM.xlsx"
+size_bytes = 283636
+sha256 = "f33d3e451b42b1d3aff905cc5deb1e9a2ed11eeaf7d4f0d559446a609bdc7563"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "9cb74d5b885ebfcf90589bfe41bbc806"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "20241023_Test_1_HySaM.xlsx"
+url = "https://zenodo.org/api/records/20590842/files/20241023_Test_1_HySaM.xlsx/content"
+relative_path = "hysam-sampling-system/v1.0/20241023_Test_1_HySaM.xlsx"
+size_bytes = 663869
+sha256 = "fbdd81a7ec9c1191d69322f06087e8b30a33acc8b340b861a636173c08d9913a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8eb7c14218ae25d4ffe410cbf440484f"
+publisher_checksum_verified = true
+status = "cached"
+error = ""

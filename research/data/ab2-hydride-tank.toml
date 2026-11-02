@@ -1,0 +1,61 @@
+key = "ab2-hydride-tank"
+title = "Experimental Dataset on the Absorption-Desorption Dynamics of an AB2 Metal Hydride Hydrogen Storage Tank for a 300 Watt PEM Fuel Cell"
+doi = "10.17632/8km9z62tct.1"
+version = "1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "http://creativecommons.org/licenses/by/4.0"
+metadata_url = "https://data.mendeley.com/public-api/datasets/8km9z62tct/snapshot/1"
+metadata_sha256 = "669db8de501310679b9f5bba7dbbd65b24a9db23765d97ff1dd68da4d46cd5fa"
+retrieved_at_utc = "2026-10-26T15:59:46.792430+00:00"
+authors = ["Faizal Ramadhan", "Suwarno Suwarno", "Miftah Hijriawan"]
+families = ["hydride", "thermal"]
+rights_permitted = true
+validation_qualified = false
+model_integration_status = "optional caller-authorized shell-temperature forcing through existing FiniteHydrideHeatBoundary; synthetic API contract only"
+boundary_mapping_requirement = "caller must supply evidence that the selected external shell thermocouple is applicable as the model bath-temperature boundary; source does not establish this mapping"
+excluded_couplings = "no bed-temperature inference, MFC reference-volume to mass conversion, pressure conversion, kinetic fit, or experiment validation"
+hangang_case_id = "ab2-shell-temperature-finite-hydride-boundary"
+listed_file_count = 3
+acquired_bytes = 59809253
+omitted_files = []
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/8km9z62tct/files?folder_id=root&version=1&$start=0&$limit=1000"
+sha256 = "bf6b3b6a38a571204442e5cb6fac23c08371ca7cca6ced39cde40e8d61b0fe87"
+
+[[files]]
+name = "10 SLPM.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/8km9z62tct/files/cb12a1e7-17a0-4a19-8c33-f50e363cd442/file_downloaded"
+relative_path = "ab2-hydride-tank/1/10 SLPM.xlsx"
+size_bytes = 15699906
+sha256 = "3729e6c65b25c1bdc520af951c1052abbc21c6470dcb44b9951ea703bf4ed516"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "3729e6c65b25c1bdc520af951c1052abbc21c6470dcb44b9951ea703bf4ed516"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "5 SLPM.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/8km9z62tct/files/899c704f-06fa-4ab7-b42a-ecf0d7459115/file_downloaded"
+relative_path = "ab2-hydride-tank/1/5 SLPM.xlsx"
+size_bytes = 20285861
+sha256 = "1832ce3b6a13256ffe921cf8e9f8c420d801ff8f6174417ac72dbe8d3805f6a7"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "1832ce3b6a13256ffe921cf8e9f8c420d801ff8f6174417ac72dbe8d3805f6a7"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "15 SLPM.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/8km9z62tct/files/9103288f-70aa-4662-a5e1-238dd490a2d9/file_downloaded"
+relative_path = "ab2-hydride-tank/1/15 SLPM.xlsx"
+size_bytes = 23823486
+sha256 = "0c64831d037e8b51e3109fc00f47961c001c3a5e06f364061bbff05e54afff50"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "0c64831d037e8b51e3109fc00f47961c001c3a5e06f364061bbff05e54afff50"
+publisher_checksum_verified = true
+status = "cached"
+error = ""

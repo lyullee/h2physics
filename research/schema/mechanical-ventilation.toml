@@ -1,0 +1,437 @@
+dataset = "mechanical-ventilation"
+doi = "10.5281/zenodo.4668554"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "HTE2440PS005FLMT00300321.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE2440PS005FLMT00300321.xlsx:3.5 m pro s co-flow"
+format = "xlsx"
+rows = 28
+columns = 23
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "average value m/s (1 min duration)", "", "", "", "", "", "", "", "max value m/s (1 min duration)", "", "", "", "", "", "", "", "min value m/s  (1 min duration)", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS005FLMT00300321.xlsx:3.5 m pro s counter-flow"
+format = "xlsx"
+rows = 19
+columns = 23
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "average value m/s (1 min duration)", "", "", "", "", "", "", "", "max value m/s (1 min duration)", "", "", "", "", "", "", "", "min value m/s  (1 min duration)", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS005FLMT00300321.xlsx:(5) m pro s co-flow"
+format = "xlsx"
+rows = 19
+columns = 24
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "average value m/s (1 min duration)", "", "", "", "", "", "", "", "max value m/s (1 min duration)", "", "", "", "", "", "", "", "min value m/s  (1 min duration)", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS005FLMT00300321.xlsx:(5) m pro s counter-flow "
+format = "xlsx"
+rows = 19
+columns = 23
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "average value m/s (1 min duration)", "", "", "", "", "", "", "", "max value m/s (1 min duration)", "", "", "", "", "", "", "", "min value m/s  (1 min duration)", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS005FLMT00300321.xlsx:(1.5) m pro s co-flow"
+format = "xlsx"
+rows = 19
+columns = 23
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "average value m/s (1 min duration)", "", "", "", "", "", "", "", "max value m/s (1 min duration)", "", "", "", "", "", "", "", "min value m/s  (1 min duration)", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS005FLMT00300321.xlsx:(1.5) m pro s counter-flow"
+format = "xlsx"
+rows = 19
+columns = 23
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "average value m/s (1 min duration)", "", "", "", "", "", "", "", "max value m/s (1 min duration)", "", "", "", "", "", "", "", "min value m/s  (1 min duration)", "", "", "", "", ""]
+
+[[files]]
+name = "HTE2440PS003MIXED_300321.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE2440PS003MIXED_300321.xlsx:4 mm 1g H2 W=0"
+format = "xlsx"
+rows = 24
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS003MIXED_300321.xlsx:4 mm 1g H2 W = 1.5 co-flow"
+format = "xlsx"
+rows = 17
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS003MIXED_300321.xlsx:4 mm 1g H2 W = 1.5 counter-flow"
+format = "xlsx"
+rows = 19
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS003MIXED_300321.xlsx:4 mm 1g H2 W = 3.5 co-flow"
+format = "xlsx"
+rows = 17
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS003MIXED_300321.xlsx:4 mm 1g H2 W = 3.5 counter-flow"
+format = "xlsx"
+rows = 13
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS003MIXED_300321.xlsx:4 mm 1g H2 W = 5 co-flow"
+format = "xlsx"
+rows = 17
+columns = 48
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS003MIXED_300321.xlsx:4 mm 1g H2 W = 5 counter-flow"
+format = "xlsx"
+rows = 14
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS003MIXED_300321.xlsx:4 mm 1g H2 W = 1.5 cross-flow"
+format = "xlsx"
+rows = 28
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS003MIXED_300321.xlsx:4 mm 1g H2 W = 3.5 cross-flow"
+format = "xlsx"
+rows = 24
+columns = 48
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS003MIXED_300321.xlsx:4 mm 1 g H2 W = 5 cross-flow"
+format = "xlsx"
+rows = 24
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files]]
+name = "HTE2440PS001MIXED_300321.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE2440PS001MIXED_300321.xlsx:1 mm 1g H2 W = 0"
+format = "xlsx"
+rows = 20
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS001MIXED_300321.xlsx:1 mm 1g H2 W = 1.5 co-flow"
+format = "xlsx"
+rows = 19
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS001MIXED_300321.xlsx:1 mm 1g H2 W = 1.5 counter-flow"
+format = "xlsx"
+rows = 19
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS001MIXED_300321.xlsx:1 mm 1g H2 W = 3.5 co-flow"
+format = "xlsx"
+rows = 19
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS001MIXED_300321.xlsx:1 mm 1g H2 W = 3.5 counter-flow"
+format = "xlsx"
+rows = 15
+columns = 48
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS001MIXED_300321.xlsx:1 mm 1g H2 W = 5 co-flow"
+format = "xlsx"
+rows = 19
+columns = 48
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS001MIXED_300321.xlsx:1 mm 1g H2 W = 5 counter-flow"
+format = "xlsx"
+rows = 16
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS001MIXED_300321.xlsx:1 mm 1g H2 W = 1.5 cross-flow"
+format = "xlsx"
+rows = 31
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS001MIXED_300321.xlsx:1 mm 1g H2 W = 3.5 cross-flow"
+format = "xlsx"
+rows = 27
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS001MIXED_300321.xlsx:1 mm 1g H2 W = 5 cross-flow"
+format = "xlsx"
+rows = 25
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files]]
+name = "HTE2440PS002MIXED_300321.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE2440PS002MIXED_300321.xlsx:1 mm 5g H2 W = 0"
+format = "xlsx"
+rows = 24
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS002MIXED_300321.xlsx:1 mm 5g H2 W = 1.5 co-flow"
+format = "xlsx"
+rows = 23
+columns = 44
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS002MIXED_300321.xlsx:1 mm 5g H2 W = 1.5 counter-flow"
+format = "xlsx"
+rows = 23
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS002MIXED_300321.xlsx:1 mm 5g H2 W = 3.5 co-flow"
+format = "xlsx"
+rows = 23
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS002MIXED_300321.xlsx:1 mm 5g H2 W = 3.5 counter-flow"
+format = "xlsx"
+rows = 23
+columns = 48
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS002MIXED_300321.xlsx:1 mm 5g H2 W = 5 co-flow"
+format = "xlsx"
+rows = 23
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS002MIXED_300321.xlsx:1 mm 5g H2 = 5 counter-flow"
+format = "xlsx"
+rows = 21
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS002MIXED_300321.xlsx:1 mm 1.5g H2 W = 0"
+format = "xlsx"
+rows = 19
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS002MIXED_300321.xlsx:1 mm 1.5g H2 W = 1.5 cross-flo"
+format = "xlsx"
+rows = 25
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS002MIXED_300321.xlsx:1 mm 1.5g He W = 3.5 cross-flow"
+format = "xlsx"
+rows = 25
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS002MIXED_300321.xlsx:1 mm 1.5g H2 W = 5 cross-flow"
+format = "xlsx"
+rows = 26
+columns = 43
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files]]
+name = "HTE2440PS004MIXED_300321.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE2440PS004MIXED_300321.xlsx:4 mm 5g H2 W = 0"
+format = "xlsx"
+rows = 28
+columns = 46
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS004MIXED_300321.xlsx:4 mm 5g H2 W = 1.5 m s co-flow"
+format = "xlsx"
+rows = 22
+columns = 47
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "W = 1.5 m co-flow", "", "", "", "", "", "", "H2-concentration / %", "", "", "", "", "", "", "", "", "", "", "H2-concentration / %", "", "", "", "", "", "", "", "", "", "", "", "H2-concentration / %", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS004MIXED_300321.xlsx:4 mm 5g H2 W = 1.5 m s counter "
+format = "xlsx"
+rows = 21
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "W = 1.5 m/s counter-flow", "", "", "", "", "", "", "average value", "", "", "", "", "", "", "", "", "", "", "maximum value", "", "", "", "", "", "", "", "", "", "", "", "minimum value", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS004MIXED_300321.xlsx:4 mm 5g H2 W = 3.5 m s co-flow"
+format = "xlsx"
+rows = 19
+columns = 47
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "W = 3.5 m/s co-flow", "", "", "", "", "", "", "average value", "", "", "", "", "", "", "", "", "", "", "maximum value", "", "", "", "", "", "", "", "", "", "", "", "minimum value", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS004MIXED_300321.xlsx:4 mm 5g H2 W = 3.5 m s counter"
+format = "xlsx"
+rows = 21
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "W = 3.5 m/s counter-flow", "", "", "", "", "", "", "average value", "", "", "", "", "", "", "", "", "", "", "maximum value", "", "", "", "", "", "", "", "", "", "", "", "minimum value", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS004MIXED_300321.xlsx:4 mm 5g H2 W = 5 m s co-flow"
+format = "xlsx"
+rows = 19
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "W = 5 m/s co-flow", "", "", "", "", "", "", "average value", "", "", "", "", "", "", "", "", "", "", "maximum value", "", "", "", "", "", "", "", "", "", "", "", "minimum value", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS004MIXED_300321.xlsx:4 mm 5g H2 W = 5 m s counter"
+format = "xlsx"
+rows = 19
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "W = 5 m/s counter-flow", "", "", "", "", "", "", "average value", "", "", "", "", "", "", "", "", "", "", "maximum value", "", "", "", "", "", "", "", "", "", "", "", "minimum value", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS004MIXED_300321.xlsx:4 mm 2.5g H2 W = 0"
+format = "xlsx"
+rows = 19
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "W = 0", "", "", "", "", "", "", "average value", "", "", "", "", "", "", "", "", "", "", "maximum value", "", "", "", "", "", "", "", "", "", "", "", "minimum value", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS004MIXED_300321.xlsx:4 mm 2.5 g H2 W = 1.5 m s cross"
+format = "xlsx"
+rows = 27
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "W = 1.5 m/s cross-flow", "", "", "", "", "", "", "average value", "", "", "", "", "", "", "", "", "", "", "maximum value", "", "", "", "", "", "", "", "", "", "", "", "minimum value", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS004MIXED_300321.xlsx:4 mm 2.5g H2 W = 3.5 m s cross"
+format = "xlsx"
+rows = 22
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "W = 3.5 m/s cross-flow", "", "", "", "", "", "", "average value", "", "", "", "", "", "", "", "", "", "", "maximum value", "", "", "", "", "", "", "", "", "", "", "", "minimum value", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "HTE2440PS004MIXED_300321.xlsx:4 mm 2.5g H2 W = 5 m s cross"
+format = "xlsx"
+rows = 22
+columns = 49
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "W = 5 m/s cross-flow", "", "", "", "", "", "", "average value", "", "", "", "", "", "", "", "", "", "", "maximum value", "", "", "", "", "", "", "", "", "", "", "", "minimum value", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files]]
+name = "HTE2440PS006MIXED_300321.zip"
+format = "zip"
+archive_members = 41
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "HTE2440PS000MIXED_300321.pdf"
+format = "pdf"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0

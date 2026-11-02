@@ -1,0 +1,533 @@
+key = "elvhys-shock-tube"
+title = "ELVHYS 4.3.1 - BLEVE tests with a shock tube filled with LH2 in an A2 vessel"
+doi = "10.18710/M5LOLM"
+version = "1.0"
+origin = "measured"
+source_updated_at = "2026-10-21T08:15:11Z"
+license_id = "CC0-1.0"
+license_url = "http://creativecommons.org/publicdomain/zero/1.0"
+metadata_url = "https://dataverse.no/api/datasets/:persistentId/?persistentId=doi%3A10.18710%2FM5LOLM"
+metadata_sha256 = "8b16f9b388c7b92139630ce40b78ea37a830a720bcb26e98ee394e48af83e1a1"
+retrieved_at_utc = "2026-10-26T16:12:25.764260+00:00"
+authors = ["Torres de Ritter, Eugenio", "Friedrich, Andreas", "Ferraro Porcel de Peralta, Manuel Ignacio"]
+families = ["cryogenic", "rupture", "combustion"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 133
+acquired_bytes = 534609893
+model_link_status = "evidence_gap_no_source_model_comparison"
+candidate_model_apis = ["h2physics.adapters.slabx_lh2", "h2physics.adapters.liquid_release_chain", "h2physics.adapters.hyram_overpressure"]
+model_linkage_gap = "Current measured files do not define a shared rupture clock, calibrated absolute/differential dynamic pressure, full initial tube-gas composition/phase inventory, or containment pressure-station coordinates. Signed PRESF bar_a channels are retained numerically but are not thermodynamic absolute-pressure states."
+required_model_link_evidence = [
+  "Rupture trigger time/clock origin and cross-recorder synchronization with uncertainty.",
+  "PRESF sensor calibration, dynamic baseline, transfer response, exact station positions and mapping to model receptor/state quantities.",
+  "Initial tube hydrogen/liquid inventory, temperature and pressure basis; full tube-gas/oxidizer composition and humidity for oxidizing runs.",
+  "The missing D4.8 containment sensor-location drawing and selected applicable high-speed video if event timing/location requires it.",
+  "Incident heat/pressure source boundary and uncertainty separated from containment response measurements.",
+]
+model_link_case = "elvhys-lh2-rupture-model-link-evidence-gap"
+omitted_files = ["ELE431KIT041VIDE2D20260724.mp4", "ELE431KIT041VIDE2D20260729.mp4", "ELE431KIT041VIDE2D20260730.mp4", "ELE431KIT041VIDE2D20260731.mp4", "ELE431KIT041VIDE1D20260730.mp4", "ELE431KIT041VIDE1D20260724.mp4", "ELE431KIT031VIDE2D20260723.mp4", "ELE431KIT031VIDE2D20260728.mp4", "ELE431KIT041VIDE1D20260729.mp4", "ELE431KIT041VIDE1D20260731.mp4", "ELE431KIT011VIDE2D20260727.mp4", "ELE431KIT021VIDE2D20260722.mp4", "ELE431KIT041VIDE0D20260729.mp4", "ELE431KIT041VIDE0D20260730.mp4", "ELE431KIT142VIDE2D20260806.mp4", "ELE431KIT031VIDE1D20260723.mp4", "ELE431KIT041VIDE0D20260731.mp4", "ELE431KIT041VIDE0D20260724.mp4", "ELE431KIT011VIDE1D20260727.mp4", "ELE431KIT031VIDE1D20260728.mp4", "ELE431KIT021VIDE1D20260722.mp4", "ELE431KIT141VIDE2D20260806.mp4", "ELE431KIT111VIDE2D20260805.mp4", "ELE431KIT132VIDE2D20260805.mp4", "ELE431KIT142VIDE1D20260806.mp4", "ELE431KIT141VIDE1D20260806.mp4", "ELE431KIT011VIDE0D20260727.mp4", "ELE431KIT132VIDE1D20260805.mp4", "ELE431KIT021VIDE0D20260722.mp4", "ELE431KIT031VIDE0D20260723.mp4", "ELE431KIT111VIDE1D20260805.mp4", "ELE431KIT031VIDE0D20260728.mp4", "ELE431KIT021HSVC20260722.mp4", "ELE431KIT142VIDE0D20260806.mp4", "ELE431KIT141VIDE0D20260806.mp4", "ELE431KIT132VIDE0D20260805.mp4", "ELE431KIT111VIDE0D20260805.mp4", "ELE431KIT041VIDE4W20260729.mp4", "ELE431KIT031VIDE4W20260728.mp4", "ELE431KIT041VIDE4W20260731.mp4", "ELE431KIT011VIDE4W20260727.mp4", "ELE431KIT041VIDE4W20260724.mp4", "ELE431KIT021VIDE4W20260722.mp4", "ELE431KIT141VIDE4W20260806.mp4", "ELE431KIT031VIDE4W20260723.mp4", "ELE431KIT132VIDE4W20260805.mp4", "ELE431KIT142VIDE4W20260806.mp4", "ELE431KIT041VIDE3W20260724.mp4", "ELE431KIT111VIDE4W20260805.mp4", "ELE431KIT142VIDE3W20260806.mp4", "ELE431KIT021VIDE3W20260722.mp4", "ELE431KIT021VIDE2W20260722.mp4", "ELE431KIT021VIDE1W20260722.mp4", "ELE431KIT111VIDE1W20260805.mp4", "ELE431KIT031VIDE3W20260723.mp4", "ELE431KIT142VIDE2W20260806.mp4", "ELE431KIT041VIDE2W20260724.mp4", "ELE431KIT111VIDE2W20260805.mp4", "ELE431KIT142VIDE1W20260806.mp4", "ELE431KIT041VIDE1W20260731.mp4", "ELE431KIT011VIDE3W20260727.mp4", "ELE431KIT132VIDE1W20260805.mp4", "ELE431KIT011VIDE1W20260727.mp4", "ELE431KIT031VIDE1W20260723.mp4", "ELE431KIT031VIDE1W20260728.mp4", "ELE431KIT132VIDE2W20260805.mp4", "ELE431KIT041VIDE1W20260724.mp4", "ELE431KIT031VIDE2W20260723.mp4", "ELE431KIT132VIDE3W20260805.mp4", "ELE431KIT141VIDE3W20260806.mp4", "ELE431KIT041VIDE1W20260729.mp4", "ELE431KIT041VIDE3W20260731.mp4", "ELE431KIT041VIDE2W20260731.mp4", "ELE431KIT141VIDE2W20260806.mp4", "ELE431KIT031VIDE3W20260728.mp4", "ELE431KIT041VIDE2W20260729.mp4", "ELE431KIT041VIDE3W20260729.mp4", "ELE431KIT031VIDE2W20260728.mp4", "ELE431KIT141VIDE1W20260806.mp4", "ELE431KIT111VIDE3W20260805.mp4", "ELE431KIT011HSVC20260727.mp4", "ELE431KIT031HSVC20260723.mp4", "ELE431KIT041HSVC20260730.mp4", "ELE431KIT031HSVC20260728.mp4", "ELE431KIT041HSVC20260731.mp4", "ELE431KIT041HSVC20260724.mp4", "ELE431KIT041HSVC20260729.mp4", "ELE431KIT132HSVC20260805.mp4", "ELE431KIT141HSVC20260806.mp4", "ELE431KIT111HSVC20260805.mp4", "ELE431KIT142HSVC20260806.mp4"]
+
+[[files]]
+name = "ObservationELE431KIT041.txt"
+url = "https://dataverse.no/api/access/datafile/301297?format=original"
+relative_path = "elvhys-shock-tube/1.0/ObservationELE431KIT041.txt"
+size_bytes = 120
+sha256 = "ed4c4beb525be44a00777d309b13511e521d16534458d6c4451e96942e8d9c78"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0b04f2257b9a56cd95625eb05eb6abcf"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ObservationELE431KIT011.txt"
+url = "https://dataverse.no/api/access/datafile/301259?format=original"
+relative_path = "elvhys-shock-tube/1.0/ObservationELE431KIT011.txt"
+size_bytes = 128
+sha256 = "b0bcf6978cae58356b16608067450d504b2768210c8a116645a3b5945de591e0"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fcb728e9e62bf0cf7d78677704ba6d9e"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KITMETA.csv"
+url = "https://dataverse.no/api/access/datafile/301171?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KITMETA.csv"
+size_bytes = 4893
+sha256 = "124b58269e9f006bb09e4c0cd6b2299695eef9fe440c6962e360eb8baab5c27b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e796053756c58b7ed284fd7c2a42a5cc"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "00_README_ELVHYS_WP_4_3_1.txt"
+url = "https://dataverse.no/api/access/datafile/302501?format=original"
+relative_path = "elvhys-shock-tube/1.0/00_README_ELVHYS_WP_4_3_1.txt"
+size_bytes = 17250
+sha256 = "d81e0b29971e12ca0a0920052daf5ff02a7c392d4fc5dc4c2b8c6ecdf35bda9a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1063c13c1458a30db8e2a8740d3850c0"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT142TEMP20260806.csv"
+url = "https://dataverse.no/api/access/datafile/301352?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT142TEMP20260806.csv"
+size_bytes = 1193967
+sha256 = "783eeec1b3cf040a330f4c00e87bedfce42ecd40c3aa6074c656ce5697a50794"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fa42d7202efa2cccac6b122ea011f903"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041TEMPL20260730.csv"
+url = "https://dataverse.no/api/access/datafile/301303?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041TEMPL20260730.csv"
+size_bytes = 1258131
+sha256 = "14fd7223425e232680ab4fbc479ea48b4ea16d02e3a9d0a8b81c573d91d9825b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d30ec23017e94c23bf7ac79242d372c5"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041TEMP20260731.csv"
+url = "https://dataverse.no/api/access/datafile/301312?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041TEMP20260731.csv"
+size_bytes = 1461388
+sha256 = "ec7f3c74544427b2996a07d81ed7661cda882f48a25eb71a9a314a7ab933a38e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "acd2841c243a148aba317bfa509e578e"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT011TEMP20260727.csv"
+url = "https://dataverse.no/api/access/datafile/301258?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT011TEMP20260727.csv"
+size_bytes = 1566224
+sha256 = "e15a901dacceb50209b161e01dfd825ab28115496f6c29930461dde92d187b2e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "053513ec397fd7ab897a30ee5368d969"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041TEMP20260729.csv"
+url = "https://dataverse.no/api/access/datafile/301292?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041TEMP20260729.csv"
+size_bytes = 1615823
+sha256 = "0a33bf1a02d9d88c93c73ca69099ac72f13d1bf1225af94e6aea60319db75753"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "125ce804eddf18e058f69e0bc7c97fe4"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT031TEMP20260728.csv"
+url = "https://dataverse.no/api/access/datafile/301272?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT031TEMP20260728.csv"
+size_bytes = 2038839
+sha256 = "527e30a333c50299026fb028c8479178038ebf463de9ddc9d413574cb8339a99"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7ed4fcbc63ff53cba629235ac2292294"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT132TEMP20260805.csv"
+url = "https://dataverse.no/api/access/datafile/301337?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT132TEMP20260805.csv"
+size_bytes = 2493652
+sha256 = "3f9a486a6014ffdbe7c75a52bc530d382b0a0a572b537503075d80d5eee346e3"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1b7b493e535d31a67e2d4c7ef17e6c61"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT141TEMP20260806.csv"
+url = "https://dataverse.no/api/access/datafile/301346?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT141TEMP20260806.csv"
+size_bytes = 2788948
+sha256 = "d06e4da8fdb4fef1ddc2b1355b88c533c34c090c27c390fa61fc7192df9a6e9e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0e5d272d1bbe2d0e73cdced8f956ad5b"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT031TEMP20260723.csv"
+url = "https://dataverse.no/api/access/datafile/301235?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT031TEMP20260723.csv"
+size_bytes = 3079041
+sha256 = "87f3eac912ba5d737b21629a14f91bad98a7a25400f6c82f4a9b261472ab58b6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f963afe7ebaff71d357ef57cfff8ecfd"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT111TEMP20260805.csv"
+url = "https://dataverse.no/api/access/datafile/301325?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT111TEMP20260805.csv"
+size_bytes = 3168580
+sha256 = "4640da6be6b1dac04c7a4c49f6d35c268e613c462e6016bc15242bdad1c86cb9"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5b9964b3484f03a99b37eede4d34e575"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041TEMP20260724.csv"
+url = "https://dataverse.no/api/access/datafile/301243?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041TEMP20260724.csv"
+size_bytes = 3637262
+sha256 = "256175344be815754e4ab0b44fc91efe42fd62285a3838252cbfdc789795e5c3"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "9ffa3209e15abac3c008b2eb499f1461"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT142PRESS20260806.csv"
+url = "https://dataverse.no/api/access/datafile/301350?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT142PRESS20260806.csv"
+size_bytes = 3754102
+sha256 = "bb3d067d73731593f591adfa7a0b9740aba7cba04fd0d5f755c1a7f8ecf05dc7"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "67ab154d575381d742d5959f1840029f"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041PRESS20260731.csv"
+url = "https://dataverse.no/api/access/datafile/301308?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041PRESS20260731.csv"
+size_bytes = 3863050
+sha256 = "3f7b99f9898c5864550c5decbe8ca6292fe4ab0c4920a57d32761579b6ba8991"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5f980982bfe1e379371e381f5be5312d"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041PRESS20260729.csv"
+url = "https://dataverse.no/api/access/datafile/301283?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041PRESS20260729.csv"
+size_bytes = 3949303
+sha256 = "4ce25f092895b50b06b7da3bbf4f869761ef7d2a9fa527f62b72f8ece6e2bc30"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e206f6efb0225650f196cd816f1bbe44"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT011PRESS20260727.csv"
+url = "https://dataverse.no/api/access/datafile/301261?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT011PRESS20260727.csv"
+size_bytes = 4054491
+sha256 = "a58ba806d24bcacfc17541c351081aa1cc89c5fcbf4d5c27f08a73687e8d70f8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c373db21c5e0867ca9ae43f7ece19909"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT141PRESS20260806.csv"
+url = "https://dataverse.no/api/access/datafile/301343?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT141PRESS20260806.csv"
+size_bytes = 4114265
+sha256 = "12d643984f3b4a508dc7f9c3a30e45f0c8bd1fd79facafa522fae9944b0ab772"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5129e814f26c60825a0db36efd31db56"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT031PRESS20260723.csv"
+url = "https://dataverse.no/api/access/datafile/301232?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT031PRESS20260723.csv"
+size_bytes = 4300597
+sha256 = "0421c5ac4d3e5535fd05a92ea0bee25c64dfe44f9f42ab9bbb9cf5f64340815b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ff3b59992ab77be72800494a4552871a"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT141MICR20260806.csv"
+url = "https://dataverse.no/api/access/datafile/301348?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT141MICR20260806.csv"
+size_bytes = 4378575
+sha256 = "e8fc47b373abc88a66a6cd556a9c241590186e642b71ffd1638c6ef9e2fa1526"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5df52e0d90826842cccdb652487f9b7e"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT142MICR20260806.csv"
+url = "https://dataverse.no/api/access/datafile/301357?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT142MICR20260806.csv"
+size_bytes = 4402329
+sha256 = "1149a124b6e57a30d51280a2b55c95b099bca22bd8d68f48ecf7165ca61d8e56"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "9ffca6d2d0e266bd42fac6217295dd61"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT132PRESS20260805.csv"
+url = "https://dataverse.no/api/access/datafile/301330?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT132PRESS20260805.csv"
+size_bytes = 4565757
+sha256 = "45ed5e6011b2d6ae1bc7d50e9a1d044bed09bb8db881ae1e9ac392832023929b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cdf740f717dee18796dada7c95ac1c1a"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT031PRESS20260728.csv"
+url = "https://dataverse.no/api/access/datafile/301274?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT031PRESS20260728.csv"
+size_bytes = 4780561
+sha256 = "f079f29b3ec552a1cb9f0c7402e780b3b46a0ce5d0af6fadce3a442ff250932c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "05d0fb720c85e4cb48272f5389a013a1"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041PRESS20260730.csv"
+url = "https://dataverse.no/api/access/datafile/301299?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041PRESS20260730.csv"
+size_bytes = 4812890
+sha256 = "06697af68ebf6dba693ab1e2b3f5efb7c8154614ea4f9decfbdd527c3d522e17"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "bc8445bdb3d6283e22c51624c0d5a60d"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041PRESS20260724.csv"
+url = "https://dataverse.no/api/access/datafile/301244?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041PRESS20260724.csv"
+size_bytes = 5183370
+sha256 = "1ef6d22264e7c03b39676ef1fef48c37b4455d6b0b3eef2f1c4f800202ee0228"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5098995d7e8408914e2d4305fb0d87c6"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT111PRESS20260805.csv"
+url = "https://dataverse.no/api/access/datafile/301320?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT111PRESS20260805.csv"
+size_bytes = 5327602
+sha256 = "d90425eb3cb2e2dc512945192a0bb40d349384e15cdad8e0f44881f9ca41989e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "dcd4bd38a4e5437d1cf68db957caae80"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT021TEMP20260722.csv"
+url = "https://dataverse.no/api/access/datafile/301222?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT021TEMP20260722.csv"
+size_bytes = 5983329
+sha256 = "918b46f74a952fb174b0da58be16ef619ad3728149619f48c4e35bc92a7e9691"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c050086ef05f78ba085b297fe65f30d2"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT021PRESS20260722.csv"
+url = "https://dataverse.no/api/access/datafile/301227?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT021PRESS20260722.csv"
+size_bytes = 8330984
+sha256 = "1dfeff3dcabd7ea0df3b630d110ac72e73904ac1cfd143fdf0d0433863d9c0dc"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1b72dcdac11518826cf5f3794fa0e5d7"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT111PRESF20260805.csv"
+url = "https://dataverse.no/api/access/datafile/301326?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT111PRESF20260805.csv"
+size_bytes = 35775333
+sha256 = "c786b282fc030688910e3205fd1a208cac216e32f33b80a57f07ed7bdc2cb6aa"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d0133ac30001cb3e554a478d26130a55"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT132PRESF20260805.csv"
+url = "https://dataverse.no/api/access/datafile/301335?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT132PRESF20260805.csv"
+size_bytes = 36021038
+sha256 = "ba26cbfad849cc47907fd67617cea63ad32dffea59d00d8fc27b88c9879deb22"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4d59ae3965fe50d412edfd145d2a22f8"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT142PRESF20260806.csv"
+url = "https://dataverse.no/api/access/datafile/301361?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT142PRESF20260806.csv"
+size_bytes = 36031028
+sha256 = "b8d1a179299aa8432679453931e238378fdb0cd6415fbd01584cb4cd9fe952ae"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "dacab3dc0cc4613cd48f942a25e5ea5a"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT141PRESF20260806.csv"
+url = "https://dataverse.no/api/access/datafile/301339?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT141PRESF20260806.csv"
+size_bytes = 36413755
+sha256 = "8263bb8c2d6ea8ec702ab4fdeefe620f0793a09fa68b923da6b9b78e4633beba"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0f78764a2d9289fb1b053bb0c010831a"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT031PRESF20260728.csv"
+url = "https://dataverse.no/api/access/datafile/301279?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT031PRESF20260728.csv"
+size_bytes = 36433929
+sha256 = "a8c39051778c0d08642c5f6ef6f8c0b6d1c8d42ce0110121d26d811d085cdc79"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0bca4dbbf3098d4837bdc759d2b6748c"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041PRESF20260730.csv"
+url = "https://dataverse.no/api/access/datafile/301302?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041PRESF20260730.csv"
+size_bytes = 36665238
+sha256 = "3eac7532ffd078142213b12c34d556118310c461795b53757f4765837880e79f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2f0ba484a8a0460ff7b2565bbed48356"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041PRESF20260731.csv"
+url = "https://dataverse.no/api/access/datafile/301306?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041PRESF20260731.csv"
+size_bytes = 36727633
+sha256 = "e823c9e5504bb109a75a435ce1b4a58a55eca49ebf35133d10bf6155e12b61e2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "127ad82d0ca47bbe215941f4f881d941"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041PRESF20260729.csv"
+url = "https://dataverse.no/api/access/datafile/301284?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041PRESF20260729.csv"
+size_bytes = 36731209
+sha256 = "80956480c5141750781a1e0e64dca1141fce8c475130d667c2fadcfc08e8bcef"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5877d20833902d9467b3d021ed1a320e"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT041PRESF20260724.csv"
+url = "https://dataverse.no/api/access/datafile/301241?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT041PRESF20260724.csv"
+size_bytes = 36785354
+sha256 = "26477b174b0da020845b7d1cd624c92cad00172abceb23a0c3e222eab6ebd29f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fb2ade804239e6644fada0acdb6090b4"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT021PRESF20260722.csv"
+url = "https://dataverse.no/api/access/datafile/301220?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT021PRESF20260722.csv"
+size_bytes = 36849076
+sha256 = "1cb85083fe69ae34536e5cf2b47c014df59249ebf1172194005b4945380ecff1"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "05a21f2478ee5db49057f42981426f1b"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT031PRESF20260723.csv"
+url = "https://dataverse.no/api/access/datafile/301233?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT031PRESF20260723.csv"
+size_bytes = 36986230
+sha256 = "b7f5172c6da7b2eeac3240d992b529438f5b90989b8beaa1b37703084a7c21bf"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d1c4e006e03e36a206b2754ee647d1bd"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ELE431KIT011PRESF20260727.csv"
+url = "https://dataverse.no/api/access/datafile/301257?format=original"
+relative_path = "elvhys-shock-tube/1.0/ELE431KIT011PRESF20260727.csv"
+size_bytes = 37064619
+sha256 = "2dd9a76985daed8deaf270da1f045bd64009b5ff88c0afb531fd6b59cb6357bf"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "bcdb5d2e3f95a3d75d4ffa0c74bb817c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

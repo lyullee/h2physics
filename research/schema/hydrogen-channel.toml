@@ -1,0 +1,341 @@
+dataset = "hydrogen-channel"
+doi = "10.23642/usn.26117989.v2"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "ReadMe.txt"
+format = "txt"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "23_FFI_P101_T00005.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00005/23_FFI_P101_T00005.csv"
+format = "delimited"
+rows = 8859
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "mass flow meter 1 [g/s]", "filling pressure [bar]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00003.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00003/23_FFI_P101_T00003.csv"
+format = "delimited"
+rows = 12167
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "mass flow meter 1 [g/s]", "filling pressure [bar]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00027.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00027/23_FFI_P101_T00027.csv"
+format = "delimited"
+rows = 17753
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 2", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 2 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00028.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00028/23_FFI_P101_T00028.csv"
+format = "delimited"
+rows = 19654
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 2", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 2 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00006.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00006/23_FFI_P101_T00006.csv"
+format = "delimited"
+rows = 12167
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00012.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00012/23_FFI_P101_T00012.csv"
+format = "delimited"
+rows = 19411
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00014.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00014/23_FFI_P101_T00014.csv"
+format = "delimited"
+rows = 18799
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00007.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00007/23_FFI_P101_T00007.csv"
+format = "delimited"
+rows = 11732
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00011.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00011/23_FFI_P101_T00011.csv"
+format = "delimited"
+rows = 14149
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00013.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00013/23_FFI_P101_T00013.csv"
+format = "delimited"
+rows = 19138
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00009.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00009/23_FFI_P101_T00009.csv"
+format = "delimited"
+rows = 11673
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00008.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00008/23_FFI_P101_T00008.csv"
+format = "delimited"
+rows = 12042
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00026.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00026/23_FFI_P101_T00026.csv"
+format = "delimited"
+rows = 17731
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 2", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 2 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00031.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00031/23_FFI_P101_T00031.csv"
+format = "delimited"
+rows = 17347
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00029.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00029/23_FFI_P101_T00029.csv"
+format = "delimited"
+rows = 17627
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00041.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00041/23_FFI_P101_T00041.csv"
+format = "delimited"
+rows = 29541
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 2", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 2 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00045.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00045/23_FFI_P101_T00045.csv"
+format = "delimited"
+rows = 31559
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 2", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 2 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00004.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00004/23_FFI_P101_T00004.csv"
+format = "delimited"
+rows = 17807
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "mass flow meter 1 [g/s]", "filling pressure [bar]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00030.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00030/23_FFI_P101_T00030.csv"
+format = "delimited"
+rows = 17635
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00040.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00040/23_FFI_P101_T00040.csv"
+format = "delimited"
+rows = 30370
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 2", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 2 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00044.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00044/23_FFI_P101_T00044.csv"
+format = "delimited"
+rows = 30518
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]
+
+[[files]]
+name = "23_FFI_P101_T00042.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 1
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "23_FFI_P101_T00042/23_FFI_P101_T00042.csv"
+format = "delimited"
+rows = 29661
+columns = 37
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "mass flow meter 1", "filling pressure sensor", "various data", "flow time [s]", "filling pressure [bar]", "mass flow meter 1 [g/s]", "h2 sensor time", "sensor 1 h2 concentration [%]", "sensor 10 h2 concentration [%]", "sensor 11 h2 concentration [%]", "sensor 12 h2 concentration [%]", "sensor 13 h2 concentration [%]", "sensor 14 h2 concentration [%]", "sensor 15 h2 concentration [%]", "sensor 17 h2 concentration [%]", "sensor 18 h2 concentration [%]", "sensor 19 h2 concentration [%]", "sensor 2 h2 concentration [%]", "sensor 20 h2 concentration [%]", "sensor 21 h2 concentration [%]", "sensor 22 h2 concentration [%]", "sensor 23 h2 concentration [%]", "sensor 24 h2 concentration [%]", "sensor 25 h2 concentration [%]", "sensor 26 h2 concentration [%]", "sensor 27 h2 concentration [%]", "sensor 28 h2 concentration [%]", "sensor 29 h2 concentration [%]", "sensor 3 h2 concentration [%]", "sensor 30 h2 concentration [%]", "sensor 4 h2 concentration [%]", "sensor 5 h2 concentration [%]", "sensor 6 h2 concentration [%]", "sensor 7 h2 concentration [%]", "sensor 8 h2 concentration [%]", "sensor 9 h2 concentration [%]"]

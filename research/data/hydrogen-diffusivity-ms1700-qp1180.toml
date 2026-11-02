@@ -1,0 +1,51 @@
+key = "hydrogen-diffusivity-ms1700-qp1180"
+title = "Hydrogen diffusivity in MS1700 and QP1180 AHSS"
+doi = "10.17632/zj7zh24frt.1"
+version = "1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://data.mendeley.com/public-api/datasets/zj7zh24frt/snapshot/1"
+metadata_sha256 = "30ac6159d78ec7f035b415d2fc1eb62413170a7ba0e1af40902926b3293dfaf7"
+retrieved_at_utc = "2026-10-29T19:29:14Z"
+authors = ["Giuseppe Macoretta", "Carlo Maria Belardini"]
+families = ["materials", "hydrogen_transport", "permeation"]
+rights_permitted = true
+rights_basis = "The publisher snapshot explicitly identifies CC BY 4.0 for the dataset. Redistribution must retain attribution, link the license, and mark changes; the grant does not extend to any third-party content identified inside the artifact."
+license_scope = "Dataset-level grant recorded by the publisher; in-file notices and any third-party components have not yet been inspected."
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 39455
+omitted_files = []
+model_use = "Candidate normalized permeation observations for two named advanced high-strength steels. The record describes normalized-time and normalized-flux coordinates; no dimensional coefficient or material law is inferred."
+next_action = "Run the deferred Nurion source-bound loader contract using the staged file and pinned Dataset receipt. Do not fit parameters until the time/flux normalization basis is established independently."
+
+[schema_audit]
+state = "header_only"
+inspection = "MAT container directory parsed from the acquired bytes; no numeric observations were loaded or calculated locally."
+variables = ["Msdata", "QPdata"]
+row_counts = [2197, 1333]
+column_count = 2
+column_basis = "Publisher metadata describes normalized time (s/m^2) versus normalized flux; the reader preserves the two columns in source order without dimensional conversion."
+limitations = "Numeric payload types and values are gated by the source-bound SciPy reader at runtime. In-file third-party notices and detailed normalization definitions still require review. This is not model or material validation."
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/zj7zh24frt/files?folder_id=root&version=1&$start=0&$limit=1000"
+sha256 = "73d644d3be5a2c10e8f5b750bf57c240d27fa526ecfc7919d76db1b9afcec65c"
+
+[[sources]]
+title = "Mendeley Data version record and license"
+url = "https://data.mendeley.com/datasets/zj7zh24frt/1"
+role = "Publisher record identifies version 1, contributors, public status and CC BY 4.0 terms."
+
+[[files]]
+name = "MS1700_QP1180_permeation.mat"
+url = "https://data.mendeley.com/public-files/datasets/zj7zh24frt/files/c99a7486-1248-45a0-9ee3-77cc2f23e02e/file_downloaded"
+relative_path = "hydrogen-diffusivity-ms1700-qp1180/1/MS1700_QP1180_permeation.mat"
+size_bytes = 39455
+sha256 = "db08ef98dd06d5cc7f42bea14ec8e32912f880a1cb6bd4c0ca585761901725fc"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "db08ef98dd06d5cc7f42bea14ec8e32912f880a1cb6bd4c0ca585761901725fc"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

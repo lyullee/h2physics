@@ -1,0 +1,11 @@
+dataset = "pem-crossover"
+doi = "10.5281/zenodo.19361280"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "pem_water_electrolysis_degradation_data.zip"
+format = "zip"
+archive_members = 6
+numeric_members = 4
+program_members_not_executed = 1

@@ -1,0 +1,43 @@
+key = "bam-hydrogen-jet-fire"
+title = "Data set to \"Feasibility study on the applicability of pure hydrogen as a fuel for fire testing of hazardous containers\""
+doi = "10.5281/zenodo.21026781"
+version = "21026781"
+origin = "measured"
+source_updated_at = "2026-09-25T18:51:26.197573+09:00"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/21026781"
+metadata_sha256 = "646af606bdb6fd16a982dcf8b1b89dcdfa4ec16d11c0d804ff40ff265a3852f0"
+metadata_snapshot_path = "bam-hydrogen-jet-fire/21026781/zenodo-record.json"
+retrieved_at_utc = "2026-10-30T05:21:44+00:00"
+authors = ["Maximilian Naster"]
+families = ["combustion", "jet_flame", "thermal_target"]
+rights_permitted = true
+license_scope = "The published Zenodo API record declares open access and CC-BY-4.0; the repository documentation says the selected license applies to the deposited files. Attribute the named author and DOI. Only original thermocouple/mass-flow text exports are considered for parsing. Do not redistribute the archive or reuse bundled thermographic binaries/images pending separate rights and format review."
+third_party_component_rights_reviewed = false
+raw_redistribution_admitted = false
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 75221648
+omitted_files = []
+intended_measurement_use = "Candidate independent transient observations for jet-flame thermal-target work. The source description identifies a heated fire reference plate, thermocouples and hydrogen mass flow. Geometry, sensor placement/calibration, target properties, heat-flux boundary mapping and experiment-to-condition mapping have not yet been qualified; acquisition alone is not model validation."
+model_integration_status = "source-bound comparison of one caller-qualified plate temperature channel to existing ThermalTargetTrace; observation interface only, no flux inference"
+temperature_mapping_requirement = "caller must justify absolute-Celsius interpretation of the chosen plate channel and map that sensor to the target"
+clock_alignment_requirement = "caller supplies source time window, model clock offset, and alignment evidence; model-trace interpolation is linear and within support only"
+hangang_case_id = "bam-fire-plate-temperature-thermal-target-observation-bridge"
+
+[[supporting_metadata]]
+url = "https://zenodo.org/api/records/21026781"
+sha256 = "646af606bdb6fd16a982dcf8b1b89dcdfa4ec16d11c0d804ff40ff265a3852f0"
+
+[[files]]
+name = "H2_Data.zip"
+url = "https://zenodo.org/api/records/21026781/files/H2_Data.zip/content"
+relative_path = "bam-hydrogen-jet-fire/21026781/H2_Data.zip"
+size_bytes = 75221648
+sha256 = "c4e199a20960174845f27dbbb6521b65c797740ba3f503463ee96073cf2d8bed"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "019059edc40e776d6c54d917931e4e39"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

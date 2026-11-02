@@ -1,0 +1,173 @@
+key = "hydrogen-refuelling-process-traces-gap"
+title = "Open source audit: hydrogen vehicle refuelling process traces"
+doi = ""
+version = "source search audit 2026-10-31; refreshed 2026-11-01"
+origin = "source_gap"
+license_id = "No openly reusable raw trace license established"
+metadata_url = "https://docs.h2-stations.eu/for-data-users/"
+authors = ["Hydrogen Physical Models source audit"]
+families = ["hydrogen_refuelling", "process_traces", "data_gap"]
+rights_permitted = false
+rights_evidence_url = "https://docs.h2-stations.eu/for-data-users/"
+validation_qualified = false
+listed_file_count = 0
+acquired_file_count = 0
+acquired_bytes = 0
+retrieved_at_utc = "2026-10-31"
+raw_data_acquired = false
+source_gap = "No reviewed official repository currently provides per-fill raw CSV/MAT/XLSX time series with time-aligned station/dispenser/receptacle/tank pressure and temperature plus flow or dispensed mass, channel units and sampling timebase, versioned file inventory/checksums, and explicit reuse rights. This is an evidence gap in the reviewed public records, not evidence that the underlying measurements do not exist."
+search_scope = ["Official NREL/NLR H2FillS and Hydrogen Secure Data Center pages/manuals", "NREL/NLR retail station and FCEV composite data-product index", "California Air Resources Board 2024 Existing Light-Duty Hydrogen Refueling Stations In-Use Study", "H2-Stations API v2 docs and license", "DOE OSTI and Sandia/NREL HyStEP public technical records", "Powertech/H2Protocol source lead cited in published fueling models", "Cal State LA station operational papers/repository records", "NIST Transient Flow Facility pages"]
+search_methods = ["Search official repository/page text for raw time-series, data archive and public download indicators", "Inspect primary-source/API documentation and reported measurable channels", "Check reuse license or access/registration terms separately from article access", "Reject chart extraction and simulations as measured per-fill raw traces"]
+qualification_contract = ["Individual fill or controlled test identifier and apparatus boundary", "Common clock or documented synchronization for all retained channels", "Pressure and temperature channels with sensor location and units", "Mass flow or dispensed mass with units, measurement plane and calibration", "Sampling cadence, missing-data behavior, uncertainty/calibration, and fill termination", "Versioned file list, exact byte counts and publisher checksums", "Explicit license covering data redistribution and attribution"]
+next_action = "Request permission or a licensed, versioned raw export from NREL/HSDS, CARB or the original data custodians (including Powertech/Cal State LA operators). Do not ingest traces derived from published plots, registered model output, aggregate products, or live API status signals as fueling measurements."
+
+[[candidates]]
+id = "powertech-h2protocol-laboratory-fill-data"
+title = "SAE J2601 Tables Method - Laboratory Data"
+owner_or_originator = "Powertech Labs; source cited by published HRS modeling studies"
+source_url = "https://www.h2protocol.com/h2-fueling-data/"
+source_class = "potential measured protocol-fill trace collection"
+reported_signals = ["vehicle tank pressure", "vehicle tank temperature", "state of charge"]
+access_blocker = "The live page could not be retrieved during this audit: the web fetch timed out and the local HTTPS request failed with a TLS internal error. No official record API or file inventory was inspectable."
+rights_blocker = "No explicit open data license or redistribution permission was found in the accessible official repository documentation. Do not redistribute or ingest pending written rights evidence."
+integrity_blocker = "No exact file names, sizes, version, publisher checksums, or raw schema were accessible to verify."
+source_citations = ["https://doi.org/10.1016/j.renene.2024.120410", "https://doi.org/10.1016/j.ijhydene.2024.12.378"]
+
+[[candidates]]
+id = "carb-hystep-in-use-study-2024"
+title = "Existing Light-Duty Hydrogen Refueling Stations In-Use Study Report"
+owner_or_originator = "California Air Resources Board"
+source_url = "https://ww2.arb.ca.gov/sites/default/files/2024-12/Existing%20Light-Duty%20Hydrogen%20Refueling%20Stations%20In-Use%20Study%20Report%20ADA%20AL.pdf"
+source_class = "measured public test study; report-only release"
+reported_signals = ["station/dispenser pressure limits and observations", "receptacle/vehicle tank pressure", "fuel temperature", "mass-flow rate", "fill timing and test conditions"]
+access_blocker = "Official public report presents selected pressure/temperature/mass-flow figures and summaries; no raw CSV/MAT/XLSX event files, per-file inventory or checksums were found on the official program page. The report describes anonymized study results and participating operators, so graph traces are not treated as a raw-data release."
+rights_blocker = "CARB report is publicly accessible but no separate license or permission granting reuse/redistribution of underlying instrument logs was located. Public access alone does not establish raw-data rights."
+integrity_blocker = "No machine-readable trace bytes, channel schema, sampling cadence or source-file checksums are published with the report."
+source_citations = ["https://ww2.arb.ca.gov/our-work/programs/hydrogen-fueling-infrastructure"]
+
+[[candidates]]
+id = "nrel-hsdc-station-fill-logs"
+title = "Hydrogen Secure Data Center / station composite data products"
+owner_or_originator = "National Renewable Energy Laboratory / U.S. Department of Energy"
+source_url = "https://www.nrel.gov/hydrogen/H2FillS"
+source_class = "protected industry-partner event records and public composites"
+reported_signals = ["aggregate fill duration/rate/amount and selected pressure/temperature indicators"]
+access_blocker = "H2FillS download is registration-based and is simulation software, not an empirical trace repository. NREL composite products show grouped/aggregate station or vehicle indicators; public record review did not identify individual raw fill files. The Hydrogen Secure Data Center is described as protected partner data, not anonymous open download."
+rights_blocker = "No public license for underlying partner event logs was identified; registration or software access terms are not a data license."
+integrity_blocker = "No raw event file listing, per-file checksums, or time-aligned channel schema is publicly exposed in the reviewed sources. Composite charts are not transcribed."
+source_citations = ["https://nrel.sitefinity.cloud/hydrogen/infrastructure-cdps-all", "https://www.osti.gov/servlets/purl/1076655"]
+
+[[candidates]]
+id = "h2-stations-api-v2-operational-signals"
+title = "Clean Hydrogen JU H2-Stations API v2"
+owner_or_originator = "Clean Hydrogen Joint Undertaking"
+source_url = "https://docs.h2-stations.eu/for-data-users/api-v2/"
+source_class = "licensed operational registry/status API; non-process data"
+reported_signals = ["station and dispenser/nozzle registry", "availability", "usage", "hydrogen storage", "pricing", "last-update timestamp"]
+access_blocker = "v2 endpoints require a personal bearer token; real-time status responses are point-in-time platform outputs and no per-fill trace endpoint or public historical event archive is documented."
+rights_blocker = "The official data-user documentation permits API/Excel data under CC BY 4.0 with attribution, but that license applies to registry/status information, not absent station instrumentation logs."
+integrity_blocker = "Operational usage/storage fields do not provide synchronized per-fill P/T/flow traces, sensor locations, calibration or high-rate sampling. Existing station-list workbook is separately cataloged and must not be presented as process validation."
+source_citations = ["https://docs.h2-stations.eu/for-data-users/", "https://docs.h2-stations.eu/for-data-users/api-v2/"]
+
+[[candidates]]
+id = "nrel-hystep-public-records"
+title = "HyStEP technical reports and design material"
+owner_or_originator = "Sandia National Laboratories / National Renewable Energy Laboratory / Powertech Labs"
+source_url = "https://h2tools.org/hystep-hydrogen-station-equipment-performance-device"
+source_class = "instrument description and report figures, not raw run export"
+reported_signals = ["70 MPa fill pressure and temperature instrumentation; communication and non-communication fill tests"]
+access_blocker = "Public pages contain test-device descriptions, design documents, code and selected report examples; no per-fill machine-readable measurement archive was located."
+rights_blocker = "The public record does not establish redistribution rights for underlying test-run measurements."
+integrity_blocker = "Published figures and narrative lack raw file list, checksums, sample clock and full run channel schema. No figure digitization is allowed."
+source_citations = ["https://h2tools.org/hystep-hydrogen-station-equipment-performance-device", "https://www.osti.gov/servlets/purl/1334563"]
+decision = "promising lead; blocked on source availability, file inventory, and explicit reuse rights"
+
+[[candidates]]
+id = "cal-state-la-hrff-records"
+title = "Cal State LA hydrogen station in-situ and multi-year operational records"
+owner_or_originator = "California State University, Los Angeles Hydrogen Research and Fueling Facility"
+source_urls = ["https://iris.unical.it/handle/20.500.11770/326609", "https://iris.unical.it/handle/20.500.11770/348868"]
+source_class = "measured station/refuelling operations described in research articles"
+reported_signals = ["pressure", "cooling response", "vehicle state of charge", "operational energy/performance"]
+access_blocker = "The university repository records report no associated downloadable data files. The source's underlying station records are not available as a machine-readable public attachment at the inspected repository pages."
+rights_blocker = "The underlying records have no separate reuse license. Article publication rights, including an article CC BY license where applicable, are not treated as a license for absent raw station logs."
+integrity_blocker = "No raw asset list, schema, checksums, or event-level data were available for inspection."
+decision = "do not ingest; use only as a rights/access request lead"
+
+[[candidates]]
+id = "nrel-h2fills-empirical-validation-data"
+title = "H2FillS empirical fueling profiles and validation inputs"
+owner_or_originator = "National Renewable Energy Laboratory and project partners"
+source_urls = ["https://www.nrel.gov/hydrogen/H2FillS", "https://www.nrel.gov/docs/libraries/hydrogen/h2fills-user-manual.pdf"]
+source_class = "proprietary simulation package with empirical validation background"
+reported_signals = ["simulated pressure", "simulated temperature", "simulated mass flow"]
+access_blocker = "Software download requires registration and acceptance of an end-user software license agreement. The reviewed distribution information describes simulation outputs, not a separable public raw empirical dataset."
+rights_blocker = "No open license for the underlying validation traces was found in the public NREL landing page/manual. The software license does not automatically authorize redistribution of empirical inputs."
+integrity_blocker = "No independent raw-data asset list, raw file checksums, or downloadable source trace was provided on the reviewed public page."
+decision = "model/tool alternative only; not an openly reusable raw validation dataset"
+
+[[candidates]]
+id = "nrel-hydrogen-secure-data-center"
+title = "NREL hydrogen station and vehicle raw-data program"
+owner_or_originator = "National Renewable Energy Laboratory Hydrogen Secure Data Center"
+source_urls = ["https://www.osti.gov/servlets/purl/1076655", "https://nrel.sitefinity.cloud/hydrogen/infrastructure-cdps-retail", "https://nrel.sitefinity.cloud/hydrogen/fuel-cell-electric-vehicle-cdps"]
+source_class = "industry-partner data repository with public composite data products"
+reported_signals = ["raw operational data held in secure repository", "public aggregate/composite station and vehicle metrics"]
+access_blocker = "NREL documentation describes raw industry-partner data as protected in the Hydrogen Secure Data Center; public CDPs are aggregated outputs, not raw station event files."
+rights_blocker = "The underlying raw records are partner-supplied and are not licensed for public raw redistribution. CDP/public-report reuse terms do not confer rights in the protected source logs."
+integrity_blocker = "Public CDPs report aggregated statistics or visualization products, not per-fill raw pressure/temperature/flow traces with source byte-level hashes."
+decision = "use public CDPs only for aggregate context; do not claim process-trace validation"
+
+[[candidates]]
+id = "nrel-high-flow-hd-fill-results"
+title = "DOE/NREL heavy-duty high-flow fueling experiments"
+owner_or_originator = "National Renewable Energy Laboratory / U.S. Department of Energy"
+source_urls = ["https://www.energy.gov/cmei/fuels/march-h2iq-hour-hydrogen-fuel-dispensing-medium-and-heavy-duty-vehicles-text-version", "https://www.energy.gov/documents/h2iqhour-03262024pdf"]
+source_class = "measured experimental work reported in a webinar transcript and slides"
+reported_signals = ["station and vehicle pressures", "tank temperatures", "mass flow rate", "fill duration", "total mass for selected demonstrations"]
+access_blocker = "The reviewed public release is a webinar text/PDF with summarized statistics and plotted trends, not a downloadable machine-readable raw time series."
+rights_blocker = "No separate raw-dataset license or file-level reuse declaration was found for the underlying experiment records."
+integrity_blocker = "Source file inventory, exact raw bytes, checksums, cadence, and schema are not exposed by the reviewed release."
+decision = "cite only as a future access lead; do not transcribe plot values"
+
+[[candidates]]
+id = "nist-transient-flow-facility"
+title = "NIST transient flow facility for hydrogen dispenser metrology"
+owner_or_originator = "National Institute of Standards and Technology"
+source_urls = ["https://www.nist.gov/programs-projects/transient-flow-facility"]
+source_class = "metrology facility and controlled transient-flow capability"
+reported_signals = ["transient pressure", "temperature", "instantaneous and totalized flow"]
+access_blocker = "The official project page describes the facility and measurement methods but does not expose a downloadable experiment dataset or file API."
+rights_blocker = "No experiment dataset license was identified because no raw dataset asset was published on the inspected page."
+integrity_blocker = "No public file inventory, version, checksums, time-series schema, or hydrogen refuelling run artifact was available for this audit."
+decision = "contact NIST as a potential metrology source; not a present open refuelling dataset"
+
+[[nonvalidating_alternatives]]
+id = "h2-stations-operational-metadata"
+url = "https://docs.h2-stations.eu/for-data-users/"
+license = "CC-BY-4.0"
+scope = "Station registry plus present operational signals such as availability, usage, storage and price where operators publish them; current v2 endpoints require personal token authentication."
+limit = "Signals do not expose per-fill pressure/temperature histories or dispense time series and cannot validate fueling physics."
+local_record = "research/data/h2-stations-hrs-inventory.toml"
+
+[[nonvalidating_alternatives]]
+id = "nrel-composite-data-products"
+url = "https://nrel.sitefinity.cloud/hydrogen/infrastructure-cdps-retail"
+license = "Publicly posted composite reports; no raw-log entitlement"
+scope = "Aggregated station deployment, reliability, performance and vehicle refuelling summaries, generally published as visual composite data products."
+limit = "Not individual event traces; no plot digitization or inferred raw values admitted. Useful for broad context only."
+
+[[nonvalidating_alternatives]]
+id = "hysam-hydrogen-fuel-sampling-measurements"
+url = "https://doi.org/10.5281/zenodo.20590842"
+license = "CC-BY-4.0 (dataset record; attribution required)"
+scope = "Three open measured workbooks for hydrogen fuel sampling systems, with instrument-labelled environmental/pressure/temperature observations. The local project already holds a checksum-bound v1.0 receipt and a narrow immutable workbook reader."
+limit = "Sampling-system test records are not dispenser-to-vehicle per-fill histories. Workbook channels lack a complete engineering-unit, sensor-location, calibration and common-run chronology dictionary; do not use as vehicle-fill model validation."
+local_record = "research/data/hysam-sampling-system.toml; docs/HYSAM_SAMPLING_DATA.md"
+
+[[nonvalidating_alternatives]]
+id = "afdc-station-inventory"
+url = "https://afdc.energy.gov/data_download"
+license = "Download terms must be reviewed for the selected product and snapshot"
+scope = "Station locations, status and attributes, with current or historical station-list extracts."
+limit = "No dispenser process time series. Useful for infrastructure inventory only."

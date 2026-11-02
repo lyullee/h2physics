@@ -1,0 +1,27 @@
+dataset = "cds-photo-screen"
+doi = "10.5281/zenodo.7056972"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "data_cloud.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "data_cloud.xlsx:TM@CdS"
+format = "xlsx"
+rows = 19
+columns = 21
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "TM@CdS", "Ef", "Eb", "Ec", "", "HSE25%", "d-Band Center(UP)", "d-Band Center(DOWN)", "d-Band-Center(Average)", "FERMI_ENERGY", "BG", "CBM", "VBM", "", "Ead", "H2S", "HS", "H2O", "OH", "H"]
+
+[[files.tables]]
+name = "data_cloud.xlsx:TM1-TM2@CdS"
+format = "xlsx"
+rows = 18
+columns = 16
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Ef", "Co", "Ru ", "Rh", "Pd", "Ag", "Pt", "", "", "∆GH", "Co", "Ru ", "Rh", "Pd", "Ag", "Pt"]

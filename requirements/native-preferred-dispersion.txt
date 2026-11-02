@@ -1,0 +1,8 @@
+# Reviewed native providers, installed separately from the host source distribution.
+# HyRAM+ is GPL-3.0-only; native SLABx packages are MIT. Read docs/PREFERRED_DISPERSION.md.
+# One compatible Python environment; no wire protocol or separate service is required.
+hyram==6.1
+scipy==1.16.3
+numpy>=1.26,<2.6
+slabx @ https://github.com/lyullee/slabx/archive/820e368ba6454aad8627dac5967115d9648c80c7.zip
+slabx-lh2 @ https://github.com/lyullee/slabx-lh2/archive/1ef613102819de1c2feebd062aff3b49997e1927.zip

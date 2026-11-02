@@ -1,0 +1,80 @@
+key = "hfcev-fleet-telemetry"
+title = "Factory-test and in-vehicle telemetry from a fleet of 100 hydrogen fuel-cell electric heavy-duty trucks (release v1.0)"
+doi = "10.5281/zenodo.23477229"
+version = "1.0"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/records/23477229"
+metadata_api_url = "https://zenodo.org/api/records/23477229"
+metadata_sha256 = "4f1dcfc3b614d0619ccfe3d3107d2b2b2566f1cdc68d3f9dd08b7366df25fa56"
+metadata_bytes = 10668
+metadata_capture = "HTTP 200 from the immutable Zenodo v1.0 record API; SHA-256 calculated over the exact 10,668-byte response on 2026-11-01; response not stored in Git or the raw-data cache."
+metadata_reviewed_at = "2026-11-01"
+authors = ["Yibao Sun", "Zongyuan Hang", "Peiyan Sun", "Shengyuan Xu", "Yiyan Sun", "Yanyan Xu", "Xiaokang Yang"]
+families = ["fuel_cell", "vehicle_telemetry", "hydrogen_consumption", "process_monitoring"]
+rights_permitted = true
+raw_redistribution_admitted = false
+license_scope = "Zenodo primary record text explicitly states the real-data release is CC BY 4.0; processing code is separately Apache-2.0. Only three small files needed for this adapter were acquired into gitignored data/raw; no GPS or full archives were acquired or included in the repository. Cite the record and creators when reusing the selected data."
+validation_qualified = false
+listed_file_count = 20
+listed_total_size_display = "983.5 MB"
+acquired_bytes = 2_383_383
+acquisition_status = "selected_cc_by_files_acquired_and_sha256_verified"
+model_linkage_status = "measured_h2_mass_observation_comparator"
+model_link_case = "hfcev-fleet-hydrogen-consumption-model-comparator"
+model_link_target = "h2physics.adapters.fuel_cell.FiniteFuelCell"
+model_link_scope = "A narrow source window uses the publisher's attributed restored H2 mass increments to compare against the aggregate hydrogen consumed by a current FuelCellTrace. It does not derive current density, stack area, state conditions, or fuel-cell parameters from vehicle telemetry. Caller-supplied evidence is required to align the receipt-time window with the model clock."
+missing_model_link_evidence = ["vehicle installation/service start for this V001 day", "device event-time mapping because only server receipt time is populated in the sample", "active cell area and stack operating-state mapping for reconstructing the model inputs", "tank pressure gauge/absolute basis and sensor calibration"]
+
+[[files]]
+name = "README.md"
+url = "https://zenodo.org/api/records/23477229/files/README.md/content"
+relative_path = "hfcev-fleet/1/README.md"
+size_bytes = 3599
+publisher_md5 = "c4af7a5fb1f5888dd20e20a1056eb913"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c4af7a5fb1f5888dd20e20a1056eb913"
+publisher_checksum_verified = true
+sha256 = "e49fb4dda0b5fe10e505c92f4c4a6b498b34b6470c321e0ac90abac6039c7787"
+status = "acquired_gitignored_raw"
+
+[[files]]
+name = "dictionary.csv"
+url = "https://zenodo.org/api/records/23477229/files/dictionary.csv/content"
+relative_path = "hfcev-fleet/1/dictionary.csv"
+size_bytes = 15472
+publisher_md5 = "0a7260b0128fcb6c61d80cfd756bc610"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0a7260b0128fcb6c61d80cfd756bc610"
+publisher_checksum_verified = true
+sha256 = "e3b7c99203d2d2988078e6fab0512c970df699cc437521108fafb44df44e0e75"
+status = "acquired_gitignored_raw"
+
+[[files]]
+name = "field_bits.csv"
+url = "https://zenodo.org/api/records/23477229/files/field_bits.csv/content"
+relative_path = "hfcev-fleet/1/field_bits.csv"
+size_bytes = 914
+publisher_md5 = "a42517be9762f2177c8512d1bca9a9c6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a42517be9762f2177c8512d1bca9a9c6"
+publisher_checksum_verified = true
+sha256 = "372b4b3285e12f51afe7d6dfebfa92659ae31eceea1f2020192ff52a4e2ee337"
+status = "acquired_gitignored_raw"
+
+[[files]]
+name = "sample_operation_V001_2025-12-23.csv"
+url = "https://zenodo.org/api/records/23477229/files/sample_operation_V001_2025-12-23.csv/content"
+relative_path = "hfcev-fleet/1/sample_operation_V001_2025-12-23.csv"
+size_bytes = 2363398
+publisher_md5 = "dea3bc817b59232931e4af6f40b7efaf"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "dea3bc817b59232931e4af6f40b7efaf"
+publisher_checksum_verified = true
+sha256 = "709cb310102649dce0b03553f532eace131c1a455f8dadf66be7d62bcd6fdec2"
+status = "acquired_gitignored_raw"
+
+[[sources]]
+url = "https://zenodo.org/records/23477229"
+description = "Official Zenodo v1.0 dataset record: CC BY 4.0 data reuse statement, publisher file names and checksums, sample schema, scope and caveats."

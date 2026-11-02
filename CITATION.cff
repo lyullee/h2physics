@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this software version and separately cite any scientific data/providers used."
+title: "h2physics: composable hydrogen facility and safety physics"
+version: 0.1.0
+date-released: 2026-11-02
+type: software
+authors:
+  - family-names: Lee
+    given-names: Ugwiyeon
+repository-code: "https://github.com/lyullee/h2physics"
+license: Apache-2.0
+keywords:
+  - hydrogen
+  - thermodynamics
+  - process safety
+  - scientific computing

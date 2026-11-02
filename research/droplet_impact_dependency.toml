@@ -1,0 +1,42 @@
+status = "implemented_unverified"
+scientific_execution = "deferred_by_user"
+new_installation = false
+impact_equations_owner = "Original host finite conservation/contact assembly; no native LH2 outcome correlation claimed"
+phase_owner = "Existing shared CoolPropProperties normal Hydrogen saturation states"
+root_owner = "Existing SciPy brentq, lazy inside model.run"
+pool_owner = "Existing separately installed dynamiclh2poolx 0.2.0rc2 MIT"
+pool_repository = "https://github.com/lyullee/DynamicLH2PoolX"
+pool_existing_reviewed_revision = "6a700e8e183039bbb81803bacc416f6c9117ed71"
+pool_revision_evidence = "Existing docs/NATIVE_POOL.md and docs/DEPENDENCIES.md installed-source review; actual API bytes re-read in this lane"
+pool_limit = "Spreading route rejects nonzero initial inventory; fixed-area supports it with separate prescribed substrate heat"
+native_impact_closure = "No qualified LH2 impact/outcome closure found in inspected existing native APIs; caller evidence required"
+bundled_native_source = false
+
+[[reviewed_files]]
+path = "src/h2physics/adapters/droplet_transport.py"
+sha256 = "b7690429c5afd453a974d37beed5d59e3209e2e101d57bc517e411f57bde28f6"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/dynamiclh2poolx/dynamic_fixed_area.py"
+sha256 = "f73dcb2ddbeb16e27b98600fdf6b1ee91c083602d8528e7e27eddc32d68bfc43"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/dynamiclh2poolx/dynamic_pool.py"
+sha256 = "4c2229f89bfc9d8ca25df7010905a6e2d42e893b8373f06c3cd5658be1b6b0bc"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/dynamiclh2poolx/inflow.py"
+sha256 = "e48527d39315167f2f1f03098725453133c16191eefd372fc733bbf76718dce6"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/dynamiclh2poolx/__init__.py"
+sha256 = "e9980ba436db5ce32f2214397319f6fa44d724d5cda8a14e1588979620e34ef6"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/dynamiclh2poolx-0.2.0rc2.dist-info/METADATA"
+sha256 = "c329578f2d16dfe560ae5664c76a3f636af256d64ca38d8c27c7750226aeffe6"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/dynamiclh2poolx-0.2.0rc2.dist-info/licenses/LICENSE"
+license_id = "MIT"
+sha256 = "d4da9d4088d160b99c207cc1daf5e7b678931226af2eab00a3288069b35d5ad4"

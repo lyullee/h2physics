@@ -1,0 +1,42 @@
+key = "dark-fermentation"
+title = "Raw data"
+doi = "10.17632/2nwcdx9hst.2"
+version = "2"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "http://creativecommons.org/licenses/by/4.0"
+metadata_url = "https://data.mendeley.com/public-api/datasets/2nwcdx9hst/snapshot/2"
+metadata_sha256 = "887b80088dfb7b635690fa3150171c953621b9863b11a0f9e44ab45075af6811"
+retrieved_at_utc = "2026-10-26T15:15:43.401671+00:00"
+authors = ["Roberto Hernández"]
+families = ["biological", "fermentation"]
+rights_permitted = true
+license_scope = "Mendeley metadata declares CC BY 4.0 for the deposited version-2 workbook. Attribute Roberto Hernández and DOI. The grant is not treated as permission to redistribute the associated article, third-party material or software. Raw workbook redistribution is not admitted by this repository."
+raw_redistribution_admitted = false
+third_party_component_rights_reviewed = false
+validation_qualified = false
+model_linkage_status = "blocked_gas_basis_and_process_state_gap"
+candidate_existing_model = "h2physics.adapters.biological.QsdSanAdm1Digester"
+model_linkage_admitted = false
+missing_model_link_evidence = ["BP gas volume reference pressure and temperature", "gas wet/dry and composition basis used for volume fractions", "whether reported H2 fraction is volume or molar fraction and its sampling/averaging alignment with BP", "gas collection method, calibration, blank correction and whether rate is standard or actual volume", "Duration day-zero, sample cadence and relation to feed/harvest/fault events", "reactor working liquid/headspace volumes and run-specific configuration", "substrate/COD feed composition, biomass/inoculum inventory and initial state", "R reactor independence/replicate conditions and shared forcing"]
+metadata_contract_case = "dark-fermentation-h2-process-model-link-gap"
+author_request = "requests/dark_fermentation_gas_basis_request.md"
+listed_file_count = 1
+acquired_bytes = 165296
+omitted_files = []
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/2nwcdx9hst/files?folder_id=root&version=2&$start=0&$limit=1000"
+sha256 = "4865f7866a13c432e5e6723e8464f429f1ce81d918cc3063796d037b4645f040"
+
+[[files]]
+name = "Raw data.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/2nwcdx9hst/files/27501bcb-319e-463c-a7b4-76f39027b3c7/file_downloaded"
+relative_path = "dark-fermentation/2/Raw data.xlsx"
+size_bytes = 165296
+sha256 = "f13352e6ae633878aa7cf47a9b7d79f859ad815cda24000c11f04abf32b60729"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "f13352e6ae633878aa7cf47a9b7d79f859ad815cda24000c11f04abf32b60729"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

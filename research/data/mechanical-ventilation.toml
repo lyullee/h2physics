@@ -1,0 +1,102 @@
+key = "mechanical-ventilation"
+title = "Efficiency of mechanical ventilation on H2 dispersion (PS)"
+doi = "10.5281/zenodo.4668554"
+version = "4668554"
+origin = "measured"
+source_updated_at = ""
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/4668554"
+metadata_sha256 = "1303c2c89b570462fbbffda6116369955a90005f473806bf252db2df200a262b"
+retrieved_at_utc = "2026-10-26T22:41:26.222309+00:00"
+authors = ["Grune, Joachim", "Sempert, Karsten"]
+families = ["ventilation", "dispersion"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 7
+acquired_bytes = 12091755
+omitted_files = []
+
+[[files]]
+name = "HTE2440PS005FLMT00300321.xlsx"
+url = "https://zenodo.org/api/records/4668554/files/HTE2440PS005FLMT00300321.xlsx/content"
+relative_path = "mechanical-ventilation/4668554/HTE2440PS005FLMT00300321.xlsx"
+size_bytes = 26724
+sha256 = "bdb623e84b3cdc9d67884703762051d40c42e02bbe294df3de97ea062c45cc8a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c4b9195a2bb89213eda9aa2ac9e9ec07"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "HTE2440PS003MIXED_300321.xlsx"
+url = "https://zenodo.org/api/records/4668554/files/HTE2440PS003MIXED_300321.xlsx/content"
+relative_path = "mechanical-ventilation/4668554/HTE2440PS003MIXED_300321.xlsx"
+size_bytes = 50590
+sha256 = "3da08f225b7de2febe9e1772ebd25bc76716d857896cc7c3704644fcc9e43a5d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "953b6a033553288831b1ee02b881dbec"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "HTE2440PS001MIXED_300321.xlsx"
+url = "https://zenodo.org/api/records/4668554/files/HTE2440PS001MIXED_300321.xlsx/content"
+relative_path = "mechanical-ventilation/4668554/HTE2440PS001MIXED_300321.xlsx"
+size_bytes = 52610
+sha256 = "9f4020c343e95e6488040a4910cab4bc4827f1c4d0d87e702708bdba219d5d4d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "da176772755b1a2449a76df9e12b9cd3"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "HTE2440PS002MIXED_300321.xlsx"
+url = "https://zenodo.org/api/records/4668554/files/HTE2440PS002MIXED_300321.xlsx/content"
+relative_path = "mechanical-ventilation/4668554/HTE2440PS002MIXED_300321.xlsx"
+size_bytes = 65696
+sha256 = "2963211747ef6c5fec33d1b850ea249eb0aa69ed7c09f730d9a8613d3206fcd6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "20f996be57fc3d8cf7d091d1f982bd75"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "HTE2440PS004MIXED_300321.xlsx"
+url = "https://zenodo.org/api/records/4668554/files/HTE2440PS004MIXED_300321.xlsx/content"
+relative_path = "mechanical-ventilation/4668554/HTE2440PS004MIXED_300321.xlsx"
+size_bytes = 81649
+sha256 = "4229ebb875b70ab08a08456ad465cb286bda6a559a4df984979531f7637a954f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "093d3d8e6ef030615704ee9096d3d84f"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "HTE2440PS000MIXED_300321.pdf"
+url = "https://zenodo.org/api/records/4668554/files/HTE2440PS000MIXED_300321.pdf/content"
+relative_path = "mechanical-ventilation/4668554/HTE2440PS000MIXED_300321.pdf"
+size_bytes = 706086
+sha256 = "3bb5f88b7363f671b50bd50765ec2e4b7fcdde61c2819409b1841d452d9861b1"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d4b59189dd4017c695cc652f4f572128"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE2440PS006MIXED_300321.zip"
+url = "https://zenodo.org/api/records/4668554/files/HTE2440PS006MIXED_300321.zip/content"
+relative_path = "mechanical-ventilation/4668554/HTE2440PS006MIXED_300321.zip"
+size_bytes = 11108400
+sha256 = "af40c6259b93c78b3db9ce2de4041136a09a094b389362b596591b592f94abee"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ade3911c0df50ee70486153455f4bd12"
+publisher_checksum_verified = true
+status = "cached"
+error = ""

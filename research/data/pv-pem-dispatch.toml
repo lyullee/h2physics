@@ -1,0 +1,39 @@
+key = "pv-pem-dispatch"
+title = "Dataset for Coordinated Optimization of a PV-Driven PEM Electrolyzer Array"
+doi = "10.5281/zenodo.22900353"
+version = "22900353"
+origin = "mixed"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/22900353"
+metadata_sha256 = "7cd0746315b8d26d9a7bcf0e370ac840e153c198d5e15fb53e9396eeae413a56"
+retrieved_at_utc = "2026-10-26T15:59:43.261474+00:00"
+authors = ["GAO XIANG"]
+families = ["electrolysis", "solar"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 47443
+omitted_files = []
+model_linkage_status = "not_admitted_figure_reconstruction_and_dispatch_outputs"
+model_link_target = "h2physics.adapters.pv_electrolysis.PVElectrolysis.run"
+model_link_case = "pv-pem-dispatch-figure-output-model-linkage-gap"
+model_link_scope = "The archived time series are manuscript figure reconstructions and dispatch-model outputs; they are not source measurements for the existing pvlib plus HydrogenStack boundary."
+missing_model_link_evidence = ["measured effective irradiance and its optical/spectral/soiling basis", "PV module and array electrical parameters with layout", "PV cell temperature observations", "electrolyzer stack temperature/current/voltage measurements matched to the same clock", "boundary and provenance for reported cumulative H2 traces", "uncertainty and row-level measured-versus-simulated lineage"]
+
+[schema_audit]
+state = "archive_member_names_and_csv_headers_reviewed"
+inspection = "The small source ZIP contains manuscript figure CSV/XLSX outputs, including reconstructed photovoltaic power, operating-state durations, strategy-specific power curves and cumulative-H2 traces."
+limitations = "Figure reconstructions and dispatch results are not independent source measurements. They do not provide the measured irradiance/cell-temperature/stack-state knots required by the existing PVElectrolysis API; no physical fit or validation is admitted."
+
+[[files]]
+name = "Manuscript_Figure3-10_Data.zip"
+url = "https://zenodo.org/api/records/22900353/files/Manuscript_Figure3-10_Data.zip/content"
+relative_path = "pv-pem-dispatch/22900353/Manuscript_Figure3-10_Data.zip"
+size_bytes = 47443
+sha256 = "2fb59438156bd9ccfd8caad6e9540dd68648ffa08816a5c2eedde0043be96b39"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "266ec551f81013bb168a68fb7f132f84"
+publisher_checksum_verified = true
+status = "cached"
+error = ""

@@ -1,0 +1,419 @@
+dataset = "geological-adsorption"
+doi = "10.5281/zenodo.19695751"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "submission_package FIN.zip"
+format = "zip"
+archive_members = 130
+numeric_members = 49
+program_members_not_executed = 18
+
+[[files.tables]]
+name = "submission_package FIN/06_validation/validation_uptake_diff.csv"
+format = "delimited"
+rows = 6
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["ExperimentID", "P_fin_bar", "T_K", "m_g", "V_tot_L", "Z_H2_polynomial", "dP_corrected_mbar", "q_recomputed_mmol_per_g"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/he_blank/he_blank_campaigns.csv"
+format = "delimited"
+rows = 71
+columns = 6
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["gas", "campaign", "Pini_bar", "Pfin_bar", "deltaP_mbar", "T_K"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/h2_adsorption/mof177_h2_run107.csv"
+format = "delimited"
+rows = 881
+columns = 18
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["time", "differential pressure (mbar)", "absolute pressure (bar)", "t1", "t2", "t3", "T_C", "T_K", "P_bar", "P_Pa", "z_h2", "u_z_h2", "dz_h2_dP_1Pa", "dz_h2_dT_1K", "u_T_K", "z_h2_mc_mean", "u_z_h2_mc", "u_rel_z_h2_percent"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/h2_adsorption/mof177_he_run100.csv"
+format = "delimited"
+rows = 725
+columns = 18
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["time", "differential pressure (mbar)", "absolute pressure (bar)", "t1", "t2", "t3", "T_C", "T_K", "P_bar", "P_Pa", "z_he", "u_z_he", "dz_he_dP_1Pa", "dz_he_dT_1K", "u_T_K", "z_he_mc_mean", "u_z_he_mc", "u_rel_z_he_percent"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/h2_adsorption/mof177_h2_combined.csv"
+format = "delimited"
+rows = 54
+columns = 7
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["PRESSURE", "SAMPLE", "METHOD", "Z HE", "Z H2", "UPTAKE mmol/g", "UNCERTAINTY mmol/g"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/h2_adsorption/laponite_h2_combined.csv"
+format = "delimited"
+rows = 54
+columns = 24
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["PRESSURE", "SAMPLE", "METHOD", "Z HE", "Z H2", "UPTAKE mmol/g", "UNCERTAINTY mmol/g", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/h2_adsorption/kunipia_h2_dualcell.csv"
+format = "delimited"
+rows = 6
+columns = 1
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["P_final_bar,uptake_corr_mmol_g,u_abs_mmol_g"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/h2_adsorption/cox_h2_combined.csv"
+format = "delimited"
+rows = 30
+columns = 7
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["PRESSURE", "SAMPLE", "METHOD", "Z HE", "Z H2", "UPTAKE mmol/g", "UNCERTAINTY mmol/g"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/h2_adsorption/laponite_h2_measurements.csv"
+format = "delimited"
+rows = 209
+columns = 10
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["SAMPLE", "Pressure (bar)", "UPTAKE  (%)", "mmol/g", " Uncertainty mmol/g", "instrument_id", "instrument_run_id", "instrument_category", "measurement_principle", "dataset_role"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/h2_adsorption/adsorption_data_with_uncertainties.csv"
+format = "delimited"
+rows = 9
+columns = 1
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["ExperimentID,Gas,MeasurementType,P1_bar,P2_bar,DeltaP_mbar_measured,DeltaP_He_recalc_mbar,DeltaP_He_minus_H2_mbar,T2_degC,T3_degC,T2_K,T3_K,Mean_T_K,SampleMass_g,ReservoirVolume_L,SampleVolume_L,Unc_absP_bar,Unc_diffP_bar,Unc_T_K,Unc_m_g,Unc_ReservoirVolume_L,DeltaP_HeH2_offset_bar,Unc_P_bar_row,Unc_Vr_L_row,Unc_Vs_L_row,Unc_T_K_row,Unc_m_g_row"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/h2_adsorption/kunipiaf_pressure_raw.csv"
+format = "delimited"
+rows = 17
+columns = 1
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["condition,hydration_percent,gas,date,p1_bar,p2_bar,dp_mbar"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/h2_adsorption/kunipia_h2_uptake_uncertainty.csv"
+format = "delimited"
+rows = 42
+columns = 10
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Pe (bar)", "na (mmol/g)", "u_na_total (mmol/g)", "dna/dP (mol/g/bar)", "uP (bar)", "Z (inventory)", "u_na_pressure (mol/g)", "u_na_vol (mol/g)", "u_na_mass (mol/g)", "u_na_temp (mol/g)"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/h2_adsorption/mof177_literature_comparison.csv"
+format = "delimited"
+rows = 28
+columns = 3
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["", "Ptot 1  (bar)", "Uptake"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/nitrogen_physisorption/pore_size_distribution.csv"
+format = "delimited"
+rows = 356
+columns = 3
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["SAMPLE", "Pore Width (nm)", "dV/dW Pore Volume (cm³/g·nm)"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/commercial_instrument_comparison/kunipia_B_h2.xlsx:Sheet1"
+format = "xlsx"
+rows = 68
+columns = 8
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["File Name", "UniGrenoble_Kunipia_H2_25C.DAT", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/commercial_instrument_comparison/kunipia_D.csv"
+format = "delimited"
+rows = 84
+columns = 14
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Pfin (bar)", "u_instr (mmol/g)", "u_from_incremental (mmol/g)", "sigma_n_point (mol)", "sigma_u_from_n (mmol/g)", "sigma_u_from_m (mmol/g)", "sigma_u_total (mmol/g)", "2sigma_u / 95CI (mmol/g)", "LOD (mmol/g)", "LLOQ (mmol/g)", "signal_over_LOD", "signal_over_LLOQ", "detectable_u>=LOD", "quantifiable_u>=LLOQ"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/commercial_instrument_comparison/D_kunipia.csv"
+format = "delimited"
+rows = 84
+columns = 11
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Pfin  H 2", "Z  (HELMHOLTZ)", "UNC IN Z", "unc in pressure", "T", "unc in T (k)", "uptake mmol/g", "incremental uptake in mol", "p ini H2", "COMBINED STANDARD UNCERTAINTY (mol)", "95 % conf.interval (2 sigma) (mmol/g)"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/commercial_instrument_comparison/D_laponite.csv"
+format = "delimited"
+rows = 77
+columns = 10
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Pfin  H 2 ", "Z  (HELMHOLTZ)", "UNC IN Z", "unc in pressure", "T ", "unc in T (k)", "uptake mmol/g", "incremental uptake in mol", "p ini H2", "COMBINED STANDARD UNCERTAINTY (mol)"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/commercial_instrument_comparison/kunipia_A.csv"
+format = "delimited"
+rows = 84
+columns = 5
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["SAMPLE", "Pressure (bar)", "UPTAKE  (%)", "mmol/g", "Uncertainty (mmol/g)"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/commercial_instrument_comparison/kunipia_lloq_master.csv"
+format = "delimited"
+rows = 216
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["sample", "instrument", "pressure_bar", "uptake_mmol_g", "sigma_mmol_g", "LOD_mmol_g", "LLOQ_mmol_g", "instrument_id", "instrument_run_id", "instrument_category", "measurement_principle", "dataset_role"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/commercial_instrument_comparison/kunipia_B_alt.xlsx:Kunipia_CH4_25C"
+format = "xlsx"
+rows = 1048576
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["File Name", "UniGrenoble_Kunipia_new_CH4_25C_600s.DAT", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/commercial_instrument_comparison/kunipia_B_h2.csv"
+format = "delimited"
+rows = 67
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["File Name", "UniGrenoble_Kunipia_H2_25C.DAT", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/commercial_instrument_comparison/kunipia_B_alt.csv"
+format = "delimited"
+rows = 42
+columns = 10
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Pe (bar)", "na_export (mmol/g)", "U95 (mmol/g)", "u_pressure (mmol/g)", "u_mass (mmol/g)", "u_temp (mmol/g)", "u_vol (mmol/g)", "dna_dP (mol/g/bar)", "uP (bar)", ""]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/commercial_instrument_comparison/kunipia_B_helmholtz_lloq_results.csv"
+format = "delimited"
+rows = 42
+columns = 16
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Pini (bar)", "Pfin (bar)", "Zini", "Zfin", "u_Zini", "u_Zfin", "u_cum_model (mmol/g)", "u_cum_instr (mmol/g)", "sigma_u_cum (1σ)", "2sigma_u", "LOD", "LLOQ", "signal_over_LOD", "signal_over_LLOQ", "detectable_u>=LOD", "quantifiable_u>=LLOQ"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/commercial_instrument_comparison/kunipia_D_.xlsx:Sheet2"
+format = "xlsx"
+rows = 318
+columns = 45
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "H2", "Pfin  H 2 ", "Z  (HELMHOLTZ)", "UNC IN Z", "unc in pressure", "T ", "unc in T (k)", "uptake mmol/g", "incremental uptake in mol", "p ini H2", "sensitivity in p ini", "sensitivity p fin", "v1", "v free", "V cold", "V warm", "Zf", "T eff", "Tm ", "Tm", "Teff", "Z", "v free", "v1", "V cold", "V warm", "p fin", "p ini", "", "95 % conf.interval (2 sigma) (mmol/g)", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/h2_z_uz_coolprop_298p15k.csv"
+format = "delimited"
+rows = 42
+columns = 6
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["P_bar", "T_K", "Z_H2", "u_Z_H2", "dZ_dP_per_bar", "dZ_dT_per_K"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/z_helmholtz_results.csv"
+format = "delimited"
+rows = 77
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Pressure_bar", "Z_Helmholtz"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/z_helmholtz_with_uncertainty.csv"
+format = "delimited"
+rows = 77
+columns = 3
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Pressure_bar", "Z_Helmholtz", "sigma_Z"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/z_rk_h2.csv"
+format = "delimited"
+rows = 84
+columns = 3
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["P_bar", "T_K", "Z_RK"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/z_rk_h2_with_uncertainty.csv"
+format = "delimited"
+rows = 84
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["P_bar", "T_K", "Z_RK", "sigma_Z_RK"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/cox_z_table_all_methods.csv"
+format = "delimited"
+rows = 30
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["PRESSURE", "TEMPERATURE", "SAMPLE", "METHOD", "Z HE", "Z H2", "sigma_Z_HE", "sigma_Z_H2"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/h2_z_results_pt.csv"
+format = "delimited"
+rows = 0
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Pressure_bar", "Temperature_K", "Z", "uZ_1sigma", "rel_uZ_percent", "uP_bar", "uT_K", "u_rho_rel"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/h2_z_for_two_columns_samet.csv"
+format = "delimited"
+rows = 6
+columns = 14
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["idx", "P1_bar", "P2_bar", "T_K", "Z1", "uZ1_1sigma", "rel_uZ1_percent", "Z2", "uZ2_1sigma", "rel_uZ2_percent", "uP1_bar", "uP2_bar", "uT_K", "u_rho_rel"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/laponite_eos_corrected.csv"
+format = "delimited"
+rows = 24
+columns = 3
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["PRESSURE", "METHOD", "UPTAKE mmol/g"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/calc_steels_uptake.xlsx:main calc"
+format = "xlsx"
+rows = 146
+columns = 25
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Uptake * SQRT((Delta_P_Uncertainty / Delta_P)^2 + (Reservoir_Uncertainty / Reservoir_Volume)^2 + (Sample_Volume_Uncertainty / Sample_Volume)^2 + (Temperature_Uncertainty / Temperature)^2+(Mass uncertainty/mass of the sample)^2)", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/he_floor_publication.xlsx:He_Blank_Residuals"
+format = "xlsx"
+rows = 42
+columns = 6
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Run", "P_fin [bar]", "dP_measured [mbar]", "dP_predicted [mbar]", "Residual [mbar]", "Centered residual [mbar]"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/he_floor_publication.xlsx:H2_Uptake"
+format = "xlsx"
+rows = 31
+columns = 11
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Run", "P_ini [bar]", "P_fin [bar]", "T [K]", "Z(H2)", "dP_measured [mbar]", "dP_He_predicted [mbar]", "dP_HeH2 [mbar]", "Uptake_Z [mmol/g]", "Uptake_ideal [mmol/g]", "Z_correction [%]"]
+
+[[files.tables]]
+name = "submission_package FIN/01_raw_data/eos_sensitivity/he_floor_publication.xlsx:Floor_Summary"
+format = "xlsx"
+rows = 16
+columns = 2
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Parameter", "Value"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/figure_main/fig5_data.csv"
+format = "delimited"
+rows = 24
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["P_bar", "sample", "q_mmol_per_g", "u_q_mmol_per_g"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/figure_main/fig6_data.csv"
+format = "delimited"
+rows = 108
+columns = 7
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["P_bar", "sample", "eos", "Z_He", "Z_H2", "q_mmol_per_g", "u_q_mmol_per_g"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/figure_main/fig2_data.csv"
+format = "delimited"
+rows = 71
+columns = 6
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["gas", "campaign", "P_ini_bar", "P_fin_bar", "dP_mbar", "T_K"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/figure_main/fig3_data.csv"
+format = "delimited"
+rows = 209
+columns = 10
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["P_bar", "sample", "instrument", "instrument_id", "instrument_run_id", "instrument_category", "measurement_principle", "dataset_role", "q_mmol_per_g", "u_q_mmol_per_g"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/figure_main/fig4_data.csv"
+format = "delimited"
+rows = 216
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["sample", "instrument", "P_bar", "q_mmol_per_g", "sigma_mmol_per_g", "LOD_mmol_per_g", "LLOQ_mmol_per_g", "instrument_id", "instrument_run_id", "instrument_category", "measurement_principle", "dataset_role"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/figure_supplementary/figS2_data.csv"
+format = "delimited"
+rows = 41
+columns = 5
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["campaign", "P_bar", "dP_mbar", "dP_he_fit_mbar", "residual_mbar"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/figure_supplementary/figS1_data.csv"
+format = "delimited"
+rows = 666
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["sample", "branch", "P_over_P0", "q_mmol_per_g"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/tables/tableS5_he_residual_statistics.csv"
+format = "delimited"
+rows = 5
+columns = 5
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["campaign", "n", "bias_mbar", "sigma_mbar", "rmse_mbar"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/tables/tableS6_baseline_model_comparison.csv"
+format = "delimited"
+rows = 2
+columns = 12
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["model", "a2_mbar_per_bar2", "sigma_a2", "a1_mbar_per_bar", "sigma_a1", "a0_mbar", "sigma_a0", "R2", "RMSE_mbar", "AIC", "F_vs_linear", "delta_AIC_vs_linear"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/tables/tableS7_bootstrap_thresholds.csv"
+format = "delimited"
+rows = 4
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["statistic", "estimate", "ci_lo_95", "ci_hi_95"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/tables/tableS8_pressure_dependent_thresholds.csv"
+format = "delimited"
+rows = 6
+columns = 5
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["P_bar", "Z_H2", "K_mmol_per_g_per_mbar", "LOD_mmol_per_g", "LLOQ_mmol_per_g"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/tables/table3_lod_lloq.csv"
+format = "delimited"
+rows = 7
+columns = 14
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["sample", "m_g", "P_bar", "Z_H2", "sigma_U_mmol_per_g", "LOD_mmol_per_g", "LLOQ_mmol_per_g", "instrument", "source", "instrument_id", "instrument_run_id", "instrument_category", "measurement_principle", "dataset_role"]
+
+[[files.tables]]
+name = "submission_package FIN/02_processed_data/tables/table4_textural_h2_summary.csv"
+format = "delimited"
+rows = 4
+columns = 8
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["sample", "BET_m2_per_g", "V_micro_cm3_per_g", "V_tot_cm3_per_g", "mean_pore_nm", "q_100bar_mmol_per_g", "u_q_100bar_mmol_per_g", "source"]

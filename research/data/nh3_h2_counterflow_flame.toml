@@ -1,0 +1,112 @@
+dataset_id = "nh3-h2-counterflow-flame"
+title = "Dataset: Flame chemistry and stability of ammonia counterflow diffusion flames: Effects of hydrogen addition and oxygen enrichment"
+provider = "RADAR4KIT / KITopen"
+doi = "10.35097/bnpe6n1ppv92yjw4"
+record_url = "https://publikationen.bibliothek.kit.edu/1000197646"
+license = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_snapshot_member = "10.35097-bnpe6n1ppv92yjw4/data/descriptive-md/dataset.desc_md.xml"
+metadata_sha256 = "2414af23c32dc4af163f30440ff52d8e3c393652d6af209af07d8a5557f843fe"
+metadata_format = "RADAR4KIT descriptive XML retained inside the pinned BagIt archive"
+rights_permitted = true
+rights_decision_basis = "Host research use under the dataset's explicit CC BY 4.0 declaration, retaining source creators, DOI, version and attribution; no blanket file-level redistribution clearance"
+raw_redistribution_admitted = false
+license_evidence = "KITopen dataset record and RADAR4KIT descriptive metadata explicitly declare CC BY 4.0"
+status = "acquired locally; BagIt payload hashes verified; workbook schemas audited; no model comparison"
+origin = "measured"
+model_family = "combustion.laminar_flame"
+applicability = "NH3/H2 opposed-flow diffusion flames; transfer validation for hydrogen differential diffusion and chemistry, not pure-H2 flame validation"
+documented_observables = [
+  "extinction strain rate",
+  "axial temperature profile",
+  "spatially resolved OH*, NH*, NH2*, and NO* diagnostics",
+  "selected in-flame NH3, H2, and NO mole-fraction profiles",
+]
+documented_conditions = "Hydrogen addition and oxygen enrichment; workbook headers report mole fractions, millimetres/centimetres, kelvin, volume percent, normalized optical intensity and inverse seconds"
+limitations = [
+  "Experimental comparisons have not been performed",
+  "Excited-species signals are diagnostics and must not be treated as absolute mole fractions without the source calibration",
+  "Dataset does not establish a pure-H2 counterflow flame validation",
+  "Mechanism licensing and compatibility are independent of the dataset license",
+]
+primary_article_doi = "10.1016/j.fuel.2026.141356"
+retrieved_date = "2026-10-29"
+archive_version = 1
+archive_url = "https://radar.kit.edu/radar-backend/archives/bnpe6n1ppv92yjw4/versions/1/content"
+archive_format = "BagIt TAR stream"
+archive_local_filename = "radar4kit-bagit.tar"
+archive_bytes = 785920
+archive_sha256 = "8b905fe6653c2c526301f050883ec271eee5d85df73797faf85f0c45c4b729db"
+archive_payload_file_count = 8
+verified_payload_file_count = 8
+audited_workbook_count = 5
+audited_worksheet_count = 9
+tracked_raw_storage = "data/raw/nh3-h2-counterflow-flame/ (git-ignored)"
+reader_api = "h2physics.data.counterflow_flame"
+reader_status = "implemented_unverified; first full ingestion worker was stopped for no progress, row-stream optimization added and awaiting a new pinned run"
+reader_profiles = [
+  "load_extinction_strain_rates: 8 measurements",
+  "load_temperature_profiles: 9 paired profiles",
+  "load_inflame_species_profiles: 12 profiles in 4 conditions",
+  "load_normalized_optical_profiles: 60 normalized intensity profiles",
+  "load_optical_band_integrals: 3 normalized spatial signal series",
+  "load_optical_spectra: 3 wavelength signal series",
+]
+
+creators = [
+  "Hülsmann, Hanna",
+  "Kretzler, Daniel",
+  "Bauer, Florian J.",
+  "Habisreuther, Peter",
+  "Braeuer, Phillipp A. B.",
+  "Stelzner, Björn",
+  "Will, Stefan",
+  "Trimis, Dimosthenis",
+  "Hagen, Fabian P.",
+]
+next_steps = [
+  "Review the article and technical metadata to resolve apparatus, inlet flows and uncertainty for case mapping",
+  "Extend source-bound readers to temperature and composition profiles while preserving the multi-row condition schema",
+  "Build a case-level mapping from measured inlet fluxes and compositions to Cantera boundary inputs only when source evidence supplies them",
+  "Compare extinction strain and temperature profiles first; keep chemiluminescence comparisons separate from species concentration",
+]
+
+[[workbooks]]
+name = "Extinction Strain Rates.xlsx"
+bytes = 9685
+sha256 = "39c5dc653c0f123f91cdf00ccadb031ba9ed5df587b68c54511098109bb88d35"
+worksheets = ["Extinction Strain Rates"]
+shape = "14 rows x 3 columns; eight measurement rows, one header and five blank rows"
+schema_notes = "Flat numeric xO2, xH2 and extinction-strain-rate columns; fuel/oxidizer flow rates, apparatus and uncertainty mapping are not in this table"
+
+[[workbooks]]
+name = "Temperature Data.xlsx"
+bytes = 26629
+sha256 = "9d058ae9f639e096915cf07ddc68198c72fe06ec50dac0c9db9e206c83fa1389"
+worksheets = ["Temperature Profiles"]
+shape = "170 rows x 19 columns"
+schema_notes = "Condition metadata spans the first two rows; temperature is stored as nine adjacent position/value pairs with uneven profile lengths"
+
+[[workbooks]]
+name = "In-flame species profiles of H2, NH3, and NO.xlsx"
+bytes = 16079
+sha256 = "920c837d095603af599cafd59e6dd148ce29ab59aa50602dd9fe3497e7851198"
+worksheets = ["Tabelle1"]
+shape = "45 rows x 14 columns"
+schema_notes = "Five condition rows precede one coordinate/species header and four groups of H2, NH3 and NO profiles; reported volume percent is retained as supplied"
+
+[[workbooks]]
+name = "Normalized intensity profiles of NHX, NOX, OHX, and Vis.xlsx"
+bytes = 513593
+sha256 = "b038d513a4b613b477c44f9c38e6882a88234bcd4f8995b04d6a6b2ec5b8548c"
+worksheets = ["NHX", "NOX", "OHX", "Vis"]
+shape = "546 rows x 17 or 18 columns per worksheet"
+schema_notes = "Multi-row condition labels and normalized optical intensities; these are not absolute species mole fractions"
+
+[[workbooks]]
+name = "UV emission spectrograph spectra and band integrals.xlsx"
+bytes = 199814
+sha256 = "547b2b9886cd22e58758944032a52648ae20f10c28437c2bc3424b8e0e1a8236"
+worksheets = ["Band Integrals", "Spectra"]
+shape = "74x17 and 2050x15"
+schema_notes = "Optical spectral and integral diagnostics; calibration/response functions are not reconstructed by this project"

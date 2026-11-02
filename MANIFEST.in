@@ -1,0 +1,22 @@
+include LICENSE NOTICE AGENTS.md README.md README_KO.md pyproject.toml
+include .gitattributes
+recursive-include src/h2physics *.py
+recursive-include docs *.md
+recursive-include requests *.md
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include research *.md *.toml
+exclude research/release_audit.md
+recursive-include requirements *.txt
+recursive-include examples *.py
+recursive-include validation *.py
+prune validation/results
+prune data
+prune artifacts
+prune .venv
+prune .git
+global-exclude __pycache__ *.pyc *.pyo *.part-* *.pdf *.xlsx *.mat *.zip *.npz
+
+include CITATION.cff CHANGELOG.md
+prune research/data/payload
+global-exclude *.jpg *.jpeg *.tif *.tiff

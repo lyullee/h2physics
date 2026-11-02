@@ -1,0 +1,593 @@
+dataset = "pressure-unignited"
+doi = "10.23642/usn.17932439.v1"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "Readme_Hydrogen safety- Pressure Peaking Phenomena-unignited releases.docx"
+format = "docx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "File handling guide.docx"
+format = "docx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "HTE242USN00003CON190621.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE242USN00003CON190621.xlsx:Sheet1"
+format = "xlsx"
+rows = 550
+columns = 17
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Device ID", "Factory Device ID", "Firmware", "Measurement mode", "Speed", "Sensitivity", "TC Transfer", "AH1", "AH2", "AH3", "Y_AH_Cal (-)", "TF_Cal (V/W)", "Temp_Cal (ｰC)", "Gain", "", "", ""]
+
+[[files]]
+name = "HTE242USN00002CONC190621.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE242USN00002CONC190621.xlsx:Sheet1"
+format = "xlsx"
+rows = 756
+columns = 17
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Device ID", "Factory Device ID", "Firmware", "Measurement mode", "Speed", "Sensitivity", "TC Transfer", "AH1", "AH2", "AH3", "Y_AH_Cal (-)", "TF_Cal (V/W)", "Temp_Cal (ｰC)", "Gain", "", "", ""]
+
+[[files]]
+name = "HTE242USN00008CON190621.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE242USN00008CON190621.xlsx:Sheet1"
+format = "xlsx"
+rows = 2674
+columns = 17
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Device ID", "Factory Device ID", "Firmware", "Measurement mode", "Speed", "Sensitivity", "TC Transfer", "AH1", "AH2", "AH3", "Y_AH_Cal (-)", "TF_Cal (V/W)", "Temp_Cal (ｰC)", "Gain", "", "", ""]
+
+[[files]]
+name = "HTE242USN00006CON190621.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE242USN00006CON190621.xlsx:Sheet1"
+format = "xlsx"
+rows = 5624
+columns = 17
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Device ID", "Factory Device ID", "Firmware", "Measurement mode", "Speed", "Sensitivity", "TC Transfer", "AH1", "AH2", "AH3", "Y_AH_Cal (-)", "TF_Cal (V/W)", "Temp_Cal (°C)", "Gain", "", "", ""]
+
+[[files]]
+name = "HTE242USN00007CON190621.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE242USN00007CON190621.xlsx:Sheet1"
+format = "xlsx"
+rows = 12216
+columns = 17
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Device ID", "Factory Device ID", "Firmware", "Measurement mode", "Speed", "Sensitivity", "TC Transfer", "AH1", "AH2", "AH3", "Y_AH_Cal (-)", "TF_Cal (V/W)", "Temp_Cal (ｰC)", "Gain", "", "", ""]
+
+[[files]]
+name = "HTE242USN00010CONC190621.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE242USN00010CONC190621.xlsx:Sheet1"
+format = "xlsx"
+rows = 13021
+columns = 17
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Device ID", "Factory Device ID", "Firmware", "Measurement mode", "Speed", "Sensitivity", "TC Transfer", "AH1", "AH2", "AH3", "Y_AH_Cal (-)", "TF_Cal (V/W)", "Temp_Cal (ｰC)", "Gain", "", "", ""]
+
+[[files]]
+name = "HTE242USN00010CONT190621.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE242USN00010CONT190621.xlsx:Sheet1"
+format = "xlsx"
+rows = 13021
+columns = 17
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Device ID", "Factory Device ID", "Firmware", "Measurement mode", "Speed", "Sensitivity", "TC Transfer", "AH1", "AH2", "AH3", "Y_AH_Cal (-)", "TF_Cal (V/W)", "Temp_Cal (ｰC)", "Gain", "", "", ""]
+
+[[files]]
+name = "HTE242USN00009CONC190621.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE242USN00009CONC190621.xlsx:Sheet1"
+format = "xlsx"
+rows = 15214
+columns = 17
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Device ID", "Factory Device ID", "Firmware", "Measurement mode", "Speed", "Sensitivity", "TC Transfer", "AH1", "AH2", "AH3", "Y_AH_Cal (-)", "TF_Cal (V/W)", "Temp_Cal (ｰC)", "Gain", "", "", ""]
+
+[[files]]
+name = "HTE242USN00009CONT190621.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "HTE242USN00009CONT190621.xlsx:Sheet1"
+format = "xlsx"
+rows = 15223
+columns = 17
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Device ID", "Factory Device ID", "Firmware", "Measurement mode", "Speed", "Sensitivity", "TC Transfer", "AH1", "AH2", "AH3", "Y_AH_Cal (-)", "TF_Cal (V/W)", "Temp_Cal (ｰC)", "Gain", "", "", ""]
+
+[[files]]
+name = "HTE242USN_00011_READ190621.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 998100
+columns = 2
+counting_basis = "(998100, 2)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 4
+counting_basis = "(1, 4)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 35
+counting_basis = "(1, 35)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 3
+counting_basis = "(999999, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files]]
+name = "HTE242USN_00003_READ190621.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 2193192
+columns = 2
+counting_basis = "(2193192, 2)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 4
+counting_basis = "(1, 4)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 35
+counting_basis = "(1, 35)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 3
+counting_basis = "(999999, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files]]
+name = "HTE242USN_00005_READ190621.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 3705861
+columns = 2
+counting_basis = "(3705861, 2)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 4
+counting_basis = "(1, 4)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 35
+counting_basis = "(1, 35)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 3
+counting_basis = "(999999, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files]]
+name = "HTE242USN_00006_READ190621.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 3803801
+columns = 2
+counting_basis = "(3803801, 2)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 4
+counting_basis = "(1, 4)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 35
+counting_basis = "(1, 35)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 3
+counting_basis = "(999999, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files]]
+name = "HTE242USN_00004_READ190621.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 3959832
+columns = 2
+counting_basis = "(3959832, 2)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 4
+counting_basis = "(1, 4)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 35
+counting_basis = "(1, 35)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 3
+counting_basis = "(999999, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files]]
+name = "HTE242USN_00010_READ190621.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 6110895
+columns = 2
+counting_basis = "(6110895, 2)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 4
+counting_basis = "(1, 4)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 35
+counting_basis = "(1, 35)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 3
+counting_basis = "(999999, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files]]
+name = "HTE242USN_00007_READ190621.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 6093238
+columns = 2
+counting_basis = "(6093238, 2)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 4
+counting_basis = "(1, 4)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 35
+counting_basis = "(1, 35)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 3
+counting_basis = "(999999, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files]]
+name = "HTE242USN_00008_READ190621.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "GEN3i"
+format = "mat"
+rows = 6445667
+columns = 2
+counting_basis = "(6445667, 2)"
+column_names = []
+
+[[files.tables]]
+name = "GENdimensions"
+format = "mat"
+rows = 1
+columns = 4
+counting_basis = "(1, 4)"
+column_names = []
+
+[[files.tables]]
+name = "GENunits"
+format = "mat"
+rows = 1
+columns = 35
+counting_basis = "(1, 35)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMA"
+format = "mat"
+rows = 999999
+columns = 3
+counting_basis = "(999999, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAdimensions"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []
+
+[[files.tables]]
+name = "SIGMAunits"
+format = "mat"
+rows = 1
+columns = 3
+counting_basis = "(1, 3)"
+column_names = []

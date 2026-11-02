@@ -1,0 +1,52 @@
+package = "pifira"
+version = "0.3.0"
+license_id = "MIT"
+role = "Optional native closed-contents heat, effective area and temperature-dependent spin constitutive terms"
+checked_at_utc = "2026-10-27T07:27:53.401203+00:00"
+metadata_url = "https://pypi.org/pypi/pifira/json"
+metadata_sha256 = "35ebd9c110b0971606ac0896e4e6bacd88c2da9cb049d71ac6e796dddecdb14b"
+wheel_name = "pifira-0.3.0-py3-none-any.whl"
+wheel_url = "https://files.pythonhosted.org/packages/1f/95/bbfcdeb6e2505b95998a09d1656981ad199e5a390a8b7d0463fff09e37e7/pifira-0.3.0-py3-none-any.whl"
+wheel_sha256 = "66d53e8301aec0d4381e0d791188e62794f0b4a7fa438310bd0871b627cf8ea4"
+wheel_license_sha256 = "59ee839c628ca4c9d88fab00afa9ee1b2857caa0e6e5fe0a83c2cf9c1f68fdd4"
+observed_repository_revision = "0d4924518fccd1cf93c677eaf10aa3d56319d8cb"
+repository_url = "https://github.com/lyullee/pifira"
+release_doi = "10.5281/zenodo.22291661"
+bundled_in_host = false
+experimental_validation_claimed = false
+
+[[installed_source]]
+path = "pifira/__init__.py"
+sha256 = "89e0ae894fd88cdaebd9ccd0f6487956165352fceda61791bf411e54303b930b"
+
+[[installed_source]]
+path = "pifira/effective_area.py"
+sha256 = "90ad826da8f5d0ddd3cac2633708e9528ce12c74693dd1c025645fceca5ce1c2"
+
+[[installed_source]]
+path = "pifira/io.py"
+sha256 = "78a680e455ef4a591a89ebbb6d22f1c118005b8219bc1dc938c218301c467871"
+
+[[installed_source]]
+path = "pifira/lh2/__init__.py"
+sha256 = "ba0cd12e89bfe71a37402b413f756ed36ce299820474dd63e00ce39405a9005f"
+
+[[installed_source]]
+path = "pifira/lh2/credit.py"
+sha256 = "0474eb94132373d52a446dd3419bfc91b0ab175140acd55b02489c706b147d08"
+
+[[installed_source]]
+path = "pifira/lh2/nozzle.py"
+sha256 = "2642db4a97c7bf30b197b54e2ab3c825fb5c6e42d22cc59a8900105aeb9a975e"
+
+[[installed_source]]
+path = "pifira/lh2/spin.py"
+sha256 = "0cf345f138e0fd48f213f6a0e6db668af860b64637e9fa09813e5d9896b50b6f"
+
+[[installed_source]]
+path = "pifira/pressure_rise.py"
+sha256 = "34f017b49b750340f2ae922ffe693bb6f958c024bfa37e654b67c78ef77b38b4"
+
+[[installed_source]]
+path = "pifira/representative.py"
+sha256 = "04b7556e8dc6efd7201461d8b9b814217abb57eeff4cd1269f7d38348e6a31f5"

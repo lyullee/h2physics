@@ -1,0 +1,55 @@
+key = "pem-grid-system"
+title = "Data from: Grid-connected PEM electrolysis: Experimental characterization and dispatch simulation across a decarbonizing grid"
+doi = "10.5061/dryad.8931zcs64"
+version = "4"
+origin = "mixed"
+license_id = "CC0-1.0"
+license_url = "https://spdx.org/licenses/CC0-1.0.html"
+metadata_url = "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.8931zcs64"
+metadata_sha256 = "e3132fc6befc7c54da43c125bbdc4aaa7a8182fc99a220065c4128d07b34ab66"
+retrieved_at_utc = "2026-10-26T15:14:41.158653+00:00"
+authors = ["Evan Veatch", "Bret Windom", "Andrew Zdanowicz"]
+families = ["electrolysis", "system"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 2
+acquired_bytes = 0
+omitted_files = []
+current_publisher_page_checked = "2026-10-31"
+current_publisher_page_version_date = "2026-09-03"
+current_publisher_page_total_size_display = "72.10 MB"
+current_schema_evidence = "Public Dryad page's embedded README identifies data/experiment/timestamp.txt as a common time axis and lists power_command.txt, stack_power.txt, smps_power.txt, chiller_power.txt, subsystem_power.txt, hydrogen_flow.txt, and hydrogen_flow_cs.txt. It describes these as synchronized experimental traces but does not expose numeric payload rows, sampling interval/clock precision, experimental power units, flow units/reference basis, uncertainty, calibration, or sensor mapping. The separate data/inputs power channels are model inputs and documented on an MW basis; that does not establish the experiment trace units."
+candidate_linkage = "Could support a condition-matched system-boundary power-versus-hydrogen-flow diagnostic against an existing electrolysis/process model only after experiment payload is acquired, units/state/system-boundary definitions and time support are verified. It does not presently support direct HydrogenStack cell polarization, active area, or Faradaic efficiency inference."
+publisher_readme_file_access = "Primary page exposes the README text and identifies file structure; direct README file stream returned HTTP 403 on 2026-10-31, so its bytes/checksum are not acquired."
+license_scope = "Dryad's official reuse guidance states all datasets are CC0 1.0; no payload or embedded third-party content was inspected."
+access_gap = "API file downloads returned HTTP 401 and ordinary publisher file-stream links returned HTTP 403 on 2026-10-31; no attachment bytes acquired."
+
+[[supporting_metadata]]
+url = "https://datadryad.org/api/v2/versions/461593/files"
+sha256 = "ff15e820898fe2981323cbca0261311204d345c8888a11eac98eefb06d122537"
+
+[[files]]
+name = "README.md"
+url = "https://datadryad.org/api/v2/files/4942220/download"
+relative_path = ""
+size_bytes = 0
+sha256 = ""
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "a79bee17e94b1379ce78b8c1bf96f33383fd30a82633c55a3dee730f61883e6d"
+publisher_checksum_verified = false
+status = "failed_unacquired"
+listed_size_display = "5.69 KB (publisher-rounded)"
+error = "Dryad API download returned HTTP 401; current public page's file-stream link returned HTTP 403 on 2026-10-31."
+
+[[files]]
+name = "Fixed_ERCOT_Electrolyzer_Sim_Engine.zip"
+url = "https://datadryad.org/api/v2/files/4942215/download"
+relative_path = ""
+size_bytes = 0
+sha256 = ""
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "ce8ebdd3b2c29a6d7dd088b23ccfe81804d9bd97980d190e8209297ca097c6c0"
+publisher_checksum_verified = false
+status = "failed_unacquired"
+listed_size_display = "72.10 MB (publisher-rounded)"
+error = "Dryad API download returned HTTP 401; current public page's file-stream link returned HTTP 403 on 2026-10-31. Exact payload bytes/schema unavailable."

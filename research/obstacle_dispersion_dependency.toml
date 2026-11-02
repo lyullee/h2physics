@@ -1,0 +1,90 @@
+review_date = "2026-10-28"
+development_status = "implemented_unverified"
+local_execution = "No native install/import/execution, geometry/scientific case invocation, cases(), pytest, example or benchmark"
+engine = "NIST Fire Dynamics Simulator"
+version = "6.11.1"
+release_tag = "FDS-6.11.1"
+revision = "ff928dbf68a2623ced3a007be75391c6dc6c9f90"
+release_date = "2026-07-10"
+repository = "https://github.com/firemodels/fds"
+release_url = "https://github.com/firemodels/fds/releases/tag/FDS-6.11.1"
+official_downloads = "https://pages.nist.gov/fds/downloads.html"
+license_notice = "NIST software notice, including its US-government-work copyright statement; not relabeled global MIT/GPL"
+license_url = "https://github.com/firemodels/fds/blob/FDS-6.11.1/LICENSE.md"
+license_sha256 = "38c542304b97afc4171a9b67866499eaf222509cab45c095ea69bf88d57755b7"
+binary_bundled = false
+binary_downloaded_or_installed = false
+binary_runtime_rights_lock = "Pending separate user-provisioned binary receipt and MPI/OpenMP/runtime/transitive review on Nurion"
+profile = "obstacle-dispersion"
+model_scope = "Native one-mesh 3D warm low-Mach dry-air/H2 DNS or LES around grid-aligned impermeable obstacles"
+reference_boundary = "Sealed diagnostic adiabatic enclosure; finite supplied expanded H2 source"
+energy_basis = "Native FDS sensible enthalpy with pressure-work terms; not CoolProp/reference-converted or spin-resolved"
+source_ownership = "Qualified prescribed expanded gas boundary; no upstream high-pressure nozzle/fire chain acceptance"
+raw_source_or_thermo_coefficients_bundled = false
+comparison_engines_not_installed = ["OpenFOAM Foundation14", "OpenCFD-v2606"]
+known_output_semantics = ["mass.csv interval averages, not instantaneous inventories", "hrr.csv preceding-interval means", "DEVC instantaneous integrals explicitly requested", "native SMV obstacle geometry retained", "native positivity limiter/substeps not observable from sampled summaries"]
+
+[[inspected_source]]
+path = "LICENSE.md"
+sha256 = "38c542304b97afc4171a9b67866499eaf222509cab45c095ea69bf88d57755b7"
+
+[[inspected_source]]
+path = "Manuals/FDS_Technical_Reference_Guide/Equation_Chapter.tex"
+sha256 = "cd81e677cdeed11bb3d3681bb4fa8dbd8ab67c20d552a8123bc121e2986c4b8f"
+
+[[inspected_source]]
+path = "Manuals/FDS_User_Guide/FDS_User_Guide.tex"
+sha256 = "bbecf7e0b4fe5d330f19d7f9750ed3a6d44ba83ffbb5a5a5db0623fddb77a774"
+
+[[inspected_source]]
+path = "Source/cons.f90"
+sha256 = "5517c26ccd566572ae664d1e039fb0678e8877e8926534d6f6106f60b0059cef"
+
+[[inspected_source]]
+path = "Source/data.f90"
+sha256 = "9df37f869ade5ae02e48b7e1fea8b8d74651a3192aa3c8af441460763e5820e6"
+
+[[inspected_source]]
+path = "Source/dump.f90"
+sha256 = "302f389a3a0f932a58f0e9ef44516e13a1abd487da04eb5bb6148660904bca9a"
+
+[[inspected_source]]
+path = "Source/func.f90"
+sha256 = "81c4057ec62bb85171f893baa32636f62c678b99dee9cf1461e74d86185a2b67"
+
+[[inspected_source]]
+path = "Source/init.f90"
+sha256 = "2e56471a83dab1b22b058fc33443ea286e3887e69956bf618aacb8d3252b9aa3"
+
+[[inspected_source]]
+path = "Source/main.f90"
+sha256 = "75996196f9974707c5b6fb8c5da3778d640c02a3b3871faefd89c10ac753c81d"
+
+[[inspected_source]]
+path = "Source/mass.f90"
+sha256 = "59edd9eef75db8c3320a5044bb68cd0ef7c70b9efac49edbb5f652665a213b78"
+
+[[inspected_source]]
+path = "Source/read.f90"
+sha256 = "ff2f44a1dc896417adfb097867dac42c2b23eef10fc2cc7533b9c9c64972d9cf"
+
+[[official_release_binary_metadata]]
+name = "FDS-6.11.1_SMV-6.11.2_lnx.sh"
+bytes = 190069552
+url = "https://github.com/firemodels/fds/releases/download/FDS-6.11.1/FDS-6.11.1_SMV-6.11.2_lnx.sh"
+publisher_digest = "sha256:ba8793b974150fdb778b3db0b69ab8db4e4668d5c52987a317e7f5ed58102ea0"
+status = "Metadata only; not downloaded or executed"
+
+[[official_release_binary_metadata]]
+name = "FDS-6.11.1_SMV-6.11.2_osx.sh"
+bytes = 178011061
+url = "https://github.com/firemodels/fds/releases/download/FDS-6.11.1/FDS-6.11.1_SMV-6.11.2_osx.sh"
+publisher_digest = "sha256:5002ce61d07d412fb56573ca2424b4a613f64548bbb1ea47274b08413d3798e4"
+status = "Metadata only; not downloaded or executed"
+
+[[official_release_binary_metadata]]
+name = "FDS-6.11.1_SMV-6.11.2_win.exe"
+bytes = 182587392
+url = "https://github.com/firemodels/fds/releases/download/FDS-6.11.1/FDS-6.11.1_SMV-6.11.2_win.exe"
+publisher_digest = "sha256:302ec837caaea8cb990cece085bee2284a0338d64fac0b77d46749a92ab12dfc"
+status = "Metadata only; not downloaded or executed"

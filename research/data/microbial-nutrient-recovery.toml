@@ -1,0 +1,30 @@
+key = "microbial-nutrient-recovery"
+title = "Ammonium and Phosphate Recovery in a Three Chambered Microbial Electrolysis Cell: Towards Obtaining Struvite from Livestock Manure"
+doi = "10.5281/zenodo.13981041"
+version = "13981041"
+origin = "mixed"
+source_updated_at = ""
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/13981041"
+metadata_sha256 = "bf469dc49005f68b06a42212c5c22a147fc839bfca6483bfad4566022ceee5eb"
+retrieved_at_utc = "2026-10-28T12:05:55.546993+00:00"
+authors = ["Cerrillo, Miriam", "Burgos, Laura", "Noguerol, Joan", "Riau, Victor", "Bonmatí, August"]
+families = ["microbial_cell", "electrochemistry", "nutrient_recovery"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 494528
+omitted_files = []
+
+[[files]]
+name = "Dataset struvite GEMBESH.xlsx"
+url = "https://zenodo.org/api/records/13981041/files/Dataset%20struvite%20GEMBESH.xlsx/content"
+relative_path = "microbial-nutrient-recovery/13981041/Dataset struvite GEMBESH.xlsx"
+size_bytes = 494528
+sha256 = "1badd6826fde0a1624c6baa88f79f9c66f801d47d0790a74480944e52c93002b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a33eb2e2aa162c8900ee530c5e353989"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

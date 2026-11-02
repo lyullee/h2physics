@@ -1,0 +1,8 @@
+# Optional isolated native conditional-risk profile; actual artifact/notice hashes:
+# research/risk_dependency.toml. No dense/HTTP extra or native implementation bundled.
+process-risk-consequence-toolkit==0.1.0
+pydantic==2.14.1
+pydantic-core==2.50.1
+annotated-types==0.8.0
+typing-extensions==4.16.0
+typing-inspection==0.4.4

@@ -1,0 +1,32 @@
+dataset = "sofc-polarization"
+doi = "10.17632/j8b9v4cb9d.1"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "Ui_30H2_10H2O_60N2.txt"
+format = "txt"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "Ui_50H2_0H2O_50N2.txt"
+format = "txt"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "Ui_50H2_10H2O_40N2.txt"
+format = "txt"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "Ui_50H2_20H2O_30N2.txt"
+format = "txt"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0

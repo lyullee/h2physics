@@ -1,0 +1,85 @@
+source = "Zenodo"
+record = "6670268"
+key = "leaky-coating-hydride-sorption"
+doi = "10.5281/zenodo.6670268"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/records/6670268"
+metadata_api_url = "https://zenodo.org/api/records/6670268"
+metadata_sha256 = "6d82aa2921d0b29563f9150263ab5495e8958ca8f62691e501282a90c82f4c86"
+metadata_bytes = 7111
+metadata_capture = "HTTP 200 from the exact Zenodo record API; SHA-256 calculated over the exact 7,111-byte response on 2026-11-01; response not stored in Git or the raw-data cache."
+authors = ["Kazaz, Selim", "Billeter, Emanuel", "Borgschulte, Andreas"]
+rights_permitted = true
+rights_evidence_url = "https://zenodo.org/api/records/6670268"
+rights_evidence = "The provider record API declares metadata.license.id=cc-by-4.0. Host reuse decision covers only the four selected source trace files and does not include bundled code or a separate third-party-content review."
+license_scope = "Record-level CC BY 4.0 evidence is recorded for the selected dataset. This manifest covers four source trace files only; no separate third-party-content audit is claimed."
+version = "1"
+title = "Dataset to Sorption kinetics in metal hydrides by leaky coating"
+source_url = "https://zenodo.org/records/6670268"
+attribution = "Kazaz, Selim; Billeter, Emanuel; Borgschulte, Andreas (2022), Dataset to Sorption kinetics in metal hydrides by leaky coating, Zenodo, https://doi.org/10.5281/zenodo.6670268."
+acquisition_status = "selected_figure4_source_traces_acquired"
+raw_directory = "data/raw/leaky-coating-hydride-sorption/1"
+model_linkage_status = "source_observations_only_no_model_fit"
+figure4a_temperature_c = 105
+figure4c_temperature_c = 85
+membrane_material = "Pd"
+membrane_thickness_um = 45
+leaky_coating_material = "Cu"
+leaky_coating_thickness_nm = 10
+feed_signal_semantics = "reported p_feed change channel, mbar; not converted to absolute pressure"
+uhv_signal_semantics = "UHV mass-spectrometer hydrogen pressure signal, mbar; source states ordinate scale relative to feed channel is arbitrary"
+time_unit = "s"
+value_unit = "mbar"
+selected_files = ["Fig4a_deltap_f.txt", "Fig4a_pUHV.txt", "Fig4c_deltap_f.txt", "Fig4c_pUHV.txt"]
+not_acquired_files = ["Fig1c.txt", "Fig2_105C.txt", "Fig2_105C_ref.txt", "Fig2_80C_ref.txt", "Fig2_82C.txt", "Fig2_Insert.txt", "Fig3a_c(t).txt", "Fig3a_xbar(t).txt", "Fig3b.txt", "Fig4b.txt"]
+missing_model_mapping = ["absolute feed-pressure baseline", "initial and terminal Pd hydrogen concentration", "calibration from UHV-MS signal to Pd concentration", "per-channel replicate/run meaning", "complete time alignment across feed and UHV channels"]
+limitations = ["measured material-scale Pd membrane observations are not a storage-vessel dataset", "no diffusion/hydride parameter fit or comparison", "signed feed-pressure changes preserved", "mass-spectrometer pressure is not treated as concentration without calibration"]
+
+[[files]]
+name = "Fig4a_deltap_f.txt"
+url = "https://zenodo.org/api/records/6670268/files/Fig4a_deltap_f.txt/content"
+relative_path = "leaky-coating-hydride-sorption/1/Fig4a_deltap_f.txt"
+size_bytes = 56082
+md5 = "953db55792ad0dc329ba1d424face23e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "953db55792ad0dc329ba1d424face23e"
+publisher_checksum_verified = true
+sha256 = "992fcadc72fd30396c2094f2e1f573aa9a79e32bcf522bcd6ccd79dc18460cd4"
+status = "acquired"
+
+[[files]]
+name = "Fig4a_pUHV.txt"
+url = "https://zenodo.org/api/records/6670268/files/Fig4a_pUHV.txt/content"
+relative_path = "leaky-coating-hydride-sorption/1/Fig4a_pUHV.txt"
+size_bytes = 211933
+md5 = "221f4f79c67d7589dc5430379e9e496e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "221f4f79c67d7589dc5430379e9e496e"
+publisher_checksum_verified = true
+sha256 = "3acf2f492fe715a84de724ef059532d8ee8255680ed74d114fd7802140013f18"
+status = "acquired"
+
+[[files]]
+name = "Fig4c_deltap_f.txt"
+url = "https://zenodo.org/api/records/6670268/files/Fig4c_deltap_f.txt/content"
+relative_path = "leaky-coating-hydride-sorption/1/Fig4c_deltap_f.txt"
+size_bytes = 58697
+md5 = "cc652265e9cdf807323db95c626f1bee"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cc652265e9cdf807323db95c626f1bee"
+publisher_checksum_verified = true
+sha256 = "8a5749998f1d57e27b67758af8116259430528e581d8becbad1d5d47ebe414f1"
+status = "acquired"
+
+[[files]]
+name = "Fig4c_pUHV.txt"
+url = "https://zenodo.org/api/records/6670268/files/Fig4c_pUHV.txt/content"
+relative_path = "leaky-coating-hydride-sorption/1/Fig4c_pUHV.txt"
+size_bytes = 141697
+md5 = "9075e77cfc586c19ee89b0e07327a35b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "9075e77cfc586c19ee89b0e07327a35b"
+publisher_checksum_verified = true
+sha256 = "4f026f852b2ba4a5804efd7898382b0a6540f6befe23b69dbf2981b9fa83f23d"
+status = "acquired"

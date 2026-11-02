@@ -1,0 +1,84 @@
+key = "cryo-neutron-phase-change"
+title = "Data from cryo-neutron phase change experiments with LH2 and LCH4"
+doi = "10.17632/z5zc7kk76g.2"
+dataset_id = "z5zc7kk76g"
+version = "2"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://data.mendeley.com/datasets/z5zc7kk76g/2"
+metadata_api_url = "https://data.mendeley.com/public-api/datasets/z5zc7kk76g/snapshot/2"
+metadata_sha256 = "bcf8178e8fefaF7d3ee93a7b5e05810cea2e097f442eb7342381d4c9cba32060"
+file_list_api_url = "https://data.mendeley.com/public-api/datasets/z5zc7kk76g/files?folder_id=root&version=2&$start=0&$limit=1000"
+file_list_sha256 = "e1531696823824e32e1d0049c876b061aa1a07b3e172ea5d347f5c1a1f6f582b"
+authors = ["Kishan Bellur"]
+institutions = ["University of Washington", "Michigan Technological University", "University of Cincinnati", "NIST Center for Neutron Research"]
+families = ["cryogenic_storage", "liquid_hydrogen", "phase_change", "neutron_imaging"]
+rights_permitted = true
+component_rights_reviewed = true
+rights_scope = "The Mendeley record and public API explicitly state CC BY 4.0 for the dataset. Only the three selected experimental CSV members are retained; visualization ZIP and multi-gigabyte image archive are not redistributed by this project. Attribute Bellur and the DOI; disclose the selected-member extraction and any changes."
+rights_evidence_url = "https://data.mendeley.com/datasets/z5zc7kk76g/2"
+validation_qualified = false
+listed_file_count = 2
+listed_bytes = 4_514_787_790
+selected_member_count = 3
+selected_member_bytes = 499_266
+full_archive_acquired = false
+publisher_archive_sha256 = "46301398eeed7c93d7c522581422f45ff5664a844abd412a2d40bcdd175cbbed"
+publisher_archive_sha256_locally_verified = false
+publisher_archive_size_bytes = 4511372825
+acquisition_method = "Public Mendeley API metadata and HTTP byte-range reads of the ZIP central directory and selected local records; complete archive not downloaded"
+selected_run = "Jan(H2)/jan_tc1/jan_tc1_run1; tc1 conical cell"
+reported_conditions = "17.9 psia; saturation temperature 21 K; condensation sub-cool 20.8/20.6 K; evaporation super-heat 22/23 K, as reported by the associated data article"
+model_linkage = "Source-only typed observation bridge. No direct comparison to the repository finite cryogenic vessel is admitted because test-cell geometry, heat-transfer boundary, accommodation coefficient, sensor coordinate mapping and phase-rate units are not fully compatible/qualified."
+time_boundary = "daq_time and img_time are separate elapsed-second channels; image timestamps are retained as text with unresolved timezone. DAQ is recorded at 1 s and neutron images at 10 s; image-rate rows cover selected image windows. No clock alignment is generated."
+physical_boundary = "Controlled LH2 condensation/evaporation in the NIST BT-2 neutron imaging facility using a conical tc1 cell, cryostat, vapor lines, instrumented cell walls/heater and sample holder. This is cell-scale phase change, not a pressure-vessel blowdown or full-scale storage-tank test."
+source_data_article = "https://pmc.ncbi.nlm.nih.gov/articles/PMC9309658/"
+
+[[source_metadata_files]]
+name = "snapshot-2.json"
+relative_path = "cryo-neutron-phase-change/2/snapshot-2.json"
+size_bytes = 4717
+sha256 = "bcf8178e8fefaF7d3ee93a7b5e05810cea2e097f442eb7342381d4c9cba32060"
+
+[[source_metadata_files]]
+name = "files-v2.json"
+relative_path = "cryo-neutron-phase-change/2/files-v2.json"
+size_bytes = 1467
+sha256 = "e1531696823824e32e1d0049c876b061aa1a07b3e172ea5d347f5c1a1f6f582b"
+
+[[files]]
+name = "jan_tc1_run1_exp_daq.csv"
+publisher_member = "Jan(H2)/jan_tc1/jan_tc1_run1/jan_tc1_run1_exp_daq.csv"
+relative_path = "cryo-neutron-phase-change/2/Jan(H2)/jan_tc1/jan_tc1_run1/jan_tc1_run1_exp_daq.csv"
+size_bytes = 302376
+sha256 = "0589fedf062cf036993fd48ffbed81c8b4a1ee502cd19b6a23935839aab37851"
+zip_member_crc32 = "ABF820A8"
+columns = ["daq_time", "daq_s1", "daq_s2", "daq_s3", "daq_s4", "daq_htr", "daq_stick", "daq_p_kpa", "daq_htr_pow"]
+column_units = ["s", "K", "K", "K", "K", "K", "K", "kPa", "% of 5 W"]
+rows = 5391
+nominal_cadence_s = 1
+
+[[files]]
+name = "jan_tc1_run1_exp_img.csv"
+publisher_member = "Jan(H2)/jan_tc1/jan_tc1_run1/jan_tc1_run1_exp_img.csv"
+relative_path = "cryo-neutron-phase-change/2/Jan(H2)/jan_tc1/jan_tc1_run1/jan_tc1_run1_exp_img.csv"
+size_bytes = 195985
+sha256 = "abfbb4fc35f7008ca4224daed6e27ae5cb182901140f93aab4100ae5162768e0"
+zip_member_crc32 = "E2FB6E85"
+columns = ["img_no", "img_filename", "img_timestamp", "img_time", "img_s1", "img_s2", "img_s3", "img_s4", "img_htr", "img_stick", "img_p_kpa", "img_htr_pow", "vol_it_mm3", "vol_od_mm3", "thickness_um", "apex"]
+column_units = ["count", "source token", "source timestamp text", "s", "K", "K", "K", "K", "K", "K", "kPa", "% of 5 W", "mm^3", "mm^3", "um", "source pixel token"]
+rows = 1165
+nominal_cadence_s = 10
+
+[[files]]
+name = "jan_tc1_run1_exp_img_rate.csv"
+publisher_member = "Jan(H2)/jan_tc1/jan_tc1_run1/jan_tc1_run1_exp_img_rate.csv"
+relative_path = "cryo-neutron-phase-change/2/Jan(H2)/jan_tc1/jan_tc1_run1/jan_tc1_run1_exp_img_rate.csv"
+size_bytes = 905
+sha256 = "dd62eabc62a15c32f3ed0457649240b9f5990e57db1d45e5d829b8f0808aad16"
+zip_member_crc32 = "09054FD9"
+columns = ["tcrun", "temp_k", "press_kpa", "rate_od_mug", "od_error", "start_img", "stop_img", "temp_dev_k", "press_dev_kpa"]
+column_units = ["source run token", "K", "kPa", "unresolved source label", "unresolved source label", "image index", "image index", "K", "kPa"]
+rows = 6
+nominal_cadence_s = "derived windows; source start_img and stop_img retained"

@@ -1,0 +1,252 @@
+key = "pressure-unignited"
+title = "Hydrogen safety: Pressure Peaking Phenomena-unignited releases"
+doi = "10.23642/usn.17932439.v1"
+version = "1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://api.figshare.com/v2/articles/17932439"
+metadata_sha256 = "5f3b36592db6dec7985ee20f4c56d8cf371595f4c99fe0d1e59451b7299dfae6"
+retrieved_at_utc = "2026-10-26T15:56:03.074382+00:00"
+authors = ["Agnieszka Lach", "Andre Vagner Gaathaug"]
+families = ["enclosure", "release"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 21
+acquired_bytes = 479021979
+omitted_files = ["HTE242USN_00009_READ190621.mat", "HTE242USN_00002_READ190621.mat"]
+finite_source_link_status = "selected_positive_SIGMA_flow_window_only"
+finite_source_link_file = "HTE242USN_00003_READ190621.mat"
+finite_source_link_sha256 = "f74643684fac53ec8e57893f6647b33fd0313da3cb5a1038c0b8c44ce425f1f0"
+finite_source_link_api = "h2physics.adapters.project_pressure_peaking_flow_to_finite_source"
+finite_source_link_case = "usn-unignited-measured-flow-finite-source-contract"
+finite_source_link_scope = "Selected measured SIGMA mass-flow rows (g/s converted by reader to kg/s) are binned on their exact s clock with caller-selected quadrature and explicit H2 state/release-plane evidence."
+finite_source_link_limits = "Negative signed flow is rejected without clipping; meter pressure, GEN3i P1, chamber pressure history, concentration, and pressure-peaking validation are outside this adapter."
+
+[[files]]
+name = "Readme_Hydrogen safety- Pressure Peaking Phenomena-unignited releases.docx"
+url = "https://ndownloader.figshare.com/files/33660410"
+relative_path = "pressure-unignited/1/Readme_Hydrogen safety- Pressure Peaking Phenomena-unignited releases.docx"
+size_bytes = 15451
+sha256 = "38a16a3e21ed6f5c14fe5876d5514ad03f9349acca4e75cf14b608e69ed4934a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b24429231ed9789ed71297b99d0d4b16"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "File handling guide.docx"
+url = "https://ndownloader.figshare.com/files/32657000"
+relative_path = "pressure-unignited/1/File handling guide.docx"
+size_bytes = 18257
+sha256 = "f7b54633adf9a6e71fa5d7074df17cdb34c5a76793b3dbb8f8bce770b794cd1c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "afdab417756bb52ef4295db801c73451"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN00003CON190621.xlsx"
+url = "https://ndownloader.figshare.com/files/32654813"
+relative_path = "pressure-unignited/1/HTE242USN00003CON190621.xlsx"
+size_bytes = 60900
+sha256 = "18b88ddb67cb85d271fc24c20557fb05415331c9f2cf38fc6d097fc921be6abc"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "df862f376dffa4c5512ec427ae27f06e"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN00002CONC190621.xlsx"
+url = "https://ndownloader.figshare.com/files/32654810"
+relative_path = "pressure-unignited/1/HTE242USN00002CONC190621.xlsx"
+size_bytes = 60918
+sha256 = "dcc24131a260947d62ade62848e27573789a9c53c71d1275cb85ee6425f05c9c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f7b41a7944c3f31395ae530867f892bc"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN00008CON190621.xlsx"
+url = "https://ndownloader.figshare.com/files/32654825"
+relative_path = "pressure-unignited/1/HTE242USN00008CON190621.xlsx"
+size_bytes = 262322
+sha256 = "01b0870ec6cfc6a9be5bd218eea21bebd2fe57647a3f21ec990360bee5bc70b4"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a90eda535d1935e9b1d491ee0a628498"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN00006CON190621.xlsx"
+url = "https://ndownloader.figshare.com/files/32654816"
+relative_path = "pressure-unignited/1/HTE242USN00006CON190621.xlsx"
+size_bytes = 535650
+sha256 = "28ffec511b48a8f4ecff9174bb7c2e224e56f0a2a241806e90dcf05ee1c381f7"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "06f0336afa5f8d2336a0ee3f98ccef8f"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN00007CON190621.xlsx"
+url = "https://ndownloader.figshare.com/files/32654819"
+relative_path = "pressure-unignited/1/HTE242USN00007CON190621.xlsx"
+size_bytes = 1125701
+sha256 = "efd608de486c9f2eb4301771e08a7071ecd5d1d87c20bfd279e3dfa88ed0b1ba"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "72bed07b6140c12c97f9a68faf2679b7"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN00010CONC190621.xlsx"
+url = "https://ndownloader.figshare.com/files/32654837"
+relative_path = "pressure-unignited/1/HTE242USN00010CONC190621.xlsx"
+size_bytes = 1220803
+sha256 = "ead3a891e54cbe3a3e7f59f27743877248c04b66328341510d7d7c2585c9f030"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "96ad3394c7cad5b7f9bddd71e8c660d2"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN00010CONT190621.xlsx"
+url = "https://ndownloader.figshare.com/files/32654843"
+relative_path = "pressure-unignited/1/HTE242USN00010CONT190621.xlsx"
+size_bytes = 1222698
+sha256 = "1a5f19b431fbeb66317636a99bd5e6330ce2e77d1b9789223c7fee9f656e2a20"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8377316882bd520f4e1b6e8d0a7b9fda"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN00009CONC190621.xlsx"
+url = "https://ndownloader.figshare.com/files/32654828"
+relative_path = "pressure-unignited/1/HTE242USN00009CONC190621.xlsx"
+size_bytes = 1406942
+sha256 = "d1b0dd4c9949c0068180283a8eb819e93c6d4deccd7196b81ce961019dd8e883"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "09e5b39389a2c3aed270ab0202c98084"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN00009CONT190621.xlsx"
+url = "https://ndownloader.figshare.com/files/32654834"
+relative_path = "pressure-unignited/1/HTE242USN00009CONT190621.xlsx"
+size_bytes = 1425239
+sha256 = "b26bb8f23cabd7024510be88660b4fd1ddb964c22943faec7f849ee7c0213df9"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fcdee81e7b1b417f4d2a521bda6a692a"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN_00011_READ190621.mat"
+url = "https://ndownloader.figshare.com/files/32654690"
+relative_path = "pressure-unignited/1/HTE242USN_00011_READ190621.mat"
+size_bytes = 20072251
+sha256 = "879e516bf1338d7c28f06a9fd428522212fc6d4b9af4b5f80d8694034d4fd675"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "9c00b947df735e4214a3230f1a1705b6"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN_00003_READ190621.mat"
+url = "https://ndownloader.figshare.com/files/32654744"
+relative_path = "pressure-unignited/1/HTE242USN_00003_READ190621.mat"
+size_bytes = 37466494
+sha256 = "f74643684fac53ec8e57893f6647b33fd0313da3cb5a1038c0b8c44ce425f1f0"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3402b5f9299728a0de574e922d912d49"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN_00005_READ190621.mat"
+url = "https://ndownloader.figshare.com/files/32654774"
+relative_path = "pressure-unignited/1/HTE242USN_00005_READ190621.mat"
+size_bytes = 54488827
+sha256 = "fbcb9292621636e028f3a80be0bee852656b2f8ca6941fc970d74222b8ac8bbb"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "70fa377e90c2638e752ce94f0153618f"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN_00006_READ190621.mat"
+url = "https://ndownloader.figshare.com/files/32654783"
+relative_path = "pressure-unignited/1/HTE242USN_00006_READ190621.mat"
+size_bytes = 55351054
+sha256 = "35f463419fd7e5f1cd8c191e2d39222da005d16d6c098b36de00b77fb40bcf2c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c4451785e1d9cc503b7c9b917d4da15d"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN_00004_READ190621.mat"
+url = "https://ndownloader.figshare.com/files/32654768"
+relative_path = "pressure-unignited/1/HTE242USN_00004_READ190621.mat"
+size_bytes = 58136657
+sha256 = "d9a22faf051746eab07c3a2469e8d6c5f97bf803d2a8897d0680b0535a9a9c12"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ddbe7b9b92826a09460ba8f213b67486"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN_00010_READ190621.mat"
+url = "https://ndownloader.figshare.com/files/32654681"
+relative_path = "pressure-unignited/1/HTE242USN_00010_READ190621.mat"
+size_bytes = 80098233
+sha256 = "5397d2ac69961f80a44041ba78c70a3e3fe590b2c8bdcda8edb02383d1c2c504"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "700992cbfab93778f0ae7ea3eec0b469"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN_00007_READ190621.mat"
+url = "https://ndownloader.figshare.com/files/32654804"
+relative_path = "pressure-unignited/1/HTE242USN_00007_READ190621.mat"
+size_bytes = 80847629
+sha256 = "28911d384b0bc58f150b6e8689a7570abdb7195d13f188a4c7d4c54bec5cd96f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "67d3dd2c4ff01026ca4d0a7fecaae281"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HTE242USN_00008_READ190621.mat"
+url = "https://ndownloader.figshare.com/files/32654636"
+relative_path = "pressure-unignited/1/HTE242USN_00008_READ190621.mat"
+size_bytes = 85205953
+sha256 = "3e3a400e38022c87cdbbaa1d7460cbfae78e3dd3b4dd72855394e6c8bf85f066"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "84069d4a577e1a72c589f7ceb8948187"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

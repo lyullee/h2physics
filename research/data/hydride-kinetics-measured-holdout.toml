@@ -1,0 +1,33 @@
+# Source metadata only; external observations are not distributed.
+key = "hydride-kinetics-measured-holdout"
+title = "Measured normalized AB2 hydride kinetics"
+doi = "10.5281/zenodo.16458050"
+version = "v1.0"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/16458050"
+metadata_sha256 = "db7afbd77ba53b07927d1c0ac99b2791aab5ae90d2143f627911bc4058aac641"
+registered_at_utc = "2026-11-02T11:46:41.824028+00:00"
+authors = ["ANeves010"]
+families = ["storage.hydride_dynamic"]
+rights_permitted = true
+validation_qualified = false
+raw_redistribution_admitted = false
+listed_file_count = 1
+acquired_bytes = 3290702
+license_scope = "Dataset-level CC BY 4.0; embedded third-party components remain unreviewed; no raw redistribution admitted."
+third_party_component_rights_reviewed = false
+notes = "Only measured Raw Data curves and condition summary are used; bundled code, fitted constants and NN outputs are excluded. Source pressure convention and raw forcing histories remain unresolved."
+
+[[files]]
+name = "ANeves010/Hydride_Kinetic_Model_Identification-v1.0.zip"
+url = "https://zenodo.org/api/records/16458050/files/ANeves010/Hydride_Kinetic_Model_Identification-v1.0.zip/content"
+relative_path = "hydride-kinetics-measured-holdout/v1.0/hydride-kinetics-v1.zip"
+local_ignored_path = "artifacts/physical-validation-20261102/storage-source/hydride-kinetics-v1.zip"
+size_bytes = 3290702
+sha256 = "8a9fa655f0244a34e77edf84b3b3a32147abd9102bcfafe686f12e4630e5eb5f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "464e6969c66459cf23a049d44c8c7d20"
+publisher_checksum_verified = true
+status = "acquired"

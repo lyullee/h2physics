@@ -1,0 +1,83 @@
+dataset = "pv-pem-dispatch"
+doi = "10.5281/zenodo.22900353"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "Manuscript_Figure3-10_Data.zip"
+format = "zip"
+archive_members = 10
+numeric_members = 9
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "Manuscript_Figure3-10_Data/Figure03_photovoltaic_power_reconstructed_from_Fig04-06_0p1h.xlsx:Figure03_photovoltaic_power_rec"
+format = "xlsx"
+rows = 242
+columns = 2
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Time_h", "PV_Power_kW"]
+
+[[files.tables]]
+name = "Manuscript_Figure3-10_Data/Figure04-06_operating_state_times.csv"
+format = "delimited"
+rows = 4
+columns = 13
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Electrolyzer", "Chain_Shutdown_h", "Chain_LowPower_h", "Chain_Rated_h", "Chain_Overload_h", "Avg_Shutdown_h", "Avg_LowPower_h", "Avg_Rated_h", "Avg_Overload_h", "Smart_Shutdown_h", "Smart_LowPower_h", "Smart_Rated_h", "Smart_Overload_h"]
+
+[[files.tables]]
+name = "Manuscript_Figure3-10_Data/Figure04_SOCS_power_curves.csv"
+format = "delimited"
+rows = 241
+columns = 5
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time_h", "Smart_Stack1_kW", "Smart_Stack2_kW", "Smart_Stack3_kW", "Smart_Stack4_kW"]
+
+[[files.tables]]
+name = "Manuscript_Figure3-10_Data/Figure05.csv"
+format = "delimited"
+rows = 241
+columns = 5
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time_h", "Avg_Stack1_kW", "Avg_Stack2_kW", "Avg_Stack3_kW", "Avg_Stack4_kW"]
+
+[[files.tables]]
+name = "Manuscript_Figure3-10_Data/Figure06.csv"
+format = "delimited"
+rows = 241
+columns = 5
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time_h", "Chain_Stack1_kW", "Chain_Stack2_kW", "Chain_Stack3_kW", "Chain_Stack4_kW"]
+
+[[files.tables]]
+name = "Manuscript_Figure3-10_Data/Figure07.xlsx:Figure07_start_stop_events"
+format = "xlsx"
+rows = 4
+columns = 5
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["Strategy", "EL1_events", "EL2_events", "EL3_events", "EL4_events"]
+
+[[files.tables]]
+name = "Manuscript_Figure3-10_Data/Figure08.csv"
+format = "delimited"
+rows = 241
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time_h", "SOCS_Cumulative_H2_kg", "Chain_Cumulative_H2_kg", "Average_Cumulative_H2_kg"]
+
+[[files.tables]]
+name = "Manuscript_Figure3-10_Data/Figure09.csv"
+format = "delimited"
+rows = 241
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Time_h", "SOCS_Efficiency_percent", "Chain_Efficiency_percent", "Average_Efficiency_percent"]
+
+[[files.tables]]
+name = "Manuscript_Figure3-10_Data/Figure10.csv"
+format = "delimited"
+rows = 5
+columns = 4
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Electrolyzer", "SOCS_uV", "Chain_Strategy_uV", "Average_Strategy_uV"]

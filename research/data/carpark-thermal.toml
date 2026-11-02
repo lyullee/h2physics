@@ -1,0 +1,142 @@
+key = "carpark-thermal"
+title = "Experimental data- hydrogen safety, thermal effects"
+doi = "10.23642/usn.17695082.v1"
+version = "1"
+origin = "measured"
+source_updated_at = ""
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://api.figshare.com/v2/articles/17695082/versions/1"
+metadata_sha256 = "00c1ca9a00ed214c1e2387373c69aea8b997f63aa27a8a8aa9e6c7e7a7977b42"
+retrieved_at_utc = "2026-10-27T07:13:43.259888+00:00"
+authors = ["Agnieszka Lach", "Andre Vagner Gaathaug"]
+families = ["fire", "exposure"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 10
+acquired_bytes = 693385633
+omitted_files = []
+
+[[supporting_metadata]]
+url = "https://api.figshare.com/v2/articles/17695082"
+sha256 = "3350160167171206ec45af376be3ec755f9be4f2916d7fdf1419ce7fbf44759b"
+
+[[files]]
+name = "Readme_Experimental data-Hydrogen safety, thermal effects.docx"
+url = "https://ndownloader.figshare.com/files/33658145"
+relative_path = "carpark-thermal/1/Readme_Experimental data-Hydrogen safety, thermal effects.docx"
+size_bytes = 15018
+sha256 = "b1df7359aeb100408c9d7b2b3a37fcd1fc942f394caf6db983aa7b32480277d6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b7eb43b7de76d986b3fcf4abe95654e8"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "data description.docx"
+url = "https://ndownloader.figshare.com/files/32386877"
+relative_path = "carpark-thermal/1/data description.docx"
+size_bytes = 102844
+sha256 = "39f1cf8519babccaa9f9b4edb7ffc0380853a9280bcf1a3315af07f30487770b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "23c9c69e86d3088f62d8412edb72b94f"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp_00002.mat"
+url = "https://ndownloader.figshare.com/files/32386856"
+relative_path = "carpark-thermal/1/Exp_00002.mat"
+size_bytes = 57386217
+sha256 = "71edba106de628e04005304ba20536c61228f4d73b57938b56bdc09f8358ec8c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2f2812a4a21e94517f2e379085dca4c3"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp_00005.mat"
+url = "https://ndownloader.figshare.com/files/32386868"
+relative_path = "carpark-thermal/1/Exp_00005.mat"
+size_bytes = 83233774
+sha256 = "a6b87028127b1cae7d2ea0297f62d6e0183ee93c1834885bed253b82f88e3df3"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7b23f927b6ec4af52abd5f9f5dc37d60"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp_00001.mat"
+url = "https://ndownloader.figshare.com/files/32386853"
+relative_path = "carpark-thermal/1/Exp_00001.mat"
+size_bytes = 87145920
+sha256 = "535b0af2beabb1c25b726f55a2d0faeb77ac990c733fc1312bc604c1d4e6bf75"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5900c0f8701403b6259ca40628059686"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp_00003.mat"
+url = "https://ndownloader.figshare.com/files/32386859"
+relative_path = "carpark-thermal/1/Exp_00003.mat"
+size_bytes = 91100499
+sha256 = "1435e5426e5f0439bd7936cf24b9da0fa2af857cb2961849890dcd47e2d2f8ba"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "907cc58775fc44aca1800d7736add662"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp_00007.mat"
+url = "https://ndownloader.figshare.com/files/32386874"
+relative_path = "carpark-thermal/1/Exp_00007.mat"
+size_bytes = 92771285
+sha256 = "9fecf52f40a5c90d15d2686944896587953cd31de7547267a2eed900dd2eec8a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "19914e8069dc0f5025c725c458ac0872"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp_00004.mat"
+url = "https://ndownloader.figshare.com/files/32386862"
+relative_path = "carpark-thermal/1/Exp_00004.mat"
+size_bytes = 93199247
+sha256 = "a6d1394979677e736677b2250b7d7b2c56fb6ee2b0cc0e2de87e2c9a32cbcfaa"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d9a7752d5552d3ffa95c06ae3906db40"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Exp_00006.mat"
+url = "https://ndownloader.figshare.com/files/32386871"
+relative_path = "carpark-thermal/1/Exp_00006.mat"
+size_bytes = 93423140
+sha256 = "d98beedf7fbff9d0859b751b2e112428090a60144e4bdf62a35653b469f8782d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3bf07c0f5d826bdcc2e8e67d189da16b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Exp_00008.mat"
+url = "https://ndownloader.figshare.com/files/32386850"
+relative_path = "carpark-thermal/1/Exp_00008.mat"
+size_bytes = 95007689
+sha256 = "7f66421f5f0f01cd9fc907dc61c522db67ba84496fa01e4edde71cff48ae000b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "94322db50b94b3d92dd9eb1fd742da7b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

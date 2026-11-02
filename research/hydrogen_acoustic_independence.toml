@@ -1,0 +1,44 @@
+dataset_key = "hydrogen-sound-speed"
+dataset_doi = "10.5281/zenodo.21355851"
+member = "H2_speedofsound_dataset/H2_speedofsound_Nguyen_2024_nH2.txt"
+publication_doi = "10.1016/j.jct.2024.107341"
+publication_url = "https://www.sciencedirect.com/science/article/pii/S0021961424000946"
+publication_year = 2024
+reviewed_on = "2026-11-01"
+native_library = "CoolProp"
+native_version_observed = "8.0.0"
+native_fluid = "Hydrogen"
+native_eos_bibtex_observed = "Leachman-JPCRD-2009"
+native_metadata_method = "get_fluid_param_string('Hydrogen', 'JSON')[0].EOS[].BibTeX_EOS"
+compared_rows = 57
+rms_residual_m_s = 3.45030441
+maximum_absolute_relative_error_percent = 0.444311708
+comparison_origin = "measured literature compilation compared with a native EOS; no fitting"
+independence_status = "candidate for external validation of the 2009 EOS; qualification incomplete"
+evidence = [
+  "The publisher describes measured normal-hydrogen sound speeds using resonator and pulse-echo instruments.",
+  "The experiment publication date is later than the EOS reference reported by the installed native fluid.",
+  "The publication also develops a newer EOS; those new-model training data cannot validate that newer model independently.",
+  "The installed CoolProp fluid currently reports the older EOS, not the newer paper's fitted model.",
+]
+pending_checks = [
+  "Preserve the native fluid EOS coefficient fingerprint before any subsequent model/library comparison.",
+  "Review whether later native EOS revisions incorporated this experiment despite retaining the older citation.",
+  "Select acceptance criteria for a declared operating domain before claiming a qualified accuracy level.",
+]
+implementation_policy = "Keep the native CoolProp EOS; do not transcribe or implement a separate thermophysical EOS from publication coefficients. A newer EOS needs a reviewed native-library integration."
+raw_redistribution_admitted = false
+validation_qualified = false
+
+primary_source_url = "https://spiral.imperial.ac.uk/server/api/core/bitstreams/01be0734-7b17-4018-a48e-6b025eb09240/content"
+primary_document_sha256 = "718f08874e2881beeebd5d5067b8a847a131ed2bd4082ffa7a7dc6fb049bef90"
+primary_document_size_bytes = 2379686
+primary_document_license_id = "CC-BY-4.0"
+primary_document_license_url = "https://creativecommons.org/licenses/by/4.0/"
+primary_rights_evidence = "Article first-page CC BY grant, independently accessed institutional author manuscript; no raw document redistributed."
+primary_table_crosscheck = "All 57 T/p/w triplets exactly match Table 4 on manuscript page 3; visually inspected headings and two-column layout."
+expanded_speed_uncertainty_coverage_factor = 2
+rows_within_reported_expanded_uncertainty = 19
+maximum_absolute_residual_to_expanded_uncertainty = 9.787076150450957
+uncertainty_interpretation = "Descriptive residual/U(w) comparison only; no chi-square or model-form uncertainty claim; correlated measurement errors are not treated as independent."
+primary_audit_report = "docs/NGUYEN_ACOUSTIC_SOURCE_AUDIT.md"

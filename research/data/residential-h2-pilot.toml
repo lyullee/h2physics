@@ -1,0 +1,37 @@
+key = "residential-h2-pilot"
+title = "Measurements from a residential hydrogen-based energy system reported between March and April 2024"
+doi = "10.5281/zenodo.15166733"
+version = "1"
+origin = "measured"
+metadata_url = "https://zenodo.org/records/15166733"
+metadata_reviewed_at = "2026-10-31"
+authors = ["Laura Rodriguez De Lope", "Ramón Agüero", "Luis Diez", "Inmaculada Ortiz", "Alfredo Ortiz Sainz de Aja", "Víctor Manuel Maestre Muñoz"]
+families = ["residential_hydrogen_system", "electrolysis", "compression", "fuel_cell", "energy_management"]
+license_id = "unknown"
+license_url = ""
+rights_permitted = false
+raw_redistribution_admitted = false
+license_scope = "The official Zenodo record displays an empty License field; no reuse license could be verified. Do not acquire or ingest the payload until rights are clarified."
+validation_qualified = false
+listed_file_count = 1
+listed_size_display = "38.6 MB (publisher-rounded)"
+acquired_bytes = 0
+acquisition_status = "not_acquired_license_unresolved"
+acquisition_note = "The official record describes a 5-second PLC log from a residential PV/battery/electrolyzer/buffer/compressor/high-pressure tank/fuel-cell system, collected 2024-03-27 through 2024-04-15. The listed CSV is shown as 38.6 MB and MD5 9a3c3e3b1668596854b43bfd790d3e0e. No payload was downloaded because the official record's license field is blank."
+candidate_existing_models = ["h2physics.adapters.process_monitoring", "h2physics.adapters.fuel_cell", "h2physics.adapters.storage_product_delivery"]
+integration_status = "metadata_only_rights_and_boundary_gap"
+model_linkage_admitted = false
+model_link_case = "residential-h2-pilot-license-and-physical-boundary-gap"
+missing_model_link_evidence = ["explicit reuse license/rights permission", "CSV payload and source hash", "timestamp timezone and break marker semantics", "normal-liter reference temperature/pressure for H2 flow channels", "sensor calibration and pressure gauge/absolute basis", "compressor/tank volumes and operating boundary", "mapping from PLC totals and interval flow to existing producer/consumer APIs"]
+source_description = "The record states the CSV has 5-second samples with datetime, OPEN/CLOSE break markers, electrical subsystem powers in W, buffer/tank/fuel-cell pressures in bar, fuel-cell and electrolyzer H2 flow in NL/h, electrolyzer cumulative H2 in NL, battery SOC and ambient temperature in degC."
+
+[[files]]
+name = "HY2RES_202404.csv"
+url = "https://zenodo.org/records/15166733/files/HY2RES_202404.csv?download=1"
+listed_size_display = "38.6 MB"
+publisher_md5 = "9a3c3e3b1668596854b43bfd790d3e0e"
+status = "not_acquired_license_unresolved"
+
+[[sources]]
+url = "https://zenodo.org/records/15166733"
+description = "Official Zenodo v1 record, description, file list and CSV channel descriptions; retrieved as primary page metadata. The Rights/License field is empty."

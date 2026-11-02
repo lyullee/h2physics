@@ -1,0 +1,310 @@
+key = "carpark-unignited"
+title = "Experimental data - Hydrogen Safety-mechanical ventilation"
+doi = "10.23642/usn.14405903"
+version = "2"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://api.figshare.com/v2/articles/14405903"
+metadata_sha256 = "f6b96657bcea25a3acce4544693fb07684cd48c04f5274229da9b301bcc2ed0e"
+retrieved_at_utc = "2026-10-26T15:44:42.069885+00:00"
+authors = ["Agnieszka Lach", "Andre Vagner Gaathaug"]
+families = ["ventilation", "dispersion"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 23
+acquired_bytes = 342149546
+omitted_files = []
+model_linkage_status = "blocked_independent_recorder_clock_coordinates_and_release_expansion_mapping"
+model_link_target = "h2physics.adapters.obstacle_dispersion.HydrogenCFDSource"
+model_link_case = "usn-carpark-unignited-fds-boundary-evidence-gap"
+model_link_scope = "A metadata-only HDF5 audit of Exp03 exposes measured flow and concentration channels that may map to the existing obstacle-resolved FDS source/receptor boundary, but the source clock, release plane, expansion state, and sensor coordinates cannot yet be joined reproducibly."
+schema_audit_file = "Exp03.mat"
+schema_audit_file_sha256 = "2c74d3575c00fe84757ffcd9580f36f29bd3be43af58f1c9814a1544ac799cb4"
+missing_model_link_evidence = ["MFM time unit, zero/origin, and alignment to independent sensor, tank, and vent recorders", "MFM signed-flow direction and mapped physical release plane", "measured or caller-authorized post-expansion FDS source temperature and inlet patch", "sensor position coordinate unit, axis/frame, and registration to the container geometry", "gas-sensor calibration/response and evidence mapping reported percent-volume to FDS H2 volume fraction", "exact file-handling guide and experiment-specific boundary conditions for selected MAT files"]
+
+[schema_audit]
+state = "metadata_only_hdf5_audit_of_Exp03"
+inspection = "MATLAB v7.3 structure names and array metadata were read without loading experiment arrays: MFM has 49,999 MFR/time rows, plus pressure and density vectors; its unit cells label MFR g/s, pressure bar, density kg/m^3. Vent has 49,999 time/volume-flow rows and labels volume flow m^3/h. S contains 38 sensor entries with fields including ID, time, concentration, transfer, temperature, humidity, units and position; the sensor metadata labels time sec and concentration %vol."
+limitations = "MFM/Tank/Vent recorder clocks are not established as synchronized with the sensor clock; MFM.time has no explicit time-unit cell in this file; sensor position coordinate units/frame and release expansion state are not specified. MAT storage shape does not supply those physical meanings. The separate file-handling guide PDF is listed but not acquired."
+
+[[files]]
+name = "Exp03.mat"
+url = "https://ndownloader.figshare.com/files/27540770"
+relative_path = "carpark-unignited/2/Exp03.mat"
+size_bytes = 3174901
+sha256 = "2c74d3575c00fe84757ffcd9580f36f29bd3be43af58f1c9814a1544ac799cb4"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "38f71302d6180bcf175ff801dc8c2c90"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp04.mat"
+url = "https://ndownloader.figshare.com/files/27540773"
+relative_path = "carpark-unignited/2/Exp04.mat"
+size_bytes = 7013153
+sha256 = "d3d10d8b07a11c6cd3fc6777c502591a4d94400c3af21c6aab3d3257d105655b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b68d2875caebb5f533d391e40359ca10"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp05.mat"
+url = "https://ndownloader.figshare.com/files/27540776"
+relative_path = "carpark-unignited/2/Exp05.mat"
+size_bytes = 6406283
+sha256 = "fa0a95bcfe42059bd42935f3e57f2a0bd8a12563fed3d21991c4868e8a65b101"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "97893f32f3e53b9693d1dd4f6a1719dd"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp06.mat"
+url = "https://ndownloader.figshare.com/files/27540779"
+relative_path = "carpark-unignited/2/Exp06.mat"
+size_bytes = 6966901
+sha256 = "f045fba3c022b40a57ed1fcf9b457032e88c75b045cf0c21b86c0d60e55cb4f1"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7dc9f3728a3aa87fd0f65558489a4a96"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp07.mat"
+url = "https://ndownloader.figshare.com/files/27540782"
+relative_path = "carpark-unignited/2/Exp07.mat"
+size_bytes = 7497583
+sha256 = "087a7d3c51f210a3f4318c774c51c5b6a75f783198d44455859405d2fa5edec6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a3a6f5b6703ed017c92f4e1e32ed3d7d"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp08.mat"
+url = "https://ndownloader.figshare.com/files/27540785"
+relative_path = "carpark-unignited/2/Exp08.mat"
+size_bytes = 7222508
+sha256 = "4fa72d65a761f9ace7ebee4c7cb61cf2e8dab285963d61e83720a8c209ed4062"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "1aee00038f553936b8924fd38deac23a"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp09.mat"
+url = "https://ndownloader.figshare.com/files/27540791"
+relative_path = "carpark-unignited/2/Exp09.mat"
+size_bytes = 7261446
+sha256 = "c2232a0be2bbcf2735f985c32e35cb4b1fef9ab6cd5342c96adcb39648b4ba78"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "133c4487574e2350df8fd024a5c18372"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp10.mat"
+url = "https://ndownloader.figshare.com/files/27540794"
+relative_path = "carpark-unignited/2/Exp10.mat"
+size_bytes = 7526264
+sha256 = "966375ef8e715146ebae73993d5f93353e6dd2862095cd8a8a1409e7345b5998"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "61c661add3d27cdadd0f82b6518f231b"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp11.mat"
+url = "https://ndownloader.figshare.com/files/27540797"
+relative_path = "carpark-unignited/2/Exp11.mat"
+size_bytes = 7213627
+sha256 = "230b44e71dea4053ffc387542f3dab3c99061c13c54dc2c7fa9a73975892f9a3"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "02b6ef4be20e3d9bbfbe11930e1c1026"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp12.mat"
+url = "https://ndownloader.figshare.com/files/27540800"
+relative_path = "carpark-unignited/2/Exp12.mat"
+size_bytes = 6778360
+sha256 = "f9d1d6de2430adeead2ce135b1e8b581ea9df6a185de28512873b9baf1fffe1d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cad4e74952dde0bd01933983fc1c44a3"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp13.mat"
+url = "https://ndownloader.figshare.com/files/27540803"
+relative_path = "carpark-unignited/2/Exp13.mat"
+size_bytes = 7371715
+sha256 = "3414adf55f11c72f4b85608b4e9b1b2b8a1fd181bd89a80c112065fb2ba039fa"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3ec7875faada39a95344be787633e4e7"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp14.mat"
+url = "https://ndownloader.figshare.com/files/27540806"
+relative_path = "carpark-unignited/2/Exp14.mat"
+size_bytes = 6947707
+sha256 = "ab967e3ce2a26e4cc8432359e864486a57a71ee02cfc233ec5e52451e010cf9d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7a2d996204483ec247445d50ca7e9403"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp15.mat"
+url = "https://ndownloader.figshare.com/files/27540809"
+relative_path = "carpark-unignited/2/Exp15.mat"
+size_bytes = 6980195
+sha256 = "4c7107a9fa1e082b291a311284a8f80265bc76d951087ec9daf208a36cc04306"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4562c346f9f3747ac58f3fff826957f9"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp16.mat"
+url = "https://ndownloader.figshare.com/files/27540812"
+relative_path = "carpark-unignited/2/Exp16.mat"
+size_bytes = 30929249
+sha256 = "cbeb25175596778f9c04cf9f69a6a0922650a0c534df68a6c8ca84fa8257d3cd"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "abd484ed7defd2ddb31e9608204dab12"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp17.mat"
+url = "https://ndownloader.figshare.com/files/27540818"
+relative_path = "carpark-unignited/2/Exp17.mat"
+size_bytes = 33237976
+sha256 = "71b8b61657e632fc3a2580bafe19448e93a6c292abc63a97472d15cbfb03f047"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fd2fdef1f31c94fd957cfd505ddf4089"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp18.mat"
+url = "https://ndownloader.figshare.com/files/27540821"
+relative_path = "carpark-unignited/2/Exp18.mat"
+size_bytes = 33586389
+sha256 = "b96506257d2aee261446d6526edb9fd5568b02540edee4536415a8e417cd3b12"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "48a7d1006c2ea31b025cbbbe10586cab"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp19.mat"
+url = "https://ndownloader.figshare.com/files/27540824"
+relative_path = "carpark-unignited/2/Exp19.mat"
+size_bytes = 30964564
+sha256 = "dff296c154136028d7a38568ff4e7f90c0a74e29a51a0f026433f8b8fbd22fd2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "372c4ddee15a6fdfeac3d29c99659060"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp20.mat"
+url = "https://ndownloader.figshare.com/files/27540827"
+relative_path = "carpark-unignited/2/Exp20.mat"
+size_bytes = 32013319
+sha256 = "b0bc7c415da5dba9ba878bf5c7e4e14a785cf2c4ec7454b57f697609676417b3"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5cc966bb36c57a3a210c0c5d404b43e6"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp21.mat"
+url = "https://ndownloader.figshare.com/files/27540830"
+relative_path = "carpark-unignited/2/Exp21.mat"
+size_bytes = 30449511
+sha256 = "9cfc76033748612c441d71e9d23515c81260d557a8f0168403be889ba55cfd65"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "dbee45f5c855e149db1e963918071375"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp22.mat"
+url = "https://ndownloader.figshare.com/files/27540833"
+relative_path = "carpark-unignited/2/Exp22.mat"
+size_bytes = 29952927
+sha256 = "8afd80f1e7e71650c47222adfbe11d64c21a2b05eeadb8f65ff2e8181984441e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ea9df4920ac01a958876ade7410b05d5"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "Exp23.mat"
+url = "https://ndownloader.figshare.com/files/27540839"
+relative_path = "carpark-unignited/2/Exp23.mat"
+size_bytes = 32653229
+sha256 = "49f33d8ef7b7a73e607a615fcf5cf7fa443f1345265d0c4d3f18c7584560ac65"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d66804a544ede24b013479b9843df657"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "USNReadmetemplate.txt"
+url = "https://ndownloader.figshare.com/files/27540962"
+relative_path = "carpark-unignited/2/USNReadmetemplate.txt"
+size_bytes = 1739
+sha256 = "5d513ec5ad6d4e4953fc5e8567eeaa40df4558070d2e53cc90638f269e130768"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b0781be08d2d07a12e9d1c5e40967f1a"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[sources]]
+title = "USN Figshare record and acquired readme"
+url = "https://doi.org/10.23642/usn.14405903"
+role = "Record supplies version/CC BY 4.0 rights metadata; the acquired readme identifies the measured instrument families."
+
+[[files]]
+name = "File handling guide.pdf"
+url = "https://ndownloader.figshare.com/files/27541265"
+relative_path = ""
+size_bytes = 0
+sha256 = ""
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "71a59cb4a74346a02554a6d2f4e32412"
+publisher_checksum_verified = false
+status = "not_acquired"
+error = ""

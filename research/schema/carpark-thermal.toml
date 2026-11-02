@@ -1,0 +1,450 @@
+dataset = "carpark-thermal"
+doi = "10.23642/usn.17695082.v1"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "Readme_Experimental data-Hydrogen safety, thermal effects.docx"
+format = "docx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "data description.docx"
+format = "docx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "Exp_00002.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "#refs#"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "HF"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "MFM"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "TS"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Tank"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Vent"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files]]
+name = "Exp_00005.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "#refs#"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "HF"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "MFM"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "TS"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Tank"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Vent"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files]]
+name = "Exp_00001.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "#refs#"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "HF"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "MFM"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "TS"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Tank"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Vent"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files]]
+name = "Exp_00003.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "#refs#"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "HF"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "MFM"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Tank"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Vent"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files]]
+name = "Exp_00007.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "#refs#"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "HF"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "MFM"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "TS"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Tank"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Vent"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files]]
+name = "Exp_00004.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "#refs#"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "HF"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "MFM"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "TS"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Tank"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Vent"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files]]
+name = "Exp_00006.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "#refs#"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "HF"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "MFM"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "TS"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Tank"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Vent"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files]]
+name = "Exp_00008.mat"
+format = "mat"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "#refs#"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "HF"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "MFM"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "TS"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Tank"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []
+
+[[files.tables]]
+name = "Vent"
+format = "mat-hdf5"
+rows = 0
+columns = 0
+counting_basis = "HDF5 object; inspect schema before interpretation"
+column_names = []

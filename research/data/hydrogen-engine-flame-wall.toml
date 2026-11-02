@@ -1,0 +1,130 @@
+key = "hydrogen-engine-flame-wall"
+title = "Data for Flame propagation and piston surface temperature measurements in a hydrogen-fuelled internal combustion engine"
+doi = "10.48328/tudatalib-2291"
+version = "2026-07-17"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/dbec6035-12f9-4ba6-b776-7b4ec4b11979"
+metadata_sha256 = "3438d88458f9ffb08eb5e4224fea51eba6f6fa29cb15923d9acd50315d1e30fa"
+retrieved_at_utc = "2026-10-29T23:51:43+00:00"
+authors = ["Pedro Ye", "Daniel Burkart", "Max Peters", "Benjamin Traut", "Andreas Dreizler", "Benjamin Böhm"]
+families = ["combustion", "piston_engine", "heat_transfer"]
+rights_permitted = true
+license_scope = "The item metadata declares CC-BY-4.0 and openAccess; all eight published ORIGINAL bitstreams are listed in the captured repository metadata. No file-specific exception was shown. Raw files remain in ignored data/raw and are not included in Git or package artifacts."
+third_party_component_rights_reviewed = false
+raw_redistribution_admitted = false
+validation_qualified = false
+model_linkage_status = "blocked_schema_mapping_gap"
+candidate_existing_model_apis = ["h2physics.combustion.open_cylinder_engine", "h2physics.combustion.engine_wall"]
+model_linkage_admitted = false
+missing_model_link_evidence = ["Fig2 crank-angle zero/reference and pressure-transducer location", "pressure mean/std population and relationship to raw cycles", "Fig3 lifetime phenomenon and matched operating condition", "Fig5 flame-map physical quantity/units, axis origin/orientation and three-index meaning", "Fig6/7 temperature-difference reference and thermocouple position", "Fig8 heat-flux plane/location and flame-power definition/sample correspondence", "Fig9 coordinate/time axes and alignment with flame-power samples", "per-figure mixture, operating state, cycle identity and uncertainty basis", "third-party component reuse rights"]
+metadata_contract_case = "hydrogen-engine-figure-data-model-link-gap"
+author_request = "requests/hydrogen_engine_figure_data_mapping.md"
+listed_file_count = 8
+acquired_bytes = 8828090
+omitted_files = []
+
+[[supporting_metadata]]
+url = "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/dbec6035-12f9-4ba6-b776-7b4ec4b11979/bundles"
+sha256 = "ff8db12dae269829ebd3935a561ce84518db53342db09be7ebde99c19feca4cb"
+
+[[supporting_metadata]]
+url = "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bundles/bcda6aed-b57b-4377-a9c6-c5b74a33f79e/bitstreams"
+sha256 = "ca820e742eebf5614a77d8f998cc1875377ce08b946dd02a055c258976390f79"
+
+[[files]]
+name = "Fig2.h5"
+url = "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bitstreams/9b8a4309-454f-4b79-b2d5-71e6a9993e1f/content"
+relative_path = "hydrogen-engine-flame-wall/2026-07-17/Fig2.h5"
+size_bytes = 129376
+sha256 = "729b8a4f0dd67cfa84b9c925a34a033618bc6af5d0abe876ba8f03d8e57eac4e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "dcb78e8658c6192668f820914d9f2dd2"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Fig3.h5"
+url = "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bitstreams/8dec9a79-02f8-45f6-bd19-9af7de677929/content"
+relative_path = "hydrogen-engine-flame-wall/2026-07-17/Fig3.h5"
+size_bytes = 15784
+sha256 = "ecb5072582cea99128be1937a54cc3d851c05f3a22429820e9c0960fba37dc5a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d2eb73ffe1ba087e875c42f07c18a01b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Fig5.h5"
+url = "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bitstreams/ed84cf3d-0d99-4f8b-87a5-d088e7a240c4/content"
+relative_path = "hydrogen-engine-flame-wall/2026-07-17/Fig5.h5"
+size_bytes = 7780096
+sha256 = "adeb246afb604a1f4d48432d19db6fa12f545dfb0404eae5863bd64b25d8b038"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3020183522e3f5c25932114f5a470a95"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Fig6.h5"
+url = "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bitstreams/0890465c-cdcf-4363-a9a1-40420f7e51ce/content"
+relative_path = "hydrogen-engine-flame-wall/2026-07-17/Fig6.h5"
+size_bytes = 58624
+sha256 = "e3156d6d2d9a499788afee90090bfe5d33190a16cff7e390754d0cc3e746a532"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "98ab0dd1bdabcf28e06cd9875a29fc11"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Fig7.h5"
+url = "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bitstreams/1e2104d7-331f-46a6-9031-35a1266e5b81/content"
+relative_path = "hydrogen-engine-flame-wall/2026-07-17/Fig7.h5"
+size_bytes = 38624
+sha256 = "9688ce757428b5b47483a0bc33cfdcedd8937fe083324a147364f24861479976"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "52057b25cb47f2c5005d420c59e9f4b8"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Fig8.h5"
+url = "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bitstreams/d565c6ce-4a2c-4334-8f48-9d3dc37c15f4/content"
+relative_path = "hydrogen-engine-flame-wall/2026-07-17/Fig8.h5"
+size_bytes = 126136
+sha256 = "f8452f914c12be28ac97f1e741f7a861416d514d6075b91b3c2c1a1fcbdae3a2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3d3f0e6302c0b2f0ca35df6e4d4ce628"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Fig9.h5"
+url = "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bitstreams/dfa6fa09-3359-459e-a1ef-c738f4b56ba9/content"
+relative_path = "hydrogen-engine-flame-wall/2026-07-17/Fig9.h5"
+size_bytes = 678784
+sha256 = "668cc2ff3e54c61a19842a5d3dc2794e9bc15608645b47c374fd0614dca315f2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7e3945a3c44a81cb510fcde7d4aaf91c"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "README.txt"
+url = "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bitstreams/d9f6673d-f877-48b2-ba5c-4b3dfb986e83/content"
+relative_path = "hydrogen-engine-flame-wall/2026-07-17/README.txt"
+size_bytes = 666
+sha256 = "997491971bc67bd62ed460d14657d8c4bb549b65a41256dce553a2730dc77c07"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8cbda18a7ac2cdb65f78d39ab8d4a896"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

@@ -1,0 +1,135 @@
+key = "buried-h2-blend-pipeline"
+title = "Experimental Study on Leakage and Dispersion Dynamics of Buried hydrogen blended natural gas Pipeline Under Delayed-Ignition Condition"
+doi = "10.17632/x8zkds4fyn.2"
+version = "2"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+license_scope = "Mendeley Data version 2 snapshot declares CC BY 4.0. The repository warns that separately identified third-party content may have its own terms; no raw attachment is redistributed by this project."
+metadata_url = "https://data.mendeley.com/public-api/datasets/x8zkds4fyn/snapshot/2"
+metadata_sha256 = "d2fec89f1eee8916992aec86d6ebc10b5b94dfd1be1aa780c0f93ce541d1fcf8"
+retrieved_at_utc = "2026-10-29T14:54:58+00:00"
+authors = ["Wenxin Guo"]
+families = ["buried_pipeline_release", "dispersion", "flammable_cloud"]
+rights_permitted = true
+attribution = "Guo, Wenxin (2025). Experimental Study on Leakage and Dispersion Dynamics of Buried hydrogen blended natural gas Pipeline Under Delayed-Ignition Condition, version 2. Mendeley Data. https://doi.org/10.17632/x8zkds4fyn.2. Licensed under CC BY 4.0; attribution and license link required, changes must be indicated, and separately identified third-party material may have separate terms."
+validation_qualified = false
+listed_file_count = 12
+acquired_bytes = 18314
+record_status = "current"
+latest_version_doi = "10.17632/x8zkds4fyn.2"
+schema_status = "inspected: UTF-16 tab-separated, headerless numeric rows; positional columns only; no units or physical meanings inferred"
+model_use = "Candidate independent measured evidence for buried hydrogen-blended natural-gas leakage and delayed-ignition concentration evolution; suitability, independent experiments, geometry, units, clocks and observation operators have not been qualified."
+next_action = "Qualify field definitions, units, experiment identities and observation operators from authoritative dataset documentation before domain-specific use."
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/x8zkds4fyn/files?folder_id=root&version=2&$start=0&$limit=1000"
+sha256 = "22732dafaeadf55deca96a08b5448b73dc809284629bfba0038c8b8215616c0e"
+
+[[files]]
+name = "H-232.csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/94b28f80-ed41-489c-a768-45ba9dd8dbbd/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/H-232.csv"
+publisher_checksum_verified = true
+size_bytes = 1532
+sha256 = "66ccc6633475fcdabb4c11371eea546d8c85a6d8294d980b89e3da5e9be9320c"
+
+[[files]]
+name = "H-325.csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/211f4bcb-9fed-450d-954a-b70d33749ca8/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/H-325.csv"
+publisher_checksum_verified = true
+size_bytes = 1286
+sha256 = "490bf6f9efedcc5ae5730543e217c0c7925d30e08a7dc2a8073385fafb4b1a21"
+
+[[files]]
+name = "H-476.csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/7543a9a0-69f7-4b18-a817-85a5806c503a/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/H-476.csv"
+publisher_checksum_verified = true
+size_bytes = 1656
+sha256 = "059495b9d071632933237cbd717d7870b0c2fc6bdadbec3504a51b3c23aed948"
+
+[[files]]
+name = "hydrogenAll10%.csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/b36c9e2b-31f5-40cf-9e96-949ef66baedc/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/hydrogenAll10%.csv"
+publisher_checksum_verified = true
+size_bytes = 1286
+sha256 = "db81cdcfb6946005eed0450d81b94f3040cf09f4774559f968dcc1a81aa8b3a5"
+
+[[files]]
+name = "hydrogenAll20% .csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/c1a423fd-6c67-4524-9546-65c3d33cb3bc/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/hydrogenAll20% .csv"
+publisher_checksum_verified = true
+size_bytes = 1270
+sha256 = "87570f3f164bb2f2056656b682aa816963fa870a6c55226375aafbfca642a162"
+
+[[files]]
+name = "hydrogenAll30%  .csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/1ec63049-0c93-4a6e-aa4c-528317a5dae9/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/hydrogenAll30%  .csv"
+publisher_checksum_verified = true
+size_bytes = 1336
+sha256 = "f982012c4ae43736678b05b8c5872d0cf1f52db395f48b5c46d8d8c36dbb0f33"
+
+[[files]]
+name = "m-232.csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/b227527d-3816-4f1c-82c9-b339ab2565b3/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/m-232.csv"
+publisher_checksum_verified = true
+size_bytes = 1812
+sha256 = "95d3a4c0c134553f69bbbb845c41d210b3f3e621a03d19e19766d68cdff06290"
+
+[[files]]
+name = "m-325.csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/c4aa844f-6003-4407-90ed-db239bf9917c/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/m-325.csv"
+publisher_checksum_verified = true
+size_bytes = 1340
+sha256 = "329cfe7178100fcd67e5017130c134642958c43621bc74ad814b2fe1bd865066"
+
+[[files]]
+name = "m-476.csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/603c27c5-73b4-496c-aeeb-ecdb86631068/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/m-476.csv"
+publisher_checksum_verified = true
+size_bytes = 1866
+sha256 = "10d3e1abd1f8a3d08e1b8b90c2e7fc1366625c26b24d595fc6e8d2c8ce39352b"
+
+[[files]]
+name = "methaneAll10% .csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/a084a88e-f9d2-4e5f-9f97-0b3b02b3c173/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/methaneAll10% .csv"
+publisher_checksum_verified = true
+size_bytes = 1510
+sha256 = "d4e96b7267d5016de129a77e9d48d95e08bdd6b58af7bee30100088101023fa9"
+
+[[files]]
+name = "methaneAll20% .csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/37d6eb00-4089-41fb-a74a-9c8a3e558b11/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/methaneAll20% .csv"
+publisher_checksum_verified = true
+size_bytes = 1700
+sha256 = "3969c828e051debbf623acaab9fd006a8646efe00b1e48bbb6f427a0a4fc602b"
+
+[[files]]
+name = "methaneAll30%.csv"
+url = "https://data.mendeley.com/public-files/datasets/x8zkds4fyn/files/21be950e-47d5-4cbe-8775-1c3ccc690972/file_downloaded"
+status = "acquired"
+relative_path = "buried-h2-blend-pipeline/2/methaneAll30%.csv"
+publisher_checksum_verified = true
+size_bytes = 1720
+sha256 = "2af84c0cfb041f4f5000765af5fdd692d36675c6db536efad69d183ca8db3879"

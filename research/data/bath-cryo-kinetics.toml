@@ -1,0 +1,55 @@
+key = "bath-cryo-kinetics"
+title = "Data for cryocharging and cryokinetics analysis of hydrogen storage in MIL-101 (Cr) and AX-21"
+doi = "10.15125/BATH-00099"
+version = "1"
+provider = "University of Bath Research Data Archive"
+record_url = "https://researchdata.bath.ac.uk/99/"
+metadata_sha256 = "0a3b91a46f6c419065e284586c0f32f49fc768554da5be240fc96d44b68acbd5"
+origin = "measured"
+license_id = "No restrictions"
+license_evidence = "The primary Bath record states No restrictions but supplies no separate license URI; license_url remains unresolved rather than treating the record page as a license."
+rights_evidence_url = "https://researchdata.bath.ac.uk/99/"
+rights_statement_rechecked_on = "2026-11-01"
+license_uri_status = "unresolved after primary-record review; no distinct license link accompanies the record-level rights statement"
+license_scope = "Record-level rights statement. Only two xlsx measurement workbooks are retained in ignored raw storage; no Origin project, SEM image or ImageJ asset is acquired."
+rights_holder = "University of Bath"
+rights_permitted = true
+third_party_component_rights_reviewed = false
+validation_qualified = false
+retrieved_date = "2026-10-31"
+creators = ["Nuno Bimbo", "Valeska Ting"]
+contributors = ["Tim Mays (data curator)", "Wesley Xu", "Jessica Sharpe"]
+attribution = "Bimbo, N.; Ting, V. (2015). Data for cryocharging and cryokinetics analysis of hydrogen storage in MIL-101 (Cr) and AX-21. University of Bath Research Data Archive. DOI: 10.15125/BATH-00099."
+families = ["hydrogen_storage", "adsorption", "cryo_kinetics"]
+model_link_target = "storage.adsorption_dynamics"
+model_link_status = "observations_ingested; finite-adsorber coupling blocked"
+model_link_gap = "Kinetic columns report whole-sample excess uptake in micromols, while the existing finite adsorption dynamics model requires absolute site loading in mol/kg and a mass/energy-balanced vessel state. No kinetic-sample dry mass or documented same-sample mapping to the wt.% isotherm data is given on the record/workbook schema. Excess cannot be treated as absolute uptake."
+required_model_link_evidence = [
+  "Dry adsorbent mass for each kinetic workbook series and source-row mapping to the corresponding sample/isotherm.",
+  "An independently supported excess-to-absolute uptake conversion or an explicitly surface-excess dynamic model with its own validity basis.",
+  "Initial bed/gas inventory, equilibrium parameters and heat/kinetic boundary inputs needed by the finite vessel model.",
+]
+selected_data_file_count = 2
+other_source_files_excluded = ["Cryocharging_analysis.opj", "Kinetic_analysis.opj", "SEM TIFF images", "ImageJ treatment files"]
+
+[[files]]
+name = "Isotherm_data_-_MIL-101_and_AX-21.xlsx"
+url = "https://researchdata.bath.ac.uk/99/1/Isotherm_data_-_MIL-101_and_AX-21.xlsx"
+relative_path = "bath-cryo-kinetics/1/Isotherm_data_-_MIL-101_and_AX-21.xlsx"
+publisher_display_size = "18 kB"
+size_bytes = 18380
+sha256 = "c97957dc4e58ba8fafc09d54480c117b5ae8111a79825d2499bc6999ad92906e"
+publisher_checksum = "not listed on record"
+status = "acquired"
+schema_notes = "MIL-101 and AX-21 sheets report absolute pressure and excess uptake, with units MPa and wt.% (H2 mass per dry sample mass); rational compressibility-Z fits also appear in workbook. Reader does not ingest this workbook yet."
+
+[[files]]
+name = "Kinetic_data_-_MIL-101_and_AX-21.xlsx"
+url = "https://researchdata.bath.ac.uk/99/2/Kinetic_data_-_MIL-101_and_AX-21.xlsx"
+relative_path = "bath-cryo-kinetics/1/Kinetic_data_-_MIL-101_and_AX-21.xlsx"
+publisher_display_size = "384 kB"
+size_bytes = 384392
+sha256 = "d0ed4668dc98a014e159c993d33edc85b5d4f971a3bbb2eb2263af9d3dae611c"
+publisher_checksum = "not listed on record"
+status = "acquired"
+schema_notes = "Three measured series sheets; columns are time (min), excess uptake (micromols), pressure (MPa), and sample temperature (K)."

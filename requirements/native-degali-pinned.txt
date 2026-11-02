@@ -1,0 +1,4 @@
+# Optional separately installed native engine. No native source is bundled.
+# Install h2physics[thermo] separately. This exact revision declares version 0.3.0;
+# it is not the PyPI 0.1.0 release. Transitive prerequisites include PyAMG.
+degali @ https://github.com/lyullee/degali/archive/6ead182dc19039725a0b40811b48c6d39f947790.zip

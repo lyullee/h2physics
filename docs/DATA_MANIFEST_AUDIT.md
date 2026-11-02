@@ -1,0 +1,85 @@
+# Data manifest metadata audit
+
+Recorded TOML metadata only; no downloads, native/model imports, raw-file reads or scientific execution.
+A complete metadata record is not file-level copyright clearance or permission to redistribute.
+
+File receipts, archive-only receipts and workbook-member receipts are separate forms. Workbook members are not additional downloads; counts are not added into dataset totals.
+
+States: acquired=48, acquisition-failed=1, discovery=18, superseded-acquired=1, withheld=6
+
+| Manifest | State | File receipts | Archive-only receipts | Workbook members | Missing metadata | Rights/provenance follow-up |
+|---|---|---:|---:|---:|---|---|
+| ab2-hydride-tank.toml | acquired | 3 | 0 | 0 | none in checked fields | historical license locator uses HTTP; canonical HTTPS link recommended; file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| aem-water-electrolysis-crossover.toml | acquired | 1 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| agh-uhs-h2-cushion-gas-core-flood.toml | discovery | 0 | 0 | 0 | metadata_sha256 | none in checked flags |
+| alkaline-bubble-observations-file-list.toml | discovery | 0 | 0 | 0 | key; title; version; license_id; license_url; metadata_sha256; authors or publisher attribution; explicit rights_permitted decision | none in checked flags |
+| alkaline-bubble-observations.toml | discovery | 0 | 0 | 0 | metadata_sha256 | none in checked flags |
+| alkaline-electrolyte-purity-candidate.toml | discovery | 0 | 0 | 0 | none in checked fields | none in checked flags |
+| am-316l-hydrogen-embrittlement.toml | acquired | 23 | 0 | 0 | none in checked fields | Tensile tests.xlsx:publisher checksum not recorded verified (may be unavailable); Hardness.xlsx:publisher checksum not recorded verified (may be unavailable); readme.txt:publisher checksum not recorded verified (may be unavailable); Fracto_VS_1mA_01.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VS_1mA_02.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VS_1mA_03.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VS_5mA_01.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VS_5mA_02.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VS_5mA_03.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VS_ref_01.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VS_ref_02.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VZS_1mA_01.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VZS_1mA_02.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VZS_5mA_01.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VZS_5mA_02.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VZS_ref_01.jpg:publisher checksum not recorded verified (may be unavailable); Fracto_VZS_ref_02.jpg:publisher checksum not recorded verified (may be unavailable); microstructure_VS01.jpg:publisher checksum not recorded verified (may be unavailable); microstructure_VS02.jpg:publisher checksum not recorded verified (may be unavailable); microstructure_VS03.jpg:publisher checksum not recorded verified (may be unavailable); microstructure_VZS01.jpg:publisher checksum not recorded verified (may be unavailable); microstructure_VZS02.jpg:publisher checksum not recorded verified (may be unavailable); microstructure_VZS03.jpg:publisher checksum not recorded verified (may be unavailable); no explicit completed third-party component rights review flag |
+| austenite-embrittlement.toml | acquired | 9 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| bam-hydrogen-jet-fire.toml | acquired | 1 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| bath-cryo-kinetics.toml | acquired | 2 | 0 | 0 | license_url | license identifier is not in the host acquisition allowlist; Isotherm_data_-_MIL-101_and_AX-21.xlsx:publisher checksum not recorded verified (may be unavailable); Kinetic_data_-_MIL-101_and_AX-21.xlsx:publisher checksum not recorded verified (may be unavailable); no explicit completed third-party component rights review flag |
+| buried-h2-blend-pipeline-v1.toml | discovery | 0 | 0 | 0 | none in checked fields | historical/superseded: preserve provenance; do not silently select for model use |
+| buried-h2-blend-pipeline.toml | acquired | 12 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| cal-state-la-hrs-operational.toml | discovery | 0 | 0 | 0 | title; version; license_id; license_url; metadata_url; source identity; metadata_sha256; authors or publisher attribution; explicit rights_permitted decision | none in checked flags |
+| carbon-chemisorption.toml | acquired | 19 | 0 | 0 | none in checked fields | historical license locator uses HTTP; canonical HTTPS link recommended; no explicit completed third-party component rights review flag |
+| carpark-thermal.toml | acquired | 10 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| carpark-unignited.toml | acquired | 22 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| cds-photo-screen.toml | acquired | 1 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| clashach-h2-pnm-gap.toml | discovery | 0 | 0 | 0 | key; license_url; metadata_url; license URL does not identify declared license; metadata_sha256; authors or publisher attribution; explicit rights_permitted decision | none in checked flags |
+| cryo-mof-dormancy.toml | acquired | 68 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| cryo-neutron-phase-change.toml | discovery | 0 | 0 | 0 | none in checked fields | none in checked flags |
+| dark-fermentation.toml | acquired | 1 | 0 | 0 | none in checked fields | historical license locator uses HTTP; canonical HTTPS link recommended; no explicit completed third-party component rights review flag |
+| elvhys-cold-room.toml | acquired | 198 | 0 | 0 | none in checked fields | historical license locator uses HTTP; canonical HTTPS link recommended; file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| elvhys-shock-tube.toml | acquired | 42 | 0 | 0 | none in checked fields | historical license locator uses HTTP; canonical HTTPS link recommended; file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| elvhys41-condensed-explosion.toml | acquired | 3 | 0 | 0 | none in checked fields | 00_ELVHYSWP4_1 README.txt:publisher checksum not recorded verified (may be unavailable); ELE401HSEMETA.csv:publisher checksum not recorded verified (may be unavailable); ELE401HSE001CONC20251021.csv:publisher checksum not recorded verified (may be unavailable); no explicit completed third-party component rights review flag |
+| elvhys432-fireline.toml | acquired | 2 | 0 | 0 | none in checked fields | 00_README_ELVHYS_WP_4_3_2.txt:publisher checksum not recorded verified (may be unavailable); ELE432KIT001TEMPL20260819.csv:publisher checksum not recorded verified (may be unavailable); no explicit completed third-party component rights review flag |
+| geological-adsorption-2026-09.toml | acquired | 1 | 0 | 0 | none in checked fields | submission_package.zip:publisher checksum not recorded verified (may be unavailable); no explicit completed third-party component rights review flag |
+| geological-adsorption.toml | superseded-acquired | 1 | 0 | 0 | none in checked fields | historical/superseded: preserve provenance; do not silently select for model use; file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| grinhy2-electrolysis-transient.toml | discovery | 0 | 0 | 0 | metadata_sha256 | none in checked flags |
+| h2-diaphragm-field.toml | withheld | 0 | 0 | 0 | license_url; metadata_sha256; authors or publisher attribution | license identifier is not in the host acquisition allowlist |
+| h2-stations-hrs-inventory.toml | acquired | 1 | 0 | 0 | none in checked fields | hrs-list-2026-10-31.xlsx:publisher checksum not recorded verified (may be unavailable); no explicit completed third-party component rights review flag |
+| h2safe-indoor.toml | acquired | 2 | 0 | 0 | none in checked fields | 1788206575-HVAC_information.docx:publisher checksum not recorded verified (may be unavailable); 1787856683-Dataset.zip:publisher checksum not recorded verified (may be unavailable); file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| hfcev-fleet-telemetry.toml | acquired | 4 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| hydelta-outflow-closed-spaces.toml | discovery | 0 | 0 | 0 | metadata_sha256 | none in checked flags |
+| hydelta-pressure-station-ventilation.toml | discovery | 0 | 0 | 0 | metadata_sha256 | none in checked flags |
+| hydride-compressor.toml | acquired | 1 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| hydride-pct-simulation.toml | acquired | 5 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| hydrogen-channel.toml | acquired | 23 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| hydrogen-core-flood.toml | acquired | 4 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| hydrogen-diffusivity-ms1700-qp1180.toml | acquired | 1 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| hydrogen-engine-flame-wall.toml | acquired | 8 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| hydrogen-permeation-ms-ahss-1300.toml | acquired | 1 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| hydrogen-pipeline-transient-data-gap.toml | withheld | 0 | 0 | 0 | license_url; metadata_sha256 | license identifier is not in the host acquisition allowlist |
+| hydrogen-refuelling-process-traces-gap.toml | withheld | 0 | 0 | 0 | license_url; metadata_sha256 | license identifier is not in the host acquisition allowlist |
+| hydrogen-sound-speed.toml | acquired | 3 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| hydrogen-storage-experiment-data-gap.toml | withheld | 0 | 0 | 0 | license_url; metadata_url; source identity; metadata_sha256; authors or publisher attribution | license identifier is not in the host acquisition allowlist |
+| hysam-sampling-system.toml | acquired | 3 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| ignited-hydrogen-jet-x044qk.toml | acquired | 1 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| large-scale-open-hydrogen-explosion.toml | discovery | 0 | 0 | 0 | license URL does not identify declared license; metadata_sha256 | none in checked flags |
+| leaky-coating-hydride-sorption.toml | acquired | 4 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| lohc-enthalpies.toml | acquired | 1 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| mechanical-ventilation.toml | acquired | 7 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| microbial-nutrient-recovery.toml | acquired | 1 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| ml-hydpark-screening.toml | acquired | 1 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| nh3_h2_counterflow_flame.toml | acquired | 0 | 1 | 5 | none in checked fields | archive publisher checksum not recorded verified (may be unavailable); file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| oedi-hydrogen-materials.toml | acquired | 1 | 0 | 0 | none in checked fields | low-alloy-tempered-martensite-1211san11fat.xlsx:publisher checksum not recorded verified (may be unavailable); no explicit completed third-party component rights review flag |
+| oxygen-hypoxia-chamber.toml | acquisition-failed | 0 | 0 | 0 | none in checked fields | none in checked flags |
+| peace-alkaline-cell-testing.toml | discovery | 0 | 0 | 0 | license_id; license_url; metadata_url; metadata_sha256; authors or publisher attribution; explicit rights_permitted decision | none in checked flags |
+| peace-alkaline-short-stack.toml | acquired | 4 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| pem-crossover.toml | acquired | 1 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| pem-grid-system.toml | discovery | 0 | 0 | 0 | none in checked fields | none in checked flags |
+| pem-ripple-degradation.toml | acquired | 1 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| pemwe-ast-hannover.toml | discovery | 0 | 0 | 0 | none in checked fields | none in checked flags |
+| preslhy-discharge.toml | acquired | 10 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| preslhy-pool.toml | withheld | 0 | 0 | 0 | none in checked fields | none in checked flags |
+| pressure-ignited.toml | acquired | 14 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| pressure-unignited.toml | acquired | 19 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| pressurized-alkaline-bubble-electrode-potentials.toml | acquired | 1 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| pv-pem-dispatch.toml | acquired | 1 | 0 | 0 | none in checked fields | file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| residential-h2-pilot.toml | withheld | 0 | 0 | 0 | license_url; metadata_sha256 | license identifier is not in the host acquisition allowlist |
+| soe-fault-operation.toml | discovery | 0 | 0 | 0 | metadata_sha256 | none in checked flags |
+| sofc-polarization.toml | acquired | 4 | 0 | 0 | none in checked fields | historical license locator uses HTTP; canonical HTTPS link recommended; file-level/third-party license scope not explicitly summarized; no explicit completed third-party component rights review flag |
+| tio2-photo-evolution.toml | acquired | 1 | 0 | 0 | none in checked fields | no explicit completed third-party component rights review flag |
+| tudelft-h2-ct-storage-gap.toml | discovery | 0 | 0 | 0 | title; version; license_id; license_url; metadata_url; metadata_sha256; authors or publisher attribution; explicit rights_permitted decision | none in checked flags |
+| wasserstoffatlas-hydrogen-map.toml | discovery | 0 | 0 | 0 | key; license_url; metadata_url; license URL does not identify declared license; metadata_sha256; authors or publisher attribution; explicit rights_permitted decision | none in checked flags |

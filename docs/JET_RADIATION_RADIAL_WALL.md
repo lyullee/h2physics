@@ -1,0 +1,9 @@
+# HyRAM jet radiation to radial wall response
+
+`run_jet_radiation_radial_wall()` binds one exact receiver point in an accepted `JetRadiationField` to the existing finite radial heat solver. It reuses `incident_history_from_jet_radiation()` over the HyRAM source's explicit steady-window clock, applies a caller-supplied dimensionless surface-projection factor in [0, 1] with evidence, then passes the resulting irradiance (W/m²) to `run_radial_radiation_target()` with wall geometry/material, absorptivity, inner boundary, application evidence and a uniform-circumference applicability statement. This scalar is caller-supplied projection data; the bridge does not compute a surface view factor.
+
+The selected receiver's global coordinates and frame are retained. The adapter checks the HyRAM radiation receipt and downstream radial heat receipt for freshness and verifies that the selected irradiance, clock, absorptivity and evidence IDs still agree. Incident flux remains separate from absorbed heat; the radial target applies the declared absorptivity and audits its finite wall-energy ledger.
+
+The steady irradiance is held only over the source's explicit steady premise. The cylinder-wide boundary is valid only under the caller's declared uniformity and geometry evidence. This composition does not add fire dynamics, view obstruction, target orientation, nonuniform circumferential flux, vessel pressure, material damage, failure probability or equipment qualification. Deferred Hangang case `jet-radiation-radial-wall-source-handoff` is registered in profile `jet-fire-radiation`, which already stages the preferred HyRAM provider.
+
+The HyRAM wrapper and pool-fire wrapper now share `RadiationRadialWallCore` for caller-supplied surface projection, radial solver execution and nested receipt freshness. Each source wrapper retains and rechecks its own native source geometry, clock and selected receiver. The shared core adds no source-family physics.

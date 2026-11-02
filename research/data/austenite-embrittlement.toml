@@ -1,0 +1,125 @@
+key = "austenite-embrittlement"
+title = "HE-Austenite: Hydrogen Embrittlement of Austenitic Stainless Steels in Gaseous Hydrogen, Separating Weld Metal from Base metal, with Per-Heat Composition"
+doi = "10.5281/zenodo.23107780"
+version = "23107780"
+origin = "compiled_measurements"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/23107780"
+metadata_sha256 = "c8955a19bf400c3aea49b7e3599ceccc22142dfb3a93d7f2a1e3297d7caaf062"
+retrieved_at_utc = "2026-10-26T14:52:56.492368+00:00"
+authors = ["Faizan, Muhammad"]
+families = ["materials", "embrittlement"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 23
+acquired_bytes = 148911
+omitted_files = [".gitignore", "LICENSE", "CITATION.cff", "normalise.py", "schema.json", "apply_compositions.py", "build_outputs.py", "make_figures.py", "build_workbook.py", "fig2_pressure.png", "fig3_ferrite.png", "fig4_nieq.png", "fig1_family.png", "records_raw.json"]
+
+[[files]]
+name = "requirements.txt"
+url = "https://zenodo.org/api/records/23107780/files/requirements.txt/content"
+relative_path = "austenite-embrittlement/23107780/requirements.txt"
+size_bytes = 46
+sha256 = "9898258dad6808ea28b3387edacf81e2583bae79297c14d7c2954208ae54c8b2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "80780bb7e692c267e97bf4e03de76896"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "LICENSE-DATA.txt"
+url = "https://zenodo.org/api/records/23107780/files/LICENSE-DATA.txt/content"
+relative_path = "austenite-embrittlement/23107780/LICENSE-DATA.txt"
+size_bytes = 62
+sha256 = "ad94dcb83d0ca380f780ba302961fe7a26837c5e78cd58aa34bc7d7d7a16335b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "45ae17ead065959609460a5225f6c749"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "record_composition_map.csv"
+url = "https://zenodo.org/api/records/23107780/files/record_composition_map.csv/content"
+relative_path = "austenite-embrittlement/23107780/record_composition_map.csv"
+size_bytes = 3579
+sha256 = "358ede7737c7792b7aaf88b3362b0cc0e7c061c8d6c686b8bf07ae40486c3354"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "214c2843cbfa08ba60f2d6dd9009ecf1"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "compositions.csv"
+url = "https://zenodo.org/api/records/23107780/files/compositions.csv/content"
+relative_path = "austenite-embrittlement/23107780/compositions.csv"
+size_bytes = 5858
+sha256 = "07fbba9be6220e0613e98bfa889c0a7c43b98b7361d195584429cfc740e4f3b3"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ab58a7230d6e2617736b90977e14ef44"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "data_dictionary.md"
+url = "https://zenodo.org/api/records/23107780/files/data_dictionary.md/content"
+relative_path = "austenite-embrittlement/23107780/data_dictionary.md"
+size_bytes = 6204
+sha256 = "019a988672bd7aaad0ada92eaa8b3d4965bb950db5aa70cae4d835beef4aaa86"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b88f6ee2cddc95c01b437a29b7321929"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "CONTRIBUTING.md"
+url = "https://zenodo.org/api/records/23107780/files/CONTRIBUTING.md/content"
+relative_path = "austenite-embrittlement/23107780/CONTRIBUTING.md"
+size_bytes = 8765
+sha256 = "1b2e941bc8e1a7de3a80eea7e26a85d92573712f870f1f0914af8777c7f0622e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "03bef0549c99d1616b94fa5c712c9f1b"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "README.md"
+url = "https://zenodo.org/api/records/23107780/files/README.md/content"
+relative_path = "austenite-embrittlement/23107780/README.md"
+size_bytes = 17776
+sha256 = "600da68e995e2fa9bb33a3aa477ba9b651b1c438ca87a5f78499d282be0319af"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "562467304c74f7b0f5e555f4f174e476"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "HE-Austenite_v1.0.xlsx"
+url = "https://zenodo.org/api/records/23107780/files/HE-Austenite_v1.0.xlsx/content"
+relative_path = "austenite-embrittlement/23107780/HE-Austenite_v1.0.xlsx"
+size_bytes = 44204
+sha256 = "c0e4a8ee6b20c3cf0db2af09447e9075f1b1c392353ee34fd62747be71c29f87"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "96f4d4c8c97d3896c8d4f51df1d44239"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "he_austenite_v1.0.csv"
+url = "https://zenodo.org/api/records/23107780/files/he_austenite_v1.0.csv/content"
+relative_path = "austenite-embrittlement/23107780/he_austenite_v1.0.csv"
+size_bytes = 62417
+sha256 = "a392282dd1585b6f6d84ce96a931c827e78587310c0a59d6c1409843f89dc5b7"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "24a4dbb603e6946bfacb29d320996d5e"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""

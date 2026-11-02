@@ -1,0 +1,258 @@
+key = "am-316l-hydrogen-embrittlement"
+title = "Effect of Hydrogen Embrittlement on Mechanical Properties of Additively Manufactured 316L Stainless Steel"
+doi = "10.5281/zenodo.19813205"
+version = "v1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+license_scope = "The Zenodo record's dataset description explicitly states CC BY 4.0. Retain dataset attribution and source citation; this does not relicense unrelated materials."
+metadata_url = "https://zenodo.org/records/19813205"
+metadata_sha256 = "f8152b19351a6c092cacd974f43baec21350f6dea4bfd4c99c69c10b27f5354a"
+metadata_reviewed_at = "2026-11-01"
+authors = ["Michal Kresta", "Kateřina Konečná", "Petra Váňová"]
+families = ["materials", "hydrogen_embrittlement", "stainless_steel", "mechanical_testing"]
+rights_permitted = true
+raw_redistribution_admitted = true
+validation_qualified = false
+listed_file_count = 23
+listed_size_display = "11.3 MB (publisher-rounded)"
+acquired_bytes = 11274510
+retrieved_at = "2026-10-31"
+acquisition_status = "all_23_payload_files_acquired_and_publisher_md5_verified"
+acquisition_note = "Retrieved 2026-10-31 from the official Zenodo record API; all 23 local files matched the publisher MD5. Local SHA-256 values and relative payload paths are recorded per file."
+candidate_existing_models = ["materials hydrogen-embrittlement observations", "fracture/fatigue material-property boundary"]
+integration_status = "payload_acquired_initial_workbook_structure_reviewed_no_model_mapping"
+schema_audit_status = "initial_structure_only_raw_values_unmodified"
+missing_model_link_evidence = ["full workbook semantic interpretation", "specimen-level tensile/hardness pairing and independent sample counts", "hydrogen-charging concentration/time/current-density semantics", "material build orientation and heat-treatment assignment", "stress/strain definitions and extensometer/gauge basis", "direct parameter mapping to any existing constitutive or fracture model"]
+source_description = "The Zenodo record describes raw and processed tensile data for additively manufactured AISI 316L in as-built and annealed conditions, Vickers hardness, and fracture/microstructure images, including charged and uncharged specimens. It states electrolytic charging in sulfuric acid with thiocyanate additive and SSRT testing."
+
+[[files]]
+name = "Tensile tests.xlsx"
+url = "https://zenodo.org/api/records/19813205/files/Tensile%20tests.xlsx/content"
+publisher_md5 = "4d6a87be78951a85684502e959f3982d"
+sha256 = "95b5d809bb564a2a01ae11ac24ff7c81f62dd8410083b15146186c26264702a1"
+local_path = "payload/am-316l-hydrogen-embrittlement/Tensile tests.xlsx"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Tensile tests.xlsx"
+size_bytes = 1617569
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Hardness.xlsx"
+url = "https://zenodo.org/api/records/19813205/files/Hardness.xlsx/content"
+publisher_md5 = "2397c3491f5ba462e7530af694e52002"
+sha256 = "a38ef0c1809b7a7922ff82c98dcf4b252eeafa04a144a5c908c3877f2ab0ef57"
+local_path = "payload/am-316l-hydrogen-embrittlement/Hardness.xlsx"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Hardness.xlsx"
+size_bytes = 32329
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "readme.txt"
+url = "https://zenodo.org/api/records/19813205/files/readme.txt/content"
+publisher_md5 = "eb1129c72d4a3d4baa4a842bae32b12b"
+sha256 = "f93a1c31434101e177d7f4b65dc69450daafc3fad085f22cbedff964278d0678"
+local_path = "payload/am-316l-hydrogen-embrittlement/readme.txt"
+relative_path = "payload/am-316l-hydrogen-embrittlement/readme.txt"
+size_bytes = 1887
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VS_1mA_01.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VS_1mA_01.jpg/content"
+publisher_md5 = "a54fee225e9ec8dc258a7f9378554f76"
+sha256 = "b81a371a7ca6ae3e242887d5e167872a560d7e11a74a9ae03705ec21da115d0b"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_1mA_01.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_1mA_01.jpg"
+size_bytes = 125178
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VS_1mA_02.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VS_1mA_02.jpg/content"
+publisher_md5 = "6db1a34607fe65619fe32db44a1c4b75"
+sha256 = "8d459e53748a8ed9767a0db8b1d84909b5fa531e82c4bce7439ecba288395ad0"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_1mA_02.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_1mA_02.jpg"
+size_bytes = 117814
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VS_1mA_03.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VS_1mA_03.jpg/content"
+publisher_md5 = "ac873572962b6690b061a7028ae9f9d6"
+sha256 = "c4788a16a550c987899e851fd1dd1aff41f0e4612ca49ff5da73a72b2cc778aa"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_1mA_03.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_1mA_03.jpg"
+size_bytes = 192672
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VS_5mA_01.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VS_5mA_01.jpg/content"
+publisher_md5 = "5ffad5e5c3b54e4a9e9e5d33ed6bdb91"
+sha256 = "fc19d99fd37c905f2388c6af2f1862ada8dfd69dd24dac53ed6c3b0634c38559"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_5mA_01.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_5mA_01.jpg"
+size_bytes = 118909
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VS_5mA_02.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VS_5mA_02.jpg/content"
+publisher_md5 = "b1a12f4b089b3fc356287595b0ac35e0"
+sha256 = "2f7977e8cce5f2affbf0d201391182323320319fd71767502bd6125381862a06"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_5mA_02.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_5mA_02.jpg"
+size_bytes = 173133
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VS_5mA_03.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VS_5mA_03.jpg/content"
+publisher_md5 = "47230db5aba02e00c23e9d5111bc4b2d"
+sha256 = "ef33a83514365485ccad097d40bc4543206368b3d05d8ee8586f31d11c6d0892"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_5mA_03.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_5mA_03.jpg"
+size_bytes = 146021
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VS_ref_01.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VS_ref_01.jpg/content"
+publisher_md5 = "2acf7a4cce7c6f60a33d052a4bc303c4"
+sha256 = "97e6422f31c201083e6437c88257ffdf09692d247fbdb8051c02a3f656d2c26c"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_ref_01.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_ref_01.jpg"
+size_bytes = 152036
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VS_ref_02.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VS_ref_02.jpg/content"
+publisher_md5 = "7888a0313d74034c18cf99ba3497aeb1"
+sha256 = "01c1243c3c0bcbcd774d55dab4e8a3b08cab0b0b9e3b4fe873f7f990ee2e6b1c"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_ref_02.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VS_ref_02.jpg"
+size_bytes = 191964
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VZS_1mA_01.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VZS_1mA_01.jpg/content"
+publisher_md5 = "164e1b2a8c0686a712784fba18b938b3"
+sha256 = "1f9811c181824379c39748e2701046f3fcc82d33c413a3441c329b74a0754541"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_1mA_01.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_1mA_01.jpg"
+size_bytes = 164409
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VZS_1mA_02.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VZS_1mA_02.jpg/content"
+publisher_md5 = "850f31bbc32f4005b301752ac270ea56"
+sha256 = "ec8be68b044a3ca4f61e95ee49db5c6d0686917a392f121a625dc738bcf0dc34"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_1mA_02.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_1mA_02.jpg"
+size_bytes = 161025
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VZS_5mA_01.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VZS_5mA_01.jpg/content"
+publisher_md5 = "07827c1452b2c3ddaaa2fbb407128085"
+sha256 = "821e7978f30441684536c9873ae50625c182ca7f04612bfca2263da26c108abc"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_5mA_01.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_5mA_01.jpg"
+size_bytes = 185944
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VZS_5mA_02.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VZS_5mA_02.jpg/content"
+publisher_md5 = "bf958490c28f849f52ad0122a5bbdef1"
+sha256 = "b5da2957d3f94274fbe70387f4a15cd09ac2372e492312c78b22cbf91d6487ba"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_5mA_02.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_5mA_02.jpg"
+size_bytes = 175802
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VZS_ref_01.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VZS_ref_01.jpg/content"
+publisher_md5 = "ce6fdd1c9ee1e9f7801012c04a836e2b"
+sha256 = "e7bcf86da5d6b6e2dc20d01acb8f77140d2eff38a613fc8e2e92a6312597ec12"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_ref_01.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_ref_01.jpg"
+size_bytes = 211362
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "Fracto_VZS_ref_02.jpg"
+url = "https://zenodo.org/api/records/19813205/files/Fracto_VZS_ref_02.jpg/content"
+publisher_md5 = "2cd327f99f4dffd40322eeebaece9aaf"
+sha256 = "ff12c4df05b6788f088bee5cdf37a6d9c52cd7bad0e8b6a2244fae4168974ff5"
+local_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_ref_02.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/Fracto_VZS_ref_02.jpg"
+size_bytes = 154181
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "microstructure_VS01.jpg"
+url = "https://zenodo.org/api/records/19813205/files/microstructure_VS01.jpg/content"
+publisher_md5 = "ec26d946c5da6e5da58d871eeb864c15"
+sha256 = "db0e189986acf1174c8a6c1022c6c530a6b6d87c4dcfd44b1d12b5bddf70b5f6"
+local_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VS01.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VS01.jpg"
+size_bytes = 1468919
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "microstructure_VS02.jpg"
+url = "https://zenodo.org/api/records/19813205/files/microstructure_VS02.jpg/content"
+publisher_md5 = "00e3364d72ce43bdb3d940f09c3c0eaa"
+sha256 = "f9294623bae37542b5a57bcf6a3fb1fd68d2ace0cb77cef078ecf36feeff2f34"
+local_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VS02.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VS02.jpg"
+size_bytes = 1231709
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "microstructure_VS03.jpg"
+url = "https://zenodo.org/api/records/19813205/files/microstructure_VS03.jpg/content"
+publisher_md5 = "d7f6811c9e9692b6ea96b918ae81053b"
+sha256 = "de0e592808b690f0ab8816a7efefbcc0d5b1d62f772c3269033b1a2c23bb2df9"
+local_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VS03.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VS03.jpg"
+size_bytes = 1253434
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "microstructure_VZS01.jpg"
+url = "https://zenodo.org/api/records/19813205/files/microstructure_VZS01.jpg/content"
+publisher_md5 = "9c908b8a0ff3d477efeb7d2eb006144c"
+sha256 = "42ca3bb7a4d20ac3362cdb7848382abb16f33b36f006129fe63bdbd31c350640"
+local_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VZS01.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VZS01.jpg"
+size_bytes = 1264332
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "microstructure_VZS02.jpg"
+url = "https://zenodo.org/api/records/19813205/files/microstructure_VZS02.jpg/content"
+publisher_md5 = "336270d8ee995e2b539813699546f273"
+sha256 = "9ddd1313052563c313f6e5eec1136a0e9f10f10f412b40e5b967df106dc52822"
+local_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VZS02.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VZS02.jpg"
+size_bytes = 1178196
+status = "acquired_and_publisher_md5_verified"
+
+[[files]]
+name = "microstructure_VZS03.jpg"
+url = "https://zenodo.org/api/records/19813205/files/microstructure_VZS03.jpg/content"
+publisher_md5 = "cbf7fb48006a497c5137b6de6537aa88"
+sha256 = "efe293285a68153465816c6811415e4fbfa2255c63693b856541bfc5b8900f96"
+local_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VZS03.jpg"
+relative_path = "payload/am-316l-hydrogen-embrittlement/microstructure_VZS03.jpg"
+size_bytes = 955685
+status = "acquired_and_publisher_md5_verified"
+

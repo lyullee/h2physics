@@ -1,0 +1,45 @@
+key = "alkaline-bubble-observations"
+title = "Oxygen sticks, Hydrogen glides: Bubbles in alkaline water electrolysis"
+doi = "10.17632/r6np4f7gmf.2"
+version = "2"
+provider = "Mendeley Data"
+record_url = "https://data.mendeley.com/datasets/r6np4f7gmf/2"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+license_evidence = "The version-2 Mendeley Data record declares CC BY 4.0."
+license_scope = "Version-2 record declares CC BY 4.0; file listing exposes 35 root-level assets. File-level attribution is linked through the DOI and contributors."
+rights_permitted = true
+validation_qualified = false
+listed_file_count_known = true
+listed_file_count = 35
+listed_root_bytes = 375513822
+file_listing_status = "Official anonymous public-api files endpoint returned 35 completed root-level files. Listing fields are preserved in research/data/alkaline-bubble-observations-file-list.toml; response_sha256 binds the original response bytes stored only in the ignored raw cache."
+file_listing_manifest = "research/data/alkaline-bubble-observations-file-list.toml"
+file_listing_response_sha256 = "6dfcf1e0c455ddf0320639ef15452a12b37ba18283dc665c0f70e772ec90b5f1"
+file_listing_endpoint = "https://data.mendeley.com/public-api/datasets/r6np4f7gmf/files?folder_id=root&version=2&$start=0&$limit=1000"
+acquired_bytes = 1274
+acquired_file_count = 1
+retrieved_date = "2026-10-31"
+record_version_date = "2026-03-06"
+authors = ["Saksham Pandey", "Matheus de Groot"]
+families = ["electrolysis", "alkaline", "bubble_diagnostics"]
+schema_status = "The acquired README states experiments used 7M KOH at room temperature; videos were captured at 1000 FPS and saved at 15 FPS. It describes figure folders with processed data and scripts, plus raw hydrogen/oxygen bubble videos. Current root file listing contains one README, 17 MP4 videos and 17 PNG images; no tabular files are exposed at root. Video/image measurement schema, calibration and any nested-folder contents remain uninspected."
+source_access_gap = "The documented api.data.mendeley.com endpoint returned 401, but the official website's public-api endpoint works anonymously. The file listing and README were acquired through the official host. The full 375,513,822-byte image/video collection was not downloaded; nested-folder listing was not resolved."
+model_link_gap = "Existing HydrogenStack API has no bubble coverage, adhesion, coalescence or bubble-induced ohmic-loss state. Metadata does not show whether source rows contain quantitative bubble observables that can be mapped to an existing model input."
+required_evidence = [
+  "Version-pinned file inventory and README/data-description",
+  "Measured variables, units, measurement plane, sample clock and image calibration",
+  "For every bubble group: gas identity, electrode identity, polarity, current density and electrolyte conditions",
+  "Evidence linking bubble metrics to measured cell voltage/resistance or an explicitly parameterized bubble-coverage law",
+]
+raw_payload_acquired = true
+downloaded_asset = "README – Data Description.txt"
+downloaded_asset_id = "c1fba07a-15f5-4e01-bad9-79d71b39cb40"
+downloaded_publisher_sha256 = "21946b964b3b260361f7bf797583f28a7fc6c1db3c02ddca1f77d9d956fc0c57"
+downloaded_local_sha256 = "21946b964b3b260361f7bf797583f28a7fc6c1db3c02ddca1f77d9d956fc0c57"
+downloaded_path = "data/raw/alkaline-bubble-observations/README-Data-Description.txt"
+redistribution_of_payload_admitted = true
+attribution = "Saksham Pandey and Matheus de Groot (2026), Oxygen sticks, Hydrogen glides: Bubbles in alkaline water electrolysis, Mendeley Data v2, DOI 10.17632/r6np4f7gmf.2; CC BY 4.0."
+
+folder_listing_status = "Anonymous site public-api folders route returned HTTP 404; documented api.data.mendeley.com public folder endpoint returned HTTP 401 and requires OAuth. No authentication was attempted; nested processed-data folders are inaccessible through the anonymous file listing."

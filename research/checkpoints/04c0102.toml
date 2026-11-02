@@ -1,0 +1,3405 @@
+checkpoint_date = "2026-10-28"
+scope = "Finite adsorption vessel, valve actuation, relief lift and facility continuity"
+execution_status = "scientific execution deferred by user; static source review only"
+last_executed_source_revision = "6eae06c"
+last_executed_first_levels = 59
+last_executed_source_tests = "1088passed/11optional skips per profile; historical only"
+static_review = "AST/TOML/Ruff/diff and targeted source review; no numerical acceptance"
+model_families = 72
+partial_implemented = 21
+native_adapter_checked = 38
+implemented_unverified = 12
+planned = 1
+jet_fire_predictive_status = "planned_rejected"
+deferred_cases = 158
+scheduler_submitted = false
+previous_coding_checkpoint = "6669f7d"
+data_collections = 29
+collections_with_assets = 26
+acquired_assets = 467
+acquired_asset_bytes = 6018458074
+
+[[files]]
+path = ".gitattributes"
+sha256 = "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+bytes = 19
+
+[[files]]
+path = ".gitignore"
+sha256 = "23310de7852fcf19f10720622493b7767dfccc94364385cf1ab84e60903dea63"
+bytes = 206
+
+[[files]]
+path = "AGENTS.md"
+sha256 = "8384ac416735ab45b0402cadeb801316b14c9c696b610af5d1bf6a5e2a00a045"
+bytes = 3331
+
+[[files]]
+path = "docs/API.md"
+sha256 = "0d82cf383527ba9a973050adfdd7e753800ce3efa50b0e6678d24572f4394aad"
+bytes = 61848
+
+[[files]]
+path = "docs/ARCHITECTURE.md"
+sha256 = "d2addb59649843bc8cbc67364cef6186e72411c8314c6ab05a9a695aefeb92de"
+bytes = 34565
+
+[[files]]
+path = "docs/CANTERA_FACTORY.md"
+sha256 = "93c583b3fd671f3e14ee26d19df7df30d894e341cecf0843cf9dd16534aec297"
+bytes = 9145
+
+[[files]]
+path = "docs/CARRIER_REACTIONS.md"
+sha256 = "1f64b6907646c4017e248e1b44b43ed509d8bdff30e8921b0aa523f68a7a3885"
+bytes = 8019
+
+[[files]]
+path = "docs/CLUSTER_EVIDENCE.md"
+sha256 = "9034ca952521d57948a32b232f8c4fc02ab6ace8d574b3c70b517386e347006e"
+bytes = 5865
+
+[[files]]
+path = "docs/CONDITIONAL_RISK.md"
+sha256 = "acd8e537627101c268bb85aedf0f4fe4f7c0343c44b8f750b7fb1f98132e8deb"
+bytes = 9544
+
+[[files]]
+path = "docs/CRYO_COMPRESSED_STORAGE.md"
+sha256 = "d54a53eff82eff14007bcd0e191bb52b2954aab5b6e8a3047dde5b9a128136fb"
+bytes = 10907
+
+[[files]]
+path = "docs/DATA_INVENTORY.md"
+sha256 = "1a9688918f8dda2adef24415e300560323dbe0df344cae882ac18a96990f2d27"
+bytes = 3576
+
+[[files]]
+path = "docs/DATA_QUALIFICATION.md"
+sha256 = "33e7d187fd3dd4b5c4460a5d4a8eb7c56d79cf7a53474217c86ddb9e7b58c276"
+bytes = 19101
+
+[[files]]
+path = "docs/DATA_SCHEMA_AUDIT.md"
+sha256 = "7a2518c0d352537fc71424457523e06764acac14781b9702bb4282c73b5bfe17"
+bytes = 3798
+
+[[files]]
+path = "docs/DATA.md"
+sha256 = "7805e6482188a662e07dc7f24e00bc797cd865ce0289c683adc0a1dfcd9d38cb"
+bytes = 4393
+
+[[files]]
+path = "docs/DEPENDENCIES.md"
+sha256 = "5fcbbb2a495ad919ad7323ce9c33a68560b27128adfbd82c61b66499b9e39a67"
+bytes = 24551
+
+[[files]]
+path = "docs/DEVELOPMENT_LOG.md"
+sha256 = "6f88d85ddf9b20ada9f1f7af304cac5675c8034ec21cddc26d87e5518a9da7cb"
+bytes = 68374
+
+[[files]]
+path = "docs/DROPLET_IMPACT.md"
+sha256 = "e90cb562eb60d630e7001c28f8df2678437389cda69356b5954b60e0ecb6efc7"
+bytes = 9645
+
+[[files]]
+path = "docs/DROPLET_TRANSPORT.md"
+sha256 = "3aecbe7e8d8c513356575b6f4d43ba4962b7fd83d97f82eb608ea98064ee916a"
+bytes = 3660
+
+[[files]]
+path = "docs/DYNAMIC_INVENTORY.md"
+sha256 = "eacde9c7156c970ffe67399f4995fa01b2e527fc5d929f85167e687fe0c9a733"
+bytes = 9404
+
+[[files]]
+path = "docs/EMBRITTLEMENT_DATA.md"
+sha256 = "2bbb29f80c8a6a31b672209d853014f3a7f92198ebb14bffe153f346640b0a89"
+bytes = 10546
+
+[[files]]
+path = "docs/FACILITY_CONTINUITY.md"
+sha256 = "49b1a3722953fa9c2030c4f1cd55497edc134718b09ff7cfc12eecc0fedd2b76"
+bytes = 1363
+
+[[files]]
+path = "docs/FACILITY_PROTECTION.md"
+sha256 = "dc11ab645179743d8be539f75f6b80ba9f852e5a911a10a30e808982d0e25ea5"
+bytes = 11474
+
+[[files]]
+path = "docs/FERMENTATION_DATA.md"
+sha256 = "8fabda4d75202e7ae3db91f134997d023db8bfcd317de8f1724627fc5f6534ad"
+bytes = 9871
+
+[[files]]
+path = "docs/FINITE_ADSORPTION_VESSEL.md"
+sha256 = "05a2400698139af926c4c1b3a5a88deb81612e6817caa1f5618da15d25857444"
+bytes = 2807
+
+[[files]]
+path = "docs/FINITE_FUEL_CELL.md"
+sha256 = "888850418e6abd94c6d20fc678ca1b6b9907d51b7ee0783467084b68df605de0"
+bytes = 10771
+
+[[files]]
+path = "docs/FINITE_HYDRIDE.md"
+sha256 = "b372b01c66b7b2e4d7499d3152e17ee939141bd84086546063762d814e5d632d"
+bytes = 13362
+
+[[files]]
+path = "docs/FINITE_MEMBRANE_DEVICE.md"
+sha256 = "c7f8d901badffba56962d7e8915068fd2063c28b0590c7a461a3827d7b33dc6a"
+bytes = 11126
+
+[[files]]
+path = "docs/FINITE_RELIEF_LIFT.md"
+sha256 = "beae56708004c006813e86b89c7d4df2b7bcae88c41aa9f1b5db987dd008fc20"
+bytes = 2753
+
+[[files]]
+path = "docs/FINITE_SUPPLY.md"
+sha256 = "61e344145e4fc08aee7df24dd698d289add34094d5c939f3710878c7396887a1"
+bytes = 9428
+
+[[files]]
+path = "docs/FINITE_TRANSFER.md"
+sha256 = "ebc2e99ce84fa71e1ed2becb422c3ff31181d87f1c0bd63de9171e6e47e03561"
+bytes = 10017
+
+[[files]]
+path = "docs/FLASH_FRONT.md"
+sha256 = "a8b47cc961afc05e5851d6409219e04b6d52fe23c85584f1052f2609efe8de8a"
+bytes = 9545
+
+[[files]]
+path = "docs/FRACTURE_FATIGUE.md"
+sha256 = "d3459c25c95f59df982a365559520b2a30cc415c071a02b8ed031997c11a2223"
+bytes = 12002
+
+[[files]]
+path = "docs/FROZEN_GAS_PROPERTIES.md"
+sha256 = "306b67a8c705871381613bd8e93df0d765a0e3105ebc88f263b078526cb1bfb4"
+bytes = 11182
+
+[[files]]
+path = "docs/HANDOFF.md"
+sha256 = "fda4341b3afec334961987eaffe9abd9d48294af1d0e2669187a021bcc073a60"
+bytes = 93031
+
+[[files]]
+path = "docs/HYDRAULICS.md"
+sha256 = "695d1385e424c2019091ce5ff5d60ac1b5a7927cc69736cb39565fd50beccdd5"
+bytes = 5235
+
+[[files]]
+path = "docs/HYDRIDE_COMPRESSOR_DATA.md"
+sha256 = "5eb62afd155d0e4384db3415abc7cf5a1ce8e83d3cdcab4dff87bededbd1817e"
+bytes = 11346
+
+[[files]]
+path = "docs/HYDRIDE_COMPRESSOR.md"
+sha256 = "963be419680e989d4dc3c7af05565b3230804a96dc12c8bb411874342aa3a6c4"
+bytes = 12251
+
+[[files]]
+path = "docs/HYDRIDE_DATA.md"
+sha256 = "834492b7e42d3ed9c229a2ccfe1d868234f1d4db541f5056743c20c4f2ee9ad7"
+bytes = 3675
+
+[[files]]
+path = "docs/HYDROGEN_ECONOMICS.md"
+sha256 = "7beb752a4d4928cb90819cad614b25ee208f89267487ebcc1d7c308a00a8a061"
+bytes = 15369
+
+[[files]]
+path = "docs/HYTUNNEL_JETS.md"
+sha256 = "1c8ed373cdde424a3478873c45e238cbadaeccf651f932d899190618e6226ff8"
+bytes = 10277
+
+[[files]]
+path = "docs/JET_FIRE_CONSERVATION.md"
+sha256 = "3ac73fc3f68f8f902fd5c3bfaa48d02303f9b732829875aa79c73054003c3dcc"
+bytes = 10045
+
+[[files]]
+path = "docs/JOS3_THERMAL.md"
+sha256 = "a5b80175f5541c51b0b832d51c368c082059e764c39be610d0cdeba7742a5f02"
+bytes = 8822
+
+[[files]]
+path = "docs/LIQUID_CARRIER_AMMONIA.md"
+sha256 = "23c1d36e1bd316c60e9a5ff37435c12be20d29fa4d759bfa63bf63891b68835b"
+bytes = 10206
+
+[[files]]
+path = "docs/MICROBIAL_CELL.md"
+sha256 = "3d0b705e902d80267a49e1b6706d0974157fd7b99fc1248e0572d1ac31b6a65e"
+bytes = 13345
+
+[[files]]
+path = "docs/MICROBIAL_ECONOMICS.md"
+sha256 = "1c4e0064b055a45ea3783d11576c45f978ee73033862b802d610dc3c7eef23d6"
+bytes = 7313
+
+[[files]]
+path = "docs/MICROBIAL_OBSERVATIONS.md"
+sha256 = "bccaa4c2943919103740660daaa7243e0fcb9cee1e84fe513d50e1b302e04a82"
+bytes = 4637
+
+[[files]]
+path = "docs/MICROSPHERE_STORAGE.md"
+sha256 = "efedeb64a828e73555257f0b7e8f191e6a2beaa4a0f20332c5f8cbd65fb29522"
+bytes = 6541
+
+[[files]]
+path = "docs/MODEL_CATALOG.md"
+sha256 = "fe5b90e4e28ec838b7edc2662fbd4f3fbb28ee175813464fbd8f82a950387bb4"
+bytes = 24787
+
+[[files]]
+path = "docs/MODEL_SELECTION.md"
+sha256 = "b892af683a804663c9b8f11ccae9c973e5ebd3c9884e732a342ccdc3af573c13"
+bytes = 2045
+
+[[files]]
+path = "docs/MULTIPHASE_CALORIMETRY.md"
+sha256 = "974d56ce3fac9778366fb8344839e4b6e301ebbcf0e25496ffbb141221e05c37"
+bytes = 10092
+
+[[files]]
+path = "docs/MULTIPHASE_CONVERSION.md"
+sha256 = "391dda1ce37e29521720758cd155d6508486534abbd0e9ccd6ba913308c974cf"
+bytes = 10681
+
+[[files]]
+path = "docs/NATIVE_ADSORPTION.md"
+sha256 = "f3face2e2258777f7915e6d8714423a4cb3fe68243de64771b58b5639e9edf3a"
+bytes = 4401
+
+[[files]]
+path = "docs/NATIVE_BIOLOGICAL_PROCESS.md"
+sha256 = "bf3db31ec7cd818e1023ab9e73d54e1ad53b14311e7135ccf1811f5713b2ffea"
+bytes = 13086
+
+[[files]]
+path = "docs/NATIVE_COMPRESSION.md"
+sha256 = "a00c076f1237cd52f4d9932a5e95a77d81f5628479d3b8a1b45dafc424e65297"
+bytes = 15383
+
+[[files]]
+path = "docs/NATIVE_DETONATION.md"
+sha256 = "a5e99786a135cba7d024690cc31f33a7c09e4122c26d5181e7de6ae4a16b5fcc"
+bytes = 12399
+
+[[files]]
+path = "docs/NATIVE_EQUIPMENT.md"
+sha256 = "388f665c6d13954f659b696ee427fac926c80a8dc224f7968b8248762d4748be"
+bytes = 11217
+
+[[files]]
+path = "docs/NATIVE_EXPOSURE.md"
+sha256 = "f089e954c41728046c986494a90265fe3f32e961bf4429bc9cd8e7f3f6a49ca6"
+bytes = 10500
+
+[[files]]
+path = "docs/NATIVE_FIRE_HEAT.md"
+sha256 = "3c1901099d6a2ba06824a23a5c1e46ecfd9ac7b858b45869ddfebd26571337ba"
+bytes = 7387
+
+[[files]]
+path = "docs/NATIVE_HEAT_EXCHANGER.md"
+sha256 = "4e99a5f28f9f7d1cbf991f19d1eacfb4f95e0a586a812d93d1e16abc5ea6b8c6"
+bytes = 15482
+
+[[files]]
+path = "docs/NATIVE_INSTRUMENTATION.md"
+sha256 = "1c019ad821425afb6a51e96bb0a8c0fc2bd553a6628f4285ba9eacff30098244"
+bytes = 4647
+
+[[files]]
+path = "docs/NATIVE_INSULATION.md"
+sha256 = "93c931cd2345f06d232df6f94fd3ee9f998d05000ddbe36aa4f18691cb335364"
+bytes = 10089
+
+[[files]]
+path = "docs/NATIVE_JET_FIRE.md"
+sha256 = "5286b792c9ed79ff97f9f93527ee4d16a23bbf3f510e637e5fb6ec3e7bffce78"
+bytes = 10013
+
+[[files]]
+path = "docs/NATIVE_JETS.md"
+sha256 = "69087af2c9c6ad8b7f98b7e8bbbdd3d5089916f4f466e51c5c5d6966f0bb9064"
+bytes = 11026
+
+[[files]]
+path = "docs/NATIVE_MEMBRANE_TRANSPORT.md"
+sha256 = "a551cc51da8b017a703687dc702c855f294095a814fdf4eb7b7957c50fdbc0d2"
+bytes = 9547
+
+[[files]]
+path = "docs/NATIVE_OVERPRESSURE.md"
+sha256 = "56871a94fdfbf3f9b1edf7130fcbb937cee6dcdcc63ba758ec820ecbde52dd4b"
+bytes = 9510
+
+[[files]]
+path = "docs/NATIVE_POOL.md"
+sha256 = "0deba5a6f63487c27e873a485ba46db6c3a42798ef7029238c4de44eeb20e53e"
+bytes = 9925
+
+[[files]]
+path = "docs/NATIVE_PSA_CYCLE.md"
+sha256 = "82351411e006bbecbb08dace35fc7cb42e36fa4243e3581eea953a4b32d3002e"
+bytes = 11878
+
+[[files]]
+path = "docs/NATIVE_RELIEF.md"
+sha256 = "ee0acc023d578bc30f4e636d20943f71d386a06aea87a8b71ee9d49d37e35b6a"
+bytes = 13498
+
+[[files]]
+path = "docs/NATIVE_RELIQUEFACTION.md"
+sha256 = "6950afa8064e0ad88378d198003ae9b16b9b493b8f9dac22a08b6b4958a5aece"
+bytes = 11729
+
+[[files]]
+path = "docs/NATIVE_SPIN_THERMOCHEMISTRY.md"
+sha256 = "de71aea77daa577e85a8cecfff324882cf763dfddbba6efceb5b2f625ca12b20"
+bytes = 10235
+
+[[files]]
+path = "docs/NATIVE_SPIN.md"
+sha256 = "c3bca6802b4c707233121704183871f58e2655b3960a8c3e670b5df82b588e1f"
+bytes = 10348
+
+[[files]]
+path = "docs/NATIVE_VENT.md"
+sha256 = "91a3760c644da3ef3e2cce4d660d58ce307643849b11fc23b012bc1ef448948e"
+bytes = 12605
+
+[[files]]
+path = "docs/NURION_VALIDATION_PLAN.md"
+sha256 = "15543bd46e5cb54dc927599bb8c793e0ffed928db4d30481b99cb0d4398a9169"
+bytes = 19098
+
+[[files]]
+path = "docs/OBSERVATIONS_AND_FITTING.md"
+sha256 = "22a48b4c9227641b4f73ff2489e480641f1aac11e7ba8c0b5cfc27a6b4319cee"
+bytes = 6030
+
+[[files]]
+path = "docs/OBSTACLE_DISPERSION.md"
+sha256 = "e46aa6f548d3f603288bf111e6222999687fc52984d8081dacd6dbf1542cc383"
+bytes = 9431
+
+[[files]]
+path = "docs/OPEN_GAS_VOLUME.md"
+sha256 = "b74b7c1893145492bc381ee9686396a7f8a0560c6a7ca5236c3aadb5fec57da3"
+bytes = 13160
+
+[[files]]
+path = "docs/OXYGEN_DEFICIENCY.md"
+sha256 = "0b5c59f3dc7e75ae1b6f1cab62a55db11aa8f89a06f9c8160e9f36f258e11a11"
+bytes = 13931
+
+[[files]]
+path = "docs/OXYGEN_OBSERVATION_DATA.md"
+sha256 = "8a3694310f2cf2d8cdffbb2d24b076f3b2995604998249793a31d56ba3065e99"
+bytes = 11508
+
+[[files]]
+path = "docs/PEM_IMPEDANCE.md"
+sha256 = "0b680d044fda334b10238ff7ee4801f883cefdeb915b196f8a736bf1b861373e"
+bytes = 8634
+
+[[files]]
+path = "docs/PHOTOCATALYSIS_DATA.md"
+sha256 = "d3602d4ec084d46cab114f229c4edf2558788c7b7e6cb6a9523d03f02a80430c"
+bytes = 7551
+
+[[files]]
+path = "docs/PHOTOCHEMISTRY.md"
+sha256 = "f0ae789d50ff07c0dbced448ffc725051c0e3a17ff748cc4f6d8f756ee4e7b8b"
+bytes = 9329
+
+[[files]]
+path = "docs/PLAN.md"
+sha256 = "665a786731750b8cc8faf98413dfb046f665b6f9e7a8f4e105aee4035f6f2bff"
+bytes = 26146
+
+[[files]]
+path = "docs/POOL_FIRE.md"
+sha256 = "e632ffb9b3b49ed4b09322bc81e30df59159d12614407d637826a4f652b19d8b"
+bytes = 10025
+
+[[files]]
+path = "docs/PREFERRED_DISPERSION.md"
+sha256 = "6508ab0261c054de44085bc2f7173ddd880a9a5d9cee645c461bc47616148515"
+bytes = 6740
+
+[[files]]
+path = "docs/PRESLHY_COMPARISON.md"
+sha256 = "a424650dd0fd1735659ea302c5bbbbd35bf11519901630092ff2a03cb94cfac7"
+bytes = 6228
+
+[[files]]
+path = "docs/PRESSURE_PEAKING_DATA.md"
+sha256 = "f439e74d9efb3f30fcef86c43f77587e779e89b3fc197a1faad508e605330219"
+bytes = 8942
+
+[[files]]
+path = "docs/PROCESS_MONITORING.md"
+sha256 = "071095d2504939da46fe20575409016703f3b78882d8e76d7a5e3239dbfb0a1e"
+bytes = 12529
+
+[[files]]
+path = "docs/PROGRESS.md"
+sha256 = "ffd530c695a5b485f4c360d39fd222c70403d44f8efb12d69dbb17607c3a50d1"
+bytes = 44286
+
+[[files]]
+path = "docs/PV_ELECTROLYSIS.md"
+sha256 = "94b66c24189be7f7a02452ea3bf9a8f3de57255581a09624b07b77be9c7822af"
+bytes = 11001
+
+[[files]]
+path = "docs/REACTIVE_PROCESS.md"
+sha256 = "5e430526d7a3f706370c0bc925b1960737511e124e2fdcd736003959ecb374d0"
+bytes = 8539
+
+[[files]]
+path = "docs/RELEASE_AND_SOURCE.md"
+sha256 = "e7f82f6d5bc48083c6a7ed44037246873ec0f11ea7390f425b6bdcf447bab9f9"
+bytes = 9695
+
+[[files]]
+path = "docs/RESULT_PROVENANCE.md"
+sha256 = "5f22b4245a2a4f76f7dfca158c3e62d4c8944e3e7b14f23ab82aaf3d0e0ab5ba"
+bytes = 2051
+
+[[files]]
+path = "docs/RIGHTS_AND_PROVENANCE.md"
+sha256 = "406e71417ebbd9cf7068beb5f8019d0638b79d7695595dad2ec033c322388d54"
+bytes = 9061
+
+[[files]]
+path = "docs/SHOCK_TUBE_DATA.md"
+sha256 = "7963b93dacf2be2a030d684345b584aef0aedff759d3ec7e537736c5799bc5f4"
+bytes = 7916
+
+[[files]]
+path = "docs/SOLID_REACTION.md"
+sha256 = "46b12a83544c25a1e0589714845f1f6747aa9c812c4b376d7de4a7e1553d716c"
+bytes = 10272
+
+[[files]]
+path = "docs/SOURCES_AND_METHODS.md"
+sha256 = "453cf483de626749a5390ca8df4014e56d4482fed1eededd150941afaea730f9"
+bytes = 43756
+
+[[files]]
+path = "docs/THERMAL_EFFECTS_DATA.md"
+sha256 = "ca5c5ff725f272c85f30346fd5f0c0ede622c77eeb992fb55af0dccc58f9d963"
+bytes = 9737
+
+[[files]]
+path = "docs/THERMAL_UTILITIES.md"
+sha256 = "c0de4c2ecaf4ae7743945b809653b6904094c4ca7c1d125eb0ce2a3690b1e795"
+bytes = 11144
+
+[[files]]
+path = "docs/THERMOCHEMICAL_CYCLES.md"
+sha256 = "49e7151c655a0b2925ffd5ec39a63c68ef4ebe223d3a1e476b7862a71bd8ded2"
+bytes = 8238
+
+[[files]]
+path = "docs/THIRD_PARTY.md"
+sha256 = "2c5bb838e2b0af324865c8addc2d2a95671254f24450d41cead895e1d17d60fb"
+bytes = 4054
+
+[[files]]
+path = "docs/UNCERTAINTY.md"
+sha256 = "e4190ece1201bf0a5ccc67e818a1aee532d2d431f569cf22a823cb7163083573"
+bytes = 9123
+
+[[files]]
+path = "docs/UNDERGROUND_STORAGE.md"
+sha256 = "cc0865a2a125fadc19ed11c8fbd6f71375d45e76f720443be031d24d64a2e776"
+bytes = 10439
+
+[[files]]
+path = "docs/USER_GUIDE_KO.md"
+sha256 = "6ed21011de2d679ff77cb357ed3e7b24882e83899a76fc039c25ad69de4f9446"
+bytes = 81578
+
+[[files]]
+path = "docs/VALIDATION.md"
+sha256 = "2a8f414f5f9e85a337b19f583efe71c0b34912c6512655639b493545cdc35aeb"
+bytes = 57792
+
+[[files]]
+path = "docs/VALVE_ACTUATOR.md"
+sha256 = "c58513d3ba0460370735f394c3bd8d03a8171e27af086552b2f63db11b21bd6c"
+bytes = 2511
+
+[[files]]
+path = "docs/VESSEL_FAILURE.md"
+sha256 = "1146954daf17ee4e2b704d5a02d2b2d984d49436b3857beb752e9f62731c0f7c"
+bytes = 13172
+
+[[files]]
+path = "examples/__init__.py"
+sha256 = "3d269ef711f189d3351c667198bd210ee7ed22960edc4d7f518f306309982a8a"
+bytes = 80
+
+[[files]]
+path = "examples/carrier_conversion.py"
+sha256 = "f032a8711bda8f8788ea71fb3df92dad54c7a6e7d9b4091be65a109a57bb8b25"
+bytes = 6504
+
+[[files]]
+path = "examples/cluster_evidence.py"
+sha256 = "ee97a8151effde9d95e3d1deac413fc2bb2b7ae2bd5276fd3292887762bda34f"
+bytes = 791
+
+[[files]]
+path = "examples/droplet_impact.py"
+sha256 = "fa1497f285507daf91377e3ede3ee928ab7aa50133e455c486f6925f4bb71bb6"
+bytes = 3975
+
+[[files]]
+path = "examples/facility_continuity.py"
+sha256 = "b758c7c7bf1857931962de2c21970abfcffeeb6d556f981f9c112b8a371e4e8a"
+bytes = 1023
+
+[[files]]
+path = "examples/facility_protection.py"
+sha256 = "ea85f9484678fa145c486f7cbbbb16af8fed1a16276a2e75c688634787ea39e3"
+bytes = 14537
+
+[[files]]
+path = "examples/finite_adsorption_vessel.py"
+sha256 = "d8d026abe0173ab9893cbc14491fd837e609cef9b5e4a18d44d9f5f0b92911a0"
+bytes = 2654
+
+[[files]]
+path = "examples/finite_relief_lift.py"
+sha256 = "ef91ca9a76ba376d848fcde9cbabab9d11267fb45c975c8611658ad95b0c9eb5"
+bytes = 1998
+
+[[files]]
+path = "examples/finite_transfer.py"
+sha256 = "ac99397d548b7a766619fa0142ad8dea9c415cbf18e9eb21e129075b4e47ae0f"
+bytes = 5301
+
+[[files]]
+path = "examples/flash_front.py"
+sha256 = "25f1f9e38db9f16334af000f621bcbbb04d9dbcfd43a780a53cc3968f0ee2b24"
+bytes = 1785
+
+[[files]]
+path = "examples/fracture_fatigue.py"
+sha256 = "d2b412d82e363dd1520b5611c085f6b6c6687f2f9335d23685a6a6e8a618a4a9"
+bytes = 3607
+
+[[files]]
+path = "examples/fuel_cell.py"
+sha256 = "35561f7f8b8257bd80da37eccba63ce4e6134a1d1d23b3b164235c6df161957f"
+bytes = 8037
+
+[[files]]
+path = "examples/hydrogen_economics.py"
+sha256 = "b11750cc32af5f4dc658c32ec5a66edfe77a0cda40e4be7f33aade612e629c6d"
+bytes = 5299
+
+[[files]]
+path = "examples/jet_fire_conservation.py"
+sha256 = "0f461822c16397f232bf7605093fcc321a4d955e65ab5b6dbabe71d9a69cf79b"
+bytes = 4916
+
+[[files]]
+path = "examples/lh2dt_compressor.py"
+sha256 = "b05b74997e7ada40267084811001122339a3cbcc6ff4861adee7952f16390dfd"
+bytes = 3322
+
+[[files]]
+path = "examples/lh2dt_heat_exchanger.py"
+sha256 = "a44beaea9c632881dd8994f1d097f63664fb7dff4b189b7bf64bd6e29fd61bcc"
+bytes = 2398
+
+[[files]]
+path = "examples/microbial_cell.py"
+sha256 = "bd8d3b004a8bd42c6fd4688876710418751ca7537068c9c9970e8ffdf7f548e6"
+bytes = 8288
+
+[[files]]
+path = "examples/microbial_economics.py"
+sha256 = "14ef35aa8dbd351ece19f9f8b87def4ac77b1a80937114917ea7c8262b9e4018"
+bytes = 4991
+
+[[files]]
+path = "examples/model_selection.py"
+sha256 = "c1802890cd62b483f7597cbafa4904ef964d972b9e69003ee0582a0fb9a14a11"
+bytes = 1365
+
+[[files]]
+path = "examples/obstacle_dispersion.py"
+sha256 = "ac12f37492c4fe00a84af0d48f7506838b1e93cac05414fc1aac1b5f8294bf2f"
+bytes = 2551
+
+[[files]]
+path = "examples/pool_fire.py"
+sha256 = "f891ff07deca1e89930002fa659df22946e308866f3e35deb277ff3b10d3f8af"
+bytes = 5930
+
+[[files]]
+path = "examples/pv_electrolysis.py"
+sha256 = "c553c3eb0d67a26b4de78e91ab0a89f95b8d514f56e0b51414b2823ea80a086d"
+bytes = 4781
+
+[[files]]
+path = "examples/solid_reaction.py"
+sha256 = "4d05f9225f9866e1792f4d65696d34fcd5c7d3431deb43eec1b664fb9c8cf313"
+bytes = 2428
+
+[[files]]
+path = "examples/thermal_utilities.py"
+sha256 = "4e49018e6c8e2cabed09cdb0686b2c45318f82a107eca2ffd4cbd11248f4f0e9"
+bytes = 11550
+
+[[files]]
+path = "examples/underground_storage.py"
+sha256 = "f668207d66704ca5b8dc20737ed51e194e8e2ff20b869fa27ee74a5f9f8117e5"
+bytes = 4716
+
+[[files]]
+path = "examples/valve_actuator.py"
+sha256 = "3e41e15f121cf4e8b20a2a55df696215f1468ea84f1e9ff80b35b307e10ff0d0"
+bytes = 1991
+
+[[files]]
+path = "examples/vessel_failure.py"
+sha256 = "97d2647fc268147429099acb84af93575095f84b0e16e4e95a6d3e9c3e16fc74"
+bytes = 2890
+
+[[files]]
+path = "LICENSE"
+sha256 = "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+bytes = 11358
+
+[[files]]
+path = "MANIFEST.in"
+sha256 = "ea58a94f6bea3bf75e97f44082f1fbaf1f85d358d4034e76a52f72c330d8c8cd"
+bytes = 544
+
+[[files]]
+path = "NOTICE"
+sha256 = "47bb3fc611129e8559a78d6d45b55cbdc33788f09bc4c7abc8f3275c3e241595"
+bytes = 410
+
+[[files]]
+path = "pyproject.toml"
+sha256 = "49dbb227c7c41a637827065c4dc043e95350315ec01ab7697a963cbe91c54c1b"
+bytes = 1558
+
+[[files]]
+path = "README_KO.md"
+sha256 = "698fc9da150098b50056fd75f92485ddd72a4cacca4f7443ed96017eb5e5ead5"
+bytes = 11620
+
+[[files]]
+path = "README.md"
+sha256 = "1cfc00f25faee0db195cdeff60381c77b58ebc6e190d18b6b353ff90d4b6dbb7"
+bytes = 15236
+
+[[files]]
+path = "requests/001_lh2dt_native_contract.md"
+sha256 = "bba6a2afa43e7c07fb50eba35490f4289184bb1f7f534a44d048b86619861249"
+bytes = 5138
+
+[[files]]
+path = "requests/002_dispersion_engine_versions.md"
+sha256 = "f5f13e6c731489cde048b1abff89664daac7e3761578c15948e44e0237e8837d"
+bytes = 2303
+
+[[files]]
+path = "requests/003_derived_frequency_and_barriers.md"
+sha256 = "bab2ce0406ede594e534ba41dffd8424ee3de94949ac346429cfbef826723164"
+bytes = 1882
+
+[[files]]
+path = "requests/004_station_saga_and_observations.md"
+sha256 = "d02075e4fd6598e01966821255a7000166f83c2b89444813db16f1ec37c3db51"
+bytes = 1733
+
+[[files]]
+path = "requests/005_psa_cryogenic_adsorption.md"
+sha256 = "fcdcbf2b65898cd1d0706f62af50e0653a3e954eb388832d9313d6064746f1ba"
+bytes = 4818
+
+[[files]]
+path = "requests/006_prism_shared_release_kernel.md"
+sha256 = "f0bc110e88e2859c1aa44b3f80a4175cea9b4f0fa196ede5693e481dc9d80ecc"
+bytes = 4976
+
+[[files]]
+path = "requests/007_lh2dt_dynamic_heat_and_acceptance.md"
+sha256 = "4d1676486e576bf83b66943b7adaa74f431f266ec39bb1b49cefeedb8bbf944b"
+bytes = 4036
+
+[[files]]
+path = "requests/008_lh2dt_stopped_machine_modes.md"
+sha256 = "2a9360388bf0e809e6027b743e4979e53dabd6f0d9a42f7ba107e9e7d474bde9"
+bytes = 3714
+
+[[files]]
+path = "requests/009_lh2dt_darcy_convergence.md"
+sha256 = "fc7649620bb433c6bea201ddc04010e2d222d6389a630070e26dcc2e9e11356b"
+bytes = 3935
+
+[[files]]
+path = "requests/010_dynamic_pool_properties_clock_and_sources.md"
+sha256 = "1aeb2f21be3383591d74f6b279d270d34355df9896dc2fcf0d513a014d698ffa"
+bytes = 6629
+
+[[files]]
+path = "requests/011_degali_profile_flux_and_source_contracts.md"
+sha256 = "128b46cb37bd0ea5355d45b45da6733890c315b27c29e41723d571aab9af1673"
+bytes = 10188
+
+[[files]]
+path = "requests/012_preferred_dispersion_boundaries.md"
+sha256 = "604145ce726a799604705d3f769057a2dff04b4af966a34e45c05e36d1e1bc0a"
+bytes = 4486
+
+[[files]]
+path = "requests/013_insulation_compression_native_boundaries.md"
+sha256 = "3bd390bd559cfa89fdb691c538a816515d268726ca9bce1534a351b4b826075f"
+bytes = 16462
+
+[[files]]
+path = "requests/014_protection_vent_recovery_observation.md"
+sha256 = "cc22e838ca4c20210f39bc1b1a7c2136efe584871293b1085d8a57ca3f1fac32"
+bytes = 9793
+
+[[files]]
+path = "requests/015_spin_thermal_groups_and_reacting_boundaries.md"
+sha256 = "2603659e5d9f0d4e5dedf58e709fbd0d848ccd780a35efd87b698239bf00502f"
+bytes = 7882
+
+[[files]]
+path = "requests/016_fire_conservation_heat_and_qualified_observations.md"
+sha256 = "b0b3e412043e6b81c15bb9b324ebd2910261b972668f0bafba20ac9667390d7b"
+bytes = 8551
+
+[[files]]
+path = "requests/017_cryo_spin_spherical_and_biological_contracts.md"
+sha256 = "ad8e3d3bc197c2a857b818b2d0d97576710f285151fcc6a1ce54186673909fa7"
+bytes = 8632
+
+[[files]]
+path = "requests/018_native_cycles_multiphase_and_photon_boundaries.md"
+sha256 = "e48744ca6d49d9cece6c8d622ff9d8eed1a4fe71548cad308ed2cda8becc7159"
+bytes = 8748
+
+[[files]]
+path = "requests/019_membrane_thermal_cycles_and_biological_boundaries.md"
+sha256 = "6e4eea293ba801359722107426eaad59891cc7231a9c98e5b4ee1f85cc4b9004"
+bytes = 5229
+
+[[files]]
+path = "requests/020_finite_devices_materials_and_uncertainty.md"
+sha256 = "760676bc896ed1a5fdb55b0a3ecbed384d2abef1551fb9a8b7e0f7125c7d084c"
+bytes = 8226
+
+[[files]]
+path = "requests/021_waves_exposure_and_conditional_risk.md"
+sha256 = "7c07bf1b2165dc9c9680f0e07fd8723b73edc99894e1c2f9e79946518e6f0049"
+bytes = 5969
+
+[[files]]
+path = "requests/022_oxygen_thermal_monitoring_and_cold_room.md"
+sha256 = "369bf3d6789cb9cf80568fdfc25489d6b575f0fc280944d5d6bbce0766732d4f"
+bytes = 9087
+
+[[files]]
+path = "requests/023_direct_dc_solid_and_fracture_api.md"
+sha256 = "f49dba8ca983522b08e8b110cff935c9605a85cc5044c457316a4911b7295f31"
+bytes = 3789
+
+[[files]]
+path = "requests/024_fire_failure_parcel_and_economics.md"
+sha256 = "9b5bd9f875f91c08813c12d9e8815f772b7f78441a84385c6e4104c0c18cb666"
+bytes = 4160
+
+[[files]]
+path = "requests/025_cavern_microbial_impact_and_front.md"
+sha256 = "b24d19f05caa66f27ad98fd060038041a70e74e5020a7bd5d1a225f2551592b0"
+bytes = 5628
+
+[[files]]
+path = "requests/026_obstacle_fire_economic_and_campaign_contracts.md"
+sha256 = "46bc4ae634de880170d9a3f3dd0e1b85e8ce20d831763e76314159f82f71a08b"
+bytes = 5729
+
+[[files]]
+path = "requests/027_equipment_carrier_protection_boundaries.md"
+sha256 = "0d2bc6127c21add0ca5e163d9b568c4c0532116b11df04c33ace7c9f56539763"
+bytes = 2592
+
+[[files]]
+path = "requests/028_fuel_transfer_thermal_selection_contracts.md"
+sha256 = "eadaa6f0a903da4db3ffd2ab3918e32982ee88f5f2e7fbff4ba963cdf3aed08b"
+bytes = 2511
+
+[[files]]
+path = "requests/029_adsorption_valve_relief_facility_contracts.md"
+sha256 = "63acbbc6212f5634326478842c8640eecbe3ccb74ae0c421bcdf010526d1849c"
+bytes = 2036
+
+[[files]]
+path = "requests/README.md"
+sha256 = "17b65b1481ece290ffdb761420b9ecd83570213102865866517cf0f980b8ec0c"
+bytes = 3720
+
+[[files]]
+path = "requirements/native-biological.txt"
+sha256 = "cabf4205ad3a1d78133877f63937afe68687f49da9edcbcaabb487d7fd394a5a"
+bytes = 448
+
+[[files]]
+path = "requirements/native-degali-pinned.txt"
+sha256 = "02578614cb43f4600474e47aa068b17dff7df24b813d9c1e58a8154bfb203820"
+bytes = 332
+
+[[files]]
+path = "requirements/native-fire-heat.txt"
+sha256 = "3e6893648a2a5c1485ff83e596de4fc1aec08824fb8f87749e3d147ea5f8a8e2"
+bytes = 171
+
+[[files]]
+path = "requirements/native-monitoring.txt"
+sha256 = "9cb8dd4f9533a439fad0de0c4bbad95d480f20fdf8dceb23484ceca6bd032aa1"
+bytes = 439
+
+[[files]]
+path = "requirements/native-preferred-dispersion.txt"
+sha256 = "7dae6f5ab4a5866bb81eb244dc51d0c4473147905a88022d1b2a037e3dbdb8e8"
+bytes = 502
+
+[[files]]
+path = "requirements/native-risk.txt"
+sha256 = "8c05a907fc1937a9686da22bae7ba481da24c3ea647eae0eb25956e9e9fa1add"
+bytes = 324
+
+[[files]]
+path = "requirements/native-thermal.txt"
+sha256 = "92d268a63beb5dcffd949812d0b8622a56169b4f72ca43c692915d324eef5290"
+bytes = 204
+
+[[files]]
+path = "requirements/validation-preferred-dispersion-windows-py312-2026-10-27.txt"
+sha256 = "14070854bdc9f6a86206ca5e1e21aace10dded7538c914456c947ec5c562b04c"
+bytes = 534
+
+[[files]]
+path = "requirements/validation-windows-py312-2026-10-27.txt"
+sha256 = "6d995a6c7a623f2d8aa0e31e2bf3c4b30135bd0482a8804b631b3fedb9a103ef"
+bytes = 482
+
+[[files]]
+path = "requirements/validation-windows-py312-carriers-2026-10-27.txt"
+sha256 = "f786635cdf1c6bc60b8c200a59c64d5515e11b635856018b3cc245332919fb9c"
+bytes = 953
+
+[[files]]
+path = "requirements/validation-windows-py312-cold-monitoring-2026-10-28.txt"
+sha256 = "70c74668fb33ffead4db8c9ade61707bc113b3394a82aa87eb38d43c785e4fc7"
+bytes = 891
+
+[[files]]
+path = "requirements/validation-windows-py312-jets-2026-10-27.txt"
+sha256 = "9d4cc4a87ab9d8a08f57c6ff96fcecfcccd459baf54477976a1f7db9d35855fa"
+bytes = 1028
+
+[[files]]
+path = "requirements/validation-windows-py312-pem-2026-10-27.txt"
+sha256 = "809d75b6ebe00d67326b6b3d8288208a052a5475c36dad7fd8acbcd1291a9ec8"
+bytes = 843
+
+[[files]]
+path = "requirements/validation-windows-py312-pool-2026-10-27.txt"
+sha256 = "1a4837df9d44b2e5bb8e707d6fcb6f1359eb2ef1ad990711164c83ccf5175b74"
+bytes = 873
+
+[[files]]
+path = "research/acoustic_comparison.md"
+sha256 = "debfcf79a6c2e6ec791cb50b26984da15496fd2486733593b541e6899de19d8e"
+bytes = 4032
+
+[[files]]
+path = "research/biological_dependency.toml"
+sha256 = "dcf4584a90c5bbcb332299c2d63889b77038530bd6a8b3406037575046f353fe"
+bytes = 21787
+
+[[files]]
+path = "research/cantera_factory_development.md"
+sha256 = "15bfcd49e376c1f8e049e0c18875c3544502f8a050ff82ed0e71f285732597f3"
+bytes = 10769
+
+[[files]]
+path = "research/carrier_reactions.md"
+sha256 = "5ed28aba73d78db4aee6540ab5b2399eab56706c32c293c9167f882474ba4be4"
+bytes = 4881
+
+[[files]]
+path = "research/channel_ingestion.md"
+sha256 = "046a55285a4452be060544738fb3eb29e07a55060068b72d85803031b56f86ee"
+bytes = 2512
+
+[[files]]
+path = "research/checkpoints/0b6922c.toml"
+sha256 = "179eb30605ff67d26a280a8040a93d62995a4fe48e656b9395e6bf08d5ba552a"
+bytes = 80371
+
+[[files]]
+path = "research/checkpoints/387d1c6.toml"
+sha256 = "6040d27df97764133df457761fab9c9911b4e596f28d1b9ab8a2c038cb844096"
+bytes = 49217
+
+[[files]]
+path = "research/checkpoints/3b516d6.toml"
+sha256 = "36f2347b1944fb7b8332c4e4284420fd918560ebac8c5b61f9314624d7d434c6"
+bytes = 82878
+
+[[files]]
+path = "research/checkpoints/55e8c38.toml"
+sha256 = "ab79162def8b5d12c73f8e8d27852e9afe2ea1454ea1318be90e04da9e04ea23"
+bytes = 75840
+
+[[files]]
+path = "research/checkpoints/59e7f14.toml"
+sha256 = "a14fefdc34ab70a0010b558db479256183b6a6ebc1fb4f6d65387b5ea3628cc8"
+bytes = 79029
+
+[[files]]
+path = "research/checkpoints/6669f7d.toml"
+sha256 = "a20fe136f07dff76fc1617b5dcbeda1bbc116154cb07c92706f9364fc2ffb1a8"
+bytes = 97770
+
+[[files]]
+path = "research/checkpoints/6eae06c.toml"
+sha256 = "e6eea651bb03b49c8311d07219877f03c4f775c4a1f349d43b20e75280ce29d1"
+bytes = 45711
+
+[[files]]
+path = "research/checkpoints/bd2dcaa.toml"
+sha256 = "8bb0d6abb0b48ad4392514c97b28273207f13f05bd3ea5e6090e90322017ded4"
+bytes = 72277
+
+[[files]]
+path = "research/cluster_evidence_development.md"
+sha256 = "f424ebf7d3fbb3c9f424c39060484442a91bbb8c25126e097e44ace2aecd0085"
+bytes = 2038
+
+[[files]]
+path = "research/conditional_risk.md"
+sha256 = "aa3a17b04d1f0761ba20cb551df04c36aec5277d5e6b0905f8594f9e736b0138"
+bytes = 4529
+
+[[files]]
+path = "research/cryo_compressed.md"
+sha256 = "fc71545f80d103524ef49ae628083516d4acac13be4d19ec179c40188d331929"
+bytes = 10318
+
+[[files]]
+path = "research/data/ab2-hydride-tank.toml"
+sha256 = "7fe90bca3d2b3d30d884aee8586d5b881bfd267f78fd46d44767d1c26024b5c9"
+bytes = 2477
+
+[[files]]
+path = "research/data/austenite-embrittlement.toml"
+sha256 = "85b35007329799fc1a10fff6922a71b4a5a6ea564cab06994dfa24e86a0c19fb"
+bytes = 4985
+
+[[files]]
+path = "research/data/carbon-chemisorption.toml"
+sha256 = "6d016f36cf57aadfee9c7b99253d79f8c359add7a8e3cd044a1304cf8b0ae9fd"
+bytes = 10536
+
+[[files]]
+path = "research/data/carpark-thermal.toml"
+sha256 = "705caf63d8a4bfb8e75f507f50425167e7b3b935647d15773b6e2d52dc6e3e69"
+bytes = 4903
+
+[[files]]
+path = "research/data/carpark-unignited.toml"
+sha256 = "2781287be41a2c501ec71630cb9a35b6f8cebb7814389144f5a1083f9e3a8cd4"
+bytes = 9539
+
+[[files]]
+path = "research/data/cds-photo-screen.toml"
+sha256 = "a27b5527c5ac6c7b86421431e759a4d37c581c5a1e4fb8377efc594efb7dc61c"
+bytes = 1150
+
+[[files]]
+path = "research/data/cryo-mof-dormancy.toml"
+sha256 = "fc93338fe43d798a937c15a0a5ce81ce48789f113132435faed0640a9f464e1d"
+bytes = 31824
+
+[[files]]
+path = "research/data/dark-fermentation.toml"
+sha256 = "7f94e8dd65a7f3917b51da4347ba29b89d74bc19d535cdb4d6ff832b4a3337b0"
+bytes = 1330
+
+[[files]]
+path = "research/data/elvhys-cold-room.toml"
+sha256 = "e63eb742c1d6bd87f619976c2aa4fa161d627fe44133233092802e1c0a7f8ea7"
+bytes = 88868
+
+[[files]]
+path = "research/data/elvhys-shock-tube.toml"
+sha256 = "570e555c962e826bb5e0d464095ba6ff9124273c5e5e653228cd71076f231a31"
+bytes = 22569
+
+[[files]]
+path = "research/data/geological-adsorption.toml"
+sha256 = "53c21ebd32e087907a340c30f6db94f2fa1e785686f3f4896064f5d132460df9"
+bytes = 1342
+
+[[files]]
+path = "research/data/h2safe-indoor.toml"
+sha256 = "b6a7f2feec346f496cc1807556c2763ec010c408dd4c445bbd7b4a16473d25ea"
+bytes = 1628
+
+[[files]]
+path = "research/data/hydride-compressor.toml"
+sha256 = "a0b0ae365d689b605e9ce0a019540a51a9660be760f6abfae0437742223be3be"
+bytes = 1128
+
+[[files]]
+path = "research/data/hydride-pct-simulation.toml"
+sha256 = "fd9d85b4f9f1ad24ea43bf9e7985bb0de60a347f6a5cf8460bad5c55e869bc79"
+bytes = 3719
+
+[[files]]
+path = "research/data/hydrogen-channel.toml"
+sha256 = "b0c3cce0102a1de53b89fae756422aeda49f14396bc6cb1b103d02ddc8d4172a"
+bytes = 10235
+
+[[files]]
+path = "research/data/hydrogen-sound-speed.toml"
+sha256 = "360217289aa86a3587b88ef9e123a11ab5aa83b55fb7878ab089fb732e9153d3"
+bytes = 2093
+
+[[files]]
+path = "research/data/lohc-enthalpies.toml"
+sha256 = "5704659d941c8ffe7d9af62fe9c3819d3d13fce76237cd35c980b4485ad5881b"
+bytes = 1076
+
+[[files]]
+path = "research/data/mechanical-ventilation.toml"
+sha256 = "766d564e1d0b3436d5cadffbc75007f8ea1f79542f79fd757822141251cfe300"
+bytes = 3989
+
+[[files]]
+path = "research/data/microbial-nutrient-recovery.toml"
+sha256 = "4846a719b3dc7690306e0f2f80a0b2baef9ca9c849c4b7a7c0d66f9bbbb7f008"
+bytes = 1329
+
+[[files]]
+path = "research/data/oxygen-hypoxia-chamber.toml"
+sha256 = "6039b6b9115a54e734d025fb54876ae8669ed64ba4c707062e8dbb37547b93a0"
+bytes = 1677
+
+[[files]]
+path = "research/data/pem-crossover.toml"
+sha256 = "949488f4a5b1577b43ede0588e3fb155a47865ff12ff41c652db3f9738318378"
+bytes = 1231
+
+[[files]]
+path = "research/data/pem-grid-system.toml"
+sha256 = "e969313b1fec00c5cfff4c61582c9a66a5050db4ea2efc7fe3209088ef2b83ee"
+bytes = 1643
+
+[[files]]
+path = "research/data/preslhy-discharge.toml"
+sha256 = "25a3d9e56f17c6928fe8290555cd0a99ec64821b961331dab06c70a427a946a2"
+bytes = 7776
+
+[[files]]
+path = "research/data/preslhy-pool.toml"
+sha256 = "1307459cf72e2cc12b50fd61ebad2e9f981e1ddc59809e65a6db01a5e9a6957d"
+bytes = 3519
+
+[[files]]
+path = "research/data/pressure-ignited.toml"
+sha256 = "f3a1c273c5a3c0571781390235322a7d823601088c5e99d88129c7f43dcb57e8"
+bytes = 7295
+
+[[files]]
+path = "research/data/pressure-unignited.toml"
+sha256 = "8ab175b1b804b7efb07782678f8ac849f10efa23e4960e6deac78422f54cca8d"
+bytes = 9008
+
+[[files]]
+path = "research/data/pv-pem-dispatch.toml"
+sha256 = "7e56d29fa5144f631e20825bc7b47e0c8eb829f50b768fd1e081f46629a272c3"
+bytes = 1109
+
+[[files]]
+path = "research/data/sofc-polarization.toml"
+sha256 = "ddfea57367f4d5267c5ec17d9d5a7c9dcddd47d647b2fc13d866e1066b083fb8"
+bytes = 2996
+
+[[files]]
+path = "research/data/tio2-photo-evolution.toml"
+sha256 = "5419c4187320de5090cc17781e65c46547a439c28d8ac2a5388688853f53fe2a"
+bytes = 1384
+
+[[files]]
+path = "research/detonation_dependency.toml"
+sha256 = "53fea48942767c4d825e4a0a1778b35dc0dd2c2ddbc2ed9c2ca06f1d565dc333"
+bytes = 2736
+
+[[files]]
+path = "research/discha_inventory_comparison.md"
+sha256 = "6f80650c24e1877094cb3fce91ebb62f712d595e7bf0e0d1029e165ffe775695"
+bytes = 6190
+
+[[files]]
+path = "research/droplet_impact_dependency.toml"
+sha256 = "57242adcf8dc142027ce8d33bde65fd42707950430715cf93ba31f81fb8a66ea"
+bytes = 2178
+
+[[files]]
+path = "research/droplet_impact_development.md"
+sha256 = "6d320b6799e529fd4c43a6a1dfcab02b7fe1741fff6b56e79a625fc72ec62f50"
+bytes = 9728
+
+[[files]]
+path = "research/droplet_transport_dependency.toml"
+sha256 = "a684f4eed8c42e9190608cba1da596bb54f050d57c7e87bb2a602976e682736d"
+bytes = 633
+
+[[files]]
+path = "research/droplet_transport_development.md"
+sha256 = "3db802d6e299a673f35ec3c69d0bcb39a89a356f35ddfd2caf6653480c4bdee3"
+bytes = 1235
+
+[[files]]
+path = "research/economics_dependency.toml"
+sha256 = "4d29ff759823e1c55a0e65d9a017d6239b2200ac045fd0cd96f4156218616138"
+bytes = 2800
+
+[[files]]
+path = "research/embrittlement_data.md"
+sha256 = "dd6f9a4b867cd1870f0ea0d644568d37b9d2ad0a1aa379092321f71d829b6312"
+bytes = 10792
+
+[[files]]
+path = "research/facility_continuity_development.md"
+sha256 = "18390a6999274a34b81079ab942f71d013027cd688812a20b11ec3f724e6c5f1"
+bytes = 1198
+
+[[files]]
+path = "research/facility_protection_development.md"
+sha256 = "b233156710f7a0b1590d7f7dc1efb8ec83f57eec80efb8bec243f7a937e03418"
+bytes = 11915
+
+[[files]]
+path = "research/fermentation_data.md"
+sha256 = "3609f5da86de5585703ffe8b398bd7c21d85d674fe6d14c41aff6d8ecc53266f"
+bytes = 5748
+
+[[files]]
+path = "research/finite_adsorption_vessel_development.md"
+sha256 = "cfd112980111ddfb4840743c9c0eb6cf8abf39db180e0d215552fa7791f9c0d3"
+bytes = 2092
+
+[[files]]
+path = "research/finite_fuel_cell_development.md"
+sha256 = "4abf3f5ddee4ec673e815c9be458b7ee51524f671cf561676ba9a2065b8ceaeb"
+bytes = 7406
+
+[[files]]
+path = "research/finite_hydride.md"
+sha256 = "fb62004bb7fa7f37940e82222962c6c9674267ac8a4fe68701afd340c5931985"
+bytes = 5709
+
+[[files]]
+path = "research/finite_membrane_device.md"
+sha256 = "11fe8ca62f44311cca653921d740db2dc0203f29406838982aaabdfcba46fb6e"
+bytes = 9966
+
+[[files]]
+path = "research/finite_relief_lift_development.md"
+sha256 = "4eb0d2c34c6e2d51d9b2520e9e0dd5464e8672f87911bef0c5b19271cb1e99e5"
+bytes = 2110
+
+[[files]]
+path = "research/finite_transfer_development.md"
+sha256 = "25308d220b1b3eb4657f779e0ed3e1dc95516b12317bf4b16c00b6dbb8e45847"
+bytes = 6948
+
+[[files]]
+path = "research/flash_front_dependency.toml"
+sha256 = "de382cbaa3c07c14649098a0c014ff3f718d728d795049a2c0c26e0c528d8681"
+bytes = 863
+
+[[files]]
+path = "research/flash_front_development.md"
+sha256 = "f7e678ce990e8749076dbd4e065cb9e5fbb33300e718218299ea62024f5ed184"
+bytes = 3870
+
+[[files]]
+path = "research/fracture_dependency.toml"
+sha256 = "f7a0d6e6b08d4358beeb4c0dca67c1be3d16088ae202001a05f7a4ae3bef903a"
+bytes = 3722
+
+[[files]]
+path = "research/fracture_fatigue_development.md"
+sha256 = "f1a2d264790ebfa44fa513b1a22ffc553b0c2a10d70c399e6b06232dad5b6516"
+bytes = 5464
+
+[[files]]
+path = "research/frozen_gas_properties.md"
+sha256 = "dd64f574b14088cd6fd23706bb2b960a783e633392becfd1f99e1fbc7e44a150"
+bytes = 7483
+
+[[files]]
+path = "research/hydride_compressor_data.md"
+sha256 = "ea146a221a555bbe0f04695b2832ba4a574fb76eb499a5e4bb25d10e5365b72f"
+bytes = 11553
+
+[[files]]
+path = "research/hydride_compressor.md"
+sha256 = "fe37dcb0a9549f9badf2b360563a232b1004e6706d1e7a675fc82f02ff08b67e"
+bytes = 15311
+
+[[files]]
+path = "research/hydride_ingestion.md"
+sha256 = "eeb846d5b4d0c187be2e9b29b7e893f720259ea8e0a8127ba9648bb618269f31"
+bytes = 1963
+
+[[files]]
+path = "research/hydride_tank_data.md"
+sha256 = "4329bb3e652ac04ad251ccfb0bfceeaa7567757847d5677d3250d6ebbdbd6af3"
+bytes = 3796
+
+[[files]]
+path = "research/hydrogen_economics_development.md"
+sha256 = "9f22c9a17243700f1e096d3b408148faaee703c3d44654842b17a5cd3a556b0f"
+bytes = 12269
+
+[[files]]
+path = "research/hytunnel_jets.md"
+sha256 = "3325c53f571746d70c5c142752fe6f981f1df19e47b81c8c2967523b00b2f874"
+bytes = 17912
+
+[[files]]
+path = "research/integration_request_027.md"
+sha256 = "25e63d1413f2e06e13e9e2aae19779693ffeade75fce88ea4f90c6397c59aaed"
+bytes = 882
+
+[[files]]
+path = "research/integration_request_028.md"
+sha256 = "5384343c8d8a48fe4eba7e687a0566bc3f95835adbc73fb1a2db7d76a36e4e35"
+bytes = 2737
+
+[[files]]
+path = "research/jet_fire_conservation_dependency.toml"
+sha256 = "117646b94f400e3554c02642c0f6eab9ba2f6bb7cf61716409753abaa53df86b"
+bytes = 3437
+
+[[files]]
+path = "research/jet_fire_conservation_development.md"
+sha256 = "ee1fd7ee2f69e06a98c0358f0e5b74ee5f3bf54b112e05a8630281f409a09839"
+bytes = 13309
+
+[[files]]
+path = "research/jos3_thermal.md"
+sha256 = "41a5995baf1374ccc758755723434350f492ea667a2705562822da5811b27315"
+bytes = 5634
+
+[[files]]
+path = "research/liquid_carrier_ammonia_development.md"
+sha256 = "9b8298e4614e9b3caaada7324d7911f0b47cf2b37ff4aff3fe23ce2b85fafeef"
+bytes = 6921
+
+[[files]]
+path = "research/microbial_cell_development.md"
+sha256 = "97627bcfe4192704112169e7aa40ba45397955df03ec7c17cacb146603e94f40"
+bytes = 11102
+
+[[files]]
+path = "research/microbial_economics_development.md"
+sha256 = "31a6c3861044281a757d8ba8489d9b1beef555db0f273e27a8ec65db125d0cab"
+bytes = 8978
+
+[[files]]
+path = "research/microbial_electrolysis_data_candidate.toml"
+sha256 = "04b01a78b81d2a02be7ea3ae17a3ebbcb912f796f799bc215c082ea46986847d"
+bytes = 3680
+
+[[files]]
+path = "research/microbial_nutrient_schema.toml"
+sha256 = "1150b518dccb22df618cf1c210bee37fb072295791da28c09ffc399eb7b16f24"
+bytes = 454
+
+[[files]]
+path = "research/microsphere_storage.md"
+sha256 = "168bc47c4725116339fb69d8a5133fcff235df76c98b2df5cdc24f457e714700"
+bytes = 6703
+
+[[files]]
+path = "research/model_selection_development.md"
+sha256 = "7aff7654a72af3800e6d6ddb636f9cf8776358c335bf8b36b52f5f7e99898c18"
+bytes = 1188
+
+[[files]]
+path = "research/monitoring_dependency.toml"
+sha256 = "380a5be8b7ef8b4ad3e78ef7bfe6e03b1ce2837eaca6e9188206645a1ef1255c"
+bytes = 7758
+
+[[files]]
+path = "research/multiphase_calorimetry.md"
+sha256 = "981739f2a6455e7653343bd06761ea901d5eeb68c45dc182da0e304c552f9dff"
+bytes = 10313
+
+[[files]]
+path = "research/multiphase_conversion.md"
+sha256 = "61b85388090b073bc0131bf1c32b874f77ef34a120ee39fd19736608092d7cd0"
+bytes = 9912
+
+[[files]]
+path = "research/native_air_condensation_review.md"
+sha256 = "acb51fd8920d10c56dcedb21c5706c7b81cc527a06161f8b2ad1a4ff66e3a1e3"
+bytes = 3261
+
+[[files]]
+path = "research/native_biological_process.md"
+sha256 = "4712cf328420c4034e7f6538548ccfaa656015317c8116e69463f3e1dfa51d88"
+bytes = 14368
+
+[[files]]
+path = "research/native_cantera.md"
+sha256 = "2ca1268305fe1af3f5a902d9d56d26c31549ca4c57af33a121c81f54075d24c8"
+bytes = 2882
+
+[[files]]
+path = "research/native_compression.md"
+sha256 = "5c0ea17489ae8aad83bcf7002d5adcefe381ab47b1c2d318f6eea3f4acb4b996"
+bytes = 11652
+
+[[files]]
+path = "research/native_degali.md"
+sha256 = "fbeb1d1890643d9a0ca116b7e2c7ca111414603a8a8c192339e9d38fb59f7c95"
+bytes = 9129
+
+[[files]]
+path = "research/native_detonation.md"
+sha256 = "60a79d622bc5607ede03a4b52e5386fcced5f3c94cdb9eaf807456c0975bd85d"
+bytes = 12121
+
+[[files]]
+path = "research/native_dynamic_inventory.md"
+sha256 = "d5be5e342d57edf13e1170eb65f3a300cc0b86c94afa0c5ca217a18a626abb36"
+bytes = 4806
+
+[[files]]
+path = "research/native_equipment_network.md"
+sha256 = "c890d911d13e401c13e637a568ffd9f989236e2d2ef6d6dabcd02cc57a25ae2d"
+bytes = 6336
+
+[[files]]
+path = "research/native_exposure.md"
+sha256 = "7184d82488471d5a8c955c4993754fc94cd9c93bec107004c19372ff52afc0f3"
+bytes = 11105
+
+[[files]]
+path = "research/native_finite_supply.md"
+sha256 = "6fffa1a293b5d9050c23c1e59ac9296f3e13b31e0fab57df3f268331bb77eba0"
+bytes = 8587
+
+[[files]]
+path = "research/native_fire_heat.md"
+sha256 = "88d0a1958b6f9f50ca3332691a8c43e0da6041d2a2d6703ddfbb0587dc2afa5c"
+bytes = 7158
+
+[[files]]
+path = "research/native_heat_exchanger.md"
+sha256 = "78e9036e55537e9a105eba8e17c032b707d4440ccd6465d66c54e865fc43f6f7"
+bytes = 11320
+
+[[files]]
+path = "research/native_instrumentation.md"
+sha256 = "29803c5a7ca1ec26927f628abd4ae99322f28bb8f5513b06af22b62bae1eed05"
+bytes = 3709
+
+[[files]]
+path = "research/native_insulation.md"
+sha256 = "cff2d719291dd88e005dafbae693732aaeb961a641f9f84d30bacb7b7c1f7a77"
+bytes = 10165
+
+[[files]]
+path = "research/native_jet_fire.md"
+sha256 = "c1383d227b8323a85e79570db74317725ac913064803822a2126b12f2e58f87d"
+bytes = 10841
+
+[[files]]
+path = "research/native_lh2dt.toml"
+sha256 = "14b6dc565249ce359b50f8dd7321a7ffc2cc4e689f75db94598f1a3fa7a59a79"
+bytes = 445
+
+[[files]]
+path = "research/native_membrane_transport.md"
+sha256 = "ef68216ef2a3c1d9dbe3429cc9007f05347aabac3374587bb6a0fdb6c3860a1d"
+bytes = 7248
+
+[[files]]
+path = "research/native_overpressure.md"
+sha256 = "c83ff79e09275e8f6b80f485d635470be1493b8e0598982d12e461e87b51b1ac"
+bytes = 8398
+
+[[files]]
+path = "research/native_pool.md"
+sha256 = "581ea49db961b7222eb4a4044208d3e8ccd98ce4b1863d66d062f4d55620deea"
+bytes = 7967
+
+[[files]]
+path = "research/native_property_provider.md"
+sha256 = "61816d135ee6c2258db512bc43f6acbc6f6a7b756b6dd6de84c7310ccf42a466"
+bytes = 2376
+
+[[files]]
+path = "research/native_psa_bed.md"
+sha256 = "8f4a0b96f8347702bb26befc47184778d27da94e68d2b3d6d376ccdd32cfdc43"
+bytes = 1167
+
+[[files]]
+path = "research/native_psa_cycle.md"
+sha256 = "c350be5a38efc57cee32964eb3d64baa7c2a209fce794ff8a6c3a2d49bd699a5"
+bytes = 8842
+
+[[files]]
+path = "research/native_psa.md"
+sha256 = "8e96fba57173797edf1c14a5fdced400707f9a91fe81719e3fa7a8213909fd2d"
+bytes = 1465
+
+[[files]]
+path = "research/native_release.md"
+sha256 = "930d5d6a6b6bd8c386669443c6a89edd507d36068b05499304ca4cd126490171"
+bytes = 3301
+
+[[files]]
+path = "research/native_relief.md"
+sha256 = "167847b9260318c72618a1b2768a0f8d6defeaee1fff78419cdc2df26e188f84"
+bytes = 8076
+
+[[files]]
+path = "research/native_reliquefaction.md"
+sha256 = "db3649f150bf13e221a819034164d93181163cdf4a0498d61a10d043747d0c9e"
+bytes = 11229
+
+[[files]]
+path = "research/native_spin_thermochemistry.md"
+sha256 = "aefd9405ed9db48bda6beabf08ad93df3a4cef2790a7764df52d56c3b6887a86"
+bytes = 10541
+
+[[files]]
+path = "research/native_spin.md"
+sha256 = "907053d3a0d312f09c2148fd664b5059bd9765ddc9d7c9bbc5fbb7f19414403a"
+bytes = 7599
+
+[[files]]
+path = "research/native_vent.md"
+sha256 = "41c7f10118b8dd5afec10ad6c1854a9cd57e3e404cf5b738a47e9680192c78af"
+bytes = 15985
+
+[[files]]
+path = "research/nozzle_search_coordinates.md"
+sha256 = "c680fbf2ea3222d04d5b4a3c0c4d7de754dad914d4ccccf7859549db216b0616"
+bytes = 3944
+
+[[files]]
+path = "research/obstacle_dispersion_dependency.toml"
+sha256 = "b30dda10d9c15b4a8f5ea6f395a15d581515f00153bd22851aafce3da43fbd13"
+bytes = 4382
+
+[[files]]
+path = "research/obstacle_dispersion_development.md"
+sha256 = "678a8d97fcc04437ddce729360102ae37c730a18ca2570646ef832547d6f5c1d"
+bytes = 3637
+
+[[files]]
+path = "research/open_gas_volume.md"
+sha256 = "2cd426e9934a47c7fce92ffe12e2fea591f2924e4fbda80f6170fc35488bc3db"
+bytes = 5497
+
+[[files]]
+path = "research/oxygen_deficiency.md"
+sha256 = "9be2e2ad7e0ff5a4c6803e85ad90a04949889ee4e11eead2cdb0f0fca2d5d66d"
+bytes = 18924
+
+[[files]]
+path = "research/oxygen_observation_data.md"
+sha256 = "e56eb787538413b7ae5f71d24c2c8160d6cbe09cb11a540a20ba8b95b13abc3f"
+bytes = 18676
+
+[[files]]
+path = "research/pem_impedance.md"
+sha256 = "dcc332ed24d9482f3146ad94f26431ffe7a283feca2a2078e89bc9d0fd380038"
+bytes = 10038
+
+[[files]]
+path = "research/pem_ingestion.md"
+sha256 = "2de2cb1a45fa7c524aa1b5d87dadc6682e2e84eb6377fe7181e47f2cf37aa74a"
+bytes = 3415
+
+[[files]]
+path = "research/photocatalysis_data.md"
+sha256 = "81cf69013f8cdd301614cc304ec03a6ee0cbd551d652e465efb8b56d433d197b"
+bytes = 8528
+
+[[files]]
+path = "research/photochemistry.md"
+sha256 = "51c38622de6d6e1fe673e233c606acdbd8e52e662ca5d320541378d5972c388d"
+bytes = 6110
+
+[[files]]
+path = "research/pifira_dependency.toml"
+sha256 = "aa86fa369ff2c7c6044bd4982efd9d5961003e59dc09595287c193fbb252dfd7"
+bytes = 2108
+
+[[files]]
+path = "research/pool_fire_development.md"
+sha256 = "f9635685abf3cb64f2e28d3680ceaf82ef2b629a932acb59919632eb03def561"
+bytes = 9606
+
+[[files]]
+path = "research/preferred_dispersion_dependencies.toml"
+sha256 = "b1492bc9b0ebb0388765d75f323af9c6f82a6996f7f999895d036b60d4eb5ba1"
+bytes = 2038
+
+[[files]]
+path = "research/preferred_dispersion.md"
+sha256 = "0185d1959384cc7167bcb36b739f95d8ae1678d8ac006703e9ee81cbc850cdb3"
+bytes = 4083
+
+[[files]]
+path = "research/pressure_peaking_data.md"
+sha256 = "e9d0bd5bbc71572d4247d332408cfe2e449130eeff290858d376c3d0004f10e3"
+bytes = 20113
+
+[[files]]
+path = "research/process_monitoring.md"
+sha256 = "95b742e7863ec0a7838290144b06a4bd4a94c4f8cecbe0f565e3fa298d69c9d3"
+bytes = 12603
+
+[[files]]
+path = "research/property_tables_native_initial.md"
+sha256 = "66b3bd206d7d4d9b3fe055f02bf52a6eebc767c8d5186be4fca853c4b74d2c3c"
+bytes = 2469
+
+[[files]]
+path = "research/property_tables.md"
+sha256 = "151d6e4ae126ba0dcc52ebc6569d3a2937d69df8f0b7cc60a7aec96b9a3e86be"
+bytes = 6900
+
+[[files]]
+path = "research/pv_electrolysis_development.md"
+sha256 = "ed60e6a1bf586e96e678329e4a92d4c6dccc671c04728b7bfc4c8670aeef302a"
+bytes = 9134
+
+[[files]]
+path = "research/pvlib_dependency.toml"
+sha256 = "6bf331bb48e59bd8ffa1a090631c909762e712bd534f52810c62e78851096ed1"
+bytes = 10127
+
+[[files]]
+path = "research/rdkit_dependency.toml"
+sha256 = "5cc58c07fa95f875c994c761b50379ef34eb90cd1d4d851b68866dee33d9d087"
+bytes = 1227
+
+[[files]]
+path = "research/reactive_process.md"
+sha256 = "d8e18fc83d22009835d61f1b687ca64e6c6b939afd301b1abecf57c0993d15da"
+bytes = 6591
+
+[[files]]
+path = "research/reduced_models.md"
+sha256 = "b0a9dfaa712e5a83951ba3767dd42b36cf958feffc00cfe11ba10ba279b7d784"
+bytes = 1836
+
+[[files]]
+path = "research/risk_dependency.toml"
+sha256 = "9e8bb997527c23362a60480635a65d16618c4a2242acabad2e092dce9e2ede6c"
+bytes = 4342
+
+[[files]]
+path = "research/schema/ab2-hydride-tank.toml"
+sha256 = "9ad4baf910d5a658dd0f793c26cc0fa02807d90905097597d1e3da0f50e8d8ae"
+bytes = 3337
+
+[[files]]
+path = "research/schema/austenite-embrittlement.toml"
+sha256 = "2a4b0f33787932612d2ea539310b94ab1c7935ca9c479a3015e9dc8a9fc9df57"
+bytes = 4950
+
+[[files]]
+path = "research/schema/carbon-chemisorption.toml"
+sha256 = "4e8a017f90745427014d44f41241b53096be480d2770b2513424e7a752fd4e77"
+bytes = 6978
+
+[[files]]
+path = "research/schema/carpark-thermal.toml"
+sha256 = "6ab7a32bd115ac47bd5b2ec5521a52f1ac7a4361f2d4e1b4ceb5984bf674cf33"
+bytes = 8892
+
+[[files]]
+path = "research/schema/carpark-unignited.toml"
+sha256 = "8af3e7d88141c43ad32f0d100e746f8a924f663b006c4d7ae2d61a9220a0a122"
+bytes = 22798
+
+[[files]]
+path = "research/schema/cds-photo-screen.toml"
+sha256 = "d630fc92d0ce8bb7ce84322272d1c75f0d75736685f64f741fd25d1b9750799d"
+bytes = 909
+
+[[files]]
+path = "research/schema/cryo-mof-dormancy.toml"
+sha256 = "ea838e482e6e2996a2de285fd2f4d739b74258a67eb82cf39722a7acc2cac545"
+bytes = 29197
+
+[[files]]
+path = "research/schema/dark-fermentation.toml"
+sha256 = "a479dd7b8190255147b8ebeb522119c75b0006ee1826118a4b5612070cc1ca88"
+bytes = 746
+
+[[files]]
+path = "research/schema/elvhys-shock-tube.toml"
+sha256 = "facb461cb98b355bcee2f947d72ba4be357d2f8219588828d70ead959917975c"
+bytes = 20448
+
+[[files]]
+path = "research/schema/geological-adsorption.toml"
+sha256 = "870d0fc27bec5afa374e018a0792b440cf8ecbfd47fd21e0c1b6e2fe1d26cc8d"
+bytes = 19723
+
+[[files]]
+path = "research/schema/h2safe-indoor.toml"
+sha256 = "188d0f9e01fd322b1ce9b0beffbb3736127a719d868f5b97243403668e7e6f7e"
+bytes = 2848
+
+[[files]]
+path = "research/schema/hydride-compressor.toml"
+sha256 = "af318b2496c64bb74924d3a1eee420da9f9bb02940c5d53634249fa927ec6f12"
+bytes = 101826
+
+[[files]]
+path = "research/schema/hydride-pct-simulation.toml"
+sha256 = "f6293f3d9d6efdb4944f7c9a59e9ecd9d936fc18f899c7e7348f4af8fff8cee8"
+bytes = 3888
+
+[[files]]
+path = "research/schema/hydrogen-channel.toml"
+sha256 = "a71a2fa55659b0916f94bced21fe339a0d5f55760b64d4fd4f759bc80e1363a6"
+bytes = 32882
+
+[[files]]
+path = "research/schema/hydrogen-sound-speed.toml"
+sha256 = "f806b23428507de07bdf8903e3a06412ca06a5e7cdf24139935091a05e69216d"
+bytes = 520
+
+[[files]]
+path = "research/schema/lohc-enthalpies.toml"
+sha256 = "ccb138a055036d088ce2b7e9734e1a2d29ad5f947594a0e837812f821251f995"
+bytes = 1331
+
+[[files]]
+path = "research/schema/mechanical-ventilation.toml"
+sha256 = "e6a5f115537fb3891d2e66f263153b08894a5e39d196ce43e507497a18efdf53"
+bytes = 21001
+
+[[files]]
+path = "research/schema/pem-crossover.toml"
+sha256 = "889060b3eb7e5f88bdcccd0e3b2c87ecd9da4f34f7ea06186a07e61e58fd968c"
+bytes = 264
+
+[[files]]
+path = "research/schema/pem-grid-system.toml"
+sha256 = "374c508b5aa37ca56a60704e01634913ba9625148d9b4584bcf0ce32002210e6"
+bytes = 112
+
+[[files]]
+path = "research/schema/preslhy-discharge.toml"
+sha256 = "451f3beb18bb289b9ec148a9773345f41aa5d23b2e6bba40528e4dd197c0ddb9"
+bytes = 73430
+
+[[files]]
+path = "research/schema/pressure-ignited.toml"
+sha256 = "f587895dc87d7147d19a5b94b5cd330dfc9fcdcbe09dad2ddbf92282ff6fb713"
+bytes = 12212
+
+[[files]]
+path = "research/schema/pressure-unignited.toml"
+sha256 = "527c8ad52eb57a36ff5de742dee94cfe382a861787d73f08fd207c3e957d6035"
+bytes = 12215
+
+[[files]]
+path = "research/schema/pv-pem-dispatch.toml"
+sha256 = "22c9ac9343e0b0d1eb908755a362ae3ee2898012b25f6840af375497d56b1304"
+bytes = 3155
+
+[[files]]
+path = "research/schema/sofc-polarization.toml"
+sha256 = "aa18fdc2d2218b3eabe6845feda63bcf8613e4c7c3a501de95b5c21fdb336ff0"
+bytes = 637
+
+[[files]]
+path = "research/schema/tio2-photo-evolution.toml"
+sha256 = "bbad25c9e7bba94ccef4fbcaa3f64ae57415c6a22b4f3424bd0a4ca2fe39b8b8"
+bytes = 240
+
+[[files]]
+path = "research/shock_tube_data.md"
+sha256 = "9f2a4685aa82d8d5fa847c8d9bf69dfdeacdb185a163692a3e0b8d5c9f40764d"
+bytes = 11209
+
+[[files]]
+path = "research/sofc_reproduction.md"
+sha256 = "ff80f15246301f0f26f59d33fe8cd478e246144e2894370daf57f41e8c3a8649"
+bytes = 2540
+
+[[files]]
+path = "research/solid_reaction_development.md"
+sha256 = "618b2fc11338530d6f8e98226d82d303e83505b4a48dca48882fa3194672fbef"
+bytes = 10285
+
+[[files]]
+path = "research/static_ingestion.md"
+sha256 = "8748c3e7a2c75488f8040dd27868683284d868d351e4a1fc93337598ca55dd19"
+bytes = 5389
+
+[[files]]
+path = "research/thermal_dependency.toml"
+sha256 = "95146dd34aacc93ba2daaee41f672b9b218f9dfded436916212b86b18b279234"
+bytes = 3419
+
+[[files]]
+path = "research/thermal_effects_data.md"
+sha256 = "b18f7deecedc0c4a74718cd2f51813bc2846a37f00827817f9a432b5b24464a6"
+bytes = 6440
+
+[[files]]
+path = "research/thermal_utilities_development.md"
+sha256 = "4f57bd9a6676ef389aefbbf9d581ef45c816eae71f34c1a3b1492ba18803f992"
+bytes = 10917
+
+[[files]]
+path = "research/thermochemical_cycle.md"
+sha256 = "131ab08781047bd4df1397cc8f3190da8dbb25e478d3fb2bc790c9f209e4cf15"
+bytes = 4475
+
+[[files]]
+path = "research/uncertainty.md"
+sha256 = "e42aba5ec8d9f2ac7440e91c9287e8cdd7b03008c7e1c92b1bad8788c3d4ac1a"
+bytes = 5293
+
+[[files]]
+path = "research/underground_storage_dependency.toml"
+sha256 = "db7c3e761729bb6cddc3d5abdd264dd3dc102c85e07d4cfce109eed8e9300c23"
+bytes = 4384
+
+[[files]]
+path = "research/underground_storage_development.md"
+sha256 = "a02bdfe97adaa66f27be216e32ebcea8a8e7efb7be6c4bffad0c551aed1e13a0"
+bytes = 4473
+
+[[files]]
+path = "research/valve_actuator_development.md"
+sha256 = "595d81f4e1c08b06e337296f5274f10ce5f95ff2c4ded16a2939111d6b966608"
+bytes = 1617
+
+[[files]]
+path = "research/vessel_failure_dependency.toml"
+sha256 = "415203451076289a4522d5f2dce19f2f37894a8336f2d7e9573547f548b69556"
+bytes = 2832
+
+[[files]]
+path = "research/vessel_failure_development.md"
+sha256 = "ee8fcf569ac456d3f39108106e5bfb8e7da53964233b441d1519eaa5461edc84"
+bytes = 5752
+
+[[files]]
+path = "scripts/acquire_data.py"
+sha256 = "55590baf1b9ff44701e98da3537d97b4904c0c44b1f70b1c1690aff75a0c56dd"
+bytes = 3087
+
+[[files]]
+path = "scripts/audit_cached_data.py"
+sha256 = "4c2e5d4e2085e12954a57226ead457824ba099e27423038b952cccde2822cdd8"
+bytes = 1139
+
+[[files]]
+path = "scripts/audit_data.py"
+sha256 = "3e24c5dbb5fa4cf1f28b73a12d9205d1fccae36230325c84ae758666366f7d19"
+bytes = 3136
+
+[[files]]
+path = "scripts/benchmark_properties.py"
+sha256 = "2f38af437013605ab2a5aa0225c1ed4993916093f210f07742530a68d6059c36"
+bytes = 3613
+
+[[files]]
+path = "scripts/check_air_condensation_boundary.py"
+sha256 = "bab66d5a1af84ef67e576f3a994fceeb8362e717dc0e9f93ef4b0237d897733e"
+bytes = 9164
+
+[[files]]
+path = "scripts/check_biological.py"
+sha256 = "d941546e6bc946eedc90b15853cb0676a2f44c68204ca36cee0e2441aabb0111"
+bytes = 11868
+
+[[files]]
+path = "scripts/check_cantera_caloric.py"
+sha256 = "86f6777730765063f5fe9a287022190e1d52fcdeff7727cfb9eebc6a07c8f60d"
+bytes = 20525
+
+[[files]]
+path = "scripts/check_cantera_integration.py"
+sha256 = "0304b715760ef4e7d818d6962e2a0d443c398e1ab97658ccfcf36edda7522f21"
+bytes = 5614
+
+[[files]]
+path = "scripts/check_cantera_membrane.py"
+sha256 = "59e361fe27e33a82eb00fb7246dc93e621b26ffd3935df7884510bc182ad7e41"
+bytes = 14293
+
+[[files]]
+path = "scripts/check_cantera_multiphase.py"
+sha256 = "9d743e632afd2219a88ca1e294ec8456febdec23edd32ad0666a92aaf6d6e8a1"
+bytes = 16297
+
+[[files]]
+path = "scripts/check_cantera_properties.py"
+sha256 = "db1f60f7eb390ea0a648b00d0526c2025ec36d3384fd16bf228fab62f300164b"
+bytes = 18557
+
+[[files]]
+path = "scripts/check_cantera_volume.py"
+sha256 = "12f86dca47f0a8a45ea3f0b3f3854644b7ad779f7c2eada949fbae32a85259df"
+bytes = 12920
+
+[[files]]
+path = "scripts/check_channel_ingestion.py"
+sha256 = "562686cb8b666bf30d016cbb82ec3f4fc69b8ab1fe2ddb752e033d8a1281bab0"
+bytes = 3658
+
+[[files]]
+path = "scripts/check_compressor_integration.py"
+sha256 = "cc1798324c089ff56f8f81f8199028dc06cf1e187e8d9ef8370b0ca5244a751d"
+bytes = 22504
+
+[[files]]
+path = "scripts/check_conditional_risk.py"
+sha256 = "8303acf013b1b05e45687616bc74cafe523368d3d3939fb3ab31d798dbfcb3bd"
+bytes = 14897
+
+[[files]]
+path = "scripts/check_cryo_compressed.py"
+sha256 = "e337b3a16ad5149f4f61d818230e37f46825572bd6872024721a3215a62ed5da"
+bytes = 20922
+
+[[files]]
+path = "scripts/check_degali_integration.py"
+sha256 = "249cfd2b59ca763a8c651ed66734259d8f865bd5c6ac22ba298ef519f3fa3eb3"
+bytes = 15706
+
+[[files]]
+path = "scripts/check_detonation.py"
+sha256 = "cd9ac9f68691279b3815557ac89e04f3382d7e6d6bcb84c3894a95dca6b2c457"
+bytes = 8581
+
+[[files]]
+path = "scripts/check_dynamic_inventory.py"
+sha256 = "599330cce958945712bf06f33d39566c24eaa69c8284580919cd32c7196032a7"
+bytes = 16850
+
+[[files]]
+path = "scripts/check_embrittlement_data.py"
+sha256 = "f99f0e2cb8ba55a9dc4564a5a7c4315408a78ab1d35b11f782a52de0d5126fb9"
+bytes = 14688
+
+[[files]]
+path = "scripts/check_equipment_network.py"
+sha256 = "ba1bbe6f246b5d6d4b5de190a10a0ec72f597503b44fc4afea291f8422519769"
+bytes = 19725
+
+[[files]]
+path = "scripts/check_fermentation_data.py"
+sha256 = "ea71b24f78d3cc9a7d84189adc4d765cc1f6f0e3bec92e87fb3cb7106a5c063f"
+bytes = 17372
+
+[[files]]
+path = "scripts/check_finite_hydride.py"
+sha256 = "18fb8049df009fdd5f4b2b527653cf61c1a76e26fa7920c135ccd0b6a7b181cb"
+bytes = 14642
+
+[[files]]
+path = "scripts/check_finite_supply.py"
+sha256 = "2a0b4f4f65f487604b549d6eb900c85ee761d9fb3db814fb40966846ad822780"
+bytes = 26069
+
+[[files]]
+path = "scripts/check_heat_exchanger_integration.py"
+sha256 = "6b88c621ebe61f00b12d60460ac5e93d3c5d6edf1632611a7243cca5cbddee7d"
+bytes = 17302
+
+[[files]]
+path = "scripts/check_hydride_compressor_data.py"
+sha256 = "8a24d7fed7c8e9a155c70db7ddcae4ad281ae26812dfd5708ae6470a43244be9"
+bytes = 20795
+
+[[files]]
+path = "scripts/check_hydride_compressor.py"
+sha256 = "e430f4f5a334a106b26e8feaea937ff4df7a84d6a5d4f85cbb3d3c2e528b9305"
+bytes = 14922
+
+[[files]]
+path = "scripts/check_hydride_ingestion.py"
+sha256 = "50ce900c243d0f59cdde6af096fd8fc92f52d6e293eb37b93e43707c2c43aebb"
+bytes = 3660
+
+[[files]]
+path = "scripts/check_hydride_tank_data.py"
+sha256 = "305cc9c9aa4c39a022974591d2fb4c6a021d67e604f807b695cc8fa1f3def0c0"
+bytes = 7073
+
+[[files]]
+path = "scripts/check_hyram_exposure.py"
+sha256 = "ec3fe724ad33c54d1a93ff9ab98bfb7ec4507bb523ff516036a220c0da123b41"
+bytes = 21214
+
+[[files]]
+path = "scripts/check_hyram_flame.py"
+sha256 = "d911843f43a1935743a5d6b7be35aee0c040ce6d71ed0d4f3ca1b2d293d2664f"
+bytes = 17323
+
+[[files]]
+path = "scripts/check_hyram_overpressure.py"
+sha256 = "57c2a64d2511fded611ccc6e934d23e989607e88a5c7eb5668eebfbce8359d33"
+bytes = 16451
+
+[[files]]
+path = "scripts/check_instrumentation_integration.py"
+sha256 = "3ae4f98d1cc6c52082e06f1c961bada90bf572bd872ec0617f38201f3486c79d"
+bytes = 9210
+
+[[files]]
+path = "scripts/check_insulation_integration.py"
+sha256 = "48c664d979f2d465f8c73cf32974fe7369b1fdc8c2f0ea18550575265ad8dac4"
+bytes = 27752
+
+[[files]]
+path = "scripts/check_jos3_thermal.py"
+sha256 = "bc4aa6d4008832c95cab05510b996dfbc89201cfc78c68549f4e27d7791e9839"
+bytes = 12098
+
+[[files]]
+path = "scripts/check_lh2dt_integration.py"
+sha256 = "c853cdc9eec8d905dff90621054503b8e560445565e2a2e3c9f5c49464477dc8"
+bytes = 3151
+
+[[files]]
+path = "scripts/check_lh2dt_property_provider.py"
+sha256 = "2ac5efc95b4ae4de868ad0f91643bc92097e0716c8ddc67046790102c50288ad"
+bytes = 6214
+
+[[files]]
+path = "scripts/check_membrane_device.py"
+sha256 = "1013d72dde8408446b6e56f252abeffb31a0148289b8ec85ae2a58a21e91f3e2"
+bytes = 19194
+
+[[files]]
+path = "scripts/check_microsphere_storage.py"
+sha256 = "5cc93efd9bf9424844e9333ae8bdd3565b49e887927bffaf2c0f11523d1dd998"
+bytes = 12521
+
+[[files]]
+path = "scripts/check_oxygen_deficiency.py"
+sha256 = "5c8303ec48ad980a2c67c5afee6b333f8e08bdce2d967ff92fad720b2b2f50ea"
+bytes = 23764
+
+[[files]]
+path = "scripts/check_oxygen_observation_data.py"
+sha256 = "aa177d7815be5e5cce7c05ec9bbe0f3bfb9ac3ff6a51c82e9a42f222fd3941ec"
+bytes = 13621
+
+[[files]]
+path = "scripts/check_pem_ingestion.py"
+sha256 = "7e649684a73d21f8fe7ee8ea7fdc9dc0fd221fd2ec6e3f73e98c580fbdcb84fa"
+bytes = 8263
+
+[[files]]
+path = "scripts/check_photocatalysis_data.py"
+sha256 = "4218f948394514371103c69aaa86bea29d93afc091e596f4a7aa3ef7212bcc12"
+bytes = 13820
+
+[[files]]
+path = "scripts/check_photochemistry.py"
+sha256 = "ca48a181b5043265e060890810e51f03f61c64a43f86cf03dc69971661ee8c97"
+bytes = 13669
+
+[[files]]
+path = "scripts/check_pifira_heat.py"
+sha256 = "f73e08398085d38213b306c99ae87fc0f94f47e6d6ed16493c14690c430af3df"
+bytes = 12174
+
+[[files]]
+path = "scripts/check_pifira_spin.py"
+sha256 = "897555fb0ace9efd9ebcd0de7600dab71a2738ec390c921907f9c8686a52ba87"
+bytes = 20958
+
+[[files]]
+path = "scripts/check_pool_integration.py"
+sha256 = "e009ba74ae13054fe2e43a96e76acbf75487c5b204483a59fd0f2e620bce3f12"
+bytes = 19188
+
+[[files]]
+path = "scripts/check_preferred_dispersion.py"
+sha256 = "9df0b5ed1e72041c2fa5475409f6adaa31dad1d30a1a4e2e0721d47c697192d1"
+bytes = 9567
+
+[[files]]
+path = "scripts/check_pressure_peaking_data.py"
+sha256 = "5229a3aa7ac336a1710b4c2c881279d51330382f6091cc86ccd70ae72c235bbc"
+bytes = 17605
+
+[[files]]
+path = "scripts/check_process_monitoring.py"
+sha256 = "d5b65d00123b8b33a0fcbad1d205eabc5139694c89a7ea33175de779404cbc29"
+bytes = 12972
+
+[[files]]
+path = "scripts/check_psa_bed.py"
+sha256 = "0073ceb786c205939d00d0cc1e9a08c21bdc56140734e0591318b60544e12552"
+bytes = 4447
+
+[[files]]
+path = "scripts/check_psa_cycle.py"
+sha256 = "c56ff124a1807f293aa71b6f30c2bae42cda749bba6e51487af3e51d688aa3d7"
+bytes = 17144
+
+[[files]]
+path = "scripts/check_psa_integration.py"
+sha256 = "a5e871b281c780b7dc4171fcd6e6c56dd515490707d8edc47254d3a3a26e9eee"
+bytes = 5016
+
+[[files]]
+path = "scripts/check_reaction_models.py"
+sha256 = "3bdc02f7629e52327fa3e3ad2ba5bd98741d7ee6aa19f9ab736a75f3e92f5bba"
+bytes = 10634
+
+[[files]]
+path = "scripts/check_reactive_process.py"
+sha256 = "c5e85e040c183e02763e782e75eeaf656863fcec15c3299876d9378eb543422a"
+bytes = 13844
+
+[[files]]
+path = "scripts/check_release_integration.py"
+sha256 = "3d22f38a612f7bb04c13c911bb9f6b1138b87eab1eae78e2a452768007b04ba4"
+bytes = 8629
+
+[[files]]
+path = "scripts/check_relief_integration.py"
+sha256 = "2e06d7c61f7784da3bce0580ceb84c4f31da4f85e95b40721ce0318e06fba866"
+bytes = 16416
+
+[[files]]
+path = "scripts/check_reliquefier_integration.py"
+sha256 = "b55484ff9daf5c492a6a77eaace0cbfe2f423efba6d14caa65e950b5c87063ba"
+bytes = 23333
+
+[[files]]
+path = "scripts/check_shock_tube_data.py"
+sha256 = "cee17cc7804ef1e88b1171926b96f82c7d4af69938d59fc346e63de62fe22860"
+bytes = 13441
+
+[[files]]
+path = "scripts/check_spin_integration.py"
+sha256 = "6474e58251045853d6416c27a6d6cc31bcda449bdc2c503b49e414fca45b2f21"
+bytes = 17485
+
+[[files]]
+path = "scripts/check_static_ingestion.py"
+sha256 = "7da57838dd17301defbf8981fd954c89adf6c724419005a1219e5a3be6004bd0"
+bytes = 4874
+
+[[files]]
+path = "scripts/check_thermal_effects_data.py"
+sha256 = "4ace6c43051f5224fa86f77ee0185fa310a4d5a2b78313a59c4e238199875ecc"
+bytes = 18299
+
+[[files]]
+path = "scripts/check_thermochemical_cycle.py"
+sha256 = "932c36dc0e7923da33d09a0d4b0913f820711ba6ddf113b59248826ab6fcc38f"
+bytes = 15756
+
+[[files]]
+path = "scripts/check_uncertainty.py"
+sha256 = "afb24357f9b5f6bb3832841cb1724e44b49c6f2ce238d8162799025860b7a783"
+bytes = 13717
+
+[[files]]
+path = "scripts/check_vent_integration.py"
+sha256 = "972b49155dc0cd9ce1b6646aab25349bb4bdf31a47af1674b4504a70beb474f9"
+bytes = 28410
+
+[[files]]
+path = "scripts/compare_acoustic_data.py"
+sha256 = "b0094f6400cbda71f5c1fd27eae140ec38dd239045fd5b2bfff3344f5e1e7bc5"
+bytes = 5186
+
+[[files]]
+path = "scripts/compare_discha_release.py"
+sha256 = "df9208ec7d402a9b5f83c561b34dcfc9e3e13c6343043a8a06898b7680887e2c"
+bytes = 11908
+
+[[files]]
+path = "scripts/compare_hytunnel_jets.py"
+sha256 = "1d1ac09d978bba1138dd511dd3623eec494bff9d0cc2b4b2fc78f8ea5850812b"
+bytes = 23062
+
+[[files]]
+path = "scripts/fit_pem_impedance.py"
+sha256 = "ee637f6b5ff0a80cde152a2155ed1cb5ae9299e1061300d907cc5432c45d3156"
+bytes = 13005
+
+[[files]]
+path = "scripts/fit_sofc_reproduction.py"
+sha256 = "606464b486d9639e7e72b7f0488601686fc5b44a54d1eb9bdf363d1114d08dab"
+bytes = 6376
+
+[[files]]
+path = "scripts/model_inventory.py"
+sha256 = "837f6f6a01c4e9b9cda0144c43ca116a5bfcb34d6c87f2c94ecf64e67cac7639"
+bytes = 1184
+
+[[files]]
+path = "scripts/release_audit.py"
+sha256 = "a9c2b1cbf6108df67e0c4fc689bc75cd864ce39a0b7c085fc307168dedcd05c7"
+bytes = 4395
+
+[[files]]
+path = "scripts/replay_data.py"
+sha256 = "75936b95be9d3098d5de0759c2c4609d7e2212acb7cb6f56f4e91e534240f72f"
+bytes = 638
+
+[[files]]
+path = "scripts/verify_reduced_models.py"
+sha256 = "5875ad93423bc4a8d6ceef6f10bf868b4cf5344a11da93bd3d783c02dd66dafd"
+bytes = 4305
+
+[[files]]
+path = "src/h2physics/__init__.py"
+sha256 = "122c78155dd38b479c95219e6b4ee977019c56a9b643a0c8b17f3daa5af1e70d"
+bytes = 107
+
+[[files]]
+path = "src/h2physics/adapters/__init__.py"
+sha256 = "ee3b0a6095fda5f636a461b743b6597fda46d7fd90a2b1f74fd203bed387fb43"
+bytes = 2113
+
+[[files]]
+path = "src/h2physics/adapters/biological.py"
+sha256 = "20efe83da0320fbf6ab0f55ce9cb62bed21559e2067e5cab75a983594946f0bd"
+bytes = 25926
+
+[[files]]
+path = "src/h2physics/adapters/cantera_caloric.py"
+sha256 = "1b1cad4e3592143c9c103ec5870453677c034e68e953b16884f4b9b3184e672d"
+bytes = 11815
+
+[[files]]
+path = "src/h2physics/adapters/cantera_membrane_device.py"
+sha256 = "d3449656bb4674a5e318e75f8c57acefc5c2e7d970d692b118a849fdd098ed02"
+bytes = 20053
+
+[[files]]
+path = "src/h2physics/adapters/cantera_membrane.py"
+sha256 = "c187e2f792e1942433bc86e0da20144ab48b42597031e9fb6d3d2d2653819085"
+bytes = 19285
+
+[[files]]
+path = "src/h2physics/adapters/cantera_multiphase.py"
+sha256 = "28537882b48d67239a8b96694c6bae8699231c084e517d0513587d626147f5dc"
+bytes = 21226
+
+[[files]]
+path = "src/h2physics/adapters/cantera_properties.py"
+sha256 = "60f3d48b0b551eeec550a623ed8d2108805962204f3d465b272c78f3b918294e"
+bytes = 13808
+
+[[files]]
+path = "src/h2physics/adapters/cantera_thermo.py"
+sha256 = "f5bf30b7536c432fd84f9b7c4b81a72949dc936a9662a7c89f15ea8a62e8d027"
+bytes = 2579
+
+[[files]]
+path = "src/h2physics/adapters/cantera_volume.py"
+sha256 = "e7079a126333183e5e2315e85f369dae197e973a7da79ab3d1a3a0010d7efce1"
+bytes = 32654
+
+[[files]]
+path = "src/h2physics/adapters/cantera.py"
+sha256 = "106e2caffe719c11c2af4568930f4bb4791912e10ff086d3789c1a4adf1bde8c"
+bytes = 27981
+
+[[files]]
+path = "src/h2physics/adapters/carrier_conversion.py"
+sha256 = "97f428fea5fe7653931c5aea598cd0c4be9fa349f0869b62b5b2ca7c3025e18e"
+bytes = 29546
+
+[[files]]
+path = "src/h2physics/adapters/conditional_risk.py"
+sha256 = "bb24080cc51f3fbf3d4dd5c583aa47dfc33debc4433657bd418e624d53a12c7e"
+bytes = 18956
+
+[[files]]
+path = "src/h2physics/adapters/cryo_compressed.py"
+sha256 = "ec64eecaea49317dccd4c41bc743b3d2d16b19691fe498baed15ea33ceafc814"
+bytes = 19081
+
+[[files]]
+path = "src/h2physics/adapters/degali.py"
+sha256 = "622cf7f5c9309f109c6e8eb06b342ef36fc86d5a863578136cebc62f1d05464d"
+bytes = 22874
+
+[[files]]
+path = "src/h2physics/adapters/detonation.py"
+sha256 = "a9c0a16a8e8bcd226768e1d840c650a6d712b0a0faaca27ec4f0b31beca7c073"
+bytes = 23884
+
+[[files]]
+path = "src/h2physics/adapters/droplet_impact.py"
+sha256 = "fb502be047f2af06f01928eba91d9d8de8708da1e793fb3d17f3378b08ba27f1"
+bytes = 34758
+
+[[files]]
+path = "src/h2physics/adapters/droplet_transport.py"
+sha256 = "b7690429c5afd453a974d37beed5d59e3209e2e101d57bc517e411f57bde28f6"
+bytes = 11976
+
+[[files]]
+path = "src/h2physics/adapters/facility_protection.py"
+sha256 = "3cf0cade6bd66b4e2ce2e14dc3a605b6447ff50e93d7bcc7e3be65eaf9544e26"
+bytes = 44495
+
+[[files]]
+path = "src/h2physics/adapters/finite_adsorption_vessel.py"
+sha256 = "009b77741e28d323443155263601706e366eb6fe67ea2d969f16acb960ce6fbb"
+bytes = 12580
+
+[[files]]
+path = "src/h2physics/adapters/flash_front.py"
+sha256 = "5e7d9753f6d49b43c6a5e48dc3b18b62b645b3adf6de0daebb71dbcfa7138af7"
+bytes = 22956
+
+[[files]]
+path = "src/h2physics/adapters/fracture_fatigue.py"
+sha256 = "fc4749d4e9ef27cc12037d3fe5d81ec6f1134a3a4844a0f07651132be1e27581"
+bytes = 36366
+
+[[files]]
+path = "src/h2physics/adapters/fuel_cell.py"
+sha256 = "b137863bfb3ce6d5498e279119ff3161ccfd5d0173ec7c209d6ecd94d5bfb018"
+bytes = 35023
+
+[[files]]
+path = "src/h2physics/adapters/hydrogen_economics.py"
+sha256 = "63c3e0baa48bab61637cec9af389f08a219c13c85723bc5d54a6d29f1190ff63"
+bytes = 41616
+
+[[files]]
+path = "src/h2physics/adapters/hyram_exposure.py"
+sha256 = "2fbfa2ce6fea1ffade397ae75f17221dc45ef96d984137c416d05c959a7ea9cf"
+bytes = 24701
+
+[[files]]
+path = "src/h2physics/adapters/hyram_flame_conservation.py"
+sha256 = "971b222fc85113eab24d04e82ced539731d9fda671023f0fa69cf5a796f24e9f"
+bytes = 25047
+
+[[files]]
+path = "src/h2physics/adapters/hyram_flame.py"
+sha256 = "3bd001f56174fccbfca6ca5ec2a882af3ffb45b656fae0f9f496b5670e7dae39"
+bytes = 23253
+
+[[files]]
+path = "src/h2physics/adapters/hyram_overpressure.py"
+sha256 = "0f219090615b3e42c582f3c6b4abe72d350ff92651ea5c0e696d02c5e671c5a6"
+bytes = 13388
+
+[[files]]
+path = "src/h2physics/adapters/hyram.py"
+sha256 = "2ecadcd46cd54b0ed9c77ffeae655a2f0869c199a213d4f92972d09fa94d803b"
+bytes = 5555
+
+[[files]]
+path = "src/h2physics/adapters/impedance.py"
+sha256 = "29cacf895bf1671731af732befdb62aad27185ade22f5f94d28391ab0099c904"
+bytes = 4317
+
+[[files]]
+path = "src/h2physics/adapters/jos3_thermal.py"
+sha256 = "83e675554ac3dc2fd100c0de02dbd7860656293c11c38a18a92070c43a9a7c49"
+bytes = 23406
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_compressor.py"
+sha256 = "73c8cb92b2079b340bcb07d9ad2d434bfa0290289b4d5a0d500e262cd924412f"
+bytes = 40451
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_dynamics.py"
+sha256 = "24d47555c295cfd7850459933a2077b1c37bf5ffcffa292045b962cd93daec69"
+bytes = 14783
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_equipment.py"
+sha256 = "87c29e0b47f35da3e38baf4ca2ce1832f58a91104701a95c144e5e30f7080b33"
+bytes = 14106
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_finite_transfer.py"
+sha256 = "4b01002cf9b047e1b4c3036c0123ebf2029e06b68ac2b4a22e6bdb1daf7c0502"
+bytes = 33167
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_heat_exchanger.py"
+sha256 = "d8c8bc3cbfaee0f1a2e3e1a8b9538a2dae6e523572f7b9b0698c3045f9bf4a4b"
+bytes = 27732
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_hydraulics.py"
+sha256 = "3ff182e0a5b5cc802624f389a13d45a874c9867ca3b361ff9d6f33d1a418c46c"
+bytes = 4172
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_instrumentation.py"
+sha256 = "76e188110e73cac2369eaed6c4835951e3a49d6be4a7bd7ed88b4ebed0154111"
+bytes = 8269
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_insulation.py"
+sha256 = "2d239b676034f6844f5991978184438662edc7eac6507b43058ce37399d28c1a"
+bytes = 13935
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_modes.py"
+sha256 = "743cad6831df1daaaf438a8d2f3b48ccf311a429b5773cdd8f05d86664d6d786"
+bytes = 2423
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_properties.py"
+sha256 = "818fb98b5d2084107c072f62c8e00f9b4d7df36f6044db2af8f3b82f0f6910c2"
+bytes = 3085
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_relief.py"
+sha256 = "4bc8eedc38819c46fface826f294863ecfd0fa1fefd53191a4bb77d8105b5282"
+bytes = 25732
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_reliquefier.py"
+sha256 = "c3dea8305b982f231f931bfe9301c08c7afa9fff60f9eff4bca82c4975fd84c7"
+bytes = 16568
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_spin.py"
+sha256 = "656143c5aef02ebff24a17e9d9b6436b30ee9538baaf703d6bd00e6b7151f2a9"
+bytes = 16485
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_supply.py"
+sha256 = "200163e12dbe350cb981b3f4a5a9de26f6247f74870ebabb9edf29d51863b2d6"
+bytes = 5658
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_valve_actuator.py"
+sha256 = "691f981c4ef54e72060e294c76c0606a350682fa2c0235a265c4f349d04cd6ac"
+bytes = 11592
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt_vent.py"
+sha256 = "0ea128bc58f5346467f619f59dcee62b76bf8bfe63beb12be6056558ec18d47b"
+bytes = 19375
+
+[[files]]
+path = "src/h2physics/adapters/lh2dt.py"
+sha256 = "0711da98a12a034d3af69b7f377f9b07b3cac1ad82d1a4336bfd0850d16d23ed"
+bytes = 5003
+
+[[files]]
+path = "src/h2physics/adapters/microbial_cell.py"
+sha256 = "8e0f616e1d4530bcd819806d227f635caeb9f90978705bc55978d9c817ad1435"
+bytes = 56724
+
+[[files]]
+path = "src/h2physics/adapters/microbial_economics.py"
+sha256 = "983b6584a8b26594d7290ec8088b7843c4dfd9a02c0b50b5371db88de3290263"
+bytes = 20592
+
+[[files]]
+path = "src/h2physics/adapters/obstacle_dispersion.py"
+sha256 = "cdd231b55fc2a79746dc87006c90c7d861b1780e1c697e181af97b0ac7890790"
+bytes = 32467
+
+[[files]]
+path = "src/h2physics/adapters/oxygen_deficiency.py"
+sha256 = "30cd0e97d3038e4054bdfe8610ce0820243610da206474fbf2d536c5033c243b"
+bytes = 42420
+
+[[files]]
+path = "src/h2physics/adapters/physical_economics.py"
+sha256 = "7d88a8a0694938dd5d075f311c210264ce1bedd054d082850500bc94a1a36f72"
+bytes = 27904
+
+[[files]]
+path = "src/h2physics/adapters/pifira_heat.py"
+sha256 = "8d75faf8d087fe3b167e9e1445dccb7515fff58746db35e3bd244f55f64cbce2"
+bytes = 16484
+
+[[files]]
+path = "src/h2physics/adapters/pifira_spin.py"
+sha256 = "7149a876b017349614fb777a462a7139612f57b758d67021861076bea574f88d"
+bytes = 21891
+
+[[files]]
+path = "src/h2physics/adapters/pool_fire.py"
+sha256 = "f3b8e77f8d4a8e1fa2d43e52390d85881cbac8f9d1f5b1bea65443415e2da958"
+bytes = 28772
+
+[[files]]
+path = "src/h2physics/adapters/pool.py"
+sha256 = "9fc009a726070ba719ed5a44bd09007eb891e5b040002a2790f3a3c7e8b3e2f7"
+bytes = 15231
+
+[[files]]
+path = "src/h2physics/adapters/process_monitoring.py"
+sha256 = "971a5ba6227e393d5f4bb970ad4b1d1f15f3e7e153131ab950be404aa310b1f8"
+bytes = 23779
+
+[[files]]
+path = "src/h2physics/adapters/psa_cycle.py"
+sha256 = "3af66490b307c273a9669ac80c40f11d9fbac1ce2aa3bcb8546128ae417f9921"
+bytes = 18462
+
+[[files]]
+path = "src/h2physics/adapters/psa.py"
+sha256 = "9a32b964062ba4307eea42f870c18d73ec7e7c36f3b7f8f5c0c4a6aed5601d3e"
+bytes = 6866
+
+[[files]]
+path = "src/h2physics/adapters/pv_electrolysis.py"
+sha256 = "744de7a4b9e2e38d98d78a0691d5d6605fa4e590e850fd7ad09f1bc8638d4fed"
+bytes = 37428
+
+[[files]]
+path = "src/h2physics/adapters/rdkit.py"
+sha256 = "477b0e80ee043718478d88a8a786debb0f04244202d9d612fed1e46d918247f1"
+bytes = 1576
+
+[[files]]
+path = "src/h2physics/adapters/relief_lift.py"
+sha256 = "cd92333b77fca358835387f7c46e74d3c4a13413ca9b429f036b5d6c3f6eac87"
+bytes = 11807
+
+[[files]]
+path = "src/h2physics/adapters/result_provenance.py"
+sha256 = "5a21004a568ead09102f45b0a08d629e6f227357e440590b51b5337597024e70"
+bytes = 3446
+
+[[files]]
+path = "src/h2physics/adapters/slabx_lh2.py"
+sha256 = "063feb3fdeee0355e3f8a99d094364e3c5adf071456d222af66caa7263b794d4"
+bytes = 5638
+
+[[files]]
+path = "src/h2physics/adapters/thermal_utilities.py"
+sha256 = "6a4fef0f2e528c7cd1303acb98e097fbac0c241c17fa0d7eda2aab870f76cc63"
+bytes = 44119
+
+[[files]]
+path = "src/h2physics/adapters/underground_storage.py"
+sha256 = "dd867f9a19f6c42b35385c4ff9f87a4947014ffcc3213839f195e8fd9a8401bf"
+bytes = 31711
+
+[[files]]
+path = "src/h2physics/adapters/vessel_failure.py"
+sha256 = "7c5e6245511f06b0aa58f8b06bb0dc87c69132b19b618d05d693199c8842b427"
+bytes = 39267
+
+[[files]]
+path = "src/h2physics/adsorption.py"
+sha256 = "e2eb29d0cefa5b1885b08585fafa73dd05e404a033018a881ed2ad797d2f7796"
+bytes = 5651
+
+[[files]]
+path = "src/h2physics/catalog.py"
+sha256 = "a4554ee3b6b100459754854ebfbaa15e79448a014a787e924716c31584b1b17a"
+bytes = 26793
+
+[[files]]
+path = "src/h2physics/cluster_evidence.py"
+sha256 = "7e98d361bdf77cf61ab1ef41b4c7cc2d27a32ae867168c33076b9e8022aa8b8b"
+bytes = 17162
+
+[[files]]
+path = "src/h2physics/cluster_validation.py"
+sha256 = "3ab8f7cb4ac90b349c75551e6f10274a7150ac9d873e60788a8b4767a74558ad"
+bytes = 15019
+
+[[files]]
+path = "src/h2physics/constants.py"
+sha256 = "5cdb58b9f178a59f51a176bb8649c891b18ab778470e0d7ea599a2b2437f8bce"
+bytes = 286
+
+[[files]]
+path = "src/h2physics/core.py"
+sha256 = "4317b90d1f60880e6c9353c17f15bda642270ec557a04d65f389499a525fdc68"
+bytes = 7922
+
+[[files]]
+path = "src/h2physics/data/__init__.py"
+sha256 = "78446f95c321966a58de58394c1d47672409468d90999c6631c7b631a1e217e0"
+bytes = 383
+
+[[files]]
+path = "src/h2physics/data/acquire.py"
+sha256 = "37d4d74e0636e34be7565b1d1af86d711d250089a992e55d433572fb7041e22e"
+bytes = 12087
+
+[[files]]
+path = "src/h2physics/data/catalog.py"
+sha256 = "5ae4e5b2f475a7f1cb42787b6988953adf54bf004b2d7cfd6f1129a3d8b2caf1"
+bytes = 3303
+
+[[files]]
+path = "src/h2physics/data/embrittlement.py"
+sha256 = "ade4fcb401b40bbfd0f970e74ee0097f8669bf0605b57494f703a69d98f0a525"
+bytes = 21214
+
+[[files]]
+path = "src/h2physics/data/excel.py"
+sha256 = "e60ce285a0b00f2efbc878ae43b9466e3a14caab2a801ae0c2ef57a47a733bda"
+bytes = 5377
+
+[[files]]
+path = "src/h2physics/data/fermentation.py"
+sha256 = "e3b5704418d1304bc9862bc4209628d3662c7546a6a4579337b972716ba77b36"
+bytes = 15973
+
+[[files]]
+path = "src/h2physics/data/hydride_compressor.py"
+sha256 = "b978d09c620a9e5f24a1f4b80143969ecbdcfcbc5d525c02c0268b7808f777aa"
+bytes = 33886
+
+[[files]]
+path = "src/h2physics/data/hydride_tank.py"
+sha256 = "b290ec9f540873f4bb7ca07188634cde1a592da6b39061eca8b8d3c8a1b9b36a"
+bytes = 7265
+
+[[files]]
+path = "src/h2physics/data/hytunnel.py"
+sha256 = "fecf834d96bff7ba5a71479ad7718135441dd73fb62ffcf8ac122ef7c2a3a5e6"
+bytes = 13812
+
+[[files]]
+path = "src/h2physics/data/inspect.py"
+sha256 = "5e664d9d4c0579dc6ddd56f92095ef14adb54648eaf24f3a7aed3b24cefe85a0"
+bytes = 4815
+
+[[files]]
+path = "src/h2physics/data/loaders.py"
+sha256 = "adc4fe46048175cd76fdba0c287e885eeadbc7f3bd6fb0bf85499359f5fcbeae"
+bytes = 6631
+
+[[files]]
+path = "src/h2physics/data/lohc.py"
+sha256 = "f56f9ea9e13d780c6559325a1a8aa943abf50f006f6054b7888e33ef18d79866"
+bytes = 9154
+
+[[files]]
+path = "src/h2physics/data/microbial_observations.py"
+sha256 = "27d604e3decf07959e26b872724c06371d2669eab9afd42f912feef26ea1654f"
+bytes = 5678
+
+[[files]]
+path = "src/h2physics/data/models.py"
+sha256 = "1b0084ae5f69a4ab3e394b62164732ef5d9698eef6bd18db22be024b3b340fc1"
+bytes = 1867
+
+[[files]]
+path = "src/h2physics/data/oxygen_observations.py"
+sha256 = "c62e4f79b83621091ba51bb1a171e99431a9ca11e7070c8c00c74e61b9c888a1"
+bytes = 21913
+
+[[files]]
+path = "src/h2physics/data/pem.py"
+sha256 = "527481f9140b83e60543dca3662cd134fea05f834aa443d44e42c2f15709d857"
+bytes = 11538
+
+[[files]]
+path = "src/h2physics/data/photocatalysis.py"
+sha256 = "a4c1082a2ee76ddf28da565f958bada52eb5103171e9017728058702b4115e1a"
+bytes = 19633
+
+[[files]]
+path = "src/h2physics/data/pif.py"
+sha256 = "ba0745c81e6a8d06dc374f9793614e66b8f426426ba946d67ad3b2f4613d6314"
+bytes = 4155
+
+[[files]]
+path = "src/h2physics/data/polarization.py"
+sha256 = "cdba74a84efa86ae92b117fdf6fdf5d499dc61722e9dd75a0ca78f0786b04fa4"
+bytes = 3482
+
+[[files]]
+path = "src/h2physics/data/preslhy.py"
+sha256 = "585aa51e4f4d3dd3e139a886984fd15b791a06976b92c7b92be1636328b2dde2"
+bytes = 7434
+
+[[files]]
+path = "src/h2physics/data/pressure_peaking.py"
+sha256 = "44235ac1ffa7e447ebc58a42eba5368e8008af517f48bd3605fa41140507fa15"
+bytes = 21207
+
+[[files]]
+path = "src/h2physics/data/reporting.py"
+sha256 = "9119ce485373efc93bc485cddccf527a8b3147d3aa08052aabe8092f33f98420"
+bytes = 3960
+
+[[files]]
+path = "src/h2physics/data/repositories.py"
+sha256 = "844c06b8bca7888e0e2285f73a3be502b870f187fd7c66728d92702e6acc40ab"
+bytes = 15931
+
+[[files]]
+path = "src/h2physics/data/sampling.py"
+sha256 = "3e55034c0ef47ec4c57a9b5297a7c7181ee7d5108aec2c9c527c47beb6cce969"
+bytes = 4975
+
+[[files]]
+path = "src/h2physics/data/shock_tube.py"
+sha256 = "bb9db6da1ee929c2cf6187d6fff776de96a5280045838bfebffda5a14a9cfcbb"
+bytes = 24465
+
+[[files]]
+path = "src/h2physics/data/thermal_effects.py"
+sha256 = "f353bf2270e4df7b96a15f44bb778ac876066566b5e3b69b219fd51eb7317f45"
+bytes = 20470
+
+[[files]]
+path = "src/h2physics/dispersion.py"
+sha256 = "794bbd170172ca3dfd5863e4c24cda96d8bb8d9139b664ef356b187d057b7950"
+bytes = 738
+
+[[files]]
+path = "src/h2physics/dynamics.py"
+sha256 = "d3964d476994dc12cee0113ee137cc1313c8e0d4f97dfd3167b487c8367e9abd"
+bytes = 4640
+
+[[files]]
+path = "src/h2physics/electrochemistry.py"
+sha256 = "39bdab6a38866210b29fdad9bccea55a1125f80a2f913e3dece5c2337100ad63"
+bytes = 8183
+
+[[files]]
+path = "src/h2physics/equipment.py"
+sha256 = "071e2a1ccc2904d7bc39db8645487d79427fe4050ee908ece4eb1c325cdf0a36"
+bytes = 3683
+
+[[files]]
+path = "src/h2physics/facility_continuity.py"
+sha256 = "9fbb07ce3b081265276f4adbaf169e5d94298aa90d760261085b231794a7d24b"
+bytes = 11135
+
+[[files]]
+path = "src/h2physics/hydraulics.py"
+sha256 = "856d8ee8c3ce5781b5804c3c2351fc5133886e4c23807e6fe3835ec50ba4e2b7"
+bytes = 4166
+
+[[files]]
+path = "src/h2physics/impedance.py"
+sha256 = "ae9306dd70ce5153928d81c6c7e1e096bdd6b3a31a09fff1b11298eb084d23df"
+bytes = 3317
+
+[[files]]
+path = "src/h2physics/jet_observations.py"
+sha256 = "69703ae7039288ff4a3f402e650aa139bbd7aa98687e7a49205ffe87d4f04c3d"
+bytes = 7070
+
+[[files]]
+path = "src/h2physics/materials/__init__.py"
+sha256 = "d07d1ec07b448621081978d3f62023f3e4ea735edaebb127f0aab46b6f26d3bc"
+bytes = 666
+
+[[files]]
+path = "src/h2physics/materials/finite_volume.py"
+sha256 = "b86cb583c00a0f18c8292a7d8a9511bd8f9ca5bf9f69e63a91fb0f96707b8e94"
+bytes = 14266
+
+[[files]]
+path = "src/h2physics/materials/transport.py"
+sha256 = "185851c40951affbb829432d75de43f67b751d3ad1f53d2445412e0251e42726"
+bytes = 7335
+
+[[files]]
+path = "src/h2physics/model_selection.py"
+sha256 = "578737a4e4da3e24bbff0d8421597dff2ca2b5fb5101bba3b3ad029c3c49e208"
+bytes = 7414
+
+[[files]]
+path = "src/h2physics/observations.py"
+sha256 = "e0a6f1e26b5b6ca20fb31b8f7f19d5f86c6dbaffadfd37e2adc22de8bf6d1ba0"
+bytes = 7798
+
+[[files]]
+path = "src/h2physics/photochemistry.py"
+sha256 = "1ce482577b7e77ad29dff1f5fa472866df5034dbb7e244911b5d11a6ff535fb5"
+bytes = 20085
+
+[[files]]
+path = "src/h2physics/reactions.py"
+sha256 = "3748b88bd70a2c0572faa32fd83be8c43a47b124d92dd905c1923d47963caf35"
+bytes = 13087
+
+[[files]]
+path = "src/h2physics/release_inverse.py"
+sha256 = "2607fbc472cebaf7fadce56f8a9948b5f988b22eed3be2ab658b64ffa20470cc"
+bytes = 5054
+
+[[files]]
+path = "src/h2physics/release.py"
+sha256 = "eba90eb0ad07209a00b29410fea9cf2018b5225533206860ea36830d1f9e3f45"
+bytes = 17645
+
+[[files]]
+path = "src/h2physics/research/__init__.py"
+sha256 = "89c9fb8e2655cee01ebdb7b72ec07106273064df81d9021f4e1c8c1ed7f0023d"
+bytes = 237
+
+[[files]]
+path = "src/h2physics/research/fitting.py"
+sha256 = "db9603855f4a3154eb76fc17f818155ca443f1c36abc14ff94223db71bc1d585"
+bytes = 8645
+
+[[files]]
+path = "src/h2physics/sources.py"
+sha256 = "856e156468b43abc609c2bdce1b01ffac5221639e970cebebe8d7c1481a5be1f"
+bytes = 3256
+
+[[files]]
+path = "src/h2physics/storage/__init__.py"
+sha256 = "13b3834a30d3407ba1bf3a042966667d89d6aa7a1ce89a2beeebc666fe57e8bf"
+bytes = 555
+
+[[files]]
+path = "src/h2physics/storage/finite_hydride.py"
+sha256 = "9fa148a4b1680bf2deccca71cad4d518973bd2c9a6b146bd7a48764ce86ea989"
+bytes = 29140
+
+[[files]]
+path = "src/h2physics/storage/hydride_compressor.py"
+sha256 = "af1cb4f1ce1c35ec7651144740db5f8ef4e0a92a7d7dd96184110913891314d1"
+bytes = 26161
+
+[[files]]
+path = "src/h2physics/storage/hydride.py"
+sha256 = "68948ff71692ab006a43e684d5e8c910d7a6effe63943263be4886747c624e0f"
+bytes = 10481
+
+[[files]]
+path = "src/h2physics/storage/microsphere.py"
+sha256 = "aa618747e0abee22c163e36bf8f4468b413dfc613efcf90a8a83968afddbd137"
+bytes = 8704
+
+[[files]]
+path = "src/h2physics/storage/solid_reaction.py"
+sha256 = "2e7e1d36e09e8f2800e54e1493420ad4cb30533d4861c9dd2f0422b181384d52"
+bytes = 34786
+
+[[files]]
+path = "src/h2physics/thermo/__init__.py"
+sha256 = "14614d2e327898a2cf2e62e35bb668b9c5c4e3f6328d750641267a3bf7bbd54e"
+bytes = 335
+
+[[files]]
+path = "src/h2physics/thermo/coolprop.py"
+sha256 = "d6b2e7f663ab8815e3935294855ebb2d763ad27685e3056af46b0776694e4b8b"
+bytes = 7979
+
+[[files]]
+path = "src/h2physics/thermo/tables.py"
+sha256 = "e4e56906aa089d1da6a81818941f3800e8222f398b15320d61674add44fe3df4"
+bytes = 10723
+
+[[files]]
+path = "src/h2physics/thermochemical.py"
+sha256 = "23e151a9c4b6bc70a96f61b65ccab185198fa05da5e3449e86e70ec598bdff20"
+bytes = 21550
+
+[[files]]
+path = "src/h2physics/uncertainty.py"
+sha256 = "6ed5e607d516c8464e652dd378b333e04f66ea82bbd8557f189673910c1154d2"
+bytes = 24539
+
+[[files]]
+path = "src/h2physics/units.py"
+sha256 = "15bd5198e57b6e7d01dacc8dd120bc0b5cd71b6127dbc44c60c13c5c785bafe4"
+bytes = 3706
+
+[[files]]
+path = "tests/test_acquisition.py"
+sha256 = "af60328f5cf7df8f919bfb25cb3de71f7b08632aa3f0d006537d814f5cccc2c4"
+bytes = 5073
+
+[[files]]
+path = "tests/test_adsorption_adapter.py"
+sha256 = "ea5947f29229bd3d6f2a70be0884d51234c1bdc17e6b618a6741e03cea9dc89b"
+bytes = 2962
+
+[[files]]
+path = "tests/test_biological.py"
+sha256 = "6a9654aac98185bb64fa4914f7844cca07d08e344e2059ef192156edaa28d9f7"
+bytes = 10930
+
+[[files]]
+path = "tests/test_cantera_caloric.py"
+sha256 = "e58f794756cf445265cba982d96ea94113d4833601695ff934cb38d027e3d7ba"
+bytes = 13603
+
+[[files]]
+path = "tests/test_cantera_membrane_device.py"
+sha256 = "918fa5311fcd90b6b15c42e7d7958f818f5a77de28f17439861f86a213dbb3a9"
+bytes = 10641
+
+[[files]]
+path = "tests/test_cantera_membrane.py"
+sha256 = "018d48f8256f5e4441c210c9035dc3eae7d73b6b91c14ee87845823337220375"
+bytes = 13024
+
+[[files]]
+path = "tests/test_cantera_multiphase.py"
+sha256 = "a135c4700b9e990e6d441ed9f2dca1f7e3b3ef7835a95c720ba76f35d4df3e97"
+bytes = 9933
+
+[[files]]
+path = "tests/test_cantera_properties.py"
+sha256 = "13b6fb46c5a45eda1e5b2c98c9a06a694fb60e4ce3d9f5f6881f0731a15d26a1"
+bytes = 17756
+
+[[files]]
+path = "tests/test_cantera_thermo.py"
+sha256 = "3896d85abcaa924748f833f070b85b974d5d2641a48a4187433ee599888a67c9"
+bytes = 1981
+
+[[files]]
+path = "tests/test_cantera_volume.py"
+sha256 = "b609ceccb7856dad879874cb91974f42c812d087296eb9ceea73f5b1f96abf59"
+bytes = 13988
+
+[[files]]
+path = "tests/test_cantera.py"
+sha256 = "ae93f6516bd0715eae89e0f2fd58879615683bb9378f6fcaad928b23719e3288"
+bytes = 2976
+
+[[files]]
+path = "tests/test_conditional_risk.py"
+sha256 = "6fc61b0f6523ecf8c44cd2844e3ac75269a3d51d95e435c5ee3ebb01a182fc55"
+bytes = 13982
+
+[[files]]
+path = "tests/test_core_thermo.py"
+sha256 = "f24bbefa214ab850d81ef106d86b8f14dea6da7567ffb4501bc10ea22e6d2672"
+bytes = 2995
+
+[[files]]
+path = "tests/test_cryo_compressed.py"
+sha256 = "d8254e78b98fa62784d48490b09f158e360852ce4c2580004b439da67e08e331"
+bytes = 15646
+
+[[files]]
+path = "tests/test_curvilinear_diffusion.py"
+sha256 = "23735660db918b53de765f2cf23890d9b2f2ce7cafc013b53c8213b1b289492f"
+bytes = 5121
+
+[[files]]
+path = "tests/test_degali_boundary.py"
+sha256 = "b6157882b52b4af0d9543a8cf2e7fe7cbf609971a25a4fbf8e936f098c06bb33"
+bytes = 14175
+
+[[files]]
+path = "tests/test_detonation.py"
+sha256 = "02d2d3749f6b8fe53cd0491a407c19db8b72a8251f224b31c2a33791914aa50d"
+bytes = 13536
+
+[[files]]
+path = "tests/test_dynamic_equipment.py"
+sha256 = "053b9c69e116a2ad4b166953272446ddd8eee326e5dab31ca5e043b112160ff5"
+bytes = 9776
+
+[[files]]
+path = "tests/test_electrochemistry.py"
+sha256 = "1a6c7f8bbe9f8b6d3c1033531f4263507c22b0a03e9a1f541dfe6f1a79ffcee6"
+bytes = 2207
+
+[[files]]
+path = "tests/test_embrittlement_data.py"
+sha256 = "5c274d7d6bcbde28dd31110fa3f0ba4b0cc5fdafc423345e4571a52577232f4c"
+bytes = 13484
+
+[[files]]
+path = "tests/test_equipment_modes.py"
+sha256 = "c7794bbe11a0bd0e5e7bfe916c78b4777fcea7e83a060f78207b86c6c008d738"
+bytes = 3085
+
+[[files]]
+path = "tests/test_equipment.py"
+sha256 = "2e9099c3ea77feb930815bfcbc6acba1b7821fd9bd85c54a299a0f83aa4cd101"
+bytes = 5689
+
+[[files]]
+path = "tests/test_excel.py"
+sha256 = "296d7f25e7bbab590ab9be8bfda3c2350a81cf0ea089854adb6d26002c473597"
+bytes = 1399
+
+[[files]]
+path = "tests/test_fermentation_data.py"
+sha256 = "cef672af5029a0b51e26573245b7066a75bdd516f855dee412c2927a91d65678"
+bytes = 10582
+
+[[files]]
+path = "tests/test_finite_hydride.py"
+sha256 = "4e0c8c819181f1487ccb046cb231d1abee93439da4e94ab272a5b0037a8af78e"
+bytes = 17587
+
+[[files]]
+path = "tests/test_fitting.py"
+sha256 = "391a5ffd709bb920fe8d3287925e569c96a5f5a10a8948a37d44a162ebc7f553"
+bytes = 2417
+
+[[files]]
+path = "tests/test_hydraulics.py"
+sha256 = "33204ec2322d9308f4b9a0919461e87d35635675fa8dc02e5524b399ab6661bf"
+bytes = 3743
+
+[[files]]
+path = "tests/test_hydride_compressor_data.py"
+sha256 = "feff9ee6003662d6cf5ea609779f896575bbda7c49a5d5487891010826f4d786"
+bytes = 16946
+
+[[files]]
+path = "tests/test_hydride_compressor.py"
+sha256 = "87f3b7570ce006be1d392df7b696a9cf0873c8f7f2ea2af4c5af1605f8695d3d"
+bytes = 18609
+
+[[files]]
+path = "tests/test_hydride_tank_data.py"
+sha256 = "0d94162f9578b362764d962b770fc00936ed195f5088235102a41e0112204eef"
+bytes = 4348
+
+[[files]]
+path = "tests/test_hydride.py"
+sha256 = "f287602350e8ea135760ef4c5636296da2319e20a950aaf9a4cd0dde9334dbf6"
+bytes = 2942
+
+[[files]]
+path = "tests/test_hyram_exposure.py"
+sha256 = "e5d3cfdc08deca2349b68854f6cc9fdc5001180b5a87d862a1b8cf2215f2f161"
+bytes = 13906
+
+[[files]]
+path = "tests/test_hyram_flame.py"
+sha256 = "9643c69d59d6c45bd9ef41ef0d988591facc14011e785ce9687f089a84e7247b"
+bytes = 10793
+
+[[files]]
+path = "tests/test_hyram_overpressure.py"
+sha256 = "5ceafb43bf8d7e3a3c500916c75853f3212199b35a4dc2e51eaf464dadb582e7"
+bytes = 10836
+
+[[files]]
+path = "tests/test_hytunnel_data.py"
+sha256 = "1ae5cbacc0ad476479ef97509dba276810b2c05778c61df49383cc2706f41db3"
+bytes = 6352
+
+[[files]]
+path = "tests/test_impedance.py"
+sha256 = "763c75e742acd24aa9fddc8a0fb0663557f306b3f9377551324a1db1dae43639"
+bytes = 7627
+
+[[files]]
+path = "tests/test_jet_observations.py"
+sha256 = "31e9bfa95bcc66dfd90704833184dc43043114728f5075372846c9e8c19975ca"
+bytes = 4594
+
+[[files]]
+path = "tests/test_jos3_thermal.py"
+sha256 = "98751bb03a6c04e362a104bedb4ccbccdd9f060408ce0ac563907c33705fe6ac"
+bytes = 12608
+
+[[files]]
+path = "tests/test_lh2dt_compressor.py"
+sha256 = "3c536bea82635abc5d4cc027b2a7379ca624547395865409c3fafffafcb7fd74"
+bytes = 14047
+
+[[files]]
+path = "tests/test_lh2dt_heat_exchanger.py"
+sha256 = "36f9a675d97ebef0be819b978249e0359eff33085948d4db69ea2734107012c4"
+bytes = 13501
+
+[[files]]
+path = "tests/test_lh2dt_instrumentation.py"
+sha256 = "2d50b1f923b4a12f054c97c8105fd368f8a07bba5062e76575ee80c752d3deb0"
+bytes = 6913
+
+[[files]]
+path = "tests/test_lh2dt_insulation.py"
+sha256 = "da841c144dc56a60d37fa7dd27b54ddead9a92d429bfd2953fb165684f8fd7e4"
+bytes = 8186
+
+[[files]]
+path = "tests/test_lh2dt_property_provider.py"
+sha256 = "962f8a8f2d41550ee9a0c589d78a09b5d60eaca3f9ff196c2d576545727c737e"
+bytes = 1835
+
+[[files]]
+path = "tests/test_lh2dt_relief.py"
+sha256 = "f5f8e6e0b59eb9964585c552b43f732a3f08b0e124f9c7f98955707ba36fda8d"
+bytes = 13201
+
+[[files]]
+path = "tests/test_lh2dt_reliquefier.py"
+sha256 = "48740b58744ad472096525b57602db23c0a3e7b5774e3fa2cb129e73de00dba7"
+bytes = 15935
+
+[[files]]
+path = "tests/test_lh2dt_spin.py"
+sha256 = "6c0fd2dddb6b2c2cbc01b56f5d201809890aebac368831ba45e20c8ccb04522f"
+bytes = 10691
+
+[[files]]
+path = "tests/test_lh2dt_vent.py"
+sha256 = "910c4c97bcb0e30ae44f987b5c0bc0a22e56ee9f9827b027fcca17d6085ed620"
+bytes = 12582
+
+[[files]]
+path = "tests/test_lohc.py"
+sha256 = "9d3c8140a2b8d0755a7e9249b3a48e24f3cb7bd048205461aac14c429b43cfce"
+bytes = 4075
+
+[[files]]
+path = "tests/test_materials.py"
+sha256 = "de85b8147a8c3929c070d0c754d0afe05da470de7d4d15b741fbf806938283eb"
+bytes = 3403
+
+[[files]]
+path = "tests/test_microsphere.py"
+sha256 = "232a1f73015010db136044b1450ddf0b6d24f1a603e346532349bec728083ba8"
+bytes = 6188
+
+[[files]]
+path = "tests/test_observations.py"
+sha256 = "7e1e4a355b0781d8b1d929dfa39d51511d3dfa3fc9dd29aa70a075bef97f8e04"
+bytes = 3137
+
+[[files]]
+path = "tests/test_oxygen_deficiency.py"
+sha256 = "6d2f634e3df53ea825eaf134baace52ead6090371e6cf59e8d74f1a5ccf1ed10"
+bytes = 24146
+
+[[files]]
+path = "tests/test_oxygen_observations.py"
+sha256 = "c30663a6d82535f4d721545a1d0de533a55ae8ee94716560c2819de82b57af30"
+bytes = 13761
+
+[[files]]
+path = "tests/test_photocatalysis_data.py"
+sha256 = "1da71e5e5b178a3cece0350657f95d340dd443e21917d877b5821f8dc5b32c5e"
+bytes = 13101
+
+[[files]]
+path = "tests/test_photochemistry.py"
+sha256 = "6e6a356871a8ee270b4ae94e1f57835de0e0929ed0596d354a3cccced79799fa"
+bytes = 12970
+
+[[files]]
+path = "tests/test_pif.py"
+sha256 = "f7e94a4a60600d861a8148c72552a931affff37f0ae31a66c3c35c86afe1efe0"
+bytes = 1052
+
+[[files]]
+path = "tests/test_pifira_heat.py"
+sha256 = "63ad799cf12507e7df8843ef9a18ef24457307efca3290bc82b674d8bae4a929"
+bytes = 8765
+
+[[files]]
+path = "tests/test_pifira_spin.py"
+sha256 = "e684fce8c78b222c1d212aa9fd04b95a32fdffb1b87bd107ab98289347c696d1"
+bytes = 14302
+
+[[files]]
+path = "tests/test_polarization.py"
+sha256 = "aa982ee8d00930119942b5f360407e86eea57b664ef65fc579f8b61065a78c21"
+bytes = 1034
+
+[[files]]
+path = "tests/test_pool_sources.py"
+sha256 = "49cd48aee098c97e78b717d6c62f210ef1c1bb7d5d61865c5281ece0504aee37"
+bytes = 8570
+
+[[files]]
+path = "tests/test_preferred_dispersion.py"
+sha256 = "ea1aabb857e1ac10c650e03e27c822392069a4d902e13ac4f4b02d7e68dd6d19"
+bytes = 6169
+
+[[files]]
+path = "tests/test_preslhy.py"
+sha256 = "1466584d01fa2f9cd9ca7f7f3da5c6c90eaf0683e8521cfbffb9f0b99b050d8a"
+bytes = 2864
+
+[[files]]
+path = "tests/test_pressure_peaking.py"
+sha256 = "cff19647a3ec1f366f7599dcb811f9039e79ea7c08fd7e7eb031aac3a2628cb4"
+bytes = 9091
+
+[[files]]
+path = "tests/test_process_monitoring.py"
+sha256 = "ba4372347476045c766ab46c5064a9dc2813e4b02b9ebe216fce28c52bbb1dd5"
+bytes = 16293
+
+[[files]]
+path = "tests/test_psa_cycle.py"
+sha256 = "2650bbc767d57380dfbaebeb5c4fd434da713de04a91b92cd080ee7f4ac4c204"
+bytes = 12893
+
+[[files]]
+path = "tests/test_radar_repository.py"
+sha256 = "7062c5db686e6c1c407231a059a2b3281f65eb50bc92acdb5ef25ffc9c642648"
+bytes = 3883
+
+[[files]]
+path = "tests/test_reactions.py"
+sha256 = "c5ec569e43bbf8936d937d1c38929992084c22d19ffa781ddcc23452aadee3bc"
+bytes = 5622
+
+[[files]]
+path = "tests/test_reactive_gas_volume.py"
+sha256 = "de7e5b3d438b1d57c315c85521d01675e2503c25e460756663a2eb95f1cbe2e9"
+bytes = 9268
+
+[[files]]
+path = "tests/test_release_inverse.py"
+sha256 = "6adb29087113a019c0091771b14633f1abb3bdbb32342d74e6e2be796eb2d999"
+bytes = 2572
+
+[[files]]
+path = "tests/test_release.py"
+sha256 = "bd439bb54cb758d267a18df2278af282ce0b4d5af24f2d31b2f866b463ab8313"
+bytes = 9800
+
+[[files]]
+path = "tests/test_repositories.py"
+sha256 = "061ab5c479a91d8e900f77b5c64465d3fa427a38c04a5a254dbe763d8037933a"
+bytes = 2234
+
+[[files]]
+path = "tests/test_sampling.py"
+sha256 = "0ba2364e6a0409e4461c99c6e41720af725717a550b262655e85e4ff85ee596a"
+bytes = 1783
+
+[[files]]
+path = "tests/test_shock_tube_data.py"
+sha256 = "0d90b03ffefe8e5b506b0b0c0f15367b4caf3f6ff64221d44124769f46ff6a5b"
+bytes = 9928
+
+[[files]]
+path = "tests/test_tables.py"
+sha256 = "4590c9169d9ce66436da7be39ddb5aa019b05c263dff6ab7745868d972e9423f"
+bytes = 2260
+
+[[files]]
+path = "tests/test_thermal_effects_data.py"
+sha256 = "d4aaef0ebbbb5d9d42e633ff37cefc8da4be7de387c93ffbd29c15c6e93887a7"
+bytes = 11932
+
+[[files]]
+path = "tests/test_thermochemical.py"
+sha256 = "d1d0f426452f0d7b4d45e9e1ce30eabc557971dabcc46a8fc1c07ee9df97da7d"
+bytes = 12785
+
+[[files]]
+path = "tests/test_uncertainty.py"
+sha256 = "2ece4004a227037cf6103711bb5fc000556baaeaf24082f1d171c3cc95aee5f4"
+bytes = 14360
+
+[[files]]
+path = "tests/test_units_loaders.py"
+sha256 = "4a87826c9d6aaafa9d3755a2d10fa78a569c8a9e61f9e9594048b3b92af8f746"
+bytes = 2392
+
+[[files]]
+path = "validation/__init__.py"
+sha256 = "b95871317e074e2ff93e0373d97cede343e48159dc72b6c13ef647c51302675d"
+bytes = 71
+
+[[files]]
+path = "validation/cases/__init__.py"
+sha256 = "06d8bd185fd2ed6bd8e24950db5a9259c2cf25779911e188bbdd44f4b9f981db"
+bytes = 86
+
+[[files]]
+path = "validation/cases/carrier_conversion.py"
+sha256 = "da0e80676fdb6a1790d431d43de64fc72197b21ad0e05c84fee8640eb512f1ab"
+bytes = 18704
+
+[[files]]
+path = "validation/cases/droplet_impact.py"
+sha256 = "5e28b15b365074e3f4038fb9b7630bc7769808fb077b9501297c72c9e63aeb1a"
+bytes = 12056
+
+[[files]]
+path = "validation/cases/droplet_transport.py"
+sha256 = "f88e6f9332b97df7e08959c8c3d409a65bcbcd8af51bad4709b15ece21f0d5e1"
+bytes = 3480
+
+[[files]]
+path = "validation/cases/facility_continuity.py"
+sha256 = "e65830575cc84510c3c52f40ea184782b999d4891eb21e6fb1902ce54e93d1a6"
+bytes = 6720
+
+[[files]]
+path = "validation/cases/facility_protection.py"
+sha256 = "c8bb7e3b032f35492f4e7b496518eaef829d642a120fb849696b1d1139e4cd7b"
+bytes = 12786
+
+[[files]]
+path = "validation/cases/finite_adsorption_vessel.py"
+sha256 = "d5bd995a70a08c0f40696673447a0e074c8483dda67d60d90a15898bdb7e7933"
+bytes = 6371
+
+[[files]]
+path = "validation/cases/finite_relief_lift.py"
+sha256 = "620b8115d782081a641b67c8be7a2adde8c33cabfac1f248fa75c0678cfdbd61"
+bytes = 5864
+
+[[files]]
+path = "validation/cases/finite_transfer.py"
+sha256 = "55130cfb2f36cfcd5bccdd909f06d65ed6db3076bbf4aee658fb7e2fb6aff884"
+bytes = 10829
+
+[[files]]
+path = "validation/cases/flash_front.py"
+sha256 = "ffafb4918cd2bf0f77e1318a211b3a287d3cc97a780f5cd7844be4497681f2bc"
+bytes = 16875
+
+[[files]]
+path = "validation/cases/fracture_fatigue.py"
+sha256 = "4d7e8472df80886e715d1da92b41d15cacaaaa2592b8ea6108b6dfe67e950474"
+bytes = 11960
+
+[[files]]
+path = "validation/cases/fuel_cell.py"
+sha256 = "1a9d55fa1aee39a9859effc706bb8f71807d9bd7fddcce4c6738e03a55eaf2e7"
+bytes = 18292
+
+[[files]]
+path = "validation/cases/hydrogen_economics.py"
+sha256 = "8381d2de0e52832c565b560b845b80a3cf6a0d99ab0c42ea8edfcab5a27b1734"
+bytes = 13638
+
+[[files]]
+path = "validation/cases/jet_fire_conservation.py"
+sha256 = "e7c123f95621417255418fd475f63797539686cb711ee53562b61c8be3bad686"
+bytes = 8762
+
+[[files]]
+path = "validation/cases/lh2dt_compressor.py"
+sha256 = "031efdfcbc1cce946c23758738ef0dbcb7c58210f19103289ba5e5eaee2bb295"
+bytes = 6366
+
+[[files]]
+path = "validation/cases/lh2dt_heat_exchanger.py"
+sha256 = "38c422d317c78ed0cb80af97312f89381ea64b94062a63cdc78685ca20c962b8"
+bytes = 6708
+
+[[files]]
+path = "validation/cases/microbial_cell.py"
+sha256 = "da003332616780fa5c20e19c0b8038fd8bab81df3223411238f4be413421399a"
+bytes = 12477
+
+[[files]]
+path = "validation/cases/microbial_economics.py"
+sha256 = "2c52d586037e3748d05db478b32e26f7c5924884e307375c718c6baa60a4185a"
+bytes = 10593
+
+[[files]]
+path = "validation/cases/microbial_observations.py"
+sha256 = "9b71f39b15acb3090cd4df3d41c7e3b775c6b2f4eda5f7e85e4b6abb8dda1fec"
+bytes = 5219
+
+[[files]]
+path = "validation/cases/model_selection.py"
+sha256 = "c09f7ec2203d58f86826973344f7af27925bb41a4965526aaafec6dffa6a97c7"
+bytes = 5009
+
+[[files]]
+path = "validation/cases/obstacle_dispersion.py"
+sha256 = "b8dcbce3d43806fbe013dc2aa960c6552a97a59f776cc2d082cb8feeeefce804"
+bytes = 5663
+
+[[files]]
+path = "validation/cases/pool_fire.py"
+sha256 = "03ae92ae95ae6d0517ad7500b5ffeec81eb653b5855ca9f5dc9958e3f2c304e6"
+bytes = 8998
+
+[[files]]
+path = "validation/cases/pv_electrolysis.py"
+sha256 = "1df251fb523643123ba5fc652f6698ebb481012fd5f0c04b62116918e7ef6b8e"
+bytes = 11768
+
+[[files]]
+path = "validation/cases/solid_reaction.py"
+sha256 = "7b50c76d11af1510c3c76f0d744a880037ce576a62ff3fbcf1e7527bf0e7b7a1"
+bytes = 20006
+
+[[files]]
+path = "validation/cases/thermal_utilities.py"
+sha256 = "89488ec9864d6a0905bb691dfd41bf4bd9f34533fb6b7695088dbc4a1cabadaf"
+bytes = 13325
+
+[[files]]
+path = "validation/cases/underground_storage.py"
+sha256 = "5feb5f186a6b57821f4a8c1884ed73cf87269cd6f7de948d336433745f987d83"
+bytes = 5724
+
+[[files]]
+path = "validation/cases/valve_actuator.py"
+sha256 = "765798f4f5bc77132f389294794aee2f4a684b7ef9f835fa5979e63c992a442e"
+bytes = 4657
+
+[[files]]
+path = "validation/cases/vessel_failure.py"
+sha256 = "163c8ffbdf46bae89c65fddbb26a0a6cb353fdab6554874d08b21cfbed873207"
+bytes = 13628
+
+[[files]]
+path = "validation/nurion_plan_example.py"
+sha256 = "1121dae70c9cdc187e39f3cc9882349a135be00ae3e4c3a0a1d6256655495b01"
+bytes = 3617

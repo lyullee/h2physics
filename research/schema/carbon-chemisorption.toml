@@ -1,0 +1,289 @@
+dataset = "carbon-chemisorption"
+doi = "10.17632/vyp4wbhxzr.1"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "CO2_Graphenit-OX.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "CO2_Graphenit-OX.csv"
+format = "delimited"
+rows = 30
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "CO2_IG110U.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "CO2_IG110U.csv"
+format = "delimited"
+rows = 30
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "CO2_MSC30.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "CO2_MSC30.csv"
+format = "delimited"
+rows = 30
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "N2_NRB40M.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2_NRB40M.csv"
+format = "delimited"
+rows = 58
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "N2_GraphenitOX.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2_GraphenitOX.csv"
+format = "delimited"
+rows = 66
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "CO2_NRB40M.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "CO2_NRB40M.csv"
+format = "delimited"
+rows = 58
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "CO2_CTR12x40.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "CO2_CTR12x40.csv"
+format = "delimited"
+rows = 60
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "N2_OLC12x40.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2_OLC12x40.csv"
+format = "delimited"
+rows = 58
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "N2_PAC200.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2_PAC200.csv"
+format = "delimited"
+rows = 58
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "N2_IG110U.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2_IG110U.csv"
+format = "delimited"
+rows = 67
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "N2_NV612.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2_NV612.csv"
+format = "delimited"
+rows = 67
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "CO2_NV612.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "CO2_NV612.csv"
+format = "delimited"
+rows = 71
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "N2_CTR12x40.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2_CTR12x40.csv"
+format = "delimited"
+rows = 67
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "N2_OVC4x8.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2_OVC4x8.csv"
+format = "delimited"
+rows = 67
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "N2_MSC30.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "N2_MSC30.csv"
+format = "delimited"
+rows = 67
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "CO2_OLC12x40.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "CO2_OLC12x40.csv"
+format = "delimited"
+rows = 73
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "CO2_PAC200.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "CO2_PAC200.csv"
+format = "delimited"
+rows = 73
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "CO2_OVC4x8.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "CO2_OVC4x8.csv"
+format = "delimited"
+rows = 75
+columns = 2
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Relative Pressure", "Volume @ STP"]
+
+[[files]]
+name = "total_chemisorption_isotherms.csv"
+format = "delimited"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "total_chemisorption_isotherms.csv"
+format = "delimited"
+rows = 104
+columns = 15
+counting_basis = "nonempty records after the first row; header meaning requires review"
+column_names = ["Material", "Pressure (torr)", "Volume (STP cm3/g)", "", "", "", "", "", "", "", "", "", "", "", ""]

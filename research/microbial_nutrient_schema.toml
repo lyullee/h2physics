@@ -1,0 +1,11 @@
+doi = "10.5281/zenodo.13981041"
+sha256 = "1badd6826fde0a1624c6baa88f79f9c66f801d47d0790a74480944e52c93002b"
+inspection = "stdlib ZIP/XML structure only; loader and numeric validation deferred"
+expanded_bytes = 4871120
+zip_members = 26
+formula_cells = 0
+sheets = ["Reactor_data:A1:CW293", "Potentiostat_data:A1:B32121", "Minteq_Results:A1:X79"]
+current_headers = ["Time (d)", "I (mA)"]
+current_row_slots = 32119
+qualified_samples = false
+origin = "mixed"

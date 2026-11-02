@@ -1,0 +1,60 @@
+package = "Caltech SDToolbox Python3"
+provider_id = "official-caltech-archive-2026-10-27"
+license_id = "BSD-3-Clause"
+source_url = "https://shepherd.caltech.edu/EDL/PublicResources/sdt/"
+archive_url = "https://shepherd.caltech.edu/EDL/PublicResources/sdt/SDToolbox.zip"
+archive_sha256 = "c3de67d95e1586a1abea952d2d3767738e5e6c0a217183d5b9303b8f89adb4b0"
+archive_bytes = 4549452
+license_url = "https://shepherd.caltech.edu/EDL/PublicResources/sdt/LICENSE.txt"
+website_license_sha256 = "9e161337eee43d727d26202f8a07807f19fb7108c88c3f266fc5cfab6b39642b"
+archive_license_sha256 = "ac5adf8d3a6fbcad70c5aab879e47a941e4008fa305776047df3480d7c3cbf3e"
+native_python_aggregate_sha256 = "fc28928f1c4320a7307559c55d5ca834ea4eee53464b8f58bac45c3765adbe7f"
+aggregate_algorithm = "SHA256(sorted Python basenames + original bytes), top-level sdtoolbox/*.py"
+installed_python_files = 10
+installed_native_source_modified = false
+main_environment_modified = false
+bundled_in_host = false
+experimental_validation = false
+compatibility_observed = "Python3.12.14 Cantera3.2.0 NumPy2.5.4 SciPy1.18.1"
+version_note = "Official webpage still labels2023 archive; actual native module headers say updatedApril2026 and requireCantera>=3.0. Artifact hash governs this exact native contract."
+installation_note = "Only sdtoolbox Python package plus original archive license installed into ignored separate target. Archive demo programs/mechanisms/data were not installed or executed. No PyPI same-name package assumed."
+
+[[native_source]]
+path = "sdtoolbox/__init__.py"
+sha256 = "be432cb061ddaee9369a3d75026dce0032039b17378c1c758c1e6ee807593fe3"
+
+[[native_source]]
+path = "sdtoolbox/config.py"
+sha256 = "51c583ae33d4986c911796a99025de60991d09a08b079b681fa8a82b433c68e4"
+
+[[native_source]]
+path = "sdtoolbox/cp.py"
+sha256 = "23ec0a53b4b3d37c7f13bb73969926b3834bfbb5f2960393d375801c0540ca70"
+
+[[native_source]]
+path = "sdtoolbox/cv.py"
+sha256 = "a37d89c75bdcc5fe31ab209da5c1a77c36deeeb6177f7740137216933691a080"
+
+[[native_source]]
+path = "sdtoolbox/postshock.py"
+sha256 = "45d68dbf1565bf10d7c61e57152be379831c8df0874f3d0fdd18f8d4995d7508"
+
+[[native_source]]
+path = "sdtoolbox/reflections.py"
+sha256 = "9c9f1556c7d30e005b03989b8a7969c8191797ebc46f83666e8486302e878fa4"
+
+[[native_source]]
+path = "sdtoolbox/stagnation.py"
+sha256 = "f5c79e4c541f998ce59a31abac00fe797025558cc0c50ed07c14c5015a24aa60"
+
+[[native_source]]
+path = "sdtoolbox/thermo.py"
+sha256 = "23e757ad9386a98148e4ba7e569f300295aed6c83732ddc88621b30bc0514797"
+
+[[native_source]]
+path = "sdtoolbox/utilities.py"
+sha256 = "97728fc9f66a923ccd8479ffe80a40d92a3996ea881117890bdd958219d37ffd"
+
+[[native_source]]
+path = "sdtoolbox/znd.py"
+sha256 = "517357d72707a6268e5a8c514ab4d8ae1c46e0d79f5fdacc77cf52260052cac8"

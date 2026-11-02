@@ -1,0 +1,17 @@
+status = "implemented_unverified"
+scientific_execution = "deferred_by_user"
+native_drag = "fluids1.3.1 MIT"
+properties = "shared CoolProp provider"
+integrator = "SciPy solve_ivp"
+
+[[reviewed_files]]
+path = "src/h2physics/adapters/droplet_transport.py"
+sha256 = "b7690429c5afd453a974d37beed5d59e3209e2e101d57bc517e411f57bde28f6"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/fluids/drag.py"
+sha256 = "a4b942043056b655216aa8c2cb44778556f2a7601c75fb25733d368575ee875a"
+
+[[reviewed_files]]
+path = ".venv/Lib/site-packages/fluids-1.3.1.dist-info/METADATA"
+sha256 = "349a310a425bcbcab877301d9b48f47e853a9f7ffe6c083dca899970ed8d11d7"

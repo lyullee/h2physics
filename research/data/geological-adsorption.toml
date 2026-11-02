@@ -1,0 +1,33 @@
+key = "geological-adsorption"
+title = "Data and code for: Redefining the metrological limits of hydrogen adsorption in geological materials"
+doi = "10.5281/zenodo.19695751"
+version = "v1.0"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/19695751"
+metadata_sha256 = "91ba16228bd15e3788832288273a857579521bbca9006b70ca2026a425bb820f"
+retrieved_at_utc = "2026-10-26T14:53:22.933112+00:00"
+authors = ["Vujevic, Ivan", "Magnin, Valerie", "Jelavic, Stanislav", "Guillet-Nicolas, Remy", "GREKOV, Denys", "de Rango, Patricia", "BAUDOIN, Simon", "LEWIN, Éric", "YAO, YAN", "Donze, Frederic-Victor", "Truche, Laurent"]
+families = ["adsorption", "metrology"]
+rights_permitted = true
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 11249984
+omitted_files = []
+record_status = "historical_v1_superseded_for_COx_model_use"
+superseded_by_doi = "10.5281/zenodo.22305898"
+supersession_reason = "The depositor's later Zenodo version states that this earlier repository version contained an incorrect COx source workbook and incorrect derived COx data. Keep these bytes for provenance only; use the latest corrected record for any COx work."
+next_action = "Do not use the v1.0 COx source workbook or processed isotherm; the v2 receipt 10.5281/zenodo.22305898 supersedes this record for COx."
+
+[[files]]
+name = "submission_package FIN.zip"
+url = "https://zenodo.org/api/records/19695751/files/submission_package%20FIN.zip/content"
+relative_path = "geological-adsorption/v1.0/submission_package FIN.zip"
+size_bytes = 11249984
+sha256 = "1d4f35f4ecebbd1671dbcc23985f7d8fe6d0973671077c684bbc525fce55670e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "96fadf954d98ee40248023aaa96a6479"
+publisher_checksum_verified = true
+status = "acquired_historical_superseded_do_not_use_COx"
+error = ""

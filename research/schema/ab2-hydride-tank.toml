@@ -1,0 +1,81 @@
+dataset = "ab2-hydride-tank"
+doi = "10.17632/8km9z62tct.1"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "10 SLPM.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "10 SLPM.xlsx:Vacuum 4th"
+format = "xlsx"
+rows = 1021
+columns = 17
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["No", "Date", "Time", "Flow", "Pressure", "TC1", "TC2", "TC3", "TC4", "TC5", "Volume", "Total Volume", "", "", "", "", ""]
+
+[[files.tables]]
+name = "10 SLPM.xlsx:4 Absorb 10 SLPM"
+format = "xlsx"
+rows = 55785
+columns = 18
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["No", "Date", "Time", "Flow", "Pressure", "TC1", "TC2", "TC3", "TC4", "TC5", "Volume", "Total Volume", "", "Total Absorbed H2 (SL)", "Total Absorbed H2 (mol)", "Total Absorbed H2 (gr)", "wt% (Mass hydride 7,8 kg)", ""]
+
+[[files.tables]]
+name = "10 SLPM.xlsx:4 desorb 5 SLPM"
+format = "xlsx"
+rows = 40766
+columns = 25
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["No", "Date", "Time", "Flow", "Pressure", "TC1", "TC2", "TC3", "TC4", "TC5", "Volume", "Total Volume", "", "Total Desorbed H2 (SL)", "Total Desorbed H2 (mol)", "Total Desorbed H2 (gr)", "wt% (Mass hydride 7,8 kg)", "", "", "", "", "", "", "", ""]
+
+[[files]]
+name = "5 SLPM.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "5 SLPM.xlsx:Absorb 5 SLPM"
+format = "xlsx"
+rows = 56741
+columns = 27
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["No", "Date", "Time", "Flow", "Pressure", "TC1", "TC2", "TC3", "TC4", "TC5", "Volume", "Total Volume", "", "Total Absorbed H2 (SL)", "Total Absorbed H2 (mol)", "Total Absorbed H2 (gr)", "wt% (Mass hydride 7,8 kg)", "", "", "", "", "", "", "", "", "", ""]
+
+[[files.tables]]
+name = "5 SLPM.xlsx:Desorb 5 SLPM"
+format = "xlsx"
+rows = 56240
+columns = 18
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["No", "Date", "Time", "Flow", "Pressure", "TC1", "TC2", "TC3", "TC4", "TC5", "Volume", "Total Volume", "", "Total Absorbed H2 (SL)", "Total Absorbed H2 (mol)", "Total Absorbed H2 (gr)", "wt% (Mass hydride 7,8 kg)", ""]
+
+[[files]]
+name = "15 SLPM.xlsx"
+format = "xlsx"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files.tables]]
+name = "15 SLPM.xlsx:Absorb 15 SLPM"
+format = "xlsx"
+rows = 86113
+columns = 18
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["No", "Date", "Time", "Flow", "Pressure", "TC1", "TC2", "TC3", "TC4", "TC5", "Volume", "Total Volume", "", "Total Absorbed H2 (SL)", "Total Absorbed H2 (mol)", "Total Absorbed H2 (gr)", "wt% (Mass hydride 7,8 kg)", ""]
+
+[[files.tables]]
+name = "15 SLPM.xlsx:Desorb 5 SLPM"
+format = "xlsx"
+rows = 68743
+columns = 18
+counting_basis = "declared worksheet dimensions, including formatted/empty cells"
+column_names = ["No", "Date", "Time", "Flow", "Pressure", "TC1", "TC2", "TC3", "TC4", "TC5", "Volume", "Total Volume", "", "Total Desorbed H2 (SL)", "Total Desorbed H2 (mol)", "Total Desorbed H2 (gr)", "wt% (Mass hydride 7,8 kg)", ""]

@@ -1,0 +1,62 @@
+review_date = "2026-10-28"
+role = "Optional native HELPR crack-growth constitutive law with caller geometry and existing SciPy integration"
+development_status = "implemented_unverified"
+local_execution = "Forbidden by latest user instruction; no native import/run, pytest, example, case or benchmark executed"
+bundled_in_host = false
+main_environment_changed = false
+
+[selected]
+package = "helpr"
+version = "2.1.0"
+source_url = "https://github.com/sandialabs/helpr"
+source_revision = "ae12d20b6608123af41dd9d5f70db6b6547fece5"
+source_archive_url = "https://github.com/sandialabs/helpr/archive/ae12d20b6608123af41dd9d5f70db6b6547fece5.tar.gz"
+documentation_url = "https://sandialabs.github.io/helpr/"
+primary_project_url = "https://energy.sandia.gov/programs/sustainable-transportation/hydrogen/hydrogen-safety-codes-and-standards/helpr/"
+license_id = "BSD-3-Clause"
+copyright = "2023-2025 National Technology and Engineering Solutions of Sandia, LLC"
+requires_python = ">=3.9"
+declared_dependencies = ["matplotlib", "numpy", "scipy", "pandas", "xarray", "netcdf4"]
+installation_status = "Source-only read-only review, not installed or imported"
+transitive_review_status = "Pending isolated Nurion resolution and complete dependency/license lock"
+license_source = "LICENSE.md"
+license_sha256 = "61948c7b8e104dd3acb3e26e1c45332edc3f75dece4c745359ad1cd06d912534"
+pyproject_sha256 = "af0bd3f74bc857d43dbeab075c694e29dbce088f2f6996f3f1b8811129107437"
+
+[[selected.reviewed_source]]
+path = "src/helpr/physics/crack_growth.py"
+sha256 = "a54266a68668fd26153f890aceafbc0f83569efa5e556de2fb4162ad9d9c100f"
+scope = "Actual constitutive dispatch/Paris and native hydrogen branches; no coefficient copy"
+
+[[selected.reviewed_source]]
+path = "src/helpr/physics/environment.py"
+sha256 = "6663ef55cba3319983bfbc3822b31f3c00057eae1dcb805b6601625d2f6a2895"
+scope = "Native gas/fugacity/reference inputs, explicit native T230-330K and H2 fraction0-1"
+
+[[selected.reviewed_source]]
+path = "src/helpr/utilities/parameter.py"
+sha256 = "b3aff09d5f1a8cb0180c4b2c21f1a2e8dbb9ddc7848edcc677fdfc8fb6be9b27"
+scope = "Actual numeric bounds enforcement"
+
+[[selected.reviewed_source]]
+path = "src/helpr/physics/life_assessment.py"
+sha256 = "67113ea1028748cec84cd5e4e576caae881cfe8246891be9952ae6f2e9ed2bcd"
+scope = "Inspected pipe-specific driver; not used for the arbitrary-geometry trajectory"
+
+[candidate_not_selected]
+package = "py_fatigue"
+version = "2.1.1"
+published_at = "2026-06-09T11:55:24.850491Z"
+metadata_url = "https://pypi.org/pypi/py_fatigue/2.1.1/json"
+wheel_url = "https://files.pythonhosted.org/packages/25/e1/b659516a3c556ddcb02723380bb03cb47cc16f713e62aa76ac84fd027d68/py_fatigue-2.1.1-py3-none-any.whl"
+wheel_sha256 = "0f868d34cb12961bf18844457a8f0c020cbb9a2227c617385803ebcf21d36560"
+wheel_bytes = 102194
+license_evidence = "Actual GNU GPL version3 license text and GPLv3 metadata classifier; expression fields null; or-later grant not established here"
+license_sha256 = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+metadata_sha256 = "0ae8f242e72e144e4b599d7aee53ccaea678c31a461d6435e42d2637c98359c6"
+crack_growth_source_sha256 = "2564c2e2692f7de725efd3f5a7ba1bed893b6d8abeedf855f009cd67d06a1fcc"
+paris_curve_source_sha256 = "122b67ea27ca1b6cf87d1e9325b7b6419ae8256f38d9891a41bbc2ab8bb1ea1c"
+requires_python = ">=3.10,<3.15"
+numba_constraint_py312 = ">=0.61,<0.66"
+installation_status = "Not installed/imported/executed; no automatic fallback"
+static_limitations = ["Native trajectory supports two hard-coded geometry IDs, no arbitrary callback", "Final returned crack-depth/input-cycle endpoint correspondence requires future native audit", "Separate dependency profile and GPL distribution review required"]

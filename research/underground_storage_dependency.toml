@@ -1,0 +1,102 @@
+review_date = "2026-10-28"
+development_status = "implemented_unverified"
+local_execution = "No native import/install/model/test/replay/example/case/benchmark; static API/source/license inspection only"
+package = "uh2sc"
+pyproject_version = "1.0.0"
+package_internal_version = "0.0.0"
+revision = "d5057350df4d86c5c11a22e76beca24275518c8c"
+source_url = "https://github.com/sandialabs/uh2sc"
+license_id = "BSD-3-Clause"
+additional_notice = "HydDown-origin files carry MIT notices; no native source bundled"
+license_sha256 = "9f97ff77d77e6c6d183bbfebf8092f5f5e5a3943b6959c943a1fafc48707add8"
+pyproject_sha256 = "7a4a7cc626af25213610d81212bba9ebda892dea5e607026dd767a33e20f3d23"
+python_requirement = ">3.8"
+declared_dependencies = ["Cython", "numpy", "scipy", "CoolProp", "cerberus", "pandas", "pyyaml", "rich-click", "scikit-learn", "joblib", "matplotlib", "plotly"]
+installation_status = "Source-only inspection; isolated Nurion build/runtime/transitive-rights lock pending"
+profile = "underground-storage"
+scientific_scope = "Actual whole-native finite cylindrical cavern/pure-water/vapor/ideal adiabatic well/radial finite ground, independently audited thermal U and mass"
+primary_project_presentation = "https://www.osti.gov/servlets/purl/2540300"
+source_only_artifacts = "artifacts/underground_provider_review/uh2sc"
+raw_tables_or_mechanism_bundled = false
+accepted_native_model_claim = false
+suspected_static_issues = ["GHE idx-1 capacity/flux indexing in a range beginning at0", "n+1 positive capacities versus n transient temperature residuals", "cavern enthalpy inventory and pressure/expansion convention require independent U audit", "named radial thickness reaches outer radius as half its value", "pyproject and internal version labels differ"]
+
+[[reviewed_source]]
+path = "src/uh2sc/__init__.py"
+sha256 = "0cfe9eec3eab730fa7da158216a23be91686d00393606fe9c27f88b28c72da8a"
+
+[[reviewed_source]]
+path = "src/uh2sc/abstract.py"
+sha256 = "7c8e845bd0687958a7eeaa3044489831412e592d8c8412b5cc2aa8c6132924c4"
+
+[[reviewed_source]]
+path = "src/uh2sc/constants.py"
+sha256 = "e334f5fac2c0a52df50e6af2eb6edf75ad16af8cb816770ce0f60d2669187a8e"
+
+[[reviewed_source]]
+path = "src/uh2sc/errors.py"
+sha256 = "05a5be02060222a0a11b29ed87bc028b5923bdef63b39b9696973096a152b76e"
+
+[[reviewed_source]]
+path = "src/uh2sc/fluid.py"
+sha256 = "168e9629826b0cc48925f39a222ffad1bd3f25f3b271627557ab02c1c9749cca"
+
+[[reviewed_source]]
+path = "src/uh2sc/fluidfit.py"
+sha256 = "a01769e1a4e200926dfe07dcc69ee18781a291bce30f7936f78abd0986224298"
+
+[[reviewed_source]]
+path = "src/uh2sc/ghe.py"
+sha256 = "924be919330582bc9cf133040bd4f5ae5cf7b634418941da4b686d730dbedee8"
+
+[[reviewed_source]]
+path = "src/uh2sc/input_schemas/ghe_schema.yml"
+sha256 = "a2692e273962852e1bb548486f74dc3b5a5146459a840599d0c1ac440a76b1cd"
+
+[[reviewed_source]]
+path = "src/uh2sc/input_schemas/schema_general.yml"
+sha256 = "8baafd7c02c3b0896f9d9f1d815f1a6c00512f568b199eafb322b6d7e8ac6cb0"
+
+[[reviewed_source]]
+path = "src/uh2sc/input_schemas/valve_type_schema.yml"
+sha256 = "f4943f497d03921d0d4be0967c8bd774c099102741941027fc458d4322042fee"
+
+[[reviewed_source]]
+path = "src/uh2sc/input_schemas/well_schema.yml"
+sha256 = "3a6ec92799ec123028a14dee5c147030e4e71ed4790ed8e43b33d223bbbb5e0e"
+
+[[reviewed_source]]
+path = "src/uh2sc/main.py"
+sha256 = "40e16d9075fea154e20f3ca14c5d15dd40de621a716ef83cf011cea003017a4c"
+
+[[reviewed_source]]
+path = "src/uh2sc/model.py"
+sha256 = "e06c6b492f0a630fbe9c02e06e27854b97df7705472db7f09187bfdce83f0785"
+
+[[reviewed_source]]
+path = "src/uh2sc/salt_cavern.py"
+sha256 = "a0b4d5958113fd1856110731e368c5abe51b191bdcf5a002ced5fc746faa4389"
+
+[[reviewed_source]]
+path = "src/uh2sc/solvers.py"
+sha256 = "ad49476cbc5488389cae8d5ded1b893ba910f2e6fa4b1b431a390d1eb0179353"
+
+[[reviewed_source]]
+path = "src/uh2sc/thermodynamics.py"
+sha256 = "c749b20a0947964f9ef5ec1b9bf4bea06d70ecf6fd3ba5074b66ddf7e764f28f"
+
+[[reviewed_source]]
+path = "src/uh2sc/transport.py"
+sha256 = "ab39e7cf2f12016440ca8839434cd028b377b9da9a9b79c365b2dcb17db46a5f"
+
+[[reviewed_source]]
+path = "src/uh2sc/utilities.py"
+sha256 = "2cdfde3518f69af758b3b238083e22f80d53d1a5c5813c2e9045f4f0cec0f82e"
+
+[[reviewed_source]]
+path = "src/uh2sc/validator.py"
+sha256 = "d29c7f8af391f5fc48e1776dc621ffc8c4b13877ffecf3b3f599eb85a349e3cc"
+
+[[reviewed_source]]
+path = "src/uh2sc/well.py"
+sha256 = "6ace8a9c56cfd32659a4c659b7f2e402304d92d80b9da25a8df5339531392461"

@@ -1,0 +1,9 @@
+# Official immutable MIT source; no PyPI release existed at review.
+# Build/install in an isolated target; retain main NumPy/SciPy/pandas profile.
+# Source/artifact/notices: research/monitoring_dependency.toml.
+process-monitoring-toolkit @ https://codeload.github.com/lyullee/process-monitoring-toolkit/zip/79b4cf52a0acd0d0cbd3addbe82c3d98d6385e5a
+scikit-learn==1.9.1
+cloudpickle==3.1.2
+joblib==1.6.0
+threadpoolctl==3.7.0
+narwhals==2.28.0

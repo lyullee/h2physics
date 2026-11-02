@@ -1,0 +1,83 @@
+key = "hydrogen-core-flood"
+title = "Steady state core flood data for hydrogen- and nitrogen-water systems"
+doi = "10.17632/rfhf7wjydn.1"
+version = "1"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://data.mendeley.com/public-api/datasets/rfhf7wjydn/snapshot/1"
+metadata_sha256 = "dbbcb9e3e4b5e4e4a85d513b1111ea9fe7657005acb911d3c36885c01b775b8a"
+authors = ["Maksim Lysyy", "Tore Føyen"]
+families = ["underground_storage", "two_phase_flow", "relative_permeability"]
+rights_permitted = true
+rights_basis = "Publisher record identifies CC BY 4.0. Preserve authorship, license link, and indicate local changes; third-party elements identified within workbook content may carry separate terms."
+license_scope = "Publisher record-level license. Embedded third-party components have not been separately audited."
+validation_qualified = false
+listed_file_count = 4
+acquired_bytes = 9825388
+omitted_files = []
+model_use = "Source-labelled gas/water relative-permeability tables for hydrogen primary drainage, imbibition and secondary drainage, plus nitrogen primary drainage. Raw supporting worksheets remain available in the staged source workbooks."
+schema_audit = "The four publisher workbooks contain source-specific saturation, production, differential-pressure and Kr worksheets. Worksheet names and headers vary between experiment files; the reader therefore selects only each exact Kr worksheet and preserves its native cell values and column labels."
+limitations = "No tabular normalization, unit conversion, curve fit, constitutive law, uncertainty model or underground-storage qualification is inferred. Worksheet semantics and experimental boundary conditions require review and parallel validation before model fitting."
+
+[[supporting_metadata]]
+url = "https://data.mendeley.com/public-api/datasets/rfhf7wjydn/files?folder_id=root&version=1&$start=0&$limit=1000"
+sha256 = "e91a03765634534500ab119b75544bda441c747198ec03a1afe914db1e919c72"
+
+[[files]]
+name = "Imbibition_H2.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/rfhf7wjydn/files/17cb9ae3-70cc-4231-b979-643b5d199a90/file_downloaded"
+relative_path = "hydrogen-core-flood/1/Imbibition_H2.xlsx"
+size_bytes = 1554207
+sha256 = "1f07f4bd5f5472f57ff0dd718744b180f8d8ee5b7e4ca9a51d484a90e5e002db"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "1f07f4bd5f5472f57ff0dd718744b180f8d8ee5b7e4ca9a51d484a90e5e002db"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Primary_drainage_H2.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/rfhf7wjydn/files/ce094687-9357-4234-8dc4-9fda3efa5199/file_downloaded"
+relative_path = "hydrogen-core-flood/1/Primary_drainage_H2.xlsx"
+size_bytes = 2251477
+sha256 = "60b94149b4f84b131fc1a70eac592dc741f22486cec1725ec7b904c4b56ec7ff"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "60b94149b4f84b131fc1a70eac592dc741f22486cec1725ec7b904c4b56ec7ff"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Primary_drainage_N2.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/rfhf7wjydn/files/83ab3ce9-5b2f-47af-a33b-fbc53a8929c4/file_downloaded"
+relative_path = "hydrogen-core-flood/1/Primary_drainage_N2.xlsx"
+size_bytes = 2966915
+sha256 = "ae2934256439f959f358c3dce468beaed9f6e98b8388934d26a36791fa047a3f"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "ae2934256439f959f358c3dce468beaed9f6e98b8388934d26a36791fa047a3f"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[files]]
+name = "Secondary_drainage_H2.xlsx"
+url = "https://data.mendeley.com/public-files/datasets/rfhf7wjydn/files/3616a016-909b-46e2-820b-abfdd4aeae02/file_downloaded"
+relative_path = "hydrogen-core-flood/1/Secondary_drainage_H2.xlsx"
+size_bytes = 3052789
+sha256 = "a79b90ecc62ee1b23f821da31149d0673d741e6652979ce46ddcf77714ba14e4"
+publisher_checksum_algorithm = "sha256"
+publisher_checksum = "a79b90ecc62ee1b23f821da31149d0673d741e6652979ce46ddcf77714ba14e4"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[[sources]]
+title = "Mendeley Data publisher record"
+url = "https://data.mendeley.com/datasets/rfhf7wjydn/1"
+role = "Version, contributor, experimental scope, license and attachment metadata."
+
+[[sources]]
+title = "Creative Commons Attribution 4.0 International"
+url = "https://creativecommons.org/licenses/by/4.0/"
+role = "Reuse terms stated by the publisher record."

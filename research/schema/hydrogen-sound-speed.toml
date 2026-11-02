@@ -1,0 +1,25 @@
+dataset = "hydrogen-sound-speed"
+doi = "10.5281/zenodo.21355851"
+license_id = "CC-BY-4.0"
+validation_qualified = false
+
+[[files]]
+name = "H2_speedofsound_literature_summary.txt"
+format = "txt"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "README.md"
+format = "md"
+archive_members = 0
+numeric_members = 0
+program_members_not_executed = 0
+
+[[files]]
+name = "H2_speedofsound_dataset.zip"
+format = "zip"
+archive_members = 33
+numeric_members = 0
+program_members_not_executed = 1

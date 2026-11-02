@@ -1,0 +1,3 @@
+# Optional actual native inverse heat owner. No source/data are vendored.
+# MIT, published wheel/source/license identities: research/pifira_dependency.toml.
+pifira==0.3.0

@@ -1,0 +1,37 @@
+schema_version = 1
+dataset_id = "tudelft-h2-ct-storage"
+status = "public_access_rights_and_asset_metadata_unverified"
+audit_date = "2026-10-31"
+source_type = "measured_hydrogen_water_core_flow"
+origin = "TU Delft ADMIRE group public GitLab project"
+doi = "10.1038/s41598-022-18759-8"
+repository_url = "https://gitlab.tudelft.nl/ADMIRE_Public/h2_ct_data"
+repository_project_id = 7511
+raw_data_acquired = false
+raw_data_reusable_license = "not established from the inspected data-repository record"
+article_license = "CC-BY-4.0; applies to the article, not treated as a grant for repository data files"
+raw_data_asset_ids = []
+raw_data_download_urls = []
+raw_data_checksums = []
+publication_only = false
+schema_status = "asset names discovered; file sizes, checksums, and internal schemas not verified"
+fit = "Potential storage-core H2/water multiphase pressure and saturation evidence; not a pipeline, pressure vessel, or cavern cycle dataset"
+fit_limits = [
+  "Laboratory Berea sandstone core-scale flow at reported 100 bar; drainage, capillary-pressure, and imbibition conditions are not field-scale cavern operation.",
+  "Publisher article describes pressure measurements at four axial locations and X-ray CT saturation observations, but no source file has been inspected.",
+  "Repository files are ZIP archives with names including H2_SAT.zip, DRY_CORE.zip, Kr_Drain_fH2_*.zip, Kr_Imb1_fH2_*.zip, and PressureData_CapillaryPressure.zip; indexed listings did not expose asset sizes or checksums.",
+  "No license or reuse grant for the GitLab data assets was found in the inspected repository listing. The article's CC BY 4.0 notice is not applied to those separate assets.",
+  "GitLab project page and API could not be fetched during this audit, so file metadata and any repository-level license/readme remain unverified."
+]
+
+[[evidence]]
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC9418204/"
+claim = "Data availability statement points to the TU Delft GitLab repository; article describes experimental CT and pressure observations."
+
+[[evidence]]
+url = "https://gitlab.tudelft.nl/ADMIRE_Public/h2_ct_data"
+claim = "Official project page identifies H2_CT_DATA (project 7511); its searchable file listing exposes archive names but not reusable rights, byte sizes, or checksums."
+
+[[evidence]]
+url = "https://gitlab.tudelft.nl/ADMIRE_Public/h2_ct_data/-/find_file/main?ref_type=heads"
+claim = "Official searchable listing includes H2_SAT.zip, DRY_CORE.zip, relative-permeability archives, and capillary-pressure archives."

@@ -1,0 +1,48 @@
+key = "ml-hydpark-screening"
+title = "Database for machine learning of hydrogen storage materials properties"
+doi = "10.5281/zenodo.10680097"
+version = "0.0.5"
+origin = "curated"
+source_updated_at = ""
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://zenodo.org/api/records/10680097"
+metadata_sha256 = "1e45a2930e47955aeda566eedef8337eeee3786616c5e010b8ba153ee17a6e04"
+retrieved_at_utc = "2026-10-31T22:31:40.840837+00:00"
+authors = ["Witman, Matthew", "Allendorf, Mark", "Stavila, Vitalie"]
+families = ["hydrogen_storage", "hydride", "materials_screening"]
+rights_permitted = true
+raw_redistribution_admitted = false
+validation_qualified = false
+listed_file_count = 1
+acquired_bytes = 100494
+omitted_files = []
+
+[[files]]
+name = "ML-HYDPARK_v0.0.5.csv"
+url = "https://zenodo.org/api/records/10680097/files/ML-HYDPARK_v0.0.5.csv/content"
+relative_path = "ml-hydpark-screening/0.0.5/ML-HYDPARK_v0.0.5.csv"
+size_bytes = 100494
+sha256 = "41d1549a0b0b72355184cebe19d8da0b1ed18f87c7e1bf5527073a4246421af0"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d88e51ae01f93935a214326d3f37c560"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
+
+[reader]
+metadata_snapshot_path = "ml-hydpark-screening/0.0.5/zenodo-record.json"
+metadata_snapshot_sha256 = "1e45a2930e47955aeda566eedef8337eeee3786616c5e010b8ba153ee17a6e04"
+attribution = "Matthew Witman, Mark Allendorf, and Vitalie Stavila, Database for machine learning of hydrogen storage materials properties, Zenodo v0.0.5, 2024, DOI 10.5281/zenodo.10680097; CC BY 4.0"
+rights_scope = "Zenodo v0.0.5 record metadata declares the attachment open and CC BY 4.0. This receipt and reader preserve attribution and file identity. The raw attachment and metadata snapshot remain outside Git and distributions; no claim is made about reuse rights in the cited underlying publications."
+change_notice = "No source cells were modified. This repository adds a checksum-verifying reader and a lossless token interface; any derived downstream artifact must identify its modifications and preserve attribution and license."
+schema_status = "header-preserving source schema audit; no numerical values, units beyond literal header labels, or material identities are inferred"
+reader = "h2physics.data.ml_hydpark.load_ml_hydpark_screening"
+reader_documentation = "docs/ML_HYDPARK_SCREENING.md"
+deferred_case = "ml-hydpark-curated-material-screening-ingestion"
+source_rows = 772
+source_columns = 13
+empty_source_cells = 1217
+source_headers = ["", "index", "Material_Class", "Composition_Formula", "Hydrogen_Weight_Percent", "Heat_of_Formation_kJperMolH2", "Temperature_oC", "Pressure_Atmospheres_Absolute", "Entropy_of_Formation_JperMolH2perK", "Equilibrium_Pressure_25C", "LnEquilibrium_Pressure_25C", "HtoM", "Reference"]
+unresolved_fields = ["Equilibrium_Pressure_25C unit/reference basis", "LnEquilibrium_Pressure_25C logarithm basis and pressure reference", "HtoM definition", "per-record primary source and measurement uncertainty"]
+model_use_scope = "Curated composition/capacity/thermodynamic-property screening only; not primary raw PCT data, process time histories, fitted parameters, or independent experimental validation"

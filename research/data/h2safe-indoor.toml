@@ -1,0 +1,47 @@
+key = "h2safe-indoor"
+title = "Dataset for H2SAFE - Controlled Gas Releases and Sensor-Response for Indoor Hydrogen Safety"
+doi = ""
+version = "2026-10-05"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+metadata_url = "https://data.openei.org/submissions/8799"
+metadata_sha256 = "8bbae3bdca015f577d6c06d7d76222f081aa1c67085095b6fae87defc47dfd42"
+retrieved_at_utc = "2026-10-26T15:09:03.061639+00:00"
+authors = ["David Peaslee", "Munjal Purnkant Shah", "Ian Palin", "John Drumm", "Umang Patel", "James  Stewart", "Donggyu Jang", "Adam Bailey", "William Buttner"]
+families = ["tracer_dispersion", "ventilation", "sensors"]
+rights_permitted = true
+component_rights_reviewed = true
+component_rights_scope = "The OEDI submission lists the acquired ZIP archive and HVAC document as dataset resources and labels the submission CC BY 4.0. No separate embedded license notice was found in the resource listing; any future redistribution must preserve author attribution and the source/CC BY link. STEP/STL lab geometry remains raw third-party dataset content and is not copied into generated source archives."
+rights_evidence_url = "https://data.openei.org/submissions/8799"
+license_evidence_url = "https://creativecommons.org/licenses/by/4.0/"
+validation_qualified = false
+listed_file_count = 2
+acquired_bytes = 4459232
+omitted_files = []
+
+[[files]]
+name = "1788206575-HVAC_information.docx"
+url = "https://data.nlr.gov/system/files/330/1788206575-HVAC_information.docx"
+relative_path = "h2safe-indoor/2026-10-05/1788206575-HVAC_information.docx"
+size_bytes = 692704
+sha256 = "e99119f5f9aadac6e0bd8269b3fc7989a6026bc0a4c68221ea2a54b1eeee58bb"
+publisher_checksum_algorithm = ""
+publisher_checksum = ""
+publisher_checksum_verified = false
+publisher_checksum_status = "Not published in the OEDI submission resource listing; local size and SHA-256 pin used for integrity. Direct data.nlr.gov HEAD request returned HTTP 403 during audit."
+status = "acquired"
+error = ""
+
+[[files]]
+name = "1787856683-Dataset.zip"
+url = "https://data.nlr.gov/system/files/330/1787856683-Dataset.zip"
+relative_path = "h2safe-indoor/2026-10-05/1787856683-Dataset.zip"
+size_bytes = 3766528
+sha256 = "f1b8bf747b7787f00152ec416940c80a143ea044fc18ee8a69ac9da204d9158e"
+publisher_checksum_algorithm = ""
+publisher_checksum = ""
+publisher_checksum_verified = false
+publisher_checksum_status = "Not published in the OEDI submission resource listing; local size and SHA-256 pin used for integrity. Direct data.nlr.gov HEAD request returned HTTP 403 during audit."
+status = "acquired"
+error = ""

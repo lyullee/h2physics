@@ -1,0 +1,50 @@
+key = "elvhys432-fireline"
+title = "ELVHYS 4.3.2 fire exposure of short cryogenic transfer-line sections"
+doi = "10.18710/HDZLJ1"
+version = "1.0"
+origin = "measured"
+license_id = "CC0-1.0"
+license_url = "https://creativecommons.org/publicdomain/zero/1.0/"
+metadata_url = "https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/HDZLJ1"
+metadata_sha256 = "4e051c672504d3a084102a2bb8b03968d6a23fe88620181ad98c9797483edfa9"
+metadata_reviewed_at = "2026-11-01"
+authors = ["Eugenio Torres de Ritter", "Andreas Friedrich", "Manuel Ignacio Ferraro Porcel de Peralta"]
+families = ["cryogenic_hydrogen", "transfer_line", "thermal_observation", "fire_exposure"]
+rights_permitted = true
+raw_redistribution_admitted = false
+license_scope = "The official DataverseNO version 1.0 record declares CC0 1.0. Only the publisher README and one public Test-1 diode CSV are retained locally, outside Git and release artifacts. Cite the dataset and creators as good practice."
+validation_qualified = false
+listed_file_count = 14
+listed_total_size_display = "4.2 GB"
+acquired_bytes = 482617
+acquisition_status = "selected_cc0_files_acquired_and_sha256_verified"
+model_linkage_status = "source_observation_reader_and_explicit_radial_surface_comparator"
+model_link_case = "elvhys432-pipe-surface-temperature-source-ingest"
+model_link_target = "h2physics.materials.radial_heat.RadialHeatResult"
+model_link_scope = "The reader preserves the Test-1 SD1 pipe-surface diode and SD2 outlet temperature in kelvin against source time in minutes. An optional comparator compares SD1 only to one explicitly selected inner/outer surface-temperature vector at exact mapped times. Caller evidence is mandatory for sensor position, pipe/domain equivalence and clock offset; the comparator performs no calibration, fitting, heat-flux inference or interpolation."
+missing_model_link_evidence = ["axial and circumferential position of SD1", "evidence mapping the selected rigid transfer pipe and sensor to a radial cylinder model domain", "source-to-model clock offset and common origin", "instrument calibration for the source diode; README says the diodes are uncalibrated", "material properties and boundary conditions for a source-specific radial heat replay"]
+sensor_uncertainty = "README instrument table reports ±0.5 K below 305 K and 0.33% above 305 K for the Lake Shore DT-670SD diodes, while also stating the silicon diodes were not calibrated. Treat these figures as instrument specifications, not source-specific calibration uncertainty."
+
+[[files]]
+name = "00_README_ELVHYS_WP_4_3_2.txt"
+url = "https://doi.org/10.18710/HDZLJ1/4LSZTE"
+relative_path = "elvhys-fireline/1/00_README_ELVHYS_WP_4_3_2.txt"
+size_bytes = 13429
+persistent_id = "doi:10.18710/HDZLJ1/4LSZTE"
+publisher_md5 = "401b6d98f5bd4d8e1db8fcec41cdf34d"
+sha256 = "88bccf0809fad9850587b02b77a63889e24c3e123016ae8c467085b633625c78"
+status = "acquired_gitignored_raw"
+
+[[files]]
+name = "ELE432KIT001TEMPL20260819.csv"
+url = "https://doi.org/10.18710/HDZLJ1/ZC7SBI"
+relative_path = "elvhys-fireline/1/ELE432KIT001TEMPL20260819.csv"
+size_bytes = 469188
+persistent_id = "doi:10.18710/HDZLJ1/ZC7SBI"
+publisher_md5 = "b0b4abd12cdea167d6def431ab1a8c59"
+sha256 = "eefb7372902e364e4815fd3fbdb649be3172617990cd9fda4942f1c79728be71"
+status = "acquired_gitignored_raw"
+
+[[sources]]
+url = "https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/HDZLJ1"
+description = "Official DataverseNO record establishes version 1.0, CC0 1.0, file list and file MD5s. The acquired README specifies channel meanings, units, instrument and acquisition notes."

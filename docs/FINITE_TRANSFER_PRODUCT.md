@@ -1,0 +1,7 @@
+# Finite transfer to product custody receipt
+
+`product_delivery_from_finite_transfer()` projects the original `FiniteTransferTrace` receiver inventory ledger into an interval mass-delivery receipt. The caller must identify the trace's terminal receiver node and provide evidence that it is the product custody boundary. The adapter differences cumulative receiver net mass at accepted sample edges, preserving exact SI kg, kg/s interval averages, physical seconds, the LH2 property-reference basis, receiver source ID and original trace clock.
+
+The adapter admits only nonnegative received-mass intervals. Reverse transfer or returns are rejected as product delivery rather than clipped. The resulting `TimeSeries` labels each value as an interval-average product mass rate at that interval's ending accepted sample; it is not an instantaneous rate. Its `Origin.PREDICTED` flag identifies the model-derived result. `require_current()` revalidates both the original transfer owner and all derived quantities.
+
+This is a custody/accounting boundary projection only. The caller's evidence designates which receiver represents delivery; the adapter does not establish ownership, sale, purity/specification, meter calibration, downstream pressure, revenue, annualization, or a new transfer law. Deferred Hangang case: `finite-transfer-product-boundary-receipt` under the existing `finite-transfer` profile (thermo and LH2DT provider).

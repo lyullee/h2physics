@@ -1,0 +1,72 @@
+key = "pressurized-alkaline-bubble-electrode-potentials"
+title = "Bubbles under pressure and their impact on electrode potentials during alkaline water electrolysis"
+doi = "10.14278/rodare.4547"
+version = "RODARE version 1; published 2026-03-27"
+origin = "measured"
+license_id = "CC-BY-4.0"
+license_url = "https://creativecommons.org/licenses/by/4.0/legalcode"
+metadata_url = "https://rodare.hzdr.de/record/4547"
+metadata_api_url = "https://rodare.hzdr.de/api/records/4547"
+metadata_sha256 = "9de211dd53f961863afe82906a35be23581cbf116b10ae3976dc646b15d2cc49"
+metadata_bytes = 7289
+metadata_relative_path = "rodare-alkaline-bubble-pressure/4547/record-4547.json"
+authors = ["Hannes Rox", "Feng Liang", "Robert Baumann", "Mateusz M. Marzec", "Krystian Sokołowski", "Xuegeng Yang", "Andrés F. Lasagni", "Roel van de Krol", "Kerstin Eckert"]
+families = ["alkaline_electrolysis", "bubble_coverage", "gas_void_fraction", "electrode_polarization", "pressurized_electrolysis"]
+rights_permitted = true
+rights_evidence_url = "https://rodare.hzdr.de/record/4547"
+attribution = "Hannes Rox et al. (2026), Bubbles under pressure and their impact on electrode potentials during alkaline water electrolysis, RODARE v1, DOI 10.14278/rodare.4547; CC BY 4.0."
+validation_qualified = false
+listed_file_count = 3
+acquired_file_count = 1
+acquired_bytes = 1499
+retrieved_at_utc = "2026-10-31"
+acquisition_scope = "Acquired only the 1,499-byte publisher experiment index, Summary.csv. The 8.59-GB HDF5 archive is not downloaded; the video archive is not required for numeric electrochemical/bubble processing."
+schema_audit_status = "summary-index-schema-audited; measured HDF5 channels not inspected"
+electrolyte = "1 M KOH"
+temperature_K = 293
+absolute_cell_pressure_bar = [1, 2, 4, 6]
+applied_current_density_mA_cm2 = [-25, -50, -100]
+electrodes = ["LS_30", "LS_40", "LS_60", "LS_100", "Ref"]
+structured_electrode_depth_um = "approximately 7"
+structured_electrode_spatial_periods_um = [30, 40, 60, 100]
+summary_rows = 60
+summary_columns = ["ID", "Electrode", "Pressure in bar", "Current Density in mA/cm²"]
+summary_delimiter = ";"
+raw_archive_description = "The publisher states that HDF5 files include electrochemical measurement data, galvanostatic data, results and detected front-view bubbles; unprocessed front-view images are included for LS_P_01.hdf5 only. Remaining raw images are available upon request."
+data_boundary = "Summary.csv is a condition/run index, not a polarization curve or bubble-coverage signal. No HDF5 results were acquired or qualified, so no gas void, bubble coverage, cell voltage, overpotential, nucleation count, or bubble size values are admitted from this source yet."
+acquisition_limit = "The HDF5.zip publisher object is 8,586,456,345 bytes, above the repository's bounded per-file acquisition policy. A byte-range request returned HTTP 200 rather than partial content, preventing selective member extraction without downloading the entire archive."
+next_action = "If a smaller versioned HDF5 subset becomes available from the publisher, capture its license, bytes/checksum and internal HDF5 attributes before adding a reader or validation case. Otherwise request an individual file or a bounded extract from the data authors."
+qualification_gap = "No fully public, locally inspectable numeric alkaline bubble-coverage/electrolyte-void or polarization dataset has yet passed the project schema/condition contract. This record is the strongest rights-qualified candidate, but its primary signal archive exceeds bounded acquisition limits and its channel schema is not inspectable without that archive."
+related_candidate_alkaline_bubbles = "Mendeley Data DOI 10.17632/r6np4f7gmf.2 is already registered separately as alkaline-bubble-observations; its public root listing exposes a README, videos and images but not machine-readable numeric measurement files. Do not duplicate it or infer values from plots/images."
+related_candidate_gas_fraction = "TU Delft repository record uuid:e27bb970-2bc4-473a-8537-ef4d5a6be109 describes alkaline-cell gas-fraction research, but the thesis is embargoed until 2028-08-26 and no open reuse license was identified; excluded from acquisition."
+related_candidate_raney_nickel = "Mendeley Data DOI 10.17632/tthzg5wf2f.1 declares CC BY-SA 4.0, but operating-condition metadata is incomplete and the public file API could not be verified; not qualified or acquired."
+related_candidate_high_current = "Mendeley Data DOI 10.17632/wxb94xrctt.1 declares CC BY 4.0, but downloadable file inventory/checksums and measurement-channel metadata were unavailable through the accessible public record; not qualified or acquired."
+
+[[files]]
+name = "HDF5.zip"
+url = "https://rodare.hzdr.de/api/files/e856cf46-68fe-4d67-9f4f-9262e9802b3b/HDF5.zip"
+size_bytes = 8586456345
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "bb9736590d904cf8fc8b1bba259b16c8"
+publisher_checksum_verified = false
+status = "deferred_bounded_size"
+
+[[files]]
+name = "Summary.csv"
+url = "https://rodare.hzdr.de/api/files/e856cf46-68fe-4d67-9f4f-9262e9802b3b/Summary.csv"
+relative_path = "rodare-alkaline-bubble-pressure/4547/Summary.csv"
+size_bytes = 1499
+sha256 = "24cf3cd688215f99cc28fc4c1c0f10899caa1a5fba03b22c4819c0525ede181f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "0b500cf14501034033e5471de46341b1"
+publisher_checksum_verified = true
+status = "acquired"
+
+[[files]]
+name = "Videos.zip"
+url = "https://rodare.hzdr.de/api/files/e856cf46-68fe-4d67-9f4f-9262e9802b3b/Videos.zip"
+size_bytes = 262988757
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "03d672fa926eff29408130b0f23a5f77"
+publisher_checksum_verified = false
+status = "intentionally_omitted_visual_examples"

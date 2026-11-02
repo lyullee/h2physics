@@ -1,0 +1,96 @@
+package = "process-risk-consequence-toolkit"
+version = "0.1.0"
+role = "Optional conditional single-LOC native risk aggregation; no implicit source physics or frequency"
+license_id = "Apache-2.0"
+bundled_in_host = false
+metadata_url = "https://pypi.org/pypi/process-risk-consequence-toolkit/0.1.0/json"
+repository_url = "https://github.com/lyullee/process-risk-consequence-toolkit"
+wheel_url = "https://files.pythonhosted.org/packages/0e/8a/5e4b2cddb843abefaa8d28ae2fcf94502cd2ddc42fe63a83b3cbd05c39ed/process_risk_consequence_toolkit-0.1.0-py3-none-any.whl"
+wheel_sha256 = "ca78d15bf1f0f38ba79d2381291059067380211658ca0dc2345584adb4adfd86"
+wheel_bytes = 56040
+native_source_digest = "0d5239de3ba9a919a0a0b38a912fc86899d92f10da5e6a9e7a563d8abeec9152"
+native_source_algorithm = "SHA256(sorted top-level ccps_consequence Python filename + actual bytes), native contracts.code_digest"
+install_report_sha256 = "b986d51e3bf23a4f02021ad6bbb1a1a000f3ad046af0e20068e3e4dd48e14832"
+installation_note = "Separate ignored target; no main environment upgrade, native implementation or external data redistribution"
+
+[[resolved_distribution]]
+name = "process-risk-consequence-toolkit"
+version = "0.1.0"
+url = "https://files.pythonhosted.org/packages/0e/8a/5e4b2cddb843abefaa8d28ae2fcf94502cd2ddc42fe63a83b3cbd05c39ed/process_risk_consequence_toolkit-0.1.0-py3-none-any.whl"
+sha256 = "ca78d15bf1f0f38ba79d2381291059067380211658ca0dc2345584adb4adfd86"
+license_id = "Apache-2.0"
+
+[[reviewed_installed_notice]]
+package = "process-risk-consequence-toolkit"
+name = "LICENSE"
+sha256 = "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+
+[[reviewed_installed_notice]]
+package = "process-risk-consequence-toolkit"
+name = "NOTICE"
+sha256 = "6d621668f39cb18fedd26875dfcb32ea319cda77b9d25c4ec0b196d92d51bc42"
+
+[[reviewed_installed_notice]]
+package = "process-risk-consequence-toolkit"
+name = "THIRD_PARTY_NOTICES.md"
+sha256 = "2c47bb573125a25ed36925fe58323d23c206beb895558b5920c4364203c2a14d"
+
+[[resolved_distribution]]
+name = "pydantic"
+version = "2.14.1"
+url = "https://files.pythonhosted.org/packages/35/ea/a56b9fe5066f3537b7882f77e9c5dfb26d8c2eefdaed9b5fc73d57b4dc22/pydantic-2.14.1-py3-none-any.whl"
+sha256 = "9195d967ec791692a04438115466764fb8b9a27b31f14a760437694f40d6b454"
+license_id = "MIT"
+
+[[reviewed_installed_notice]]
+package = "pydantic"
+name = "LICENSE"
+sha256 = "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3"
+
+[[resolved_distribution]]
+name = "pydantic_core"
+version = "2.50.1"
+url = "https://files.pythonhosted.org/packages/c5/17/8bbd530b8659e9d963f5b16f6cb8e159f4cd174b4d6304e48969ab12dba8/pydantic_core-2.50.1-cp312-cp312-win_amd64.whl"
+sha256 = "132529c83901437ff642f585216831bf5fd7a91df66829907e155192ead62498"
+license_id = "MIT"
+
+[[reviewed_installed_notice]]
+package = "pydantic_core"
+name = "LICENSE"
+sha256 = "fbe7f615f18d135c07000e5a86325db27f42c7729699ef166ac1f7a3f4586bf4"
+
+[[resolved_distribution]]
+name = "annotated-types"
+version = "0.8.0"
+url = "https://files.pythonhosted.org/packages/99/91/8acff4f5e50511b911bbccb72b8628a49c68ce14148cd9f6431094859a90/annotated_types-0.8.0-py3-none-any.whl"
+sha256 = "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0"
+license_id = "MIT"
+
+[[reviewed_installed_notice]]
+package = "annotated-types"
+name = "LICENSE"
+sha256 = "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d"
+
+[[resolved_distribution]]
+name = "typing_extensions"
+version = "4.16.0"
+url = "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl"
+sha256 = "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+license_id = "PSF-2.0"
+
+[[reviewed_installed_notice]]
+package = "typing_extensions"
+name = "LICENSE"
+sha256 = "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+
+[[resolved_distribution]]
+name = "typing-inspection"
+version = "0.4.4"
+url = "https://files.pythonhosted.org/packages/67/81/4add07e5172b7ac40d8ed5ff580409a7801a4fe26d529bdd915401dabfbe/typing_inspection-0.4.4-py3-none-any.whl"
+sha256 = "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147"
+license_id = "MIT"
+
+[[reviewed_installed_notice]]
+package = "typing-inspection"
+name = "LICENSE"
+sha256 = "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3"

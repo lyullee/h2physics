@@ -1,0 +1,840 @@
+key = "cryo-mof-dormancy"
+title = "Replication Data for: \"Liquid hydrogen extended dormancy using MOFs and MOF/carbon hybrids\""
+doi = "10.57745/FCV2R0"
+version = "1.1"
+origin = "measured"
+source_updated_at = "2026-08-25T11:13:19Z"
+license_id = "etalab-2.0"
+license_url = "https://spdx.org/licenses/etalab-2.0.html"
+metadata_url = "https://entrepot.recherche.data.gouv.fr/api/datasets/:persistentId/?persistentId=doi%3A10.57745%2FFCV2R0"
+metadata_sha256 = "3a438a5ad692972317292b6f817d30df37313c6125095c871e21551f7f6ca99e"
+retrieved_at_utc = "2026-10-26T16:27:24.137731+00:00"
+authors = ["Jimenez Lopez, Laura", "Park, Jonghyeok", "Park, Jaewoo", "Morales Ospino, Rafael", "Fierro, Vanessa", "Oh, Hiyunchul", "Celzard, Alain"]
+families = ["adsorption", "cryogenic", "boiloff"]
+rights_permitted = true
+validation_qualified = false
+model_integration_status = "pointwise 77/87 K source rows can be compared with existing ExtendedLangmuirIsotherm under explicit caller-evidenced basis mappings; synthetic Hangang contract only"
+absolute_pressure_mapping_required = true
+absolute_uptake_and_mass_basis_mapping_required = true
+material_identity_mapping_required = true
+excluded_branch = "20 K normalized-pressure/reference-volume rows; denominator and STP state unresolved"
+hangang_case_id = "cryo-mof-source-to-langmuir-diagnostic-bridge"
+listed_file_count = 68
+acquired_bytes = 893830
+omitted_files = []
+
+[[files]]
+name = "ISOCHORES.100%--MIL-101(Cr).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765464?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.100%--MIL-101(Cr).csv"
+size_bytes = 223
+sha256 = "b7e157d0b606b61fe3dce47dc4acc0e90c6e2eb01944630029b360478d623169"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "894148fd5cbf6f20039707b862898a66"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ISOCHORES.85%--MOF-5+1%EG.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765472?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.85%--MOF-5+1%EG.csv"
+size_bytes = 225
+sha256 = "207c19a7f85222374ade28aadd23b70a0f298d6d3d641f6ed52c80af8a7f0ef6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "58069cbd0c9341fad5f5539e4dda7c87"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ISOCHORES.100%--MOF-5.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765462?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.100%--MOF-5.csv"
+size_bytes = 246
+sha256 = "5993c61d5a2bfa9a61d0417ac9e2078d4dc5dc598d1920e7331a7de25b615608"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2c86f5ce6e82c80425908a3ce644c95c"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ISOCHORES.100%--MOF-5+1%EG.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765466?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.100%--MOF-5+1%EG.csv"
+size_bytes = 333
+sha256 = "a0d0b1779fd17614e2025e23e94d94e5fff38b4b8b479ab1d95950da408f8059"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "46b3d3be51caaff6f98aa18a9b90579c"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ISOCHORES.100%--MIL-101(Cr)+1% GO.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765461?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.100%--MIL-101(Cr)+1% GO.csv"
+size_bytes = 361
+sha256 = "26eaadf7e0fe24f29e127bb0a528cf2d2e81d574e9cddb181b89245948302dfb"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b6530829a74fbcb2410be0595e287a77"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ISOCHORES.85%--MIL-101(Cr).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765468?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.85%--MIL-101(Cr).csv"
+size_bytes = 386
+sha256 = "1937b24215e8e993de633897e97bb942bdb5779bcdb61c5cbe02e39117c0ee16"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "dc657124c3cc085d0e3c8c6c709e8938"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ISOCHORES.85%--MIL-101(Cr)+1%GO.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765471?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.85%--MIL-101(Cr)+1%GO.csv"
+size_bytes = 388
+sha256 = "6d305f7584349dc72818def4c161746aae6fe6b150e78833f8ca30482918dbb6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f1fa38cf651788f4afb6ac91bc22db11"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ISOCHORES.85%--MOF-5.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765469?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.85%--MOF-5.csv"
+size_bytes = 409
+sha256 = "f66fbfc07843a58fada4e3bedc2d98f28d9a488a911a46e8408de722784e1c63"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d76bc4aa2746d7ba61f0f3d006cc210a"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ISOCHORES.100%--MIL-100(Fe).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765465?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.100%--MIL-100(Fe).csv"
+size_bytes = 426
+sha256 = "c72069b58365b56aab2250d43de2fb593a8c65f2cb68f6a7276cc661af028d57"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cc74b060fa988835c6400fb2f8203d95"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ISOCHORES.100%--MIL-100(Fe)+0.5%QDOTS.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765463?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.100%--MIL-100(Fe)+0.5%QDOTS.csv"
+size_bytes = 433
+sha256 = "5a06a097c9a15bbc17cd5178bb0024f6959892669e038ac4f34bfa858aa1ae9a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c50c3219aad9729ea6bb499e69c64ca9"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ISOCHORES.85%--MIL-100(Fe).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765470?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.85%--MIL-100(Fe).csv"
+size_bytes = 528
+sha256 = "5c56b266e28323680ccabd0c57a61bc212dc162d2c37a09f780551894f6d4b02"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a15dd8743d2981319d882d9c9cdcd62f"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "ISOCHORES.85%--MIL-100(Fe)+0.5%QDOTS.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765467?format=original"
+relative_path = "cryo-mof-dormancy/1.1/ISOCHORES.85%--MIL-100(Fe)+0.5%QDOTS.csv"
+size_bytes = 585
+sha256 = "1690a3fd9b1af71ed430bc8ee57d15c6ec52b92f9e6763ea78eb2882d049a836"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2c359e5280745efd3ff276f00b1b4f2a"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.77K--MOF-5+1%EG.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765453?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.77K--MOF-5+1%EG.csv"
+size_bytes = 1047
+sha256 = "44b99021e9923fcd39f68494f47f6b6040e2451b21c3ce6543a48020293a094e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5caabb9f692734ecd6281316a486edd7"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.77K--MOF-5.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765450?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.77K--MOF-5.csv"
+size_bytes = 1061
+sha256 = "86ff5d95fd304b1c2c7a60b51bd07fa062fbf918f7d9dc850b0e20d293c839f4"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d03a9a06347e515418ae9b38b69f6e4d"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.20K--MIL-101(Cr).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765445?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.20K--MIL-101(Cr).csv"
+size_bytes = 1073
+sha256 = "3291b23ebfe63ac5bbfc0ebacd11c56fa28bfefe729b8e11ea35f0b7d54062f7"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f8e1387bf34b3818b4d2359a16be9770"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.20K--MIL-101(Cr)+1%GO.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765446?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.20K--MIL-101(Cr)+1%GO.csv"
+size_bytes = 1092
+sha256 = "7134eee51b590e506fbefea6f4e2e8d8807cb5133497555d818e4fadd8b6c0e8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "5fa8cb3af246bee09b9f2283f104bc81"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.20K--MOF-5.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765447?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.20K--MOF-5.csv"
+size_bytes = 1097
+sha256 = "69f5223969745c866cb0e167ad4644ee0869cb36361f29629e0389aff1b5bca5"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d61ed90f9f56dfc817fe36036366cb53"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.77K--MIL-101(Cr).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765449?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.77K--MIL-101(Cr).csv"
+size_bytes = 1102
+sha256 = "37404b46e15fad478f56111a2beee73bf937eac3d773e0e2352998f67ca350c1"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "db2d0f08f1f34195533c274310eaf902"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.87K--MOF-5+1%EG.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765458?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.87K--MOF-5+1%EG.csv"
+size_bytes = 1106
+sha256 = "02c44cb91c04b0e5a87b9ef374c6ebe23f47ba400d91e13fe88ef8c6f053f807"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "93a95b1115a4e684e23d28aaa8e801cc"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.77K--MIL-100(Fe)+0.5%QDOTS.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765452?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.77K--MIL-100(Fe)+0.5%QDOTS.csv"
+size_bytes = 1116
+sha256 = "6c3d02426df69480d3464b05126a60b4a01ca9dbc510ad77f5d3ceabfc71f543"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ea35d5c3005a7b6660a6e9b179fc807e"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.77K--MIL-101(Cr) +1% GO.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765451?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.77K--MIL-101(Cr) +1% GO.csv"
+size_bytes = 1117
+sha256 = "ffc63f9cd0d982ab49491fea141678b9b7bd9a59b8617ab1311aa2da74ce2e00"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3f7816411d83228431ca51f1d5251055"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.87K--MIL-101(Cr)+1%GO.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765456?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.87K--MIL-101(Cr)+1%GO.csv"
+size_bytes = 1119
+sha256 = "fd4d9e50a171491ced4ef5523793cb51132234f72adf7f1091b3da0691a3a55a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e0bcb473dcf74ff7093b4569a44b38e0"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.87K--MIL-100(Fe)+0.5%QDOTS.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765457?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.87K--MIL-100(Fe)+0.5%QDOTS.csv"
+size_bytes = 1122
+sha256 = "311dc36d1946d1eddf3829cff6b641f4bb50aaeb34c3bf7bc8be287dfdc2d0cc"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ce94d80a4460be6c43de6db104e5b46c"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.87K--MIL-101(Cr).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765454?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.87K--MIL-101(Cr).csv"
+size_bytes = 1123
+sha256 = "8283906309db3156519f7c463c59d26e7fc47440cecba43303491498e9ab00bc"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "192bec60c2ccddf426cf2655efffe12e"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.87K--MIL-100(Fe).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765459?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.87K--MIL-100(Fe).csv"
+size_bytes = 1125
+sha256 = "1e69d3fcd548fda44f909d54dbbc387e5566a2730c8e81bc8e116ad6a0f1a0e6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b949fbd11c3dc814930256b86b84505d"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.87K--MOF-5.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765455?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.87K--MOF-5.csv"
+size_bytes = 1125
+sha256 = "20c6fce8aaf15141792c9b70efc9c1cdd9208afa1e993d796edbb6c8afebd08b"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "be751212bf7a0670fe2cb58800c800f4"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.20K--MIL-100(Fe).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765443?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.20K--MIL-100(Fe).csv"
+size_bytes = 1185
+sha256 = "b0f7bf6d4fb8d2d671e3517d41c20e8afab5f01feb17d240ed4830d89b3e83ba"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c65057a20e45ecef7220b58a00abbcb4"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.20K--MOF-5+1%EG.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765444?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.20K--MOF-5+1%EG.csv"
+size_bytes = 1185
+sha256 = "5391d68f3c80a513fe75a2f160fc3d2e273bf1ff0b2806cf95b32e217d857d30"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "02ff6418adaeb6ed1df9a72b5813655b"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.20K--MIL-100(Fe)+0.5%QDOTS.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765442?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.20K--MIL-100(Fe)+0.5%QDOTS.csv"
+size_bytes = 1206
+sha256 = "b7e058c8d241c810839c45473aa0b285945799f3bfce4b90e907971a90094250"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "f29efd1a0e32a315db626b4840735113"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "H2.77K--MIL-100(Fe).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765448?format=original"
+relative_path = "cryo-mof-dormancy/1.1/H2.77K--MIL-100(Fe).csv"
+size_bytes = 1213
+sha256 = "22664b204a3d82d3f86ca0db727b9807ec61836e0bd9be9d40b0c910ad4a4ab8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ba6f28081a64f7c2962791408c143035"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "AR--MIL-100(Fe) .csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765391?format=original"
+relative_path = "cryo-mof-dormancy/1.1/AR--MIL-100(Fe) .csv"
+size_bytes = 1688
+sha256 = "610a0c229a806002ea27fcc4abc458035f7a58e320277f10734a41b15286bf54"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e75227233e41b862382ed965aa513b7a"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "AR--MIL-100(Fe) +0.5% QDOTS-1.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765392?format=original"
+relative_path = "cryo-mof-dormancy/1.1/AR--MIL-100(Fe) +0.5% QDOTS-1.csv"
+size_bytes = 1950
+sha256 = "e762cf74987dce0826001c1fb9ee99738561674248a19fc3922714b2b63e8c1e"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "777c9a56d803e72b5279245fd5249a68"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "N2--MOF-5 + 1% EG.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765486?format=original"
+relative_path = "cryo-mof-dormancy/1.1/N2--MOF-5 + 1% EG.csv"
+size_bytes = 2522
+sha256 = "58147a922a6c01ef1223f14c2d64e8d6bdd10318bf2e7310748692c751cbf27a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "558be1232689b2b9f17ae2568818a206"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "N2--MOF-5.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765487?format=original"
+relative_path = "cryo-mof-dormancy/1.1/N2--MOF-5.csv"
+size_bytes = 2811
+sha256 = "c46e09dd5243f14b374ed447fafc0c9f47e1a7f9170961ce2623fff62742decc"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "efeb1c64941466dd2a0c8a3c2f81e689"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "DTG--MIL-101(Cr).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765407?format=original"
+relative_path = "cryo-mof-dormancy/1.1/DTG--MIL-101(Cr).csv"
+size_bytes = 2857
+sha256 = "a3119cb9581d471e8fd636a6cfb0043dfce9756de41605792c7854d9dff3f86d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7339599fdfa63be8f448d28e32b1cadd"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "AR-- MIL-101(Cr) + 1%GO.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765438?format=original"
+relative_path = "cryo-mof-dormancy/1.1/AR-- MIL-101(Cr) + 1%GO.csv"
+size_bytes = 2913
+sha256 = "d60de7fdc5995341db9ca34441ef91dfc6fc8fc74581f74a9c261ae8ee2e91be"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2a21c473ad1a497da944ae1950c0c1a2"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "DTG--MOF-6.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765409?format=original"
+relative_path = "cryo-mof-dormancy/1.1/DTG--MOF-6.csv"
+size_bytes = 2951
+sha256 = "d47b68ad994bb9089f905c54490e4bfae20dc1eb7d34a5db9741be9a0b093b51"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "53bb036fe5246dc18690c1feaa785824"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "N2--MIL-100(Fe) + 0.5% QDOTS.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765488?format=original"
+relative_path = "cryo-mof-dormancy/1.1/N2--MIL-100(Fe) + 0.5% QDOTS.csv"
+size_bytes = 2960
+sha256 = "66a7130ca7822c148918349bc6cfa5b2dd9c790247d4a7e8a394d6cd9a1aa765"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "69a9056765b4f482af00af0154421074"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "AR--MOF-5 +1%EG.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765440?format=original"
+relative_path = "cryo-mof-dormancy/1.1/AR--MOF-5 +1%EG.csv"
+size_bytes = 3003
+sha256 = "db1c003dbc929c70ed952d2efe831ac18da219790638ddda0031fa51b0b0b6cc"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7235be5f62c19ebccce7da05fde8ea9b"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "N2--MIL-101(Cr).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765485?format=original"
+relative_path = "cryo-mof-dormancy/1.1/N2--MIL-101(Cr).csv"
+size_bytes = 3035
+sha256 = "0a962284526e37ad329443ce0050c3bdd5e6a7cc4a9350c835b1a0b6ef7c70bf"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "37cca3eefe3f5b7893ef90989b23cbe9"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "AR--MOF-5 .csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765441?format=original"
+relative_path = "cryo-mof-dormancy/1.1/AR--MOF-5 .csv"
+size_bytes = 3110
+sha256 = "1aaa7c78055ddb0d1505de840698db9958dd2d0dcbf073362cae2785a87a0d5d"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "23dc776cc42bd99c97c688c5842c52df"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "DTG--MIL-100(Fe) -1.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765404?format=original"
+relative_path = "cryo-mof-dormancy/1.1/DTG--MIL-100(Fe) -1.csv"
+size_bytes = 3117
+sha256 = "c140babc1566c566152aea6bc644be3c8d47c31a1a513832de2795b1d7459a27"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "739cf710e22c6d402dc45f7a50427766"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "DTG--MIL-100(Fe) + 0.5% QDOTS-1.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765403?format=original"
+relative_path = "cryo-mof-dormancy/1.1/DTG--MIL-100(Fe) + 0.5% QDOTS-1.csv"
+size_bytes = 3161
+sha256 = "08bcf6bd9bc3391502055b098240e97c7258b5fa1d63825a9c759eadf9027991"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "2d9a6a1e61d7d1652d77a678e8e0e786"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "TGA--MIL-100(Fe).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765500?format=original"
+relative_path = "cryo-mof-dormancy/1.1/TGA--MIL-100(Fe).csv"
+size_bytes = 3167
+sha256 = "c50c758c525727f61465c51e14d87fa97c8406d12659a3a2fac853d37e828408"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "a7c27498ce73bf58d9bdfaea8919b4cc"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "DTG-- MIL-101(Cr) + 1% GO.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765405?format=original"
+relative_path = "cryo-mof-dormancy/1.1/DTG-- MIL-101(Cr) + 1% GO.csv"
+size_bytes = 3220
+sha256 = "dfaa53e430d9546148399611cead97b7ff1461ac1fe855674591301a6c05e679"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d68f1624dcb5a9b944984250fd16cc99"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "AR--MIL-101(Cr).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765439?format=original"
+relative_path = "cryo-mof-dormancy/1.1/AR--MIL-101(Cr).csv"
+size_bytes = 3257
+sha256 = "a5d53f16e4e1a059a49e427840380f1d3b6b8cdc0e8571b3f47aa8444af42ca8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "cbb60c8ed98740ad9344745b94fd9286"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "DTG--MOF-5 + 1%EG-1.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765408?format=original"
+relative_path = "cryo-mof-dormancy/1.1/DTG--MOF-5 + 1%EG-1.csv"
+size_bytes = 3281
+sha256 = "60fd7cefc8dd3452c2641d0ef459a0d4ae58a3708628b48cb416f336b679bef6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "489613b643e40bae9dc9985b0d353484"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "TGA--MIL-100(Fe)+0.5%QDOTS.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765496?format=original"
+relative_path = "cryo-mof-dormancy/1.1/TGA--MIL-100(Fe)+0.5%QDOTS.csv"
+size_bytes = 3551
+sha256 = "27eb5a1d5dce225032a8616f58bb0fee07b7207dcaeb7f4ddea2d57afc63a9bb"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "b2c1c4ac229b481a95941b91747e533a"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "TGA--MIL-101(Cr) .csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765495?format=original"
+relative_path = "cryo-mof-dormancy/1.1/TGA--MIL-101(Cr) .csv"
+size_bytes = 3572
+sha256 = "1c5cb918a0aa26e871886f7514cea9d47ab1adeba41ee98c720b2099f05be58a"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e16671d56c76f2a9e3ffd81315cdc1ac"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "TGA--MOF-5.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765497?format=original"
+relative_path = "cryo-mof-dormancy/1.1/TGA--MOF-5.csv"
+size_bytes = 3806
+sha256 = "e539f56f545c9de8fef726adf8b100be4d904f681f57fd63377b720edd1914b4"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "8f001895168adbd6a9e755c9cc09fab6"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "N2--MIL-101(Cr) + 1%GO.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765483?format=original"
+relative_path = "cryo-mof-dormancy/1.1/N2--MIL-101(Cr) + 1%GO.csv"
+size_bytes = 3942
+sha256 = "abdf8b04f5af846ecb2f33ebb77394bbe032ea21e1a81c30bd399e4f0f853bd2"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "e53f92381c497722b315557d9d655bd8"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "TGA--MIL-101(Cr) +1%GO.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765499?format=original"
+relative_path = "cryo-mof-dormancy/1.1/TGA--MIL-101(Cr) +1%GO.csv"
+size_bytes = 3944
+sha256 = "720bbb9b0b5536248d170808ec215f1c856ec88a287920ef258be251b1da9f01"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "58e03d18db2cf6222ae32604c66d3fa9"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "TGA--MOF-5+1%EG.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765498?format=original"
+relative_path = "cryo-mof-dormancy/1.1/TGA--MOF-5+1%EG.csv"
+size_bytes = 4074
+sha256 = "2e112789ad03b4c0f675a175fff4e43a6305db3625f17cad9fe8187ece289353"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "9a70a7271a862744d5287e7631b5a476"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "N2--MIL-100(Fe).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765484?format=original"
+relative_path = "cryo-mof-dormancy/1.1/N2--MIL-100(Fe).csv"
+size_bytes = 4344
+sha256 = "d96faa0cc173e398245452ee75859f02b8394f22812896fda6a7af2b67989088"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "727d117845f93b5188e2fcb2c99d8045"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PSD--MIL-101(Cr).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765494?format=original"
+relative_path = "cryo-mof-dormancy/1.1/PSD--MIL-101(Cr).csv"
+size_bytes = 8076
+sha256 = "8e732f839a16a2bafdcea08c0f95016dc926ca24c63c0e68333a3c913cf76ae1"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3f09f0f798913a250b050148dc253c82"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PSD--MIL-100(Fe).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765489?format=original"
+relative_path = "cryo-mof-dormancy/1.1/PSD--MIL-100(Fe).csv"
+size_bytes = 8882
+sha256 = "85a3788c4dbaee8c5d3736b9da34584d8ab486bd9d6218986dc34ff94e466f67"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "895169a25b67d81dc8d5fa109e6ce110"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PSD--MIL-100(Fe)+0.5%QDOTs.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765490?format=original"
+relative_path = "cryo-mof-dormancy/1.1/PSD--MIL-100(Fe)+0.5%QDOTs.csv"
+size_bytes = 8975
+sha256 = "21981197cd507e9121b0d177ffc59ee6bbc8d60da72da241f75a19676a7d4d0f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "43b6e121013ecf565ef7a6bdc018c819"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PSD--MOF-5+1% EG.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765493?format=original"
+relative_path = "cryo-mof-dormancy/1.1/PSD--MOF-5+1% EG.csv"
+size_bytes = 9004
+sha256 = "aa9f71d71251588898bb1d88ee8c07df403c97b594652adfeafd268ccd18b279"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "711c5ff1d81f20c8cbc0ec9561cff70f"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PSD--MOF-5.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765491?format=original"
+relative_path = "cryo-mof-dormancy/1.1/PSD--MOF-5.csv"
+size_bytes = 9802
+sha256 = "255f84cf261cd6de39e4705d81e966434a2b0c90191301e546f7e1d93890d563"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "62d647ff684f496afa123c36954a7183"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "PSD--MIL-101(Cr)+1%GO.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765492?format=original"
+relative_path = "cryo-mof-dormancy/1.1/PSD--MIL-101(Cr)+1%GO.csv"
+size_bytes = 10541
+sha256 = "98b5544f0c04976a870fb1b335e04d42153751c4b24ef4eefa8dedb7672c007f"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "d2c3d846c00b29d3631c6ade4e83e0ed"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "XRD--MIL-100(Fe) +0.5%QDOTS.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765504?format=original"
+relative_path = "cryo-mof-dormancy/1.1/XRD--MIL-100(Fe) +0.5%QDOTS.csv"
+size_bytes = 57509
+sha256 = "40b250b6e34929181d144b33bdd6a7a4429a5bdad02d47c92dfe57a717d75caa"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "ef94815d7b2298ebbff748b0b845c191"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "XRD--MIL-101(Cr) + 1% GO.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765505?format=original"
+relative_path = "cryo-mof-dormancy/1.1/XRD--MIL-101(Cr) + 1% GO.csv"
+size_bytes = 69538
+sha256 = "349ae4e72bb1a0deafccb7d31c136b71f2ed846f37de08601b101cb75e3aabe8"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fad9a00d6fc8b5bd551662545a2d2b0a"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "XRD--MIL-101(Cr).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765503?format=original"
+relative_path = "cryo-mof-dormancy/1.1/XRD--MIL-101(Cr).csv"
+size_bytes = 69809
+sha256 = "4695bb557156b820fcbc06a75b953d290cb525ed76af47dc84a7dafe8990687c"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "7a0c938192beb5f2bc331f5b46337b81"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "XRD--MOF-5 + 1% EG.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765506?format=original"
+relative_path = "cryo-mof-dormancy/1.1/XRD--MOF-5 + 1% EG.csv"
+size_bytes = 70068
+sha256 = "93afaa35381666ebbfcecf3472509f78cca26021f1144fa6ebac209a83ff4fa6"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "fb2692d1b619cbc4acb0300b66f5b295"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "XRD--MOF-5.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765502?format=original"
+relative_path = "cryo-mof-dormancy/1.1/XRD--MOF-5.csv"
+size_bytes = 70115
+sha256 = "c5923a19bb073607c13115df1c05ba158e68c9b3529f1463d277da1a78a3ed43"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "bd88aa19ba5dafd9347badaf8aee374d"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "XRD--MIL-100(Fe).csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765501?format=original"
+relative_path = "cryo-mof-dormancy/1.1/XRD--MIL-100(Fe).csv"
+size_bytes = 71554
+sha256 = "fa9506748cabc18a8c348c0e1affca9697ca407dcd50c1c01644bc9fee2293cc"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "c391940d61a67e0bb020eb33d43fec5e"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "FTIR-1.csv"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765410?format=original"
+relative_path = "cryo-mof-dormancy/1.1/FTIR-1.csv"
+size_bytes = 140246
+sha256 = "edea5e11d525ae712e3c3d7aa4602dc6e13a8b3618eb7b922ace48be61bcabc4"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "3f16ec1491911a29899b3b94cb65ae4d"
+publisher_checksum_verified = true
+status = "cached"
+error = ""
+
+[[files]]
+name = "1.README for Dataset Liquid hydrogen extended dormancy using MOFs and MOF-carbon hybrids-1.pdf"
+url = "https://entrepot.recherche.data.gouv.fr/api/access/datafile/765530?format=original"
+relative_path = "cryo-mof-dormancy/1.1/1.README for Dataset Liquid hydrogen extended dormancy using MOFs and MOF-carbon hybrids-1.pdf"
+size_bytes = 188718
+sha256 = "8e32f03dd99811f52106df651030a7866b40c5485ac8b41c2bc68ec704eb2480"
+publisher_checksum_algorithm = "md5"
+publisher_checksum = "4fd7ad95b9dafd4da57eb1eeaaf46145"
+publisher_checksum_verified = true
+status = "acquired"
+error = ""
